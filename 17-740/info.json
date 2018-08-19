@@ -1,0 +1,18 @@
+{
+    "abstract": "Support Vector Machines (SVMs) are classic supervised learning models for classification, regression and distribution estimation. A survey conducted by Kaggle in 2017 shows that 26\\% of the data mining and machine learning practitioners are users of SVMs. However, SVM training and prediction are very expensive computationally for large and complex problems. This paper presents an efficient and open source SVM software toolkit called ThunderSVM which exploits the high-performance of Graphics Processing Units (GPUs) and multi-core CPUs. ThunderSVM supports all the functionalities---including classification (SVC), regression (SVR) and one-class SVMs---of LibSVM and uses identical command line options, such that existing LibSVM users can easily apply our toolkit. ThunderSVM can be used through multiple language interfaces including C/C++, Python, R and MATLAB. Our experimental results show that ThunderSVM is generally an order of magnitude faster than LibSVM while producing identical SVMs. In addition to the high efficiency, we design our convex optimization solver in a general way such that SVC, SVR, and one-class SVMs share the same solver for the ease of maintenance. Documentation, examples, and more about ThunderSVM are available at \\url{https://github.com/zeyiwen/thundersvm}.",
+    "author": [
+        "Zeyi Wen$^\\dag$",
+        "Jiashuai Shi$^{\\dag\\ddag}$",
+        "Qinbin Li$^{\\dag}$",
+        "Bingsheng He$^\\dag$",
+        "Jian Chen$^{\\ddag}$"
+    ],
+    "id": "17-740",
+    "pages": [
+        1,
+        5
+    ],
+    "title": "ThunderSVM: A Fast SVM Library on GPUs and CPUs",
+    "volume": 19,
+    "year": 2018
+}

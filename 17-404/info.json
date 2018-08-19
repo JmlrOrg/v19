@@ -1,0 +1,16 @@
+{
+    "abstract": "We consider the problem of streaming kernel regression, when the observations arrive sequentially and the goal is to recover the underlying mean function, assumed to belong to an RKHS. The variance of the noise is not assumed to be known. In this context, we tackle the problem of tuning the regularization parameter adaptively at each time step, while maintaining tight confidence bounds estimates on the value of the mean function at each point. To this end, we first generalize existing results for finite-dimensional linear regression with fixed regularization and known variance to the kernel setup with a regularization parameter allowed to be a measurable function of past observations. Then, using appropriate self-normalized inequalities we build upper and lower bound estimates for the variance, leading to Bernstein-like concentration bounds. The latter is used in order to define the adaptive regularization. The bounds resulting from our technique are valid uniformly over all observation points and all time steps, and are compared against the literature with numerical experiments. Finally, the potential of these tools is illustrated by an application to kernelized bandits, where we revisit the Kernel UCB and Kernel Thompson Sampling procedures, and show the benefits of the novel adaptive kernel tuning strategy.",
+    "author": [
+        "Audrey Durand",
+        "Odalric-Ambrym Maillard",
+        "Joelle Pineau"
+    ],
+    "id": "17-404",
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Streaming kernel regression with provably adaptive mean, variance, and regularization",
+    "volume": 19,
+    "year": 2018
+}

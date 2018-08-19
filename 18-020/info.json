@@ -1,0 +1,12 @@
+{
+    "abstract": "A new class of non-homogeneous state-affine systems is introduced for use in reservoir computing. Sufficient conditions are identified that guarantee first, that the associated reservoir computers with linear readouts are causal, time-invariant, and satisfy the fading memory property and second, that a subset of this class is universal in the category of fading memory filters with stochastic almost surely uniformly bounded inputs. This means that any discrete-time filter that satisfies the fading memory property with random inputs of that type can be uniformly approximated by elements in the non-homogeneous state-affine family.",
+    "author": [],
+    "id": "18-020",
+    "pages": [
+        1,
+        40
+    ],
+    "title": "\\textbf{Universal discrete-time reservoir computers with stochastic inputs and linear readouts using non-homogeneous state-affine systems",
+    "volume": 19,
+    "year": 2018
+}

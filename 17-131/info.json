@@ -1,0 +1,17 @@
+{
+    "abstract": "Experience replay is a technique that allows off-policy reinforcement-learning methods to reuse past experiences. The stability and speed of convergence of reinforcement learning, as well as the eventual performance of the learned policy, are strongly dependent on the experiences being replayed. Which experiences are replayed depends on two important choices. The first is which and how many experiences to retain in the experience replay buffer. The second choice is how to sample the experiences that are to be replayed from that buffer. We propose new methods for the combined problem of experience \\textit{retention} and experience \\textit{sampling}. We refer to the combination as experience \\textit{selection}. We focus our investigation specifically on the control of physical systems, such as robots, where exploration is costly. To determine which experiences to keep and which to replay, we investigate different proxies for their immediate and long-term utility. These proxies include age, temporal difference error and the strength of the applied exploration noise. Since no currently available method works in all situations, we propose guidelines for using prior knowledge about the characteristics of the control problem at hand to choose the appropriate experience replay strategy.",
+    "author": [
+        "Tim de Bruin",
+        "Jens Kober",
+        "Karl Tuyls",
+        "Robert Babu\\v{s}ka"
+    ],
+    "id": "17-131",
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Experience Selection in Deep Reinforcement Learning for Control",
+    "volume": 19,
+    "year": 2018
+}

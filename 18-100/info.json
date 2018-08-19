@@ -1,0 +1,19 @@
+{
+    "abstract": "In this paper we introduce OpenEnsembles, a Python toolkit for performing and analyzing ensemble clustering. Ensemble clustering is the process of creating many clustering solutions for a given dataset and utilizing the relationships observed across the ensemble to identify final solutions, which are more robust, stable or better than the individual solutions within the ensemble. The OpenEnsembles library provides a unified interface for applying transformations to data, clustering data, visualizing individual clustering solutions, visualizing and finishing the ensemble, and calculating validation metrics for a clustering solution for any given partitioning of the data. We have documented examples of using OpenEnsembles to create, analyze, and visualize a number of different types of ensemble approaches on toy and example datasets. OpenEnsembles is released under the GNU General Public License version 3, can be installed via Conda or the Python Package Index (pip), and is available at \\url{https://github.com/NaegleLab/OpenEnsembles}.",
+    "author": [
+        "Tom Ronan",
+        "Shawn Anastasio",
+        "Zhijie Qi",
+        "Roman Sloutsky",
+        "Kristen M. Naegle",
+        "Pedro Henrique S. Vieira Tavares"
+    ],
+    "id": "18-100",
+    "pages": [
+        1,
+        6
+    ],
+    "title": "OpenEnsembles: A Python Resource for Ensemble Clustering",
+    "volume": 19,
+    "year": 2018
+}
