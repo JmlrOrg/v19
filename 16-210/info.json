@@ -1,6 +1,6 @@
 {
     "abstract": "The existence of singularities often affects the learning dynamics in feedforward neural networks. In this paper, based on theoretical analysis results, we numerically analyze the learning dynamics of radial basis function (RBF) networks near singularities to understand to what extent singularities influence the learning dynamics. First, we show the explicit expression of the Fisher information matrix for RBF networks. Second, we demonstrate through numerical simulations that the singularities have a significant impact on the learning dynamics of RBF networks. Our results show that overlap singularities mainly have influence on the low dimensional RBF networks and elimination singularities have a more significant impact to the learning processes than overlap singularities in both low and high dimensional RBF networks, whereas the plateau phenomena are mainly caused by the elimination singularities. The results can also be the foundation to investigate the singular learning dynamics in deep feedforward neural networks.",
-    "author": [
+    "authors": [
         "Weili Guo",
         "Haikun Wei",
         "Yew-Soon Ong",
@@ -10,6 +10,7 @@
         "Kanjian Zhang"
     ],
     "id": "16-210",
+    "issue": 1,
     "pages": [
         1,
         39

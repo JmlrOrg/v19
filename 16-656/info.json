@@ -1,10 +1,11 @@
 {
     "abstract": "Modeling continuous-time physiological processes that manifest a patient's evolving clinical states is a key step in approaching many problems in healthcare. In this paper, we develop the {\\it Hidden Absorbing Semi-Markov Model} (HASMM): a versatile probabilistic model that is capable of capturing the modern electronic health record (EHR) data. Unlike existing models, the HASMM accommodates irregularly sampled, temporally correlated, and informatively censored physiological data, and can describe non-stationary clinical state transitions. Learning the HASMM parameters from the EHR data is achieved via a novel {\\it forward-filtering backward-sampling} Monte-Carlo EM algorithm that exploits the knowledge of the end-point clinical outcomes (informative censoring) in the EHR data, and implements the E-step by sequentially sampling the patients' clinical states in the reverse-time direction while conditioning on the future states. Real-time inferences are drawn via a forward-filtering algorithm that operates on a virtually constructed discrete-time {\\it embedded Markov chain} that mirrors the patient's continuous-time state trajectory. We demonstrate the prognostic utility of the HASMM in a critical care prognosis setting using a real-world dataset for patients admitted to the Ronald Reagan UCLA Medical Center. In particular, we show that using HASMMs, a patient's clinical deterioration can be predicted 8-9 hours prior to intensive care unit admission, with a 22$\\%$ AUC gain compared to the Rothman index, which is the state-of-the-art critical care risk scoring technology.",
-    "author": [
-        "Ahmed M. Alaa$^{\\dagger}$",
-        "Mihaela van der Schaar$^{\\ast,\\dagger}$"
+    "authors": [
+        "Ahmed M. Alaa$^{",
+        "Mihaela van der Schaar$^{\\ast,"
     ],
     "id": "16-656",
+    "issue": 4,
     "pages": [
         1,
         62

@@ -1,12 +1,13 @@
 {
     "abstract": "We propose a constructive approach to estimating sparse, high-dimensional linear regression models. The approach is a computational algorithm motivated from the KKT conditions for the $\\ell_0$-penalized least squares solutions. It generates a sequence of solutions iteratively, based on support detection using primal and dual information and root finding. We refer to the algorithm as SDAR for brevity. Under a sparse Riesz condition on the design matrix and certain other conditions, we show that with high probability, the $\\ell_2$ estimation error of the solution sequence decays exponentially to the minimax error bound in $O(\\log(R\\sqrt{J}))$ iterations, where $J$ is the number of important predictors and $R$ is the relative magnitude of the nonzero target coefficients; and under a mutual coherence condition and certain other conditions, the $\\ell_{\\infty}$ estimation error decays to the optimal error bound in $O(\\log(R))$ iterations. Moreover the SDAR solution recovers the oracle least squares estimator within a finite number of iterations with high probability if the sparsity level is known. Computational complexity analysis shows that the cost of SDAR is $O(np)$ per iteration. We also consider an adaptive version of SDAR for use in practical applications where the true sparsity level is unknown. Simulation studies demonstrate that SDAR outperforms Lasso, MCP and two greedy methods in accuracy and efficiency.",
-    "author": [
+    "authors": [
         "Jian Huang",
         "Yuling Jiao",
         "Yanyan Liu",
         "Xiliang Lu"
     ],
     "id": "17-194",
+    "issue": 10,
     "pages": [
         1,
         37

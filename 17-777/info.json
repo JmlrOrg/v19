@@ -1,11 +1,12 @@
 {
     "abstract": "We present a robust generalization of the synthetic control method for comparative case studies. Like the classical method cf. \\cite{abadie3}, we present an algorithm to estimate the unobservable counterfactual of a treatment unit. A distinguishing feature of our algorithm is that of de-noising the data matrix via singular value thresholding, which renders our approach robust in multiple facets: it automatically identifies a good subset of donors for the synthetic control, overcomes the challenges of missing data, and continues to work well in settings where covariate information may not be provided. We posit that the setting can be viewed as an instance of the Latent Variable Model and provide the first finite sample analysis (coupled with asymptotic results) for the estimation of the counterfactual. Our algorithm accurately imputes missing entries and filters corrupted observations in producing a consistent estimator of the underlying signal matrix, provided $p = \\Omega( T^{-1 + \\zeta})$ for some $\\zeta > 0$; here, $p$ is the fraction of observed data and $T$ is the time interval of interest. Under the same proportion of observations, we demonstrate that the mean-squared error in our counterfactual estimation scales as $\\mathcal{O}(\\sigma^2/p + 1/\\sqrt{T})$, where $\\sigma^2$ is the variance of the inherent noise. Additionally, we introduce a Bayesian framework to quantify the estimation uncertainty. Our experiments, using both synthetic and real-world datasets, demonstrate that our robust generalization yields an improvement over the classical synthetic control method.",
-    "author": [
+    "authors": [
         "Muhammad Amjad",
         "Devavrat Shah",
         "Dennis Shen"
     ],
     "id": "17-777",
+    "issue": 22,
     "pages": [
         1,
         51

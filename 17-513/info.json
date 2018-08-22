@@ -1,9 +1,10 @@
 {
     "abstract": "This paper introduces the first strategy for stochastic bandits with unit variance Gaussian noise that is simultaneously minimax optimal up to constant factors, asymptotically optimal, and never worse than the classical upper confidence bound strategy up to universal constant factors. Preliminary empirical evidence is also promising. Besides this, a conjecture on the optimal form of the regret is shown to be false and a finite-time lower bound on the regret of any strategy is presented that very nearly matches the finite-time upper bound of the newly proposed strategy. \\paragraph{Keywords} Stochastic bandits, sequential decision making, regret minimisation.",
-    "author": [
+    "authors": [
         "Tor Lattimore"
     ],
     "id": "17-513",
+    "issue": 20,
     "pages": [
         1,
         32

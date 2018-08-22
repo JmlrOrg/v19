@@ -1,6 +1,6 @@
 {
     "abstract": "Engine for Likelihood-Free Inference (ELFI) is a Python software library for performing likelihood-free inference (LFI). ELFI provides a convenient syntax for arranging components in LFI, such as priors, simulators, summaries or distances, to a network called ELFI graph. The components can be implemented in a wide variety of languages. The stand-alone ELFI graph can be used with any of the available inference methods without modifications. A central method implemented in ELFI is Bayesian Optimization for Likelihood-Free Inference (BOLFI), which has recently been shown to accelerate likelihood-free inference up to several orders of magnitude by surrogate-modelling the distance. ELFI also has an inbuilt support for output data storing for reuse and analysis, and supports parallelization of computation from multiple cores up to a cluster environment. ELFI is designed to be extensible and provides interfaces for widening its functionality. This makes the adding of new inference methods to ELFI straightforward and automatically compatible with the inbuilt features.",
-    "author": [
+    "authors": [
         "Jarno Lintusaari",
         "Henri Vuollekoski",
         "Antti Kangasr\u00c3\u00a4\u00c3\u00a4si\u00c3\u00b6",
@@ -13,6 +13,7 @@
         "Samuel Kaski"
     ],
     "id": "17-374",
+    "issue": 16,
     "pages": [
         1,
         7

@@ -1,12 +1,13 @@
 {
     "abstract": "We propose a two-stage penalized least squares method to build large systems of structural equations based on the instrumental variables view of the classical two-stage least squares method. We show that, with large numbers of endogenous and exogenous variables, the system can be constructed via consistent estimation of a set of conditional expectations at the first stage, and consistent selection of regulatory effects at the second stage. While the consistent estimation at the first stage can be obtained via the ridge regression, the adaptive lasso is employed at the second stage to achieve the consistent selection. This method is computationally fast and allows for parallel implementation. We demonstrate its effectiveness via simulation studies and real data analysis.",
-    "author": [
+    "authors": [
         "Chen Chen",
         "Min Ren",
         "Min Zhang",
         "Dabao Zhang"
     ],
     "id": "16-225",
+    "issue": 2,
     "pages": [
         1,
         34
