@@ -1,11 +1,11 @@
 {
     "abstract": "Many of the recent trajectory optimization algorithms alternate between linear approximation of the system dynamics around the mean trajectory and conservative policy update. One way of constraining the policy change is by bounding the Kullback-Leibler (KL) divergence between successive policies. These approaches already demonstrated great experimental success in challenging problems such as end-to-end control of physical systems. However, the linear approximation of the system dynamics can introduce a bias in the policy update and prevent convergence to the optimal policy. In this article, we propose a new model-free trajectory-based policy optimization algorithm with guaranteed monotonic improvement. The algorithm backpropagates a local, quadratic and time-dependent \\qfunc learned from trajectory data instead of a model of the system dynamics. Our policy update ensures exact KL-constraint satisfaction without simplifying assumptions on the system dynamics. We experimentally demonstrate on highly non-linear control tasks the improvement in performance of our algorithm in comparison to approaches linearizing the system dynamics. In order to show the monotonic improvement of our algorithm, we additionally conduct a theoretical analysis of our policy update scheme to derive a lower bound of the change in policy return between successive iterations.",
     "authors": [
-        "Riad Akrour$^1$",
-        "Abbas Abdolmaleki$^2$",
-        "Hany Abdulsamad$^1$",
-        "Jan Peters$^{1,3}$",
-        "Gerhard Neumann$^{1,4}$"
+        "Riad Akrour",
+        "Abbas Abdolmaleki",
+        "Hany Abdulsamad",
+        "Jan Peters",
+        "Gerhard Neumann"
     ],
     "id": "17-329",
     "issue": 14,

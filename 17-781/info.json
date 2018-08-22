@@ -1,7 +1,7 @@
 {
     "abstract": "We study the following basic machine learning task: Given a fixed set of input points in $\\R^d$ for a linear regression problem, we wish to predict a hidden response value for each of the points. We can only afford to attain the responses for a small subset of the points that are then used to construct linear predictions for all points in the dataset. The performance of the predictions is evaluated by the total square loss on all responses (the attained as well as the remaining hidden ones). We show that a good approximate solution to this least squares problem can be obtained from just dimension $d$ many responses by using a joint sampling technique called volume sampling. Moreover, the least squares solution obtained for the volume sampled subproblem is an unbiased estimator of optimal solution based on all $n$ responses. This unbiasedness is a desirable property that is not shared by other common subset selection techniques. Motivated by these basic properties, we develop a theoretical framework for studying volume sampling, resulting in a number of new matrix expectation equalities and statistical guarantees which are of importance not only to least squares regression but also to numerical linear algebra in general. Our methods also lead to a regularized variant of volume sampling, and we propose the first efficient algorithm for volume sampling which makes this technique a practical tool in the machine learning toolbox. Finally, we provide experimental evidence which confirms our theoretical findings.",
     "authors": [
-        "Micha{\\l } Derezi\\'{n}ski",
+        "Micha{\\l} Derezi{\\'n}ski",
         "Manfred K. Warmuth"
     ],
     "id": "17-781",
