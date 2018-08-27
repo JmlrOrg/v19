@@ -16,5 +16,9 @@
     "title": "ThunderSVM: A Fast SVM Library on GPUs and CPUs",
     "volume": 19,
     "year": 2018,
-    "special": "MLOSS"
+    "extra_links": [
+      ["readthedocs.io", "https://thundersvm.readthedocs.io/en/latest/"],
+      ["github.com", "https://github.com/Xtra-Computing/thundersvm"]
+    ],
+    "special_issue": "MLOSS"
 }

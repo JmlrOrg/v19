@@ -20,5 +20,10 @@
     ],
     "title": "ELFI: Engine for Likelihood-Free Inference",
     "volume": 19,
-    "year": 2018
+    "year": 2018,
+    "extra_links": [
+      ["readthedocs.io", "https://elfi.readthedocs.io"],
+      ["github.com", "https://github.com/elfi-dev/elfi"]
+    ],
+    "special_issue": "MLOSS"
 }
