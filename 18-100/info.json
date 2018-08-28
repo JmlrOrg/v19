@@ -18,7 +18,7 @@
     "volume": 19,
     "year": 2018,
     "extra_links": [
-      ["github.io", "https://naeglelab.github.io/OpenEnsembles/"]
+      ["github.io", "https://naeglelab.github.io/OpenEnsembles/"],
       ["github.com", "https://github.com/NaegleLab/OpenEnsembles"]
     ],
     "special_issue": "MLOSS"
