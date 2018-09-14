@@ -1,0 +1,15 @@
+{
+    "abstract": "We introduce an agglomerative hierarchical clustering (AHC) framework which is generic, efficient and effective. Our approach embeds a sub-family of Lance-Williams (LW) clusterings and relies on inner-products instead of squared Euclidean distances. We carry out a constrained bottom-up merging procedure on a sparsified normalized inner-product matrix. Our method is named SNK-AHC for Sparsified Normalized Kernel matrix based AHC. SNK-AHC is more scalable than the classic dissimilarity matrix based AHC. It can also produce better results when clusters have arbitrary shapes. Artificial and real-world benchmarks are used to exemplify these points. From a theoretical standpoint, SNK-AHC provides another interpretation of the classic techniques which relies on the concept of weighted penalized similarities. The differences between group average, Mcquitty, centroid, median and Ward, can be explained by their distinct averaging strategies for aggregating clusters inter-similarities and intra-similarities. Other features of SNK-AHC are examined. We provide sufficient conditions in order to have monotonic dendrograms, we elaborate a stored data matrix approach for centroid and median, we underline the diagonal translation invariance property of group average, Mcquitty and Ward and we show to what extent SNK-AHC can determine the number of clusters.",
+    "authors": [
+        "Julien Ah-Pine"
+    ],
+    "id": "18-117",
+    "issue": 42,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "An Efficient and Effective Generic Agglomerative Hierarchical Clustering Approach",
+    "volume": 19,
+    "year": 2018
+}

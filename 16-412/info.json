@@ -1,0 +1,16 @@
+{
+    "abstract": "For massive and heterogeneous modern datasets, it is of fundamental interest to provide guarantees on the accuracy of estimation when computational resources are limited. In the application of rank aggregation, for the Plackett-Luce model, we provide a hierarchy of rank-breaking mechanisms ordered by the complexity in thus generated sketch of the data. This allows the number of data points collected to be gracefully traded off against computational resources available, while guaranteeing the desired level of accuracy. Theoretical guarantees on the proposed generalized rank-breaking implicitly provide such trade-offs, which can be explicitly characterized under certain canonical scenarios on the structure of the data. Further, the proposed generalized rank-breaking algorithm involves set-wise comparisons as opposed to traditional pairwise comparisons. The maximum likelihood estimate of pairwise comparisons is computed efficiently using the celebrated minorization maximization algorithm (Hunter, 2004). To compute the pseudo-maximum likelihood estimate of the set-wise comparisons, we provide a generalization of the minorization maximization algorithm and give guarantees on its convergence.",
+    "authors": [
+        "Ashish Khetan",
+        "Sewoong Oh"
+    ],
+    "id": "16-412",
+    "issue": 28,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Generalized Rank-Breaking: Computational and Statistical Tradeoffs",
+    "volume": 19,
+    "year": 2018
+}

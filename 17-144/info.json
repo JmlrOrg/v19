@@ -1,0 +1,19 @@
+{
+    "abstract": "We show a Talagrand-type concentration inequality for Multi-Task Learning (MTL), with which we establish sharp excess risk bounds for MTL in terms of the Local Rademacher Complexity (LRC). We also give a new bound on the (LRC) for any norm regularized hypothesis classes, which applies not only to MTL, but also to the standard Single-Task Learning (STL) setting. By combining both results, one can easily derive fast-rate bounds on the excess risk for many prominent MTL methods, including&ndash;as we demonstrate&ndash;Schatten norm, group norm, and graph regularized MTL. The derived bounds reflect a relationship akin to a conservation law of asymptotic convergence rates. When compared to the rates obtained via a traditional, global Rademacher analysis, this very relationship allows for trading off slower rates with respect to the number of tasks for faster rates with respect to the number of available samples per task.",
+    "authors": [
+        "Niloofar Yousefi",
+        "Yunwen Lei",
+        "Marius Kloft",
+        "Mansooreh Mollaghasemi",
+        "Georgios C. Anagnostopoulos"
+    ],
+    "id": "17-144",
+    "issue": 38,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Local Rademacher Complexity-based Learning Guarantees for Multi-Task Learning",
+    "volume": 19,
+    "year": 2018
+}

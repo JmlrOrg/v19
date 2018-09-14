@@ -1,0 +1,15 @@
+{
+    "abstract": "In this paper, we introduce a new estimator for the emission densities of a nonparametric hidden Markov model. It is adaptive and minimax with respect to each state's regularity&ndash;as opposed to globally minimax estimators, which adapt to the worst regularity among the emission densities. Our method is based on Goldenshluger and Lepski's methodology. It is computationally efficient and only requires a family of preliminary estimators, without any restriction on the type of estimators considered. We present two such estimators that allow to reach minimax rates up to a logarithmic term: a spectral estimator and a least squares estimator. We show how to calibrate it in practice and assess its performance on simulations and on real data.",
+    "authors": [
+        "Luc Leh{\\'e}ricy"
+    ],
+    "id": "17-345",
+    "issue": 39,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "State-by-state Minimax Adaptive Estimation for Nonparametric Hidden Markov Models",
+    "volume": 19,
+    "year": 2018
+}

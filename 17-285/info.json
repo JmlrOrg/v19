@@ -1,0 +1,17 @@
+{
+    "abstract": "Quadratic discriminant analysis (QDA) is a standard tool for classification due to its simplicity and flexibility. Because the number of its parameters scales quadratically with the number of the variables, QDA is not practical, however, when the dimensionality is relatively large. To address this, we propose a novel procedure named DA-QDA for QDA in analyzing high-dimensional data. Formulated in a simple and coherent framework, DA-QDA aims to directly estimate the key quantities in the Bayes discriminant function including quadratic interactions and a linear index of the variables for classification. Under appropriate sparsity assumptions, we establish consistency results for estimating the interactions and the linear index, and further demonstrate that the misclassification rate of our procedure converges to the optimal Bayes risk, even when the dimensionality is exponentially high with respect to the sample size. An efficient algorithm based on the alternating direction method of multipliers (ADMM) is developed for finding interactions, which is much faster than its competitor in the literature. The promising performance of DA-QDA is illustrated via extensive simulation studies and the analysis of four real datasets.",
+    "authors": [
+        "Binyan Jiang",
+        "Xiangyu Wang",
+        "Chenlei Leng"
+    ],
+    "id": "17-285",
+    "issue": 31,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "A Direct Approach for Sparse Quadratic Discriminant Analysis",
+    "volume": 19,
+    "year": 2018
+}

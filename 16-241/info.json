@@ -1,0 +1,16 @@
+{
+    "abstract": "Minibatching is a very well studied and highly popular technique in supervised learning, used by practitioners due to its ability to accelerate training through better utilization of parallel processing power and reduction of stochastic variance. Another popular technique is importance sampling&ndash;a strategy for preferential sampling of more important examples also capable of accelerating the training process. However, despite considerable effort by the community in these areas, and due to the inherent technical difficulty of the problem, there is virtually no existing work combining the power of importance sampling with the strength of minibatching. In this paper we propose the first practical <i>importance sampling for minibatches</i> and give simple and rigorous complexity analysis of its performance. We illustrate on synthetic problems that for training data of certain properties, our sampling can lead to several orders of magnitude improvement in training time. We then test the new sampling on several popular data sets, and show that the improvement can reach an order of magnitude.",
+    "authors": [
+        "Dominik Csiba",
+        "Peter Richt{\\'a}rik"
+    ],
+    "id": "16-241",
+    "issue": 27,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "Importance Sampling for Minibatches",
+    "volume": 19,
+    "year": 2018
+}

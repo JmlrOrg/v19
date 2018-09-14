@@ -1,0 +1,15 @@
+{
+    "abstract": "We consider goodness-of-fit tests with i.i.d. samples generated from a categorical distribution $(p_1,...,p_k)$. For a given $(q_1,...,q_k)$, we test the null hypothesis whether $p_j=q_{\\pi(j)}$ for some label permutation $\\pi$. The uncertainty of label permutation implies that the null hypothesis is composite instead of being singular. In this paper, we construct a testing procedure using statistics that are defined as indefinite integrals of some symmetric polynomials. This method is aimed directly at the invariance of the problem, and avoids the need of matching the unknown labels. The asymptotic distribution of the testing statistic is shown to be chi-squared, and its power is proved to be nearly optimal under a local alternative hypothesis. Various degenerate structures of the null hypothesis are carefully analyzed in the paper. A two-sample version of the test is also studied.",
+    "authors": [
+        "Chao Gao"
+    ],
+    "id": "17-624",
+    "issue": 33,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Goodness-of-Fit Tests for Random Partitions via Symmetric Polynomials",
+    "volume": 19,
+    "year": 2018
+}

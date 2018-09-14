@@ -1,0 +1,19 @@
+{
+    "abstract": "Variational autoencoders (VAE) represent a popular, flexible form of deep generative model that can be stochastically fit to samples from a given random process using an information-theoretic variational bound on the true underlying distribution. Once so-obtained, the model can be putatively used to generate new samples from this distribution, or to provide a low-dimensional latent representation of existing samples. While quite effective in numerous application domains, certain important mechanisms which govern the behavior of the VAE are obfuscated by the intractable integrals and resulting stochastic approximations involved. Moreover, as a highly non-convex model, it remains unclear exactly how minima of the underlying energy relate to original design purposes. We attempt to better quantify these issues by analyzing a series of tractable special cases of increasing complexity. In doing so, we unveil interesting connections with more traditional dimensionality reduction models, as well as an intrinsic yet underappreciated propensity for robustly dismissing sparse outliers when estimating latent manifolds. With respect to the latter, we demonstrate that the VAE can be viewed as the natural evolution of recent robust PCA models, capable of learning nonlinear manifolds of unknown dimension obscured by gross corruptions.",
+    "authors": [
+        "Bin Dai",
+        "Yu Wang",
+        "John Aston",
+        "Gang Hua",
+        "David Wipf"
+    ],
+    "id": "17-704",
+    "issue": 41,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Connections with Robust PCA and the Role of Emergent Sparsity in Variational Autoencoder Models",
+    "volume": 19,
+    "year": 2018
+}
