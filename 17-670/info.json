@@ -1,0 +1,17 @@
+{
+    "abstract": "Mean-field Variational Bayes (MFVB) is an approximate Bayesian posterior inference technique that is increasingly popular due to its fast runtimes on large-scale data sets. However, even when MFVB provides accurate posterior means for certain parameters, it often mis-estimates variances and covariances. Furthermore, prior robustness measures have remained undeveloped for MFVB. By deriving a simple formula for the effect of infinitesimal model perturbations on MFVB posterior means, we provide both improved covariance estimates and local robustness measures for MFVB, thus greatly expanding the practical usefulness of MFVB posterior approximations. The estimates for MFVB posterior covariances rely on a result from the classical Bayesian robustness literature that relates derivatives of posterior expectations to posterior covariances and includes the Laplace approximation as a special case. Our key condition is that the MFVB approximation provides good estimates of a select subset of posterior means---an assumption that has been shown to hold in many practical settings. In our experiments, we demonstrate that our methods are simple, general, and fast, providing accurate posterior uncertainty estimates and robustness measures with runtimes that can be an order of magnitude faster than MCMC.",
+    "authors": [
+        "Ryan Giordano",
+        "Tamara Broderick",
+        "Michael I. Jordan"
+    ],
+    "id": "17-670",
+    "issue": 51,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Covariances, Robustness, and Variational Bayes",
+    "volume": 19,
+    "year": 2018
+}

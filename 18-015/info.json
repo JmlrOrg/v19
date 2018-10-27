@@ -1,0 +1,18 @@
+{
+    "abstract": "Recent research has shown the potential utility of deep Gaussian processes. These deep structures are probability distributions, designed through hierarchical construction, which are conditionally Gaussian. In this paper, the current published body of work is placed in a common framework and, through recursion, several classes of deep Gaussian processes are defined. The resulting samples generated from a deep Gaussian process have a Markovian structure with respect to the depth parameter, and the effective depth of the resulting process is interpreted in terms of the ergodicity, or non-ergodicity, of the resulting Markov chain. For the classes of deep Gaussian processes introduced, we provide results concerning their ergodicity and hence their effective depth. We also demonstrate how these processes may be used for inference; in particular we show how a Metropolis-within-Gibbs construction across the levels of the hierarchy can be used to derive sampling tools which are robust to the level of resolution used to represent the functions on a computer. For illustration, we consider the effect of ergodicity in some simple numerical examples.",
+    "authors": [
+        "Matthew M. Dunlop",
+        "Mark A. Girolami",
+        "Andrew M. Stuart",
+        "Aretha L. Teckentrup"
+    ],
+    "id": "18-015",
+    "issue": 54,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "How Deep Are Deep Gaussian Processes?",
+    "volume": 19,
+    "year": 2018
+}

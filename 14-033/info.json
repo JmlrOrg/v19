@@ -1,0 +1,16 @@
+{
+    "abstract": "Markov blanket (Mb) and Markov boundary (MB) are two key concepts in Bayesian networks (BNs). In this paper, we study the problem of Mb and MB for multiple variables. First, we show that Mb possesses the additivity property under the local intersection assumption, that is, an Mb of multiple targets can be constructed by simply taking the union of Mbs of the individual targets and removing the targets themselves. MB is also proven to have additivity under the local intersection assumption. Second, we analyze the cases of violating additivity of Mb and MB and then put forward the notions of Markov blanket supplementary (MbS) and Markov boundary supplementary (MBS). The properties of MbS and MBS are studied in detail. Third, we build two MB discovery algorithms and prove their correctness under the local composition assumption. We also discuss the ways of practically doing conditional independence tests and analyze the complexities of the algorithms. Finally, we make a benchmarking study based on six synthetic BNs and then apply MB discovery to multi-class prediction based on a real data set. The experimental results reveal our algorithms have higher accuracies and lower complexities than existing algorithms.",
+    "authors": [
+        "Xu-Qing Liu",
+        "Xin-Sheng Liu"
+    ],
+    "id": "14-033",
+    "issue": 43,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Markov Blanket and Markov Boundary of Multiple Variables",
+    "volume": 19,
+    "year": 2018
+}

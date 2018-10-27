@@ -1,0 +1,15 @@
+{
+    "abstract": "We present upper and lower bounds for the prediction error of the Lasso. For the case of random Gaussian design, we show that under mild conditions the prediction error of the Lasso is up to smaller order terms dominated by the prediction error of its noiseless counterpart. We then provide exact expressions for the prediction error of the latter, in terms of compatibility constants. Here, we assume the active components of the underlying regression function satisfy some ``betamin\" condition. For the case of fixed design, we provide upper and lower bounds, again in terms of compatibility constants. As an example, we give an up to a logarithmic term tight bound for the least squares estimator with total variation penalty.",
+    "authors": [
+        "Sara van de Geer"
+    ],
+    "id": "17-025",
+    "issue": 46,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "On Tight Bounds for the Lasso",
+    "volume": 19,
+    "year": 2018
+}

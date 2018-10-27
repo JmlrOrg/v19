@@ -1,0 +1,19 @@
+{
+    "abstract": "Neural Information Processing Systems (NIPS) is a top-tier annual conference in machine learning. The 2016 edition of the conference comprised more than 2,400 paper submissions, 3,000 reviewers, and 8,000 attendees. This represents a growth of nearly 40% in terms of submissions, 96% in terms of reviewers, and over 100% in terms of attendees as compared to the previous year. The massive scale as well as rapid growth of the conference calls for a thorough quality assessment of the peer-review process and novel means of improvement. In this paper, we analyze several aspects of the data collected during the review process, including an experiment investigating the efficacy of collecting ordinal rankings from reviewers. We make a number of key observations, provide suggestions that may be useful for subsequent conferences, and discuss open problems towards the goal of improving peer review.",
+    "authors": [
+        "Nihar B. Shah",
+        "Behzad Tabibian",
+        "Krikamol Muandet",
+        "Isabelle Guyon",
+        "Ulrike von Luxburg"
+    ],
+    "id": "17-511",
+    "issue": 49,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Design and Analysis of the NIPS 2016 Review Process",
+    "volume": 19,
+    "year": 2018
+}
