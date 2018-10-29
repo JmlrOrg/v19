@@ -12,5 +12,7 @@
     ],
     "title": "Harmonic Mean Iteratively Reweighted Least Squares for Low-Rank Matrix Recovery",
     "volume": 19,
-    "year": 2018
+    "year": 2018,
+    "extra_links": [
+      ["github.com", "https://github.com/ckuemmerle/hm_irls"]]
 }
