@@ -1,0 +1,17 @@
+{
+    "abstract": "We consider the situation where $I$ items are ranked by paired comparisons. It is usually assumed that the probability that item $i$ is preferred over item $j$ is $p_{ij}=F(\\mu_i-\\mu_j)$ where $F$ is a symmetric distribution function, which we refer to as the comparison function, and $\\mu_i$ and $\\mu_j$ are the merits or scores of the compared items. This modelling framework, which is ubiquitous in the paired comparison literature, strongly depends on the assumption that the comparison function $F$ is known. In practice, however, this assumption is often unrealistic and may result in poor fit and erroneous inferences. This limitation has motivated us to relax the assumption that $F$ is fully known and simultaneously estimate the merits of the objects and the underlying comparison function. Our formulation yields a flexible semi-definite programming problem that we use as a refinement step for estimating the paired comparison probability matrix. We provide a detailed sensitivity analysis and, as a result, we establish the consistency of the resulting estimators and provide bounds on the estimation and approximation errors. Some statistical properties of the resulting estimators as well as model selection criteria are investigated. Finally, using a large data-set of computer chess matches, we estimate the comparison function and find that the model used by the International Chess Federation does not seem to apply to computer chess.",
+    "authors": [
+        "Ivo F. D. Oliveira",
+        "Nir Ailon",
+        "Ori Davidov"
+    ],
+    "id": "17-179",
+    "issue": 60,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "A New and Flexible Approach to the Analysis of Paired Comparison Data",
+    "volume": 19,
+    "year": 2018
+}

@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 15-493.aux
+The style file: plainnat.bst
+Database file #1: ref.bib
+Warning--empty institution in friedman2010applications
+You've used 85 entries,
+            2773 wiz_defined-function locations,
+            1044 strings with 18492 characters,
+and the built_in function-call counts, 42280 in all, are:
+= -- 3811
+> -- 2547
+< -- 35
++ -- 865
+- -- 777
+* -- 3730
+:= -- 6516
+add.period$ -- 258
+call.type$ -- 85
+change.case$ -- 492
+chr.to.int$ -- 82
+cite$ -- 171
+duplicate$ -- 1765
+empty$ -- 3379
+format.name$ -- 904
+if$ -- 8710
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 86
+newline$ -- 436
+num.names$ -- 340
+pop$ -- 878
+preamble$ -- 1
+purify$ -- 412
+quote$ -- 0
+skip$ -- 1334
+stack$ -- 0
+substring$ -- 2119
+swap$ -- 119
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 915
+warning$ -- 1
+while$ -- 400
+width$ -- 0
+write$ -- 1105
+(There was 1 warning)

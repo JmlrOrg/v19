@@ -1,0 +1,16 @@
+{
+    "abstract": "The present work aims at deriving theoretical guaranties on the behavior of some cross-validation procedures applied to the $k$-nearest neighbors ($k$NN) rule in the context of binary classification. Here we focus on the leave-$p$-out cross-validation (L$p$O) used to assess the performance of the $k$NN classifier. Remarkably this L$p$O estimator can be efficiently computed in this context using closed-form formulas derived by Celisse and Mary-Huard (2011). We describe a general strategy to derive moment and exponential concentration inequalities for the L$p$O estimator applied to the $k$NN classifier. Such results are obtained first by exploiting the connection between the L$p$O estimator and U-statistics, and second by making an intensive use of the generalized Efron-Stein inequality applied to the L$1$O estimator. One other important contribution is made by deriving new quantifications of the discrepancy between the L$p$O estimator and the classification error/risk of the $k$NN classifier. The optimality of these bounds is discussed by means of several lower bounds as well as simulation experiments.",
+    "authors": [
+        "Alain Celisse",
+        "Tristan Mary-Huard"
+    ],
+    "id": "15-498",
+    "issue": 58,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Theoretical Analysis of Cross-Validation for Estimating the Risk of the $k$-Nearest Neighbor Classifier",
+    "volume": 19,
+    "year": 2018
+}

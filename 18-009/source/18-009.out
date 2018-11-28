@@ -1,0 +1,25 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{The MBSTS Model}{}% 2
+\BOOKMARK [2][-]{subsection.3}{Structural Time Series}{section.2}% 3
+\BOOKMARK [2][-]{subsection.8}{Components of State}{section.2}% 4
+\BOOKMARK [2][-]{subsection.16}{Spike and Slab Regression}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.17}{Matrix Representation}{subsection.16}% 6
+\BOOKMARK [3][-]{subsubsection.20}{Prior distribution and elicitation}{subsection.16}% 7
+\BOOKMARK [3][-]{subsubsection.24}{Posterior Inference}{subsection.16}% 8
+\BOOKMARK [2][-]{subsection.41}{Markov Chain Monte Carlo}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.42}{Model Training}{subsection.41}% 10
+\BOOKMARK [3][-]{subsubsection.44}{Target Series Forecasting}{subsection.41}% 11
+\BOOKMARK [1][-]{section.46}{Application to Simulated Data}{}% 12
+\BOOKMARK [2][-]{subsection.47}{Generated Data}{section.46}% 13
+\BOOKMARK [2][-]{subsection.57}{Estimation and Model Selection Accuracy}{section.46}% 14
+\BOOKMARK [2][-]{subsection.74}{Model Performance Comparison}{section.46}% 15
+\BOOKMARK [1][-]{section.91}{Application to Empirical Data}{}% 16
+\BOOKMARK [2][-]{subsection.92}{Target Time Series}{section.91}% 17
+\BOOKMARK [2][-]{subsection.95}{Predictors}{section.91}% 18
+\BOOKMARK [2][-]{subsection.100}{Training Result}{section.91}% 19
+\BOOKMARK [3][-]{subsubsection.103}{Decomposition of State Components}{subsection.100}% 20
+\BOOKMARK [3][-]{subsubsection.109}{Feature Selection}{subsection.100}% 21
+\BOOKMARK [2][-]{subsection.116}{Target Series Forecast}{section.91}% 22
+\BOOKMARK [3][-]{subsubsection.117}{Model Comparison}{subsection.116}% 23
+\BOOKMARK [3][-]{subsubsection.128}{Trading Strategy}{subsection.116}% 24
+\BOOKMARK [1][-]{section.129}{Conclusion}{}% 25

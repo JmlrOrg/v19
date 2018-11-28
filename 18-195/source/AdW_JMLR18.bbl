@@ -1,0 +1,361 @@
+\begin{thebibliography}{53}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aaronson(2007)]{aaronson:qlearnability}
+S.~Aaronson.
+\newblock The learnability of quantum states.
+\newblock \emph{Proceedings of the Royal Society of London}, 463\penalty0
+  (2088), 2007.
+\newblock quant-ph/0608142.
+
+\bibitem[Aaronson(2015)]{aaronson:fineprint}
+S.~Aaronson.
+\newblock Quantum machine learning algorithms: Read the fine print.
+\newblock \emph{Nature Physics}, 11\penalty0 (4):\penalty0 291--293, 2015.
+
+\bibitem[A{\"{\i}}meur et~al.(2006)A{\"{\i}}meur, Brassard, and
+  Gambs]{aimeur:mlinquantumworld}
+E.~A{\"{\i}}meur, G.~Brassard, and S.~Gambs.
+\newblock Machine learning in a quantum world.
+\newblock In \emph{Proceedings of Advances in Artificial Intelligence, 19th
+  Conference of the Canadian Society for Computational Studies of
+  Intelligence}, volume 4013, pages 431--442, 2006.
+
+\bibitem[A{\"{\i}}meur et~al.(2013)A{\"{\i}}meur, Brassard, and
+  Gambs]{aimeur:qspeedup}
+E.~A{\"{\i}}meur, G.~Brassard, and S.~Gambs.
+\newblock Quantum speed-up for unsupervised learning.
+\newblock \emph{Machine Learning}, 90\penalty0 (2):\penalty0 261--287, 2013.
+
+\bibitem[Ambainis and Montanaro(2014)]{ambainis&montanaro:wildcard&CGT}
+A.~Ambainis and A.~Montanaro.
+\newblock Quantum algorithms for search with wildcards and combinatorial group
+  testing.
+\newblock \emph{Quantum Information {\&} Computation}, 14\penalty0
+  (5-6):\penalty0 439--453, 2014.
+\newblock arXiv:1210.1148.
+
+\bibitem[Angluin and Laird(1988)]{angluin:randomclassificationnoise}
+D.~Angluin and P.~Laird.
+\newblock Learning from noisy examples.
+\newblock \emph{Machine Learning}, 2\penalty0 (4):\penalty0 343--370, 1988.
+
+\bibitem[Anthony and Bartlett(2009)]{anthony&bartlett:learningbook}
+M.~Anthony and P.~L. Bartlett.
+\newblock \emph{Neural network learning: Theoretical foundations}.
+\newblock Cambridge University Press, 2009.
+
+\bibitem[Apolloni and Gentile(1998)]{apolloni&gentile:act}
+B.~Apolloni and C.~Gentile.
+\newblock Sample size lower bounds in {PAC} learning by algorithmic complexity
+  theory.
+\newblock \emph{Theoretical Computer Science}, 209:\penalty0 141--162, 1998.
+
+\bibitem[Arunachalam and de~Wolf(2017)]{arunachalam:quantumlearningsurvey}
+S.~Arunachalam and R.~de~Wolf.
+\newblock Guest column: {A} survey of quantum learning theory.
+\newblock \emph{{SIGACT} News}, 48\penalty0 (2):\penalty0 41--67, 2017.
+\newblock arxiv:1606.08920.
+
+\bibitem[{At\i c\i} and Servedio(2005)]{atici&servedio:qlearning}
+A.~{At\i c\i} and R.~Servedio.
+\newblock Improved bounds on quantum learning algorithms.
+\newblock \emph{Quantum Information Processing}, 4\penalty0 (5):\penalty0
+  355--386, 2005.
+\newblock quant-ph/0411140.
+
+\bibitem[{At\i c\i} and Servedio(2009)]{atici&servedio:testing}
+A.~{At\i c\i} and R.~Servedio.
+\newblock Quantum algorithms for learning and testing juntas.
+\newblock \emph{Quantum Information Processing}, 6\penalty0 (5):\penalty0
+  323--348, 2009.
+\newblock arXiv:0707.3479.
+
+\bibitem[Audibert(2008)]{audibert:agnosticconstant2}
+J.~Audibert.
+\newblock Fast learning rates in statistical inference through aggregation,
+  2008.
+\newblock Research Report 06-20, Certis—Ecole des Ponts. math/0703854.
+
+\bibitem[Audibert(2009)]{audibert:agnosticconstant1}
+J.~Audibert.
+\newblock Fast learning rates in statistical inference through aggregation.
+\newblock \emph{The Annals of Statistics}, 37\penalty0 (4):\penalty0
+  1591--1646, 2009.
+\newblock arXiv:0909.1468v1.
+
+\bibitem[Bacon et~al.(2006)Bacon, Childs, and Dam]{bacon:hiddensubgroup}
+D.~Bacon, A.~Childs, and W.~{van} Dam.
+\newblock Optimal measurements for the dihedral hidden subgroup problem.
+\newblock \emph{Chicago Journal of Theoretical Computer Science}, 2006.
+\newblock Earlier version in FOCS'05. quant-ph/0504083.
+
+\bibitem[Barnum and Knill(2002)]{barnum:pgmmeasurement}
+H.~Barnum and E.~Knill.
+\newblock Reversing quantum dynamics with near-optimal quantum and classical
+  fidelity.
+\newblock \emph{Journal of Mathematical Physics}, 43:\penalty0 2097--2106,
+  2002.
+\newblock quant-ph/0004088.
+
+\bibitem[Bernstein and Vazirani(1997)]{bernstein&vazirani:qcomplexity}
+E.~Bernstein and U.~Vazirani.
+\newblock Quantum complexity theory.
+\newblock \emph{SIAM Journal on Computing}, 26\penalty0 (5):\penalty0
+  1411--1473, 1997.
+\newblock Earlier version in STOC'93.
+
+\bibitem[Blumer et~al.(1989)Blumer, Ehrenfeucht, Haussler, and
+  Warmuth]{blumer:optimalpacupper}
+A.~Blumer, A.~Ehrenfeucht, D.~Haussler, and M.~K. Warmuth.
+\newblock Learnability and the {V}apnik-{C}hervonenkis dimension.
+\newblock \emph{Journal of the ACM}, 36\penalty0 (4):\penalty0 929--965, 1989.
+
+\bibitem[Bshouty and Jackson(1999)]{bshouty:quantumpac}
+N.~H. Bshouty and J.~C. Jackson.
+\newblock Learning {DNF} over the uniform distribution using a quantum example
+  oracle.
+\newblock \emph{SIAM Journal on Computing}, 28\penalty0 (3):\penalty0
+  1136–--1153, 1999.
+\newblock Earlier version in COLT'95.
+
+\bibitem[Buhrman et~al.(2001)Buhrman, Cleve, Watrous, and Wolf]{bcww:fp}
+H.~Buhrman, R.~Cleve, J.~Watrous, and R.~{de} Wolf.
+\newblock Quantum fingerprinting.
+\newblock \emph{Physical Review Letters}, 87\penalty0 (16), 2001.
+\newblock quant-ph/0102001.
+
+\bibitem[Daniely and {Shalev-Shwartz}(2016)]{daniely&shalevshwartz:limitdnf}
+A.~Daniely and S.~{Shalev-Shwartz}.
+\newblock Complexity theoretic limitations on learning {DNF}'s.
+\newblock In \emph{Proceedings of the 29th Conference on Learning Theory
+  (COLT'16)}, 2016.
+
+\bibitem[Eldar and {Forney Jr}(2001)]{eldar&forney:squarerootmeasurement}
+Y.~C. Eldar and G.~D. {Forney Jr}.
+\newblock On quantum detection and the square-root measurement.
+\newblock \emph{IEEE Transactions and Information Theory}, 47\penalty0
+  (3):\penalty0 858--872, 2001.
+\newblock quant-ph/0005132.
+
+\bibitem[Eldar et~al.(2003)Eldar, Megretski, and
+  Verghese]{eldar:optimalquantumdetectors}
+Y.~C. Eldar, A.~Megretski, and G.~C. Verghese.
+\newblock Designing optimal quantum detectors via semidefinite programming.
+\newblock \emph{{IEEE} Transactions Information Theory}, 49\penalty0
+  (4):\penalty0 1007--1012, 2003.
+\newblock quant-ph/0205178.
+
+\bibitem[Gavinsky(2012)]{gavinsky:predictivelearning}
+D.~Gavinsky.
+\newblock Quantum predictive learning and communication complexity with single
+  input.
+\newblock \emph{Quantum Information and Computation}, 12\penalty0
+  (7-8):\penalty0 575--588, 2012.
+\newblock Earlier version in COLT'10. arXiv:0812.3429.
+
+\bibitem[Gentile and Helmbold(2001)]{gentile&helmbold:it}
+C.~Gentile and D.~P. Helmbold.
+\newblock Improved lower bounds for learning from noisy examples: An
+  information-theoretic approach.
+\newblock \emph{Information and Computation}, 166:\penalty0 133--155, 2001.
+
+\bibitem[Grover(1996)]{grover:search}
+L.~K. Grover.
+\newblock A fast quantum mechanical algorithm for database search.
+\newblock In \emph{Proceedings of 28th ACM STOC}, pages 212--219, 1996.
+\newblock quant-ph/9605043.
+
+\bibitem[Hanneke(2016)]{hanneke:optimalpaclower}
+S.~Hanneke.
+\newblock The optimal sample complexity of {PAC} learning.
+\newblock \emph{Journal of Machine Learning Research}, 17\penalty0
+  (38):\penalty0 1--15, 2016.
+\newblock arXiv:1507.00473.
+
+\bibitem[Harrow et~al.(2009)Harrow, Hassidim, and Lloyd]{hhl:lineq}
+A.~Harrow, A.~Hassidim, and S.~Lloyd.
+\newblock Quantum algorithm for solving linear systems of equations.
+\newblock \emph{Physical Review Letters}, 103\penalty0 (15):\penalty0 150502,
+  2009.
+\newblock arXiv:0811.3171.
+
+\bibitem[Haussler(1992)]{haussler:agnosticlearning}
+D.~Haussler.
+\newblock Decision theoretic generalizations of the {PAC} model for neural net
+  and other learning applications.
+\newblock \emph{Information and Computation}, 100\penalty0 (1):\penalty0
+  78--150, 1992.
+
+\bibitem[Hunziker et~al.(2010)Hunziker, Meyer, Park, Pommersheim, and
+  Rothstein]{hunziker:quantumexactlearning}
+M.~Hunziker, D.~A. Meyer, J.~Park, J.~Pommersheim, and M.~Rothstein.
+\newblock The geometry of quantum learning.
+\newblock \emph{Quantum Information Processing}, 9\penalty0 (3):\penalty0
+  321--341, 2010.
+\newblock quant-ph/0309059.
+
+\bibitem[Jackson(1997)]{jackson:dnf}
+J.~C. Jackson.
+\newblock An efficient membership-query algorithm for learning {DNF} with
+  respect to the uniform distribution.
+\newblock \emph{Journal of Computer and System Sciences}, 55\penalty0
+  (3):\penalty0 414--440, 1997.
+\newblock Earlier version in FOCS'94.
+
+\bibitem[Jackson et~al.(2002)Jackson, Tamon, and Yamakami]{jackson:quantumdnf}
+J.~C. Jackson, C.~Tamon, and T.~Yamakami.
+\newblock Quantum {DNF} learnability revisited.
+\newblock In \emph{Proceedings of 8th COCOON}, pages 595--604, 2002.
+\newblock quant-ph/0202066.
+
+\bibitem[Jain and Zhang(2009)]{jain&zhang:newoneway}
+R.~Jain and S.~Zhang.
+\newblock New bounds on classical and quantum one-way communication complexity.
+\newblock \emph{Theoretical Computer Science}, 410\penalty0 (26):\penalty0
+  2463--2477, 2009.
+\newblock arXiv:0802.4101.
+
+\bibitem[Kaye et~al.(2006)Kaye, Laflamme, and Mosca]{kaye:introbook}
+P.~Kaye, R.~Laflamme, and M.~Mosca.
+\newblock \emph{An Introduction to Quantum Computing}.
+\newblock Oxford University Press, 2006.
+
+\bibitem[Kearns and Valiant(1994)]{kearns&valiant:blum}
+M.~J. Kearns and L.~G. Valiant.
+\newblock Cryptographic limitations on learning {B}oolean formulae and finite
+  automata.
+\newblock \emph{Journal of the ACM}, 41\penalty0 (1):\penalty0 67--95, 1994.
+
+\bibitem[Kearns and Vazirani(1994)]{kearnss&vazirani:learningbook}
+M.~J. Kearns and U.~V. Vazirani.
+\newblock \emph{An introduction to computational learning theory}.
+\newblock MIT Press, 1994.
+
+\bibitem[Kearns et~al.(1994)Kearns, Schapire, and
+  Sellie]{kearns:agnosticlearning}
+M.~J. Kearns, R.~E. Schapire, and L.~Sellie.
+\newblock Toward efficient agnostic learning.
+\newblock \emph{Machine Learning}, 17\penalty0 (2-3):\penalty0 115--141, 1994.
+\newblock Earlier version in COLT'92.
+
+\bibitem[Kontorovich and Pinelis(2016)]{aryeh:exactconstantagnostic}
+A.~Kontorovich and I.~Pinelis.
+\newblock Exact lower bounds for the agnostic probably-approximately-correct
+  {(PAC)} machine learning model, 2016.
+\newblock Preprint at arxiv:1606.08920.
+
+\bibitem[Kothari(2014)]{kothari:oracleidentification}
+R.~Kothari.
+\newblock An optimal quantum algorithm for the oracle identification problem.
+\newblock In \emph{31st International Symposium on Theoretical Aspects of
+  Computer Science (STACS 2014)}, pages 482--493, 2014.
+\newblock arXiv:1311.7685.
+
+\bibitem[Montanaro(2007)]{montanaro:distinguishability}
+A.~Montanaro.
+\newblock On the distinguishability of random quantum states.
+\newblock \emph{Communications in Mathematical Physics}, 273\penalty0
+  (3):\penalty0 619--636, 2007.
+\newblock quant-ph/0607011.
+
+\bibitem[Montanaro(2012)]{montanaro:learningpolynomials}
+A.~Montanaro.
+\newblock The quantum query complexity of learning multilinear polynomials.
+\newblock \emph{Information Processing Letters}, 112\penalty0 (11):\penalty0
+  438--442, 2012.
+\newblock arXiv:1105.3310.
+
+\bibitem[{O'Donnell}(2014)]{odonnell:analysis}
+R.~{O'Donnell}.
+\newblock \emph{Analysis of Boolean Functions}.
+\newblock Cambridge University Press, 2014.
+
+\bibitem[Servedio and
+  Gortler(2004)]{servedio&gortler:equivalencequantumclassical}
+R.~Servedio and S.~Gortler.
+\newblock Equivalences and separations between quantum and classical
+  learnability.
+\newblock \emph{SIAM Journal on Computing}, 33\penalty0 (5):\penalty0
+  1067--1092, 2004.
+\newblock Combines earlier papers from ICALP'01 and CCC'01. quant-ph/0007036.
+
+\bibitem[{Shalev-Shwartz} and {Ben-David}(2014)]{shwartz&david:learningbook}
+S.~{Shalev-Shwartz} and S.~{Ben-David}.
+\newblock \emph{Understanding machine learning: From theory to algorithms}.
+\newblock Cambridge University Press, 2014.
+
+\bibitem[Simon(1996)]{simon:agnosticlowerbound}
+H.~U. Simon.
+\newblock General bounds on the number of examples needed for learning
+  probabilistic concepts.
+\newblock \emph{Journal of Computer and System Sciences}, 52\penalty0
+  (2):\penalty0 239--254, 1996.
+\newblock Earlier version in COLT'93.
+
+\bibitem[Simon(2015)]{simon:almostoptimalpac}
+H.~U. Simon.
+\newblock An almost optimal {PAC} algorithm.
+\newblock In \emph{Proceedings of the 28th Conference on Learning Theory
+  (COLT)}, pages 1552--1563, 2015.
+
+\bibitem[Talagrand(1994)]{talagrand:agnosticupperbound}
+M.~Talagrand.
+\newblock Sharper bounds for {G}aussian and empirical processes.
+\newblock \emph{The Annals of Probability}, pages 28--76, 1994.
+
+\bibitem[Valiant(1984)]{valiant:paclearning}
+L.~Valiant.
+\newblock A theory of the learnable.
+\newblock \emph{Communications of the ACM}, 27\penalty0 (11):\penalty0
+  1134–--1142, 1984.
+
+\bibitem[Vapnik and Chervonenkis(1971)]{vapnik:vcdimension}
+V.~Vapnik and A.~Chervonenkis.
+\newblock On the uniform convergence of relative frequencies of events to their
+  probabilities.
+\newblock \emph{Theory of Probability \& Its Applications}, 16\penalty0
+  (2):\penalty0 264--280, 1971.
+
+\bibitem[Vapnik and Chervonenkis(1974)]{vapnik:agnosticlowerbound}
+V.~Vapnik and A.~Chervonenkis.
+\newblock Theory of pattern recognition.
+\newblock 1974.
+\newblock In Russian.
+
+\bibitem[Verbeurgt(1990)]{verbeurgt:learningdnf}
+K.~A. Verbeurgt.
+\newblock Learning {DNF} under the uniform distribution in quasi-polynomial
+  time.
+\newblock In \emph{Proceedings of the 3rd Annual Workshop on Computational
+  Learning Theory (COLT'90)}, pages 314--326, 1990.
+
+\bibitem[Wiebe et~al.(2016{\natexlab{a}})Wiebe, Kapoor, and
+  Svore]{wiebe:quantumdeeplearning}
+N.~Wiebe, A.~Kapoor, and K.~M. Svore.
+\newblock Quantum deep learning.
+\newblock \emph{Quantum Information {\&} Computation}, 16\penalty0
+  (7{\&}8):\penalty0 541--587, 2016{\natexlab{a}}.
+\newblock arXiv:1412.3489.
+
+\bibitem[Wiebe et~al.(2016{\natexlab{b}})Wiebe, Kapoor, and
+  Svore]{wiebe:quantumperceptronmodels}
+N.~Wiebe, A.~Kapoor, and K.~M. Svore.
+\newblock Quantum perceptron models.
+\newblock In \emph{Advances in Neural Information Processing Systems 29: Annual
+  Conference on Neural Information Processing Systems}, pages 3999--4007,
+  2016{\natexlab{b}}.
+\newblock arXiv:1602.04799.
+
+\bibitem[Zhang(2010)]{zhang:improvedvcbound}
+C.~Zhang.
+\newblock An improved lower bound on query complexity for quantum {PAC}
+  learning.
+\newblock \emph{Information Processing Letters}, 111\penalty0 (1):\penalty0
+  40--45, 2010.
+
+\end{thebibliography}

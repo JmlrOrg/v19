@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 17-558.aux
+The style file: plainnat.bst
+Database file #1: qrref.bib
+Warning--empty publisher in HFT
+Warning--empty publisher in nonlinprog
+Warning--empty publisher in activepm
+Warning--empty publisher in irrationalexuberance
+You've used 53 entries,
+            2773 wiz_defined-function locations,
+            917 strings with 12059 characters,
+and the built_in function-call counts, 24834 in all, are:
+= -- 2212
+> -- 1371
+< -- 30
++ -- 467
+- -- 414
+* -- 2140
+:= -- 3789
+add.period$ -- 161
+call.type$ -- 53
+change.case$ -- 292
+chr.to.int$ -- 53
+cite$ -- 110
+duplicate$ -- 1119
+empty$ -- 2099
+format.name$ -- 493
+if$ -- 5147
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 59
+newline$ -- 275
+num.names$ -- 212
+pop$ -- 566
+preamble$ -- 1
+purify$ -- 244
+quote$ -- 0
+skip$ -- 800
+stack$ -- 0
+substring$ -- 1132
+swap$ -- 106
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 553
+warning$ -- 4
+while$ -- 238
+width$ -- 0
+write$ -- 690
+(There were 4 warnings)

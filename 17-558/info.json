@@ -1,0 +1,18 @@
+{
+    "abstract": "We propose a short-term sparse portfolio optimization (SSPO) system based on alternating direction method of multipliers (ADMM). Although some existing strategies have also exploited sparsity, they either constrain the quantity of the portfolio change or aim at the long-term portfolio optimization. Very few of them are dedicated to constructing sparse portfolios for the short-term portfolio optimization, which will be complemented by the proposed SSPO. SSPO concentrates wealth on a small proportion of assets that have good increasing potential according to some empirical financial principles, so as to maximize the cumulative wealth for the whole investment. We also propose a solving algorithm based on ADMM to handle the $\\ell^1$-regularization term and the self-financing constraint simultaneously. As a significant improvement in the proposed ADMM, we have proven that its augmented Lagrangian has a saddle point, which is the foundation of the iterative formulae of ADMM but is seldom addressed by other sparsity strategies. Extensive experiments on $5$ benchmark data sets from real-world stock markets show that SSPO outperforms other state-of-the-art systems in thorough evaluations, withstands reasonable transaction costs and runs fast. Thus it is suitable for real-world financial environments.",
+    "authors": [
+        "Zhao-Rong Lai",
+        "Pei-Yi Yang",
+        "Liangda Fang",
+        "Xiaotian Wu"
+    ],
+    "id": "17-558",
+    "issue": 63,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Short-term Sparse Portfolio Optimization Based on Alternating Direction Method of Multipliers",
+    "volume": 19,
+    "year": 2018
+}

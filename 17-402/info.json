@@ -1,0 +1,17 @@
+{
+    "abstract": "In this work we consider non-linear classifiers that comprise intersections of hyperplanes. We learn these classifiers by minimizing the ``minimax'' bound over the negative training examples and the hinge type loss of the positive training examples. These classifiers fit typical real-life datasets that consist of a small number of positive data points and a large number of negative data points. Such an approach is computationally appealing since the majority of training examples (belonging to the negative class) are represented by the statistics of their distribution, which is used in a single constraint on the empirical risk, as opposed to SVM, in which the number of variables is equal to the size of the training set. We first focus on intersection of $K$ hyperplanes, for which we provide empirical risk bounds. We show that these bounds are dimensionally independent and decay as $K/\\sqrt{m}$ for $m$ samples. We then extend the K-hyperplane mixed risk to the latent mixed risk for training a union of $C$ $K$-hyperplane models, which can form an arbitrary complex, piecewise linear boundaries. We propose efficient algorithms for training the proposed models. Finally, we show how to combine hinge-minimax training with deep architectures and extend it to multi-class settings using transfer learning. The empirical evaluation of the proposed models shows their advantage over the existing methods in a small training labeled data regime.",
+    "authors": [
+        "Dolev Raviv",
+        "Tamir Hazan",
+        "Margarita Osadchy"
+    ],
+    "id": "17-402",
+    "issue": 62,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Hinge-Minimax Learner for the Ensemble of Hyperplanes",
+    "volume": 19,
+    "year": 2018
+}

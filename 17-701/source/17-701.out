@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.3}{Related Work}{section.1}% 2
+\BOOKMARK [1][-]{section.4}{Randomized Classification}{}% 3
+\BOOKMARK [2][-]{subsection.7}{Marginal Classifier}{section.4}% 4
+\BOOKMARK [2][-]{subsection.11}{Examples of Marginal Classifiers}{section.4}% 5
+\BOOKMARK [2][-]{subsection.13}{Estimation of Average Accuracy}{section.4}% 6
+\BOOKMARK [2][-]{subsection.16}{Toy Example: Bivariate Normal}{section.4}% 7
+\BOOKMARK [1][-]{section.19}{Extrapolation}{}% 8
+\BOOKMARK [2][-]{subsection.23}{Analysis of Average Accuracy}{section.19}% 9
+\BOOKMARK [3][-]{subsubsection.25}{Incorrect-Label Favorability}{subsection.23}% 10
+\BOOKMARK [3][-]{subsubsection.29}{Correct-Label Favorability}{subsection.23}% 11
+\BOOKMARK [2][-]{subsection.38}{Favorability and Average Accuracy for the Toy Example}{section.19}% 12
+\BOOKMARK [2][-]{subsection.41}{Estimation}{section.19}% 13
+\BOOKMARK [2][-]{subsection.48}{Model Selection}{section.19}% 14
+\BOOKMARK [2][-]{subsection.57}{The Kay KDE-based estimator}{section.19}% 15
+\BOOKMARK [1][-]{section.61}{Simulation Study}{}% 16
+\BOOKMARK [2][-]{subsection.62}{Simulation Results}{section.61}% 17
+\BOOKMARK [1][-]{section.66}{Experimental Evaluation}{}% 18
+\BOOKMARK [2][-]{subsection.73}{Results}{section.66}% 19
+\BOOKMARK [1][-]{section.77}{Discussion}{}% 20

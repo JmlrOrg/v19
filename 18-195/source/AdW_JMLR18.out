@@ -1,0 +1,32 @@
+\BOOKMARK [1][-]{section.3}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.4}{Sample complexity and VC dimension}{section.3}% 2
+\BOOKMARK [3][-]{subsubsection.5}{The PAC setting}{subsection.4}% 3
+\BOOKMARK [3][-]{subsubsection.9}{The agnostic setting}{subsection.4}% 4
+\BOOKMARK [2][-]{subsection.11}{Our results}{section.3}% 5
+\BOOKMARK [3][-]{subsubsection.14}{An information-theoretic argument}{subsection.11}% 6
+\BOOKMARK [3][-]{subsubsection.20}{A state-identification argument}{subsection.11}% 7
+\BOOKMARK [2][-]{subsection.22}{Related work}{section.3}% 8
+\BOOKMARK [2][-]{subsection.23}{Organization}{section.3}% 9
+\BOOKMARK [1][-]{section.24}{Preliminaries}{}% 10
+\BOOKMARK [2][-]{subsection.25}{Notation}{section.24}% 11
+\BOOKMARK [2][-]{subsection.26}{Learning in general}{section.24}% 12
+\BOOKMARK [2][-]{subsection.27}{Classical learning models}{section.24}% 13
+\BOOKMARK [2][-]{subsection.28}{Quantum information theory}{section.24}% 14
+\BOOKMARK [2][-]{subsection.29}{Quantum learning models}{section.24}% 15
+\BOOKMARK [2][-]{subsection.30}{Pretty Good Measurement}{section.24}% 16
+\BOOKMARK [2][-]{subsection.33}{Known results and required claims}{section.24}% 17
+\BOOKMARK [1][-]{section.43}{Information-theoretic lower bounds}{}% 18
+\BOOKMARK [2][-]{subsection.44}{VC-independent part of lower bounds}{section.43}% 19
+\BOOKMARK [2][-]{subsection.47}{Information-theoretic lower bounds on sample complexity: classical case}{section.43}% 20
+\BOOKMARK [3][-]{subsubsection.48}{Optimal lower bound for classical PAC learning}{subsection.47}% 21
+\BOOKMARK [3][-]{subsubsection.53}{Optimal lower bound for classical agnostic learning}{subsection.47}% 22
+\BOOKMARK [2][-]{subsection.62}{Information-theoretic lower bounds on sample complexity: quantum case}{section.43}% 23
+\BOOKMARK [3][-]{subsubsection.63}{Near-optimal lower bound for quantum PAC learning}{subsection.62}% 24
+\BOOKMARK [3][-]{subsubsection.68}{Near-optimal lower bound for quantum agnostic learning}{subsection.62}% 25
+\BOOKMARK [1][-]{section.73}{A lower bound by analysis of state identification}{}% 26
+\BOOKMARK [2][-]{subsection.81}{Optimal lower bound for quantum PAC learning}{section.73}% 27
+\BOOKMARK [2][-]{subsection.86}{Optimal lower bound for quantum agnostic learning}{section.73}% 28
+\BOOKMARK [2][-]{subsection.90}{Additional results}{section.73}% 29
+\BOOKMARK [3][-]{subsubsection.91}{Quantum PAC sample complexity under random classification noise}{subsection.90}% 30
+\BOOKMARK [3][-]{subsubsection.93}{Distinguishing codeword states}{subsection.90}% 31
+\BOOKMARK [1][-]{section.96}{Conclusion}{}% 32

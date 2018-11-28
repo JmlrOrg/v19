@@ -1,0 +1,173 @@
+\begin{thebibliography}{25}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abramovich and Pensky(2015)]{abramovich2015feature}
+Felix Abramovich and Marianna Pensky.
+\newblock Feature selection and classification of high-dimensional normal
+  vectors with possibly large number of classes.
+\newblock \emph{arXiv preprint arXiv:1506.01567}, 2015.
+
+\bibitem[Achanta and Hastie(2015)]{achanta2015telugu}
+Rakesh Achanta and Trevor Hastie.
+\newblock Telugu {OCR} framework using deep learning.
+\newblock \emph{arXiv preprint arXiv:1509.05962}, 2015.
+
+\bibitem[Amos et~al.(2016)Amos, Ludwiczuk, and
+  Satyanarayanan]{amos2016openface}
+Brandon Amos, Bartosz Ludwiczuk, and Mahadev Satyanarayanan.
+\newblock Openface: A general-purpose face recognition library with mobile
+  applications.
+\newblock Technical report, CMU-CS-16-118, CMU School of Computer Science,
+  2016.
+
+\bibitem[Cao et~al.(1994)Cao, Cuevas, and Manteiga]{cao1994comparative}
+Ricardo Cao, Antonio Cuevas, and Wensceslao~Gonz{\'a}lez Manteiga.
+\newblock A comparative study of several smoothing methods in density
+  estimation.
+\newblock \emph{Computational Statistics \& Data Analysis}, 17\penalty0
+  (2):\penalty0 153--176, 1994.
+
+\bibitem[Crammer and Singer(2001)]{crammer2001algorithmic}
+Koby Crammer and Yoram Singer.
+\newblock On the algorithmic implementation of multiclass kernel-based vector
+  machines.
+\newblock \emph{Journal of Machine Learning Research}, 2\penalty0
+  (Dec):\penalty0 265--292, 2001.
+
+\bibitem[Davis et~al.(2011)Davis, Pensky, and Crampton]{davis2011bayesian}
+Justin Davis, Marianna Pensky, and William Crampton.
+\newblock Bayesian feature selection for classification with possibly large
+  number of classes.
+\newblock \emph{Journal of Statistical Planning and Inference}, 141\penalty0
+  (9):\penalty0 3256--3266, 2011.
+
+\bibitem[Deng et~al.(2010)Deng, Berg, Li, and Fei-Fei]{deng2010does}
+Jia Deng, Alexander~C Berg, Kai Li, and Li~Fei-Fei.
+\newblock What does classifying more than 10,000 image categories tell us?
+\newblock In \emph{European conference on computer vision}, pages 71--84.
+  Springer, 2010.
+
+\bibitem[Donahue et~al.(2014)Donahue, Jia, Vinyals, Hoffman, Zhang, Tzeng, and
+  Darrell]{donahue2014decaf}
+Jeff Donahue, Yangqing Jia, Oriol Vinyals, Judy Hoffman, Ning Zhang, Eric
+  Tzeng, and Trevor Darrell.
+\newblock Decaf: A deep convolutional activation feature for generic visual
+  recognition.
+\newblock In \emph{International conference on machine learning}, pages
+  647--655, 2014.
+
+\bibitem[Duygulu et~al.(2002)Duygulu, Barnard, de~Freitas, and
+  Forsyth]{duygulu2002object}
+Pinar Duygulu, Kobus Barnard, Joao~FG de~Freitas, and David~A Forsyth.
+\newblock Object recognition as machine translation: Learning a lexicon for a
+  fixed image vocabulary.
+\newblock In \emph{European conference on computer vision}, pages 97--112.
+  Springer, 2002.
+
+\bibitem[Griffin et~al.(2007)Griffin, Holub, and Perona]{griffin2007caltech}
+Gregory Griffin, Alex Holub, and Pietro Perona.
+\newblock Caltech-256 object category dataset.
+\newblock 2007.
+
+\bibitem[Gupta et~al.(2014)Gupta, Bengio, and Weston]{gupta2014training}
+Maya~R Gupta, Samy Bengio, and Jason Weston.
+\newblock Training highly multiclass classifiers.
+\newblock \emph{Journal of Machine Learning Research}, 15\penalty0
+  (1):\penalty0 1461--1492, 2014.
+
+\bibitem[Huang et~al.(2007)Huang, Ramesh, Berg, and Learned-Miller]{LFWTech}
+Gary~B. Huang, Manu Ramesh, Tamara Berg, and Erik Learned-Miller.
+\newblock Labeled faces in the wild: A database for studying face recognition
+  in unconstrained environments.
+\newblock Technical Report 07-49, University of Massachusetts, Amherst, October
+  2007.
+
+\bibitem[Kay et~al.(2008)Kay, Naselaris, Prenger, and Gallant]{Kay2008a}
+Kendrick~N Kay, Thomas Naselaris, Ryan~J Prenger, and Jack~L Gallant.
+\newblock {Identifying natural images from human brain activity.}
+\newblock \emph{Nature}, 452\penalty0 (March):\penalty0 352--355, 2008.
+
+\bibitem[Lee et~al.(2004)Lee, Lin, and Wahba]{lee2004multicategory}
+Yoonkyung Lee, Yi~Lin, and Grace Wahba.
+\newblock Multicategory support vector machines: Theory and application to the
+  classification of microarray data and satellite radiance data.
+\newblock \emph{Journal of the American Statistical Association}, 99\penalty0
+  (465):\penalty0 67--81, 2004.
+
+\bibitem[Oquab et~al.(2014)Oquab, Bottou, Laptev, and Sivic]{oquab2014learning}
+Maxime Oquab, Leon Bottou, Ivan Laptev, and Josef Sivic.
+\newblock Learning and transferring mid-level image representations using
+  convolutional neural networks.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1717--1724, 2014.
+
+\bibitem[Pan et~al.(2016)Pan, Wang, and Li]{pan2016ultrahigh}
+Rui Pan, Hansheng Wang, and Runze Li.
+\newblock Ultrahigh-dimensional multiclass linear discriminant analysis by
+  pairwise sure independence screening.
+\newblock \emph{Journal of the American Statistical Association}, 111\penalty0
+  (513):\penalty0 169--179, 2016.
+
+\bibitem[Pan and Yang(2010)]{pan2010survey}
+Sinno~Jialin Pan and Qiang Yang.
+\newblock A survey on transfer learning.
+\newblock \emph{IEEE Transactions on knowledge and data engineering},
+  22\penalty0 (10):\penalty0 1345--1359, 2010.
+
+\bibitem[Pereira et~al.(2018)Pereira, Lou, Pritchett, Ritter, Gershman,
+  Kanwisher, Botvinick, and Fedorenko]{pereira2018toward}
+Francisco Pereira, Bin Lou, Brianna Pritchett, Samuel Ritter, Samuel~J
+  Gershman, Nancy Kanwisher, Matthew Botvinick, and Evelina Fedorenko.
+\newblock Toward a universal decoder of linguistic meaning from brain
+  activation.
+\newblock \emph{Nature communications}, 9\penalty0 (1):\penalty0 963, 2018.
+
+\bibitem[Scott(1992)]{Scott1992}
+David~W. Scott.
+\newblock \emph{{Multivariate Density Estimation: Theory, Practice, and
+  Visualization}}.
+\newblock Wiley, 1992.
+
+\bibitem[Shannon(1948)]{Shannon1948}
+Claude~E. Shannon.
+\newblock {A Mathematical Theory of Communication}.
+\newblock \emph{Bell System Technical Journal}, 27\penalty0 (3):\penalty0
+  379--423, 1948.
+
+\bibitem[Sharif~Razavian et~al.(2014)Sharif~Razavian, Azizpour, Sullivan, and
+  Carlsson]{sharif2014cnn}
+Ali Sharif~Razavian, Hossein Azizpour, Josephine Sullivan, and Stefan Carlsson.
+\newblock {CNN} features off-the-shelf: an astounding baseline for recognition.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and
+  pattern recognition workshops}, pages 806--813, 2014.
+
+\bibitem[Stamatatos et~al.(2014)Stamatatos, Daelemans, Verhoeven, Juola,
+  L{\'o}pez-L{\'o}pez, Potthast, and Stein]{stamatatos2014overview}
+Efstathios Stamatatos, Walter Daelemans, Ben Verhoeven, Patrick Juola, Aurelio
+  L{\'o}pez-L{\'o}pez, Martin Potthast, and Benno Stein.
+\newblock Overview of the author identification task at {PAN} 2014.
+\newblock In \emph{CLEF (Working Notes)}, pages 877--897, 2014.
+
+\bibitem[Togneri and Pullella(2011)]{togneri2011overview}
+Roberto Togneri and Daniel Pullella.
+\newblock An overview of speaker identification: Accuracy and robustness
+  issues.
+\newblock \emph{IEEE Circuits and Systems Magazine}, 11\penalty0 (2):\penalty0
+  23--61, 2011.
+
+\bibitem[Weston and Watkins(1999)]{weston1999support}
+Jason Weston and Chris Watkins.
+\newblock Support vector machines for multi-class pattern recognition.
+\newblock In \emph{ESANN}, volume~99, pages 219--224, 1999.
+
+\bibitem[Wong and Ma(2010)]{wong2010optional}
+Wing~H Wong and Li~Ma.
+\newblock Optional {P{\'o}lya} tree and {Bayesian} inference.
+\newblock \emph{The Annals of Statistics}, 38\penalty0 (3):\penalty0
+  1433--1459, 2010.
+
+\end{thebibliography}

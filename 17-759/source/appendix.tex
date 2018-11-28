@@ -1,0 +1,298 @@
+\appendix
+
+\section{Poisson processes}\label{app:poisson process}
+In this paragraph we briefly summarise those properties of a Poisson process, which are relevant for this work.
+For a thorough and more complete description we recommend the concise book by \citet{kingman1993poisson}, particularly chapter 3 and 5.
+
+We consider a general space $\calZ$ and a countable subset $\Pi_\calZ = \set{\bz;\bz\in \mathcal{Z}}$.
+
+\paragraph{Definition of a Poisson process} A random countable subset $\Pi_\calZ \subset \calZ$ is a Poisson process on $\calZ$, if 
+\begin{enumerate}[i)]
+\item for any sequence of disjoint subsets $\set{\calZ_k\subset \calZ}_{k=1}^K$ the cardinality of the union 
+
+$N(\calZ_k)\doteq \vert \set{\Pi_\calZ\cap\calZ_k}\vert$ is independent of $N(\calZ_l)$ for all $l\neq k$.
+\item  $N(\calZ_k)$ is Poisson distributed with mean $\int_{\calZ_k}\Lambda(\bz)d\bz$, and mean measure $\Lambda(\bz):\X \rightarrow \R^{+}$.
+\end{enumerate}
+
+If the mean measure is constant ($\Lambda(\bz)=\Lambda$) the Poisson process is {\it homogeneous}, and {\it inhomogeneous} otherwise. 
+
+
+\paragraph{Campbell's Theorem} Let $\Pi_\calZ$ be a Poisson process on $\calZ$ with mean measure $\Lambda(\bz)$. Furthermore, we define a function $h(\bz):\calZ\rightarrow \R$ and the sum 
+\begin{equation}
+H(\Pi_\calZ) = \sum_{\bz\in\Pi_\calZ}h(\bz).
+\end{equation}
+If $\Lambda(\bz)<\infty$ for $\bz~\in\calZ$, then
+\begin{equation}\label{eq:characteristic functional}
+\EE{P_{\Lambda}}{e^{\xi H(\Pi_\calZ)}} = \exp\left\{\int_{\calZ} \left(e^{\xi h(\bz)} - 1\right)\Lambda(\bz)d\bz \right\},
+\end{equation}
+for any $\xi\in\mathbb{C}$, such that the integral converges. $P_{\Lambda}$ is the probability measure of a Poisson process with intensity $\Lambda(\bz)$. Mean and variance are obtained as 
+\begin{align}
+\EE{P_{\Lambda}}{H(\Pi_\calZ)} = & \int_{\calZ}h(\bz)\Lambda(\bz)d\bz, \\
+{\rm Var}_{P_{\Lambda}}\left[H(\Pi_\calZ)\right] = & \int_{\calZ}[h(\bz)]^2\Lambda(\bz)d\bz.
+\end{align}
+Note, that Equation~\eqref{eq:characteristic functional} defines the {\it characteristic functional} of a Poisson process.
+
+\paragraph{Marked Poisson process} Let $\Pi_\calZ=\set{\bz_n}_{n=1}^N$ a Poisson process on $\calZ$ with intensity  $\Lambda(\bz)$. Then $\Pi_{\hat{\calZ}}=\set{(\bz_n,\bs{m}_{n})}_{n=1}^N$ is again a Poisson process on the product space $\hat{\calZ} = \calZ\times\calM$, if $\bs{m}_n\sim p(\bs{m}_n\vert \bz_n)$ is drawn independently at each $\bz_n$. The $\bs{m}_n\in \calM$ are the so--called `marks', and the resulting Process is a {\it marked Poisson process} with intensity
+\begin{equation}
+\Lambda(\bz,\bs{m}) = \Lambda(\bz)p(\bs{m}\vert \bz).
+\end{equation}
+It is straightforward to extend Campbell's theorem and to show that the characteristic functional of such a process is 
+\begin{equation}\label{eq:marked characteristic functional}
+\EE{P_{\Lambda}}{e^{\xi H(\Pi_{\hat{\calZ}})}} = \exp\left\{\int_{\hat{\calZ}} \left(e^{\xi h(\bz,\bs{m})} - 1\right)\Lambda(\bz,\bs{m})\;d\bs{m}d\bz \right\},
+\end{equation}
+with $h(\bz,\bs{m}):\hat{\calZ}\rightarrow\R$ and $H(\Pi_{\hat{\calZ}})=\sum_{(\bz,\bs{m})\in \Pi_{\hat{\calZ}}}h(\bz,\bs{m})$.
+
+\section{The P\'olya-Gamma density}\label{app:polya gamma}
+The P\'olya-Gamma density~\citep{polson2013bayesian} has the useful property, that it allows to represent the inverse hyperbolic cosine by an infinite Gaussian mixture as
+\begin{equation}
+\cosh^{-b}(c/2) = \int_{0}^\infty \exp\left(-\frac{c^2}{2}\omega\right)\PG(\omega\vert b,0)d\omega,
+\end{equation}
+with parameter $b>0$. Furthermore, one can define a {\it tilted P\'olya-Gamma density} as 
+\begin{equation}
+\PG(\omega\vert b, c)= \frac{\exp\left(-\frac{c^2}{2}\omega\right)}{\cosh^{-b}(c/2)}\PG(\omega\vert b,0).
+\end{equation}
+From those two equations the moment generating function can be obtained from the basic definition, being
+\begin{equation}
+\int_{0}^\infty e^{\xi\omega}\PG(\omega\vert b,c)d\omega = \frac{\cosh^b(c/2)}{\cosh^b\left(\sqrt{\frac{c^2/2-\xi}{2}}\right)},
+\end{equation}
+and differentiating with respect to $\xi$ at $\xi=0$ yields the first moment
+\begin{equation}
+\EE{\PG}{\omega} = \frac{b}{2c}\tanh\left(c/2\right).
+\end{equation}
+
+\section{Variational inference for stochastic processes}\label{app:variational inference}
+\paragraph{Densities for random processes}
+A stochastic process $X$  with probability measure $P(X)$ often has no 
+density with respect to Lebesgue measure, since $X$ can be an infinite dimensional object
+such as a function for the case of a Gaussian process. However, one can define densities 
+with respect to another (reference) measure $R(X)$ written as
+\begin{equation}\label{eq:radon nikodym}
+\bs{p}(X) = \frac{dP}{dR}(X),
+\end{equation}
+if $R(X)$ is absolutely continuous with respect to $P(X)$ (if $R(X)=0$ then $P(X)=0$).  
+Using such a density, expectations are
+\begin{equation}
+\EE{P}{f(X)} = \int f(X)dP(X) = \int f(x)\bs{p}(x)dR(X) = \EE{R}{f(x)\bs{p}(x)}.
+\end{equation}
+The density in Equation~\eqref{eq:radon nikodym} is known as the {\it Radon--Nikod\'ym derivative} of $R$ with respect to $P$~\citep{konstantopoulos2011radon}. 
+\paragraph{Poisson process density} As specific example consider the prior density of the Poisson process in Equation~\eqref{eq:augmented likelihood}, which is defined with respect to a reference measure
+\begin{equation}
+\bs{p}_{\Lambda}(\Pi_\calZ) = \frac{dP_\Lambda}{dP_{\Lambda_0}}(\Pi_\calZ) = \exp\left(-\int_{\calZ}(\Lambda(\bz) - \Lambda_0(\bz))d\bz\right)\; \prod_{\bz_n \in \Pi_\calZ} \frac{\Lambda(\bz_n)}{\Lambda_0(\bz_n)},
+\end{equation}
+where $P_{\Lambda_0}$ is the probability measure with intensity $\Lambda_0$ and the expectation is defined as 
+\begin{equation}\label{eq:poisson expectation}
+\EE{P_\Lambda}{\sum_{\bz_n\in \Pi_\calZ} u(\bz_n)} = \EE{P_{\Lambda_0}}{\bs{p}_{\Lambda}(\Pi_\calZ)\; \sum_{\bz_n\in \Pi_\calZ} u(\bz_n)}.
+\end{equation}
+Calculating the expectation of $e^{\xi H(\Pi_\calZ)}$ with Equation~\eqref{eq:poisson expectation} we identify the characteristic function of a Poisson process (see Equation~\eqref{eq:marked characteristic functional}) with intensity $\Lambda(\bz)$.
+\paragraph{Kullback-Leibler divergence} 
+Using these densities we can express the Kullback-Leibler divergence between two probability measures. 
+
+ The KL--divergence between $\bs{q}(X)$ and $\bs{p}(X)$ is defined as
+\begin{equation}
+{\rm D}_{\rm KL}(Q\Vert P) = \EE{Q}{\log\frac{dQ}{dP}(X)} = \int \log\frac{\bs{q}(X)}{\bs{p}(X)}dQ(X),
+\end{equation}
+where 
+\begin{equation}
+\bs{q}(X) = \frac{dQ}{dR}(X),
+\end{equation}
+and where $R(X)$ also is absolutely continuous to $Q(X)$.
+The KL--divergence does not depend on the reference measure $R(X)$.
+
+\section{The posterior point process is a marked Poisson process}\label{app:optimal posterior poisson}
+Here we prove  that the optimal variational posterior point process in Equation~\eqref{eq:optimal marked process} again is a Poisson process using Campbell's theorem. As posterior process in Equation~\eqref{eq:optimal marked process} one gets
+\begin{equation}
+\bs{q}(\Pi_{\mathcal{Z}}) = \frac{dQ}{dP_\lambda}(\Pi_{\mathcal{Z}}) = \frac{\prod_{\bs{z}_m\in \Pi_{\mathcal{Z}}} e^{f(\bs{z}_m)}}{\EE{P_\lambda}{\prod_{\bs{z}_m\in \Pi_{\mathcal{Z}}} e^{f(\bs{z}_m)}}} = \frac{\prod_{\bs{z}_m\in \Pi_{\mathcal{Z}}} e^{f(\bs{z}_m)}}{\exp\left(\int_{\mathcal{Z} }(e^{f(\bs{z})} - 1) \lambda(\bs{z}) d\bs{z}\right)},
+\end{equation}
+where $\Pi_\mathcal{Z}$ is some random set of points on space $\mathcal{Z}$ and $P_\lambda$ is a random Poisson measure with intensity $\lambda(\bs{z})$. To proof, that the resulting point process density $\bs{q}(\Pi_{\mathcal{Z}})$ is again a Poisson process we calculate the characteristic functional for some arbitrary function $h:\mathcal{Z}\rightarrow \R$
+\begin{equation}
+\begin{split}
+\EE{Q}{\prod_{\bs{z}_m\in \Pi_\mathcal{Z}} e^{h(\bs{z}_m)}} = & \frac{\EE{P_\lambda}{\prod_{\bs{z}_m\in \Pi_{\mathcal{Z}}} e^{h(\bs{z}_m) + f(\bs{z}_m)}}}{\exp\left(\int_{\mathcal{Z} }(e^{f(\bs{z})} - 1) \lambda(\bs{z}) d\bs{z}\right)} \\
+= & \frac{\exp\left(\int_{\mathcal{Z} }(e^{h(\bs{z})+f(\bs{z})} - 1) \lambda(\bs{z}) d\bs{z}\right)}{\exp\left(\int_{\mathcal{Z} }(e^{f(\bs{z})} - 1) \lambda(\bs{z}) d\bs{z}\right)} \\
+= &\exp\left(\int_{\mathcal{Z} }(e^{h(\bs{z})} - 1) e^{f(\bs{z})}\lambda(\bs{z}) d\bs{z}\right)\\
+= &\exp\left(\int_{\mathcal{Z} }(e^{h(\bs{z})} - 1) \Lambda_Q(\bs{z}) d\bs{z}\right).
+\end{split}
+\end{equation}
+We identify the last row as the generating functional of a Poisson process~\eqref{eq:marked characteristic functional} with $\xi=1$. The intensity of the process is $\Lambda_Q(\bs{z})=e^{f(\bs{z})}\lambda(\bs{z})$. With the fact that a Poisson process is uniquely characterised by its generating function~\citep[chap. 3]{kingman1993poisson}, the proof is complete.
+% this shows that the optimal variational posterior $q_1^*(\Pi_{\hat{\calS}})$ is a marked Poisson process.
+% \begin{equation}
+% \begin{split}
+% \EE{Q_1^*}{e^{\hat{H}}} = & \frac{\EE{\hat{P}_{\lambda_{\scriptstyle 1}}}{\prod_{m=1}^M e^{\EE{Q_2}{f(\omega_m,-g_m)} + h(\bx_m,\omega_m)}}}{\exp\left\{\int_{\mathcal{S}\times \Omega} \left(e^{\EE{Q_2}{f(\omega,-g(\bx))}}-1\right)
+% \lambda_1 \PG(\omega_n\vert 1, 0) d\bx d\omega\right\}} \\
+% = & \frac{\exp\left\{\int_{\calS \times \Omega} \left(e^{\EE{Q_2}{f(\omega_m,-g_m)} + h(\bx_m,\omega_m)} - 1\right)\lambda_1 \PG(\omega_n\vert 1, 0) d\bx d\omega\right\}}{\exp\left\{\int_{\mathcal{S}\times \Omega} \left(e^{\EE{Q_2}{f(\omega,-g(\bx))}}-1\right)
+% \Lambda_2(\bx,\omega) d\bx d\omega\right\}}\\
+% = & \exp\left\{\int_{\calS \times \Omega} \left(e^{h(\bx_m,\omega_m)} - 1\right)e^{\EE{Q_2}{f(\omega_m,-g_m)}}\lambda_1 \PG(\omega_n\vert 1, 0) d\bx d\omega\right\}\\
+% = & \exp\left\{\int_{\calS \times \Omega} \left(e^{h(\bx_m,\omega_m)} - 1\right)\Lambda_1(\bx,\omega) d\bx d\omega\right\},
+% \end{split}
+% \end{equation}
+% where $P_{\lambda_{\scriptstyle 1}}$ is the probability measure of a Poisson process with intensity $\lambda_1\PG(\omega\vert 1,0)$ as defined for Equation~\eqref{eq:optimal marked process}. $\Lambda_1(\bx,\omega)$ is defined by Equation~\eqref{eq:posterior mean measure}. The last line has the form of 
+% the generating functional Equation~\eqref{eq:marked characteristic functional} with $\xi=1$ of a Poisson
+% process. 
+
+% \paragraph{Variational free form optimisation} Let's assume $\mathcal{D}$ is some observed data and $X_1$ and $X_2$ are two latent (potentially infinite dimensional) random processes. One wants to infer the posterior density
+% \begin{equation}
+% p(X_1,X_2\vert \mathcal{D}) = \frac{dP}{d(R_1*R_2)}(X_1,X_2\vert \mathcal{D}),
+% \end{equation}
+% where $R_1$ is an independent measure for the process $X_1$, and $R_2$ for $X_2$ and $R_1*R_2$ is the product measure. To approximate this we assume a posterior density of the form
+% \begin{equation}
+% p(X_1,X_2)  \approx q(X_1,X_2) = q(X_1)q(X_2) = \frac{dQ_1}{dR_1}(X_1)\frac{dQ_2}{dR_2}(X_2).
+% \end{equation}
+% Following standard results \citep{bishop2006pattern} one finds that minimizing the Kullback--Leibler divergence between the approximate and the true posterior is equivalent to maximize the lower bound on the marginal log likelihood
+% \begin{equation}
+% \LB(q) = \EE{Q}{\log \frac{p(\mathcal{D},X_1,X_2)}{q_1(X_1)q_2(X_2)}} \leq \log p(\mathcal{D}).
+% \end{equation}
+% Then, taking the functional derivative with respect to $q_1(X_1)$ and setting it to $0$ obtains the result
+% \begin{equation}
+% \begin{split}
+% \frac{\partial\LB(q)}{\partial q_1(X_1)} = & \frac{\partial}{\partial q_1(X_1)} \int \EE{Q_2}{\log p(\mathcal{D},X_1,X_2)}dQ_1(X_1) \\
+% & - \frac{\partial}{\partial q_1(X_1)} \log q_1(X_1) dQ_1(X_1) \\
+% = & \frac{\partial}{\partial q_1(X_1)} \int \EE{Q_2}{\log p(\mathcal{D},X_1,X_2)}q_1(X_1)dR_1(X_1) \\
+% & - \frac{\partial}{\partial q_1(X_1)} \{\log q_1(X_1)\} q_1(X_1) dR_1(X_1) \\
+% = & \EE{Q_2}{\log p(\mathcal{D},X_1,X_2)} - \log q(X_1) + {\rm const.} = 0 \Leftrightarrow \\
+% \log q(X_1) = & \EE{Q_2}{\log p(\mathcal{D},X_1,X_2)} + {\rm const.}
+% \end{split}
+% \end{equation}
+% Note, that the only difference to the mean field variational optimization with density over finite sets of random variables is that the expectation has to be taken with respect to the probability measure $Q_2$ and the resulting density is defined by the ratio between two measures. The result for $q_2$ can be found by symmetry. 
+
+\section{Sparse Gaussian process approximation}\label{app:sparse GP}
+To solve the inference problem for the function $g$, we define a sparse GP, using the same 
+prior $P$, but by an effective likelihood which depends on a finite set of function values $\bg_s = (g_1,\ldots,g_L)^\top$ 
+only. Hence, we get 
+\begin{equation}\label{eq:app sparse gp}
+\frac{dQ_2^s}{dP}(g) = \bs{q}^s_2(\bg_s) %= \frac{e^{U^s(\bg_s)}}{\EE{P}{e^{U^s(\bg_s)}}},
+\end{equation}
+and the sparse posterior measure is
+\begin{equation}\label{eq:app posterior measure}
+dQ^s_2(g) = \bs{q}^s_2(\bg_s)dP(g)= dP(g\vert\bg_s)\times \bs{q}^s_2(\bg_s)dP(\bg_s),
+\end{equation}
+where the last equality holds true, since Equation~\eqref{eq:app sparse gp} only depends on $\bg_s$.
+The KL--divergence between the full posterior density
+\begin{equation}
+\bs{q}_2(g) = \frac{dQ_2}{dP}(g) = \frac{e^{U(g)}}{\EE{P}{e^{U(g)}}}
+\end{equation}
+and the sparse one $\bs{q}_2^s(\bg_s)$ is given by
+\begin{equation}\label{eq:app sparse kl}
+\begin{split}
+{\rm D}_{\rm KL}(Q_2^s\Vert Q_2) & = \EE{Q_2^s}{\log \frac{\bs{q}_2^s(\bg_s)}{\bs{q}_2(g)}} = \EE{P(\bg_s)}{\bs{q}_2^s(\bg_s) \EE{P(g\vert\bg_s)}{\log \frac{\bs{q}_2^s(\bg_s)}{e^{U(g)}}}} + {\rm const.} \\
+& = \EE{P(\bg_s)}{\bs{q}_2^s(\bg_s) \log \frac{\bs{q}_2^s(\bg_s)}{e^{\EE{P(g\vert\bg_s)}{U(g)}}}} + {\rm const.}
+\end{split}
+\end{equation}
+From this we derive directly the posterior density for the sparse GP
+\begin{equation}
+\bs{q}_2^s(g) \propto e^{U^s(\bg_s)},
+\end{equation}
+with the sparse log--likelihood
+\begin{equation}\label{eq:U function app}
+U^s(\bg_s) = \EE{P(g\vert \bg_s)}{U(g)} = \int U(g)dP(g\vert\bg_s).
+\end{equation}
+
+% \section{Equivalence of MAP estimate and functions with reproducing kernels}\label{app:RKHS}
+% In this section we show that finding MAP estimate in Section~\ref{subsec:laplace} is equivalent to finding the solution for a formulation in reproducing kernel Hilbert space (RKHS). For a non empty domain $\calS$ and a positive definite kernel $k:\; \calS \times \calS \rightarrow \R^+$, there exists a RKHS $\calH_k$, such that $g(\bx)=\left\langle g(\cdot),k(\bx,\cdot)\right\rangle_{\calH_k}$ and $\left\langle \cdot,\cdot\right\rangle_{\calH_k}$ is the inner product in $\calH_k$. In this formulation the problem of finding the optimal function $g$ writes as
+% \begin{equation}\label{eq:RKHS problem}
+% g^* = {\rm argmin}_{g\in \calH_k} \left\lbrace - \sum_{n=1}^N \ln \sigma(g_n) + \int_\calS \lambda \sigma(g(\bx))d\bx + \frac{1}{2}\Vert g \Vert_{\calH_k}^2 \right\rbrace,
+% \end{equation}
+% where the last term is L2-norm in the RKHS. To make this a tractable problem we assume that the function $g$ comes from a restricted class given by
+% \begin{equation}
+% g(\bx) = \sum_{l=1}^L \alpha_l k(\bx_l,\bx) = \bs{\alpha}^\top \bs{k}_s(\bx),
+% \end{equation}
+% where $\alpha_l \in \R$ and $\bs{\alpha} = (\alpha_1,\ldots,\alpha_L)^\top$. Substituting this into Equation~\eqref{eq:RKHS problem} yields
+% \begin{equation}
+% \bs{\alpha}^* = {\rm argmin}_{\bs{\alpha}\in \R^L} \left\lbrace - \sum_{n=1}^N \ln \sigma(\bs{\alpha}^\top \bs{k}_s(\bx_n)) + \int_\calS \lambda \sigma(\bs{\alpha}^\top \bs{k}_s(\bx))d\bx + \frac{1}{2}\bs{\alpha}^\top K_s \bs{\alpha} \right\rbrace.
+% \end{equation}
+% By identifying $\bs{\alpha} = K_s^{-1}\bg_s$ we get
+% \begin{equation}
+% \begin{split}
+% \bg_s^* = & {\rm argmin}_{\bg_s\in \R^L} \left\lbrace - \sum_{n=1}^N \ln \sigma(\bs{k}_s(\bx_n)^\top K_s^{-1}\bg_s) + \int_\calS \lambda \sigma(\bs{k}_s(\bx) K_s^{-1}\bg_s )d\bx + \frac{1}{2}\bg_s^\top K_s^{-1} \bg_s \right\rbrace \\
+% = & {\rm argmax}_{\bg_s\in \R^L} \left\lbrace \ln p^s(\X\vert \Lambda^s(\bx)) + \ln p(\bg_s) \right\rbrace.
+% \end{split}
+% \end{equation}
+% The last line defines the MAP problem of Section~\ref{subsec:laplace} for $\bg_s$.
+
+\section{Lower bound \& hyperparameter optimization}\label{app:lower bound}
+The lower bound in Equation~\eqref{eq:lower bound} is given by
+\begin{equation}
+\begin{split}
+\mathcal{L}(\bs{q}) = & \EE{Q}{\log \frac{L(\dataset, \bomega_N, \Pi_{\hat{\X}}\vert g, \lambda )}{\bs{q}_1(\bomega_N)\bs{q}_1(\Pi_{\hat{\X}})\bs{q}_2^s(g)\bs{q}_2(\lambda)}} \\
+= & \int_{\hat{\X}}  \left(\EE{Q}{f(\omega,-g(\bx))} - \EE{Q}{\log \Lambda_{1}} + \EE{Q}{\log \lambda} + 1\right) \Lambda_{1}(\bx,\omega)d\bx d\omega \\
+& - \int_{\hat{\X}}\Lambda_{1}(\bx,\omega)d\bx d\omega \\
+& + \sum_{n=1}^N\left(\EE{Q}{f(\omega_n,g_n)} + \EE{Q}{\log\lambda} - \cosh\left(\frac{c_1^{(n)}}{2}\right) + \frac{\left(c_1^{(n)}\right)^2}{2}\EE{Q}{\omega_n} \right)
+\\
+& -\frac{1}{2}trace(K_s^{-1}(\Sigma_2^s + \boldsymbol{\mu}_2^s(\boldsymbol{\mu}_2^s)^\top))- \frac{1}{2}\log \det(2\pi K_s) + \frac{1}{2}\log\det(2\pi e \Sigma_2^s) \\
+& + \alpha_0\log \beta_0 - \log(\Gamma(\alpha_0)) + (\alpha_0 - 1)\EE{Q}{\log \lambda} - \beta_0 \EE{Q}{\lambda} \\
+& + \alpha_{2} - \log \beta_{2} + \log \Gamma(\alpha_{2}) + (1-\alpha_{2})\psi(\alpha_{2}).
+\end{split}
+\end{equation}
+To optimise the covariance kernel parameters $\boldsymbol{\theta}$ we differentiate the lower bound with respect to these parameters and perform then gradient ascent. The gradient for one specific parameter $\theta$ is given by
+\begin{equation}
+\begin{split}
+\frac{\partial \mathcal{L}(\bs{q})}{\partial \theta} = & \int_{\hat{\X}}  \frac{\partial \EE{Q}{f(\omega,-g(\bx))}}{\partial \theta}\Lambda_{1}(\bx,\omega)d\bx d\omega + \sum_{n=1}^N\frac{\partial \EE{Q}{ f(\omega_n,g(\bx_n))}}{\partial \theta}
+\\
+& -\frac{1}{2}\frac{trace(K_s^{-1}(\Sigma^s_2 + \boldsymbol{\mu}^s_2(\boldsymbol{\mu}_2^s)^\top))}{\partial \theta}- \frac{1}{2}\frac{\partial \log \det(2\pi K_s)}{\partial \theta} \\
+=  & \int_{\hat{\X}}  \frac{\partial \EE{Q}{f(\omega,-g(\bx))}}{\partial \theta}\Lambda_{1}(\bx,\omega)d\bx d\omega + \sum_{n=1}^N\frac{\partial \EE{Q}{f(\omega_n,g(\bx_n))}}{\partial \theta} \\
+& +\frac{1}{2}trace\left(K_s^{-1}\frac{\partial K_s}{\partial \theta} K_s^{-1}(\Sigma^s_2 + \boldsymbol{\mu}^s_2(\boldsymbol{\mu}^s_2)^\top)\right)\\
+& - \frac{1}{2}trace\left(K_s^{-1}\frac{\partial K_s}{\partial \theta}\right).
+\end{split}
+\end{equation}
+The derivatives of function $\EE{Q}{f(\omega,g(\bx))}$ are
+\begin{equation}
+\begin{split}
+\frac{\partial \EE{Q}{f(\omega,g(\bx))}}{\partial \theta} = & \frac{1}{2}\left(\frac{\partial \EE{Q}{g(\bx)}}{\partial \theta} - \frac{\partial \EE{Q}{g(\bx)^2}}{\partial \theta}\EE{Q}{\omega}\right),
+\end{split}
+\end{equation}
+with
+\begin{equation}
+\begin{split}
+\frac{\partial \EE{Q}{ g(\bx)}}{\partial \theta} = & \frac{\partial \boldsymbol\kappa(\bx)}{\partial \theta}\boldsymbol{\mu}_2^s, \\
+\frac{\partial \EE{Q}{g(\bx)^2}}{\partial \theta} = & \frac{\partial \tilde{k}(\bx,\bx)}{\partial \theta} + \frac{\partial \boldsymbol{\kappa}(\bx)}{\partial \theta}^\top \left(\Sigma^s_2 + \boldsymbol{\mu}^s_2(\boldsymbol{\mu}^s_2)^\top\right) \boldsymbol{\kappa}(\bx) + \boldsymbol{\kappa}(\bx)^\top \left(\Sigma_2^s + \boldsymbol{\mu}_2^s(\boldsymbol{\mu}_2^s)^\top\right) \frac{\partial \boldsymbol{\kappa}(\bx)}{\partial \theta},
+\end{split}
+\end{equation}
+where $\boldsymbol{\kappa}(\bx)=\boldsymbol{k}_s(\bx)^\top K_s^{-1}$ and $\tilde{k}(\bx,\bx)=k(\bx,\bx) - \bs{k}_s(\bx)K_s^{-1}\bs{k}_s(\bx)^\top$. The remaining two terms are:
+\begin{equation}
+\begin{split}
+\frac{\partial \tilde{k}(\bx,\bx)}{\partial \theta} = & \frac{\partial k(\bx,\bx)}{\partial \theta} - \frac{\partial \boldsymbol{\kappa}(\bx)}{\partial \theta}\boldsymbol{k}_s(\bx) - \boldsymbol{\kappa}(\bx)\frac{\partial \boldsymbol{k}_s(\bx)}{\partial \theta}, \\
+\frac{\partial \boldsymbol{\kappa}(\bx)}{\partial \theta} = & \frac{\partial \boldsymbol{k}_s(\bx)^\top}{\partial \theta}K_s^{-1} - \boldsymbol{k}_s(\bx)K_s^{-1}\frac{\partial K_s}{\partial \theta}K_s^{-1}.
+\end{split}
+\end{equation}
+After each variational step the hyperparameters are updated by
+\begin{equation}
+\boldsymbol{\theta}_{\rm new} = \boldsymbol{\theta}_{\rm old} + \varepsilon\frac{\partial \mathcal{L}(q)}{\partial \boldsymbol{\theta}},
+\end{equation}
+where $\varepsilon$ is the step size.
+
+% \section{Relation to density estimation}\label{app:density estimation}
+% In this section we will show how to render the likelihood of a nonparametric Bayesian density estimation problem defined in~\citep{murray2009gaussian} into the form of the Cox process likelihood of Equation~\eqref{eq:sigmoid poisson likelihood}. 
+% This indicates, that the Poisson/P\'olya--Gamma augmentation 
+% and the variational approximate inference method can also be applied to this case.
+% Following \citet{murray2009gaussian} we assume a set of observations $\X=\set{\bx_n}_{n=1}^N$ which are 
+% drawn independently at random from a density 
+% \begin{equation}
+% \nonumber
+% \rho(\bx) = \frac{\sigma(g(\bx))}{\int_\mathcal{S}\sigma(g(\bx))d\bx}
+% \end{equation}
+% defined over the compact subset $\mathcal{S}$. Here $g$ is a latent function. 
+% Hence, given the observations, the likelihood of the function $g$ is 
+% given by  
+% \begin{equation}\label{eq:likelihood density estimation}
+% p(\X\vert g) = \left(\int_\mathcal{S}\sigma(g(\bx))d\bx\right)^{-N}\prod_{n=1}^N\sigma(g(\bx_n)) .
+% \end{equation}
+% This shows a close resemblance to the likelihood of the Sigmoid Gaussian Cox process, except for the 
+% fact, that the latter contains the integral in an exponent. A transformation from one model into the other is achieved
+% by the representation
+% \begin{equation}
+% \left(\int_\mathcal{S}\sigma(g(\bx))d\bx\right)^{-N} = \Gamma(N)\int_0^\infty \lambda^{N-1} \exp\left(-\lambda \int_\mathcal{S}\sigma(g(\bx))d\bx\right)d\lambda,
+% \end{equation}
+% which can be easily proved by substitution. Treating $\lambda$ as an additional random variable, we obtain
+% the augmented likelihood
+% \begin{equation}\label{eq:augmented density estimation}
+% p(\X,\lambda\vert g) = \frac{\Gamma(N)}{\lambda}\exp\left(-\int_\mathcal{S}\lambda\sigma(g(\bx))d\bx\right)\prod_{n=1}^N \lambda \sigma(g(\bx_n)).
+% \end{equation}
+% With a GP prior on $g$, Equation~\eqref{eq:augmented density estimation} is actually equivalent to the augmented Cox process model (Equation~\eqref{eq:posterior}) except for the prior over $\lambda$ being already fixed to the improper one $p(\lambda)=\lambda^{-1}$. Hence, one could apply the variational inference algorithm described for the Cox process model to this problem with the only differences in the posterior of the augmented variable $\lambda$.
+
+% \commentc{Maybe up to this point enough and define the rest later} Furthermore, we define a {\it tilted} P\'olya--Gamma density as
+% \begin{equation}\label{eq:tilted PG}
+% \mathrm{PG}(\omega\vert b,c)  \propto \exp\left(-\frac{c^2}{2}\omega\right) \mathrm{PG}(\omega\vert 1,0)
+% \end{equation}
+% which allows straightforward calculation for the first moment of this density
+% \begin{align}\label{eq:PG mean}
+% \EE{\omega}_{\mathrm{PG}(\omega\vert b,c)} = \frac{b}{2c}\tanh\left(\frac{c}{2}\right).
+% \end{align}
+% For more details see appendix APP. \commentc{Then start here again.}

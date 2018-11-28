@@ -1,0 +1,215 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nyt/global/}
+  \entry{achanta2015telugu}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AR}{%
+         family={Achanta},
+         family_i={A\bibinitperiod},
+         given={Rakesh},
+         given_i={R\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hastie},
+         family_i={H\bibinitperiod},
+         given={Trevor},
+         given_i={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ARHT1}
+    \strng{fullhash}{ARHT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Telugu OCR Framework using Deep Learning}
+    \field{journaltitle}{arXiv preprint arXiv:1509.05962}
+    \field{year}{2015}
+  \endentry
+
+  \entry{amos2016openface}{report}{}
+    \name{author}{3}{}{%
+      {{hash=AB}{%
+         family={Amos},
+         family_i={A\bibinitperiod},
+         given={Brandon},
+         given_i={B\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Ludwiczuk},
+         family_i={L\bibinitperiod},
+         given={Bartosz},
+         given_i={B\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Satyanarayanan},
+         family_i={S\bibinitperiod},
+         given={Mahadev},
+         given_i={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ABLBSM1}
+    \strng{fullhash}{ABLBSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{OpenFace: A general-purpose face recognition library with
+  mobile applications}
+    \list{institution}{1}{%
+      {CMU-CS-16-118, CMU School of Computer Science}%
+    }
+    \field{type}{techreport}
+    \field{year}{2016}
+  \endentry
+
+  \entry{LFWTech}{report}{}
+    \name{author}{4}{}{%
+      {{hash=HGB}{%
+         family={Huang},
+         family_i={H\bibinitperiod},
+         given={Gary\bibnamedelima B.},
+         given_i={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Ramesh},
+         family_i={R\bibinitperiod},
+         given={Manu},
+         given_i={M\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Berg},
+         family_i={B\bibinitperiod},
+         given={Tamara},
+         given_i={T\bibinitperiod},
+      }}%
+      {{hash=LME}{%
+         family={Learned-Miller},
+         family_i={L\bibinitperiod-M\bibinitperiod},
+         given={Erik},
+         given_i={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HGB+1}
+    \strng{fullhash}{HGBRMBTLME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{07-49}
+    \field{title}{Labeled Faces in the Wild: A Database for Studying Face
+  Recognition in Unconstrained Environments}
+    \list{institution}{1}{%
+      {University of Massachusetts, Amherst}%
+    }
+    \field{type}{techreport}
+    \field{year}{2007}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Kay2008a}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KKN}{%
+         family={Kay},
+         family_i={K\bibinitperiod},
+         given={Kendrick\bibnamedelima N},
+         given_i={K\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Naselaris},
+         family_i={N\bibinitperiod},
+         given={Thomas},
+         given_i={T\bibinitperiod},
+      }}%
+      {{hash=PRJ}{%
+         family={Prenger},
+         family_i={P\bibinitperiod},
+         given={Ryan\bibnamedelima J},
+         given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GJL}{%
+         family={Gallant},
+         family_i={G\bibinitperiod},
+         given={Jack\bibnamedelima L},
+         given_i={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KKN+1}
+    \strng{fullhash}{KKNNTPRJGJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1038/nature06713
+    \endverb
+    \field{isbn}{0028-0836}
+    \field{issn}{0028-0836}
+    \field{number}{March}
+    \field{pages}{352\bibrangedash 355}
+    \field{title}{{Identifying natural images from human brain activity.}}
+    \field{volume}{452}
+    \field{journaltitle}{Nature}
+    \field{year}{2008}
+  \endentry
+
+  \entry{lecun2015deep}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LY}{%
+         family={LeCun},
+         family_i={L\bibinitperiod},
+         given={Yann},
+         given_i={Y\bibinitperiod},
+      }}%
+      {{hash=BY}{%
+         family={Bengio},
+         family_i={B\bibinitperiod},
+         given={Yoshua},
+         given_i={Y\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hinton},
+         family_i={H\bibinitperiod},
+         given={Geoffrey},
+         given_i={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Research}%
+    }
+    \strng{namehash}{LYBYHG1}
+    \strng{fullhash}{LYBYHG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{7553}
+    \field{pages}{436\bibrangedash 444}
+    \field{title}{Deep learning}
+    \field{volume}{521}
+    \field{journaltitle}{Nature}
+    \field{year}{2015}
+  \endentry
+\endsortlist
+\endinput

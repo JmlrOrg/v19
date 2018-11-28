@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.3}{Density estimation via pairwise comparisons}{section.2}% 2
+\BOOKMARK [2][-]{subsection.6}{Organization}{section.2}% 3
+\BOOKMARK [1][-]{section.7}{Notations and preliminaries}{}% 4
+\BOOKMARK [1][-]{section.14}{Previous and new results}{}% 5
+\BOOKMARK [1][-]{section.16}{Simple results}{}% 6
+\BOOKMARK [2][-]{subsection.17}{Lower bounds}{section.16}% 7
+\BOOKMARK [2][-]{subsection.22}{Two elementary algorithms}{section.16}% 8
+\BOOKMARK [3][-]{subsubsection.23}{Complete tournament \(round-robin\)}{subsection.22}% 9
+\BOOKMARK [3][-]{subsubsection.28}{Sequential selection}{subsection.22}% 10
+\BOOKMARK [1][-]{section.36}{Algorithms}{}% 11
+\BOOKMARK [2][-]{subsection.37}{Modified knock-out}{section.36}% 12
+\BOOKMARK [2][-]{subsection.45}{Quick-select}{section.36}% 13
+\BOOKMARK [2][-]{subsection.57}{Knock-out and quick-select combination}{section.36}% 14
+\BOOKMARK [1][-]{section.64}{Application to density estimation}{}% 15
+\BOOKMARK [1][-]{section.71}{Noisy sorting}{}% 16
+\BOOKMARK [2][-]{subsection.72}{Problem statement}{section.71}% 17
+\BOOKMARK [2][-]{subsection.73}{Complete tournament}{section.71}% 18
+\BOOKMARK [2][-]{subsection.78}{Quick-sort}{section.71}% 19
+\BOOKMARK [1][-]{section.83}{For all t<3, ko-mod cannot output a t-approximation}{}% 20
+\BOOKMARK [1][-]{section.88}{Proof of Lemma 9}{}% 21

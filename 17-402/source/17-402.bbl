@@ -1,0 +1,183 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bartlett and Mendelson(2003)]{Bartlett03}
+Peter~L Bartlett and Shahar Mendelson.
+\newblock Rademacher and gaussian complexities: Risk bounds and structural
+  results.
+\newblock \emph{The Journal of Machine Learning Research}, 3:\penalty0
+  463--482, 2003.
+
+\bibitem[Bellman(1970)]{PST}
+R.~E. Bellman.
+\newblock \emph{Introduction to Matrix Analysis 2nd ed.}
+\newblock New York: McGraw-Hilla, 1970.
+
+\bibitem[Bousquet et~al.(2004)Bousquet, Boucheron, and Lugosi]{Bousquet04}
+Olivier Bousquet, St{\'e}phane Boucheron, and G{\'a}bor Lugosi.
+\newblock Introduction to statistical learning theory.
+\newblock In \emph{Advanced Lectures on Machine Learning}, pages 169--207.
+  Springer, 2004.
+
+\bibitem[Candes and Plan(2011)]{Candes11}
+Emmanuel~J Candes and Yaniv Plan.
+\newblock A probabilistic and ripless theory of compressed sensing.
+\newblock \emph{Information Theory, IEEE Transactions on}, 57\penalty0
+  (11):\penalty0 7235--7254, 2011.
+
+\bibitem[Dalal and Triggs(2005)]{HOG}
+Navneet Dalal and Bill Triggs.
+\newblock Histograms of oriented gradients for human detection.
+\newblock In \emph{CVPR}, pages 886--893, 2005.
+
+\bibitem[Daniely et~al.(2014)Daniely, Linial, and
+  Shalev{-}Shwartz]{DanielyLS14}
+Amit Daniely, Nati Linial, and Shai Shalev{-}Shwartz.
+\newblock From average case complexity to improper learning complexity.
+\newblock In \emph{Symposium on Theory of Computing, {STOC} 2014, New York, NY,
+  USA, May 31 - June 03, 2014}, pages 441--448, 2014.
+
+\bibitem[Deng et~al.(2009)Deng, Dong, Socher, Li, Li, and
+  Fei-Fei]{imagenet_cvpr09}
+J.~Deng, W.~Dong, R.~Socher, L.-J. Li, K.~Li, and L.~Fei-Fei.
+\newblock {ImageNet: A Large-Scale Hierarchical Image Database}.
+\newblock In \emph{CVPR09}, 2009.
+
+\bibitem[Everingham et~al.(2010)Everingham, Van~Gool, Williams, Winn, and
+  Zisserman]{Everingham10}
+M.~Everingham, L.~Van~Gool, C.~K.~I. Williams, J.~Winn, and A.~Zisserman.
+\newblock The pascal visual object classes (voc) challenge.
+\newblock \emph{International Journal of Computer Vision}, 88\penalty0
+  (2):\penalty0 303--338, 2010.
+
+\bibitem[Girshick et~al.(2014)Girshick, Donahue, Darrell, and Malik]{ROSS}
+Ross~B. Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik.
+\newblock Rich feature hierarchies for accurate object detection and semantic
+  segmentation.
+\newblock In \emph{2014 {IEEE} Conference on Computer Vision and Pattern
+  Recognition,{CVPR} 2014, Columbus, OH, USA, June 23-28, 2014}, pages
+  580--587, 2014.
+
+\bibitem[Hariharan et~al.(2012)Hariharan, Malik, and Ramanan]{Deva}
+Bharath Hariharan, Jitendra Malik, and Deva Ramanan.
+\newblock Discriminative decorrelation for clustering and classification.
+\newblock In \emph{Computer Vision - {ECCV} 2012 - 12th European Conference on
+  Computer Vision, Florence, Italy, October 7-13, 2012, Proceedings, Part
+  {IV}}, pages 459--472, 2012.
+
+\bibitem[Hastie et~al.(2001)Hastie, Tibshirani, and Friedman]{LDA}
+Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
+\newblock \emph{The Elements of Statistical Learning}.
+\newblock Springer New York Inc., 2001.
+
+\bibitem[Honorio and Jaakkola(2014)]{Honorio14}
+Jean Honorio and Tommi Jaakkola.
+\newblock $\{$Tight Bounds for the Expected Risk of Linear Classifiers and
+  PAC-Bayes Finite-Sample Guarantees$\}$.
+\newblock In \emph{Proceedings of the Seventeenth International Conference on
+  Artificial Intelligence and Statistics}, pages 384--392, 2014.
+
+\bibitem[Kakade et~al.(2008)Kakade, Sridharan, and Tewari]{Kakade08}
+Sham~M Kakade, Karthik Sridharan, and Ambuj Tewari.
+\newblock On the complexity of linear prediction: Risk bounds, margin bounds,
+  and regularization.
+\newblock In \emph{Advances in neural information processing systems}, pages
+  793--800, 2008.
+
+\bibitem[Klivans and Sherstov(2009)]{Klivans09}
+Adam~R. Klivans and Alexander~A. Sherstov.
+\newblock Cryptographic hardness for learning intersections of halfspaces.
+\newblock \emph{Journal of Computer and System Sciences}, 75\penalty0
+  (1):\penalty0 2 -- 12, 2009.
+
+\bibitem[Kontorovich(2018)]{Kontorovich18}
+Aryeh Kontorovich.
+\newblock Rademacher complexity of k-fold maxima of hyperplanes.
+\newblock 2018.
+\newblock URL
+  \url{https://www.cs.bgu.ac.il/~karyeh/rademacher-max-hyperplane.pdf}.
+
+\bibitem[Kuzborskij et~al.(2013)Kuzborskij, Orabona, and Caputo]{fromNtoN+1}
+Ilja Kuzborskij, Francesco Orabona, and Barbara Caputo.
+\newblock From {N} to {N+1:} multiclass transfer incremental learning.
+\newblock In \emph{2013 {IEEE} Conference on Computer Vision and Pattern
+  Recognition, Portland, OR, USA, June 23-28, 2013}, pages 3358--3365, 2013.
+
+\bibitem[Lanckriet et~al.(2003)Lanckriet, Ghaoui, Bhattacharyya, and
+  Jordan]{Lanckriet2003}
+Gert~R.G. Lanckriet, Laurent~El Ghaoui, Chiranjib Bhattacharyya, and Michael~I.
+  Jordan.
+\newblock A robust minimax approach to classification.
+\newblock \emph{J. Mach. Learn. Res.}, 3:\penalty0 555--582, 2003.
+
+\bibitem[Ledoux and Talagrand(1991)]{ledoux1991probability}
+M.~Ledoux and M.~Talagrand.
+\newblock \emph{Probability in Banach Spaces: Isoperimetry and Processes}.
+\newblock A Series of Modern Surveys in Mathematics Series. Springer, 1991.
+\newblock ISBN 9783540520139.
+
+\bibitem[Malisiewicz et~al.(2011)Malisiewicz, Gupta, and Efros]{eSVM}
+Tomasz Malisiewicz, Abhinav Gupta, and Alexei~A. Efros.
+\newblock Ensemble of exemplar-svms for object detection and beyond.
+\newblock In \emph{{IEEE} International Conference on Computer Vision, {ICCV}
+  2011, Barcelona, Spain, November 6-13, 2011}, pages 89--96, 2011.
+
+\bibitem[Marshall and Olkin(1960)]{marshall1960}
+Albert~W. Marshall and Ingram Olkin.
+\newblock Multivariate chebyshev inequalities.
+\newblock \emph{Ann. Math. Statist.}, 31\penalty0 (4):\penalty0 1001--1014,
+  1960.
+
+\bibitem[Murphy and Aha(1994)]{UCIrep}
+P.~Murphy and D.~Aha.
+\newblock Uci repository of machine learning databases.
+\newblock \emph{Tech. rep., U. California, Dept. of Information and Computer
+  Science}, 1994.
+
+\bibitem[Osadchy et~al.(2012)Osadchy, Keren, and Fadida-Specktor]{OsadchyKF12}
+M.~Osadchy, D.~Keren, and B.~Fadida-Specktor.
+\newblock Hybrid classifiers for object classification with a rich background.
+\newblock In \emph{ECCV (5)}, pages 284--297, 2012.
+
+\bibitem[Osadchy et~al.(2016)Osadchy, Keren, and Raviv]{OsadchyKR16}
+Margarita Osadchy, Daniel Keren, and Dolev Raviv.
+\newblock Recognition using hybrid classifiers.
+\newblock \emph{{IEEE} Trans. Pattern Anal. Mach. Intell.}, 38\penalty0
+  (4):\penalty0 759--771, 2016.
+
+\bibitem[Seiffert et~al.(2008)Seiffert, Khoshgoftaar, Hulse, and
+  Napolitano]{RUSboost}
+Chris Seiffert, Taghi~M. Khoshgoftaar, Jason~Van Hulse, and Amri Napolitano.
+\newblock Rusboost: Improving classification performance when training data is
+  skewed.
+\newblock In \emph{ICPR}, pages 1--4, 2008.
+
+\bibitem[Vapnik(2000)]{Vapnik00}
+Vladimir Vapnik.
+\newblock \emph{The nature of statistical learning theory}.
+\newblock Springer Science \& Business Media, 2000.
+
+\bibitem[Vedaldi and Lenc(2015)]{vedaldi15matconvnet}
+Andrea Vedaldi and Karel Lenc.
+\newblock {MatConvNet: Convolutional Neural Networks for {MATLAB}}.
+\newblock In \emph{Proc. of the 23rd Annual {ACM} Conference on Multimedia
+  Conference, Brisbane}, pages 689--692, 2015.
+\newblock \doi{10.1145/2733373.2807412}.
+
+\bibitem[Xiao et~al.(2010)Xiao, Hays, Ehinger, Oliva, and Torralba]{SUN}
+J.~Xiao, J.~Hays, K.~A. Ehinger, A.~Oliva, and A.~Torralba.
+\newblock Sun database: Large-scale scene recognition from abbey to zoo.
+\newblock \emph{CVPR}, pages 3485--3492, 2010.
+
+\bibitem[Zhang(2002)]{Zhang02}
+Tong Zhang.
+\newblock Covering number bounds of certain regularized linear function
+  classes.
+\newblock \emph{The Journal of Machine Learning Research}, 2:\penalty0
+  527--550, 2002.
+
+\end{thebibliography}

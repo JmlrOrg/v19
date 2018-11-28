@@ -1,0 +1,114 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bifet et~al.(2010)Bifet, Holmes, Kirkby, and Pfahringer]{MOA}
+Albert Bifet, Geoff Holmes, Richard Kirkby, and Bernhard Pfahringer.
+\newblock {MOA: Massive online analysis}.
+\newblock \emph{Journal of Machine Learning Research}, 11\penalty0
+  (May):\penalty0 1601--1604, 2010.
+
+\bibitem[Bifet et~al.(2018)Bifet, Gavalda, Holmes, and
+  Pfahringer]{Bifet-et-al-2018}
+Albert Bifet, Ricard Gavalda, Geoff Holmes, and Bernhard Pfahringer.
+\newblock \emph{Machine Learning for Data Streams with Practical Examples in
+  MOA}.
+\newblock MIT Press, 2018.
+\newblock \url{https://moa.cms.waikato.ac.nz/book/}.
+
+\bibitem[Bishop(2006)]{bishop2006pattern}
+Christopher~M Bishop.
+\newblock Pattern recognition and machine learning.
+\newblock 2006.
+
+\bibitem[Dawid(1984)]{dawid1984prequential}
+A~Philip Dawid.
+\newblock Present position and potential developments: Some personal views:
+  Statistical theory: The prequential approach.
+\newblock \emph{Journal of the Royal Statistical Society. Series A (General)},
+  pages 278--292, 1984.
+
+\bibitem[Gama et~al.(2004)Gama, Medas, Castillo, and Rodrigues]{Gama2004}
+Jo{\~{a}}o Gama, Pedro Medas, Gladys Castillo, and Pedro Rodrigues.
+\newblock {Learning with Drift Detection}.
+\newblock pages 286--295, 2004.
+\newblock ISSN 0302-9743.
+\newblock \doi{10.1007/978-3-540-28645-5_29}.
+
+\bibitem[Gomes et~al.(2017)Gomes, Bifet, Read, Barddal, Enembreck, Pfharinger,
+  Holmes, and Abdessalem]{Gomes2017}
+Heitor~M. Gomes, Albert Bifet, Jesse Read, Jean~Paul Barddal, Fabr{\'{i}}cio
+  Enembreck, Bernhard Pfharinger, Geoff Holmes, and Talel Abdessalem.
+\newblock {Adaptive random forests for evolving data stream classification}.
+\newblock \emph{Machine Learning}, 106\penalty0 (9-10):\penalty0 1469--1495,
+  2017.
+\newblock ISSN 15730565.
+\newblock \doi{10.1007/s10994-017-5642-8}.
+
+\bibitem[Hall et~al.(2009)Hall, Frank, Holmes, Pfahringer, Reutemann, and
+  Witten]{WEKA}
+Mark Hall, Eibe Frank, Geoffrey Holmes, Bernhard Pfahringer, Peter Reutemann,
+  and Ian~H. Witten.
+\newblock The weka data mining software: An update.
+\newblock \emph{SIGKDD Explor. Newsl.}, 11\penalty0 (1):\penalty0 10--18,
+  November 2009.
+\newblock ISSN 1931-0145.
+\newblock \doi{10.1145/1656274.1656278}.
+
+\bibitem[Hulten et~al.(2001)Hulten, Spencer, and Domingos]{Domingos2000}
+Geoff Hulten, Laurie Spencer, and Pedro Domingos.
+\newblock {Mining time-changing data streams}.
+\newblock \emph{Proceedings of the seventh ACM SIGKDD international conference
+  on Knowledge discovery and data mining - KDD '01}, 18:\penalty0 97--106,
+  2001.
+\newblock ISSN 10844627.
+\newblock \doi{10.1145/502512.502529}.
+
+\bibitem[Losing et~al.(2017)Losing, Hammer, and Wersing]{Losing2017}
+Viktor Losing, Barbara Hammer, and Heiko Wersing.
+\newblock {KNN classifier with self adjusting memory for heterogeneous concept
+  drift}.
+\newblock \emph{Proceedings - IEEE International Conference on Data Mining,
+  ICDM}, 1:\penalty0 291--300, 2017.
+\newblock ISSN 15504786.
+\newblock \doi{10.1109/ICDM.2016.141}.
+
+\bibitem[Montiel et~al.(2018)Montiel, Bifet, Losing, Read, and
+  Abdessalem]{Montiel2018fsl}
+Jacob Montiel, Albert Bifet, Viktor Losing, Jesse Read, and Talel Abdessalem.
+\newblock Learning fast and slow: A unified batch/stream framework.
+\newblock In \emph{Big Data (Big Data), 2018 IEEE International Conference on}.
+  IEEE, 2018.
+
+\bibitem[Oza(2005)]{Oza2005}
+N.C. Oza.
+\newblock {Online Bagging and Boosting}.
+\newblock In \emph{2005 IEEE International Conference on Systems, Man and
+  Cybernetics}, volume~3, pages 2340--2345. IEEE, 2005.
+\newblock ISBN 0-7803-9298-1.
+\newblock \doi{10.1109/ICSMC.2005.1571498}.
+
+\bibitem[Page(1954)]{Page1954}
+Ewan~S Page.
+\newblock Continuous inspection schemes.
+\newblock \emph{Biometrika}, 41\penalty0 (1/2):\penalty0 100--115, 1954.
+
+\bibitem[Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion,
+  Grisel, Blondel, Prettenhofer, Weiss, Dubourg, et~al.]{sklearn}
+Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel,
+  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
+  Weiss, Vincent Dubourg, et~al.
+\newblock Scikit-learn: Machine learning in python.
+\newblock \emph{Journal of machine learning research}, 12\penalty0
+  (Oct):\penalty0 2825--2830, 2011.
+
+\bibitem[Read et~al.(2016)Read, Reutemann, Pfahringer, and Holmes]{MEKA}
+Jesse Read, Peter Reutemann, Bernhard Pfahringer, and Geoff Holmes.
+\newblock {MEKA}: A multi-label/multi-target extension to {Weka}.
+\newblock \emph{Journal of Machine Learning Research}, 17\penalty0
+  (21):\penalty0 1--5, 2016.
+
+\end{thebibliography}

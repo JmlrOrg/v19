@@ -1,0 +1,16 @@
+{
+    "abstract": "We present an approximate Bayesian inference approach for estimating the intensity of a inhomogeneous Poisson process, where the intensity function is modelled using a Gaussian process (GP) prior via a sigmoid link function. Augmenting the model using a latent marked Poisson process and Polya--Gamma random variables we obtain a representation of the likelihood which is conjugate to the GP prior. We estimate the posterior using a variational free--form mean field optimisation together with the framework of sparse GPs. Furthermore, as alternative approximation we suggest a sparse Laplace's method for the posterior, for which an efficient expectation--maximisation algorithm is derived to find the posterior's mode. Both algorithms compare well against exact inference obtained by a Markov Chain Monte Carlo sampler and standard variational Gauss approach solving the same model, while being one order of magnitude faster. Furthermore, the performance and speed of our method is competitive with that of another recently proposed Poisson process model based on a quadratic link function, while not being limited to GPs with squared exponential kernels and rectangular domains.",
+    "authors": [
+        "Christian Donner",
+        "Manfred Opper"
+    ],
+    "id": "17-759",
+    "issue": 67,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Efficient Bayesian Inference of Sigmoidal Gaussian Cox Processes",
+    "volume": 19,
+    "year": 2018
+}

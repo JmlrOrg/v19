@@ -1,0 +1,626 @@
+\begin{thebibliography}{102}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anderes and Coram(2012)]{anderes2012general}
+E.~Anderes and M.~Coram.
+\newblock A general spline representation for nonparametric and semiparametric
+  density estimates using diffeomorphisms.
+\newblock \emph{arXiv:1205.5314}, 2012.
+
+\bibitem[Andrieu et~al.(2010)Andrieu, Doucet, and
+  Holenstein]{andrieu2010particle}
+C.~Andrieu, A.~Doucet, and R.~Holenstein.
+\newblock Particle {M}arkov chain {M}onte {C}arlo methods.
+\newblock \emph{Journal of the Royal Statistical Society: Series B},
+  72\penalty0 (3):\penalty0 269--342, 2010.
+
+\bibitem[Asmussen and Glynn(2007)]{asmussen2007stochastic}
+S.~Asmussen and P.~W. Glynn.
+\newblock \emph{Stochastic simulation: algorithms and analysis}, volume~57.
+\newblock Springer Science \& Business Media, 2007.
+
+\bibitem[Bardsley et~al.(2014)Bardsley, Solonen, Haario, and
+  Laine]{Bardsley2014}
+J.~M. Bardsley, A.~Solonen, H.~Haario, and M.~Laine.
+\newblock Randomize-then-optimize: a method for sampling from posterior
+  distributions in nonlinear inverse problems.
+\newblock \emph{{SIAM Journal on Scientific Computing}}, 36\penalty0
+  (4):\penalty0 A1895--A1910, 2014.
+\newblock \doi{10.1137/140964023}.
+
+\bibitem[Bertsekas(1995)]{bertsekas1995dynamic}
+D.~P. Bertsekas.
+\newblock \emph{Dynamic programming and optimal control}, volume~1.
+\newblock Athena Scientific Belmont, MA, 1995.
+
+\bibitem[Bierman(2006)]{bierman2006factorization}
+G.~J. Bierman.
+\newblock \emph{Factorization methods for discrete sequential estimation}.
+\newblock Courier Corporation, 2006.
+
+\bibitem[Bigoni et~al.(2019)Bigoni, Spantini, and Marzouk]{bigoni2016monotone}
+D.~Bigoni, A.~Spantini, and Y.~Marzouk.
+\newblock On the computation of monotone transports.
+\newblock \emph{In preparation}, 2019.
+
+\bibitem[Blei et~al.(2016)Blei, Kucukelbir, and McAuliffe]{blei2016variational}
+D.~Blei, A.~Kucukelbir, and J.~McAuliffe.
+\newblock Variational inference: a review for statisticians.
+\newblock \emph{arXiv:1601.00670}, 2016.
+
+\bibitem[Bogachev et~al.(2005)Bogachev, Kolesnikov, and
+  Medvedev]{bogachev2005triangular}
+V.~I. Bogachev, A.~V. Kolesnikov, and K.~V. Medvedev.
+\newblock Triangular transformations of measures.
+\newblock \emph{Sbornik: Mathematics}, 196\penalty0 (3):\penalty0 309, 2005.
+
+\bibitem[Carlier et~al.(2010)Carlier, Galichon, and
+  Santambrogio]{carlier2010knothe}
+G.~Carlier, A.~Galichon, and F.~Santambrogio.
+\newblock From {K}nothe's transport to {B}renier's map and a continuation
+  method for optimal transport.
+\newblock \emph{SIAM Journal on Mathematical Analysis}, 41\penalty0
+  (6):\penalty0 2554--2576, 2010.
+
+\bibitem[Cheng et~al.(2015)Cheng, Cheng, Liu, Peng, and
+  Teng]{cheng2015efficient}
+D.~Cheng, Y.~Cheng, Y.~Liu, R.~Peng, and S.~Teng.
+\newblock Efficient sampling for {G}aussian graphical models via spectral
+  sparsification.
+\newblock In \emph{Conference on Learning Theory}, pages 364--390, 2015.
+
+\bibitem[Chopin et~al.(2013)Chopin, Jacob, and
+  Papaspiliopoulos]{chopin2013smc2}
+N.~Chopin, P.~Jacob, and O.~Papaspiliopoulos.
+\newblock {SMC2}: an efficient algorithm for sequential analysis of state space
+  models.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 75\penalty0 (3):\penalty0 397--426, 2013.
+
+\bibitem[Chorin and Tu(2009)]{chorin2009implicit}
+A.~J. Chorin and X.~Tu.
+\newblock Implicit sampling for particle filters.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 106\penalty0
+  (41):\penalty0 17249--17254, 2009.
+
+\bibitem[Constantine et~al.(2014)Constantine, Dow, and
+  Wang]{constantine2014active}
+P.~G. Constantine, E.~Dow, and Q.~Wang.
+\newblock Active subspace methods in theory and practice: Applications to
+  kriging surfaces.
+\newblock \emph{SIAM Journal on Scientific Computing}, 36\penalty0
+  (4):\penalty0 A1500--A1524, 2014.
+
+\bibitem[Crisan and Doucet(2002)]{crisan2002survey}
+D.~Crisan and A.~Doucet.
+\newblock A survey of convergence results on particle filtering methods for
+  practitioners.
+\newblock \emph{IEEE Transactions on signal processing}, 50\penalty0
+  (3):\penalty0 736--746, 2002.
+
+\bibitem[Crisan and Miguez(2013)]{crisan2013nested}
+D.~Crisan and J.~Miguez.
+\newblock Nested particle filters for online parameter estimation in
+  discrete-time state-space {M}arkov models.
+\newblock \emph{arXiv:1308.1883}, 2013.
+
+\bibitem[Csill\'{e}ry et~al.(2010)Csill\'{e}ry, Blum, Gaggiotti, and
+  Fran\c{c}ois]{Csillery2010}
+K.~Csill\'{e}ry, M.~G.~B. Blum, O.~E. Gaggiotti, and O.~Fran\c{c}ois.
+\newblock {Approximate Bayesian Computation (ABC) in practice}.
+\newblock \emph{Trends in ecology \& evolution}, 25\penalty0 (7):\penalty0
+  410--8, 2010.
+
+\bibitem[Cui et~al.(2014)Cui, Martin, Marzouk, Solonen, and
+  Spantini]{cui2014likelihood}
+T.~Cui, J.~Martin, Y.~Marzouk, A.~Solonen, and A.~Spantini.
+\newblock Likelihood-informed dimension reduction for nonlinear inverse
+  problems.
+\newblock \emph{Inverse Problems}, 30\penalty0 (11):\penalty0 114015, 2014.
+
+\bibitem[Daum and Huang(2008)]{daum2008particle}
+F.~Daum and J.~Huang.
+\newblock Particle flow for nonlinear filters with log-homotopy.
+\newblock In \emph{SPIE Defense and Security Symposium}, pages 696918--696918.
+  International Society for Optics and Photonics, 2008.
+
+\bibitem[Daum and Huang(2012)]{daum2012particle}
+F.~Daum and J.~Huang.
+\newblock Particle flow and {M}onge-{K}antorovich transport.
+\newblock In \emph{Information Fusion (FUSION), 2012 15th International
+  Conference on}, pages 135--142. IEEE, 2012.
+
+\bibitem[Del~Moral(2004)]{del2004feynman}
+P.~Del~Moral.
+\newblock Feynman-{K}ac formulae.
+\newblock In \emph{Feynman-Kac Formulae: Genealogical and Interacting Particle
+  Systems with Applications}, pages 47--93. Springer, 2004.
+
+\bibitem[Del~Moral et~al.(2017)Del~Moral, Jasra, and Zhou]{del2017biased}
+P.~Del~Moral, A.~Jasra, and Y.~Zhou.
+\newblock Biased online parameter inference for state-space models.
+\newblock \emph{Methodology and Computing in Applied Probability}, 19\penalty0
+  (3):\penalty0 727--749, 2017.
+
+\bibitem[Detommaso et~al.(2018)Detommaso, Cui, Marzouk, Scheichl, and
+  Spantini]{detommaso2018stein}
+G.~Detommaso, T.~Cui, Y.~Marzouk, R.~Scheichl, and A.~Spantini.
+\newblock A {S}tein variational {N}ewton method.
+\newblock \emph{Advances in Neural Information Processing Systems}, 2018.
+\newblock arXiv:1806.03085.
+
+\bibitem[Dick et~al.(2013)Dick, Kuo, and Sloan]{dick2013high}
+J.~Dick, F.~Y. Kuo, and I.~H. Sloan.
+\newblock High-dimensional integration: the {Q}uasi-{M}onte {C}arlo way.
+\newblock \emph{Acta Numerica}, 22:\penalty0 133--288, 2013.
+
+\bibitem[Dinh et~al.(2016)Dinh, Sohl-Dickstein, and Bengio]{dinh2016density}
+L.~Dinh, J.~Sohl-Dickstein, and S.~Bengio.
+\newblock Density estimation using {R}eal {NVP}.
+\newblock \emph{arXiv:1605.08803}, 2016.
+
+\bibitem[Doucet and Johansen(2009)]{doucet2009tutorial}
+A.~Doucet and A.~M. Johansen.
+\newblock A tutorial on particle filtering and smoothing: Fifteen years later.
+\newblock \emph{Handbook of nonlinear filtering}, 12\penalty0
+  (656-704):\penalty0 3, 2009.
+
+\bibitem[Douglas(1999)]{douglas1999applications}
+R.~J. Douglas.
+\newblock Applications of the {M}onge-{A}mpere equation and {M}onge transport
+  problem to meteorology and oceanography.
+\newblock In \emph{Monge Amp{\`e}re Equation: Applications to Geometry and
+  Optimization}, volume 226, page~33. American Mathematical Soc., 1999.
+
+\bibitem[Durbin and Koopman(2000)]{durbin2000time}
+J.~Durbin and S.~J. Koopman.
+\newblock Time series analysis of non-{G}aussian observations based on
+  state-space models from both classical and {B}ayesian perspectives.
+\newblock \emph{Journal of the Royal Statistical Society: Series B},
+  62\penalty0 (1):\penalty0 3--56, 2000.
+
+\bibitem[Erol et~al.(2017)Erol, Wu, Li, and Russell]{erol2017nearly}
+Y.~B. Erol, Y.~Wu, L.~Li, and S.~J. Russell.
+\newblock A nearly-black-box online algorithm for joint parameter and state
+  estimation in temporal models.
+\newblock In \emph{AAAI}, pages 1861--1869, 2017.
+
+\bibitem[Evensen(2003)]{evensen2003ensemble}
+G.~Evensen.
+\newblock The ensemble {K}alman filter: Theoretical formulation and practical
+  implementation.
+\newblock \emph{Ocean dynamics}, 53\penalty0 (4):\penalty0 343--367, 2003.
+
+\bibitem[Evensen(2007)]{evensen2007data}
+G.~Evensen.
+\newblock \emph{Data Assimilation}.
+\newblock Springer, 2007.
+
+\bibitem[Evensen and Van~Leeuwen(2000)]{evensen2000ensemble}
+G.~Evensen and P.~J. Van~Leeuwen.
+\newblock An ensemble {K}alman smoother for nonlinear dynamics.
+\newblock \emph{Monthly Weather Review}, 128\penalty0 (6):\penalty0 1852--1867,
+  2000.
+
+\bibitem[Fremlin(2000)]{fremlin2000measure}
+D.~H. Fremlin.
+\newblock \emph{Measure Theory}, volume~4.
+\newblock Torres Fremlin, 2000.
+
+\bibitem[Gaspari and Cohn(1999)]{gaspari1999construction}
+G.~Gaspari and S.~E. Cohn.
+\newblock Construction of correlation functions in two and three dimensions.
+\newblock \emph{Quarterly Journal of the Royal Meteorological Society},
+  125\penalty0 (554):\penalty0 723--757, 1999.
+
+\bibitem[George and Liu(1989)]{george1989evolution}
+A.~George and J.~W.~H. Liu.
+\newblock The evolution of the minimum degree ordering algorithm.
+\newblock \emph{SIAM Review}, 31\penalty0 (1):\penalty0 1--19, 1989.
+
+\bibitem[Glynn(1990)]{glynn1990likelihood}
+P.~W. Glynn.
+\newblock Likelihood ratio gradient estimation for stochastic systems.
+\newblock \emph{Communications of the ACM}, 33\penalty0 (10):\penalty0 75--84,
+  1990.
+
+\bibitem[Godsill et~al.(2004)Godsill, Doucet, and West]{godsill2012monte}
+S.~J. Godsill, A.~Doucet, and M.~West.
+\newblock Monte {C}arlo smoothing for nonlinear time series.
+\newblock \emph{Journal of the American Statistical Association}, 99\penalty0
+  (465):\penalty0 156--168, 2004.
+
+\bibitem[Goodfellow et~al.(2014)Goodfellow, Pouget-Abadie, Mirza, Xu,
+  Warde-Farley, Ozair, Courville, and Bengio]{goodfellow2014generative}
+I.~Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair,
+  A.~Courville, and Y.~Bengio.
+\newblock Generative adversarial nets.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  2672--2680, 2014.
+
+\bibitem[Hamill et~al.(2001)Hamill, Whitaker, and Snyder]{hamill2001distance}
+T.~M. Hamill, J.~S. Whitaker, and C.~Snyder.
+\newblock Distance-dependent filtering of background error covariance estimates
+  in an ensemble {K}alman filter.
+\newblock \emph{Monthly Weather Review}, 129\penalty0 (11):\penalty0
+  2776--2790, 2001.
+
+\bibitem[Hammersley and Clifford(1971)]{hammersley1971markov}
+J.~M. Hammersley and P.~Clifford.
+\newblock Markov fields on finite graphs and lattices.
+\newblock \emph{Unpublished manuscript}, 1971.
+
+\bibitem[Han and Liu(2017)]{han2017stein}
+J.~Han and Q.~Liu.
+\newblock Stein variational adaptive importance sampling.
+\newblock \emph{arXiv:1704.05201}, 2017.
+
+\bibitem[Heng et~al.(2015)Heng, Doucet, and Pokern]{heng2015gibbs}
+J.~Heng, A.~Doucet, and Y.~Pokern.
+\newblock Gibbs flow for approximate transport with applications to {B}ayesian
+  computation.
+\newblock \emph{arXiv:1509.08787}, 2015.
+
+\bibitem[Hyv{\"a}rinen(2005)]{hyvarinen2005estimation}
+A.~Hyv{\"a}rinen.
+\newblock Estimation of non-normalized statistical models by score matching.
+\newblock \emph{Journal of Machine Learning Research}, 6\penalty0
+  (Apr):\penalty0 695--709, 2005.
+
+\bibitem[Jacob(2015)]{jacob2015sequential}
+P.~E. Jacob.
+\newblock Sequential {B}ayesian inference for implicit hidden {M}arkov models
+  and current limitations.
+\newblock \emph{ESAIM: Proceedings and Surveys}, 51:\penalty0 24--48, 2015.
+
+\bibitem[Jog and Loh(2015)]{jog2015model}
+V.~Jog and P.~Loh.
+\newblock On model misspecification and {KL} separation for {G}aussian
+  graphical models.
+\newblock In \emph{IEEE International Symposium on Information Theory}, pages
+  1174--1178, 2015.
+
+\bibitem[Johnson and Willsky(2008)]{johnson2008recursive}
+J.~K. Johnson and A.~S. Willsky.
+\newblock A recursive model-reduction method for approximate inference in
+  {G}aussian {M}arkov random fields.
+\newblock \emph{IEEE Transactions on Image Processing}, 17\penalty0
+  (1):\penalty0 70--83, 2008.
+
+\bibitem[Kantas et~al.(2015)Kantas, Doucet, Singh, Maciejowski, and
+  Chopin]{kantas2015particle}
+N.~Kantas, A.~Doucet, S.~S. Singh, J.~Maciejowski, and N.~Chopin.
+\newblock On particle methods for parameter estimation in state-space models.
+\newblock \emph{Statistical Science}, 30\penalty0 (3):\penalty0 328--351, 2015.
+
+\bibitem[Kantorovich(1965)]{kantorovich1965best}
+L.~V. Kantorovich.
+\newblock \emph{The best use of economic resources.}
+\newblock Oxford \& London: Pergamon Press., 1965.
+
+\bibitem[Kim et~al.(1998)Kim, Shephard, and Chib]{kim1998stochastic}
+S.~Kim, N.~Shephard, and S.~Chib.
+\newblock Stochastic volatility: likelihood inference and comparison with
+  {ARCH} models.
+\newblock \emph{The Review of Economic Studies}, 65\penalty0 (3):\penalty0
+  361--393, 1998.
+
+\bibitem[Kingma and Welling(2013)]{kingma2013auto}
+D.~P. Kingma and M.~Welling.
+\newblock Auto-encoding variational {B}ayes.
+\newblock \emph{arXiv:1312.6114}, 2013.
+
+\bibitem[Kitagawa(1987)]{kitagawa1987non}
+G.~Kitagawa.
+\newblock Non-{G}aussian state-space modeling of nonstationary time series.
+\newblock \emph{Journal of the American Statistical Association}, 82\penalty0
+  (400):\penalty0 1032--1041, 1987.
+
+\bibitem[Kitagawa(1998)]{kitagawa1998self}
+G.~Kitagawa.
+\newblock A self-organizing state-space model.
+\newblock \emph{Journal of the American Statistical Association}, pages
+  1203--1215, 1998.
+
+\bibitem[Koller and Friedman(2009)]{koller2009probabilistic}
+D.~Koller and N.~Friedman.
+\newblock \emph{Probabilistic graphical models: principles and techniques}.
+\newblock MIT press, 2009.
+
+\bibitem[Kushner and Yin(2003)]{kushner2003stochastic}
+H.~Kushner and G.~G. Yin.
+\newblock \emph{Stochastic approximation and recursive algorithms and
+  applications}, volume~35.
+\newblock Springer Science \& Business Media, 2003.
+
+\bibitem[Laparra et~al.(2011)Laparra, Camps-Valls, and
+  Malo]{laparra2011iterative}
+V.~Laparra, G.~Camps-Valls, and J.~Malo.
+\newblock Iterative {G}aussianization: from {ICA} to random rotations.
+\newblock \emph{IEEE transactions on neural networks}, 22\penalty0
+  (4):\penalty0 537--549, 2011.
+
+\bibitem[Lauritzen(1996)]{lauritzen1996graphical}
+S.~L. Lauritzen.
+\newblock \emph{Graphical Models}.
+\newblock Oxford University Press, 1996.
+
+\bibitem[Lin et~al.(2015)Lin, Drton, and Shojaie]{lin2015high}
+L.~Lin, M.~Drton, and A.~Shojaie.
+\newblock High-dimensional inference of graphical models using regularized
+  score matching.
+\newblock \emph{arXiv:1507.00433}, 2015.
+
+\bibitem[Liu and West(2001)]{liu2001combined}
+J.~Liu and M.~West.
+\newblock Combined parameter and state estimation in simulation-based
+  filtering.
+\newblock In \emph{Sequential Monte Carlo methods in practice}, pages 197--223.
+  Springer, 2001.
+
+\bibitem[Liu and Wang(2016)]{liu2016stein}
+Q.~Liu and D.~Wang.
+\newblock Stein variational gradient descent: a general purpose {B}ayesian
+  inference algorithm.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  2370--2378, 2016.
+
+\bibitem[Marsaglia and Tsang(2000)]{marsaglia2000ziggurat}
+G.~Marsaglia and W.~W. Tsang.
+\newblock The ziggurat method for generating random variables.
+\newblock \emph{Journal of Statistical Software}, 5\penalty0 (8):\penalty0
+  1--7, 2000.
+
+\bibitem[Marzouk et~al.(2016)Marzouk, Moselhy, Parno, and
+  Spantini]{marzouk2016introduction}
+Y.~Marzouk, T.~Moselhy, M.~Parno, and A~Spantini.
+\newblock Sampling via measure transport: An introduction.
+\newblock In \emph{Handbook of Uncertainty Quantification, R. Ghanem, D.
+  Higdon, and H. Owhadi, editors}. Springer, 2016.
+
+\bibitem[Meinshausen and B{\"u}hlmann(2006)]{meinshausen2006high}
+N.~Meinshausen and P.~B{\"u}hlmann.
+\newblock High-dimensional graphs and variable selection with the {L}asso.
+\newblock \emph{The Annals of Statistics}, pages 1436--1462, 2006.
+
+\bibitem[Mendoza et~al.(2018)Mendoza, Allegra, and
+  Coleman]{mendoza2018bayesian}
+M.~Mendoza, A.~Allegra, and T.~P. Coleman.
+\newblock Bayesian {L}asso posterior sampling via parallelized measure
+  transport.
+\newblock \emph{arXiv:1801.02106}, 2018.
+
+\bibitem[Meng and Schilling(2002)]{meng2002warp}
+X.~Meng and S.~Schilling.
+\newblock Warp bridge sampling.
+\newblock \emph{Journal of Computational and Graphical Statistics}, 11\penalty0
+  (3):\penalty0 552--586, 2002.
+
+\bibitem[Morrison et~al.(2017)Morrison, Baptista, and
+  Marzouk]{morrison2017beyond}
+R.~Morrison, R.~Baptista, and Y.~Marzouk.
+\newblock Beyond normality: Learning sparse probabilistic graphical models in
+  the non-{G}aussian setting.
+\newblock \emph{Advances in Neural Information Processing Systems}, 2017.
+\newblock arXiv:1711.00950.
+
+\bibitem[Morzfeld et~al.(2012)Morzfeld, Tu, Atkins, and Chorin]{Morzfeld2012}
+M.~Morzfeld, X.~Tu, E.~Atkins, and A.~J. Chorin.
+\newblock A random map implementation of implicit filters.
+\newblock \emph{Journal of Computational Physics}, 231\penalty0 (4):\penalty0
+  2049--2066, 2012.
+
+\bibitem[Moselhy and Marzouk(2012)]{el2012bayesian}
+T.~Moselhy and Y.~Marzouk.
+\newblock Bayesian inference with optimal maps.
+\newblock \emph{Journal of Computational Physics}, 231\penalty0 (23):\penalty0
+  7815--7850, 2012.
+
+\bibitem[Oksendal(2013)]{oksendal2013stochastic}
+B.~Oksendal.
+\newblock \emph{Stochastic differential equations: an introduction with
+  applications}.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem[Oliver(2015)]{oliver2015metropolized}
+D.~S. Oliver.
+\newblock Metropolized randomized maximum likelihood for sampling from
+  multimodal distributions.
+\newblock \emph{arXiv:1507.08563}, 2015.
+
+\bibitem[Parno(2015)]{parno2015transport}
+M.~Parno.
+\newblock \emph{Transport maps for accelerated Bayesian computation}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 2015.
+
+\bibitem[Parno and Marzouk(2018)]{parno2014transport}
+M.~Parno and Y.~Marzouk.
+\newblock Transport map accelerated {M}arkov chain {M}onte {C}arlo.
+\newblock \emph{SIAM/ASA Journal on Uncertainty Quantification}, 6\penalty0
+  (2):\penalty0 645--682, 2018.
+
+\bibitem[Parno et~al.(2016)Parno, Moselhy, and Marzouk]{parno2015multiscale}
+M.~Parno, T.~Moselhy, and Y.~Marzouk.
+\newblock A multiscale strategy for {B}ayesian inference using transport maps.
+\newblock \emph{SIAM/ASA Journal on Uncertainty Quantification}, 4\penalty0
+  (1):\penalty0 1160--1190, 2016.
+
+\bibitem[Polson et~al.(2008)Polson, Stroud, and
+  M{\"u}ller]{polson2008practical}
+N.~G. Polson, J.~R. Stroud, and P.~M{\"u}ller.
+\newblock Practical filtering with sequential parameter learning.
+\newblock \emph{Journal of the Royal Statistical Society: Series B},
+  70\penalty0 (2):\penalty0 413--428, 2008.
+
+\bibitem[Raanes(2016)]{raanes2016ensemble}
+P.~N. Raanes.
+\newblock On the ensemble {R}auch-{T}ung-{S}triebel smoother and its
+  equivalence to the ensemble {K}alman smoother.
+\newblock \emph{Quarterly Journal of the Royal Meteorological Society},
+  142\penalty0 (696):\penalty0 1259--1264, 2016.
+
+\bibitem[Ramsay(1998)]{ramsay1998estimating}
+J.~O. Ramsay.
+\newblock Estimating smooth monotone functions.
+\newblock \emph{Journal of the Royal Statistical Society: Series B}, pages
+  365--375, 1998.
+
+\bibitem[Rauch et~al.(1965)Rauch, Striebel, and Tung]{rauch1965maximum}
+H.~E. Rauch, C.~T. Striebel, and F.~Tung.
+\newblock Maximum likelihood estimates of linear dynamic systems.
+\newblock \emph{AIAA Journal}, 3\penalty0 (8):\penalty0 1445--1450, 1965.
+
+\bibitem[Reich(2013)]{reich2013nonparametric}
+S.~Reich.
+\newblock A nonparametric ensemble transform method for {B}ayesian inference.
+\newblock \emph{SIAM Journal on Scientific Computing}, 35\penalty0
+  (4):\penalty0 A2013--A2024, 2013.
+
+\bibitem[Reich and Cotter(2015)]{reich2015probabilistic}
+S.~Reich and C.~Cotter.
+\newblock \emph{Probabilistic Forecasting and Bayesian Data Assimilation}.
+\newblock Cambridge University Press, 2015.
+
+\bibitem[Rezende and Mohamed(2015)]{rezende2015variational}
+D.~J. Rezende and S.~Mohamed.
+\newblock Variational inference with normalizing flows.
+\newblock \emph{arXiv:1505.05770}, 2015.
+
+\bibitem[Robert and Casella(2013)]{robert2013monte}
+C.~Robert and G.~Casella.
+\newblock \emph{Monte Carlo statistical methods}.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem[Rosenblatt(1952)]{rosenblatt1952remarks}
+M.~Rosenblatt.
+\newblock Remarks on a multivariate transformation.
+\newblock \emph{The Annals of Mathematical Statistics}, pages 470--472, 1952.
+
+\bibitem[Rue and Held(2005)]{rue2005gaussian}
+H.~Rue and L.~Held.
+\newblock \emph{Gaussian Markov random fields: theory and applications}.
+\newblock CRC Press, 2005.
+
+\bibitem[Rue et~al.(2009)Rue, Martino, and Chopin]{rue2009approximate}
+H.~Rue, S.~Martino, and N.~Chopin.
+\newblock Approximate {B}ayesian inference for latent {G}aussian models by
+  using integrated nested {L}aplace approximations.
+\newblock \emph{Journal of the Royal Statistical Society: Series B},
+  71\penalty0 (2):\penalty0 319--392, 2009.
+
+\bibitem[Saad(2003)]{saad2003iterative}
+Y.~Saad.
+\newblock \emph{Iterative Methods for Sparse Linear Systems}.
+\newblock SIAM, 2003.
+
+\bibitem[Samarov(1993)]{samarov1993exploring}
+A.~M. Samarov.
+\newblock Exploring regression structure using nonparametric functional
+  estimation.
+\newblock \emph{Journal of the American Statistical Association}, 88\penalty0
+  (423):\penalty0 836--847, 1993.
+
+\bibitem[Santambrogio(2015)]{santambrogio2015optimal}
+F.~Santambrogio.
+\newblock \emph{Optimal Transport for Applied Mathematicians}, volume~87.
+\newblock Springer, 2015.
+
+\bibitem[S{\"a}rkk{\"a}(2013)]{sarkka2013bayesian}
+S.~S{\"a}rkk{\"a}.
+\newblock \emph{Bayesian Filtering and Smoothing}, volume~3.
+\newblock Cambridge University Press, 2013.
+
+\bibitem[Schillings and Schwab(2016)]{schillings2014scaling}
+C.~Schillings and C.~Schwab.
+\newblock Scaling limits in computational {B}ayesian inversion.
+\newblock \emph{ESAIM: Mathematical Modelling and Numerical Analysis},
+  50\penalty0 (6):\penalty0 1825--1856, 2016.
+
+\bibitem[Shapiro(2013)]{Shapiro2013}
+A.~Shapiro.
+\newblock \emph{Sample Average Approximation}, pages 1350--1355.
+\newblock Springer US, Boston, 2013.
+
+\bibitem[Smith et~al.(2013)Smith, Doucet, de~Freitas, and
+  Gordon]{smith2013sequential}
+A.~Smith, A.~Doucet, N.~de~Freitas, and N.~Gordon.
+\newblock \emph{Sequential Monte Carlo methods in practice}.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem[Spantini(2017)]{spantini2017inference}
+A.~Spantini.
+\newblock \emph{On the low-dimensional structure of Bayesian inference}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 2017.
+
+\bibitem[Spantini et~al.(2015)Spantini, Solonen, Cui, Martin, Tenorio, and
+  Marzouk]{spantini2014optimal}
+A.~Spantini, A.~Solonen, T.~Cui, J.~Martin, L.~Tenorio, and Y.~Marzouk.
+\newblock Optimal low-rank approximations of {B}ayesian linear inverse
+  problems.
+\newblock \emph{SIAM Journal on Scientific Computing}, 37\penalty0
+  (6):\penalty0 A2451--A2487, 2015.
+
+\bibitem[Spantini et~al.(2017)Spantini, Cui, Willcox, Tenorio, and
+  Marzouk]{spantini2016goal}
+A.~Spantini, T.~Cui, K.~Willcox, L.~Tenorio, and Y.~M. Marzouk.
+\newblock Goal-oriented optimal approximations of {B}ayesian linear inverse
+  problems.
+\newblock \emph{SIAM Journal on Scientific Computing}, 39\penalty0
+  (5):\penalty0 S167--S196, 2017.
+
+\bibitem[Stavropoulou and M{\"u}ller(2015)]{stavropoulou2015parametrization}
+F.~Stavropoulou and J.~M{\"u}ller.
+\newblock Parametrization of random vectors in polynomial chaos expansions via
+  optimal transportation.
+\newblock \emph{SIAM Journal on Scientific Computing}, 37\penalty0
+  (6):\penalty0 A2535--A2557, 2015.
+
+\bibitem[Stuart(2010)]{stuart2010inverse}
+A.~M. Stuart.
+\newblock Inverse problems: a {B}ayesian perspective.
+\newblock \emph{Acta Numerica}, 19:\penalty0 451--559, 2010.
+
+\bibitem[Tabak and Turner(2013)]{tabak2013family}
+E.~G. Tabak and C.~V. Turner.
+\newblock A family of nonparametric density estimation algorithms.
+\newblock \emph{Communications on Pure and Applied Mathematics}, 66\penalty0
+  (2):\penalty0 145--164, 2013.
+
+\bibitem[Villani(2008)]{villani2008optimal}
+C.~Villani.
+\newblock \emph{Optimal transport: old and new}, volume 338.
+\newblock Springer Science \& Business Media, 2008.
+
+\bibitem[Wang and Meng(2016)]{wang2016warp}
+L.~Wang and X.~Meng.
+\newblock Warp bridge sampling: the next generation.
+\newblock \emph{arXiv:1609.07690}, 2016.
+
+\bibitem[Wright and Nocedal(1999)]{wright1999numerical}
+S.~J. Wright and J.~Nocedal.
+\newblock \emph{Numerical Optimization}, volume~2.
+\newblock Springer New York, 1999.
+
+\bibitem[Xiu(2010)]{xiu2010numerical}
+D.~Xiu.
+\newblock \emph{Numerical methods for stochastic computations: a spectral
+  method approach}.
+\newblock Princeton University Press, 2010.
+
+\bibitem[Yang et~al.(2013)Yang, Mehta, and Meyn]{yang2013feedback}
+T.~Yang, P.~G. Mehta, and S.~P. Meyn.
+\newblock Feedback particle filter.
+\newblock \emph{IEEE transactions on Automatic control}, 58\penalty0
+  (10):\penalty0 2465--2480, 2013.
+
+\bibitem[Yannakakis(1981)]{yannakakis1981computing}
+M.~Yannakakis.
+\newblock Computing the minimum fill-in is {NP}-complete.
+\newblock \emph{SIAM Journal on Algebraic Discrete Methods}, 2\penalty0
+  (1):\penalty0 77--79, 1981.
+
+\end{thebibliography}

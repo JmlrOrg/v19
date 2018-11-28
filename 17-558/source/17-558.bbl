@@ -1,0 +1,335 @@
+\begin{thebibliography}{53}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agarwal et~al.(2006)Agarwal, Hazan, Kale, and Schapire]{ONS}
+A.~Agarwal, E.~Hazan, S.~Kale, and R.~E. Schapire.
+\newblock Algorithms for portfolio management based on the {N}ewton method.
+\newblock In \emph{Proceedings of the International Conference on Machine
+  Learning (ICML)}, 2006.
+
+\bibitem[Aldridge(2013)]{HFT}
+I.~Aldridge.
+\newblock \emph{High-Frequency Trading: A Practical Guide to Algorithmic
+  Strategies and Trading Systems}.
+\newblock Wiley, Hoboken, NJ, 2 edition, Apr. 2013.
+
+\bibitem[Bertsekas(1999)]{nonlinprog}
+D.~Bertsekas.
+\newblock \emph{Nonlinear Programming}.
+\newblock Athena Scientific, 1999.
+
+\bibitem[Blum and Kalai(1999)]{UPtc}
+A.~Blum and A.~Kalai.
+\newblock Universal portfolios with and without transaction costs.
+\newblock \emph{Machine Learning}, 35\penalty0 (3):\penalty0 193--205, 1999.
+
+\bibitem[Bondt and Thaler(1985)]{stockoverreact}
+W.~F. M.~D. Bondt and R.~Thaler.
+\newblock Does the stock market overreact?
+\newblock \emph{Journal of Finance}, 40\penalty0 (3):\penalty0 793--805, Jul.
+  1985.
+
+\bibitem[Borodin et~al.(2004)Borodin, El-Yaniv, and Gogan]{anticor}
+A.~Borodin, R.~El-Yaniv, and V.~Gogan.
+\newblock Can we learn to beat the best stock.
+\newblock \emph{Journal of Artificial Intelligence Research}, 21\penalty0
+  (1):\penalty0 579--594, Jan. 2004.
+
+\bibitem[Boyd and Vandenberghe(2004)]{CONOPTIM}
+S.~Boyd and L.~Vandenberghe.
+\newblock \emph{Convex Optimization}.
+\newblock Cambridge University Press, 2004.
+
+\bibitem[Boyd et~al.(2010)Boyd, Parikh, Chu, Peleato, and Eckstein]{admm}
+S.~Boyd, N.~Parikh, E.~Chu, B.~Peleato, and J.~Eckstein.
+\newblock Distributed optimization and statistical learning via the alternating
+  direction method of multipliers.
+\newblock \emph{Foundations and Trends in Machine Learning}, 3\penalty0
+  (1):\penalty0 1--122, 2010.
+
+\bibitem[Brodie et~al.(2009)Brodie, Daubechies, Giannone, and Loris]{sparsepo}
+J.~Brodie, I.~Daubechies, C.~D. Giannone, and I.~Loris.
+\newblock Sparse and stable {M}arkowitz portfolios.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 106\penalty0 (30):\penalty0 12267--12272, Jul. 2009.
+
+\bibitem[Cand\`es and Plan(2009)]{l1mini}
+E.~J. Cand\`es and Y.~Plan.
+\newblock Near-ideal model selection by $\ell_1$ minimization.
+\newblock \emph{Annals of Statistics}, 37\penalty0 (5A):\penalty0 2145--2177,
+  2009.
+
+\bibitem[Cover(1991)]{uPS1}
+T.~M. Cover.
+\newblock Universal portfolios.
+\newblock \emph{Mathematical Finance}, 1\penalty0 (1):\penalty0 1--29, Jan.
+  1991.
+
+\bibitem[Das et~al.(2013)Das, Johnson, and Banerjee]{olazyupdate}
+P.~Das, N.~Johnson, and A.~Banerjee.
+\newblock Online lazy updates for portfolio selection with transaction costs.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence (AAAI)}, pages 202--208, 2013.
+
+\bibitem[Duchi et~al.(2008)Duchi, Shalev-Shwartz, Singer, and
+  Chandra]{simplexproject}
+J.~Duchi, S.~Shalev-Shwartz, Y.~Singer, and T.~Chandra.
+\newblock Efficient projections onto the $\ell^1$-ball for learning in high
+  dimensions.
+\newblock In \emph{Proceedings of the International Conference on Machine
+  Learning (ICML)}, 2008.
+
+\bibitem[Fama(1965)]{SMP}
+E.~F. Fama.
+\newblock The behavior of stock-market prices.
+\newblock \emph{Journal of Business}, 38\penalty0 (1):\penalty0 34--105, Jan.
+  1965.
+
+\bibitem[Fama(1970)]{efficientmarket}
+E.~F. Fama.
+\newblock Efficient capital markets: A review of theory and empirical work.
+\newblock \emph{Journal of Finance}, 25\penalty0 (2):\penalty0 383--417, May
+  1970.
+
+\bibitem[Fang et~al.(2016)Fang, Xu, Li, Lai, and Wong]{SSSC}
+X.~Fang, Y.~Xu, X.~Li, Z.~Lai, and W.~K. Wong.
+\newblock Robust semi-supervised subspace clustering via non-negative low-rank
+  representation.
+\newblock \emph{IEEE Transactions on Cybernetics}, 46\penalty0 (8):\penalty0
+  1828--1838, Aug. 2016.
+
+\bibitem[Fernholz(2002)]{stoport}
+R.~Fernholz.
+\newblock \emph{Stochastic Portfolio Theory}.
+\newblock Springer Verlag, 2002.
+
+\bibitem[Grinold and Kahn(1999)]{activepm}
+R.~Grinold and R.~Kahn.
+\newblock \emph{Active Portfolio Management: A Quantitative Approach for
+  Producing Superior Returns and Controlling Risk}.
+\newblock McGraw-Hill, New York, 1999.
+
+\bibitem[Gy\"orfi et~al.(2006)Gy\"orfi, Lugosi, and Udina]{multpliupdate}
+L.~Gy\"orfi, G.~Lugosi, and F.~Udina.
+\newblock Nonparametric kernel-based sequential investment strategies.
+\newblock \emph{Mathematical Finance}, 16\penalty0 (2):\penalty0 337--357, Apr.
+  2006.
+
+\bibitem[He et~al.(2015)He, Wang, Cheng, Chen, and Sun]{hiorcouple}
+J.~He, Q.~G. Wang, P.~Cheng, J.~Chen, and Y.~Sun.
+\newblock Multi-period mean-variance portfolio optimization with high-order
+  coupled asset dynamics.
+\newblock \emph{IEEE Transactions on Automatic Control}, 60\penalty0
+  (5):\penalty0 1320--1335, May 2015.
+
+\bibitem[Ho et~al.(2015)Ho, Sun, and Xin]{enetmeanvariance}
+M.~Ho, Z.~Sun, and J.~Xin.
+\newblock Weighted elastic net penalized mean-variance portfolio design and
+  computation.
+\newblock \emph{{SIAM} Journal on Financial Mathematics}, 6\penalty0 (1), 2015.
+
+\bibitem[Huang et~al.(2013)Huang, Zhou, Li, Hoi, and Zhou]{RMR}
+D.~Huang, J.~Zhou, B.~Li, S.~C.~H. Hoi, and S.~Zhou.
+\newblock Robust median reversion strategy for on-line portfolio selection.
+\newblock In \emph{Proceeding of the International Joint Conference on
+  Artificial Intelligence (IJCAI)}, pages 2006--2012, 2013.
+
+\bibitem[Huang et~al.(2016)Huang, Zhou, Li, Hoi, and Zhou]{RMR2}
+D.~Huang, J.~Zhou, B.~Li, S.~C.~H. Hoi, and S.~Zhou.
+\newblock Robust median reversion strategy for online portfolio selection.
+\newblock \emph{IEEE Transactions on Knowledge and Data Engineering},
+  28\penalty0 (9):\penalty0 2480--2493, Sep. 2016.
+
+\bibitem[Jegadeesh(1990)]{MR1}
+N.~Jegadeesh.
+\newblock Evidence of predictable behavior of security returns.
+\newblock \emph{Journal of Finance}, 45\penalty0 (3):\penalty0 881--898, Jul.
+  1990.
+
+\bibitem[Jegadeesh(1991)]{MR2}
+N.~Jegadeesh.
+\newblock Seasonality in stock price mean reversion: Evidence from the {U}.{S}.
+  and the {U}.{K}.
+\newblock \emph{Journal of Finance}, 46\penalty0 (4):\penalty0 1427--1444, Sep.
+  1991.
+
+\bibitem[Jegadeesh and Titman(1993)]{trend0}
+N.~Jegadeesh and S.~Titman.
+\newblock Returns to buying winners and selling losers: Implications for stock
+  market efficiency.
+\newblock \emph{Journal of Finance}, 48\penalty0 (1):\penalty0 65--91, Mar.
+  1993.
+
+\bibitem[Kahneman and Tversky(1979)]{behavioralfinance}
+D.~Kahneman and A.~Tversky.
+\newblock Prospect theory: An analysis of decision under risk.
+\newblock \emph{Econometrica}, 47\penalty0 (2):\penalty0 263--292, Mar. 1979.
+
+\bibitem[Lai et~al.(2015)Lai, Dai, Ren, and Huang]{DCC}
+Z.~R. Lai, D.~Q. Dai, C.~X. Ren, and K.~K. Huang.
+\newblock Discriminative and compact coding for robust face recognition.
+\newblock \emph{IEEE Transactions on Cybernetics}, 45\penalty0 (9):\penalty0
+  1900--1912, Sep. 2015.
+
+\bibitem[Li and Hoi(2012)]{OLMAR0}
+B.~Li and S.~C.~H. Hoi.
+\newblock On-line portfolio selection with moving average reversion.
+\newblock In \emph{Proceedings of the International Conference on Machine
+  Learning (ICML)}, 2012.
+
+\bibitem[Li and Hoi(2014)]{olpssurvey}
+B.~Li and S.~C.~H. Hoi.
+\newblock Online portfolio selection: A survey.
+\newblock \emph{ACM Computing Surveys (CSUR)}, 46\penalty0 (3):\penalty0
+  35:1--35:36, 2014.
+
+\bibitem[Li et~al.(2011)Li, Hoi, and Gopalkrishnan]{CORN}
+B.~Li, S.~C.~H. Hoi, and V.~Gopalkrishnan.
+\newblock {CORN}: Correlation-driven nonparametric learning approach for
+  portfolio selection.
+\newblock \emph{ACM Transactions on Intelligent Systems and Technology},
+  2\penalty0 (3), Apr. 2011.
+\newblock Article No.21.
+
+\bibitem[Li et~al.(2012)Li, Zhao, Hoi, and Gopalkrishnan]{PAMR}
+B.~Li, P.~Zhao, S.~C.~H. Hoi, and V.~Gopalkrishnan.
+\newblock {PAMR}: Passive aggressive mean reversion strategy for portfolio
+  selection.
+\newblock \emph{Machine Learning}, 87\penalty0 (2):\penalty0 221--258, 2012.
+
+\bibitem[Li et~al.(2013)Li, Hoi, Zhao, and Gopalkrishnan]{CWMR}
+B.~Li, S.~C.~H. Hoi, P.~Zhao, and V.~Gopalkrishnan.
+\newblock Confidence weighted mean reversion strategy for online portfolio
+  selection.
+\newblock \emph{ACM Transactions on Knowledge Discovery from Data}, 7\penalty0
+  (1), Mar. 2013.
+\newblock Article 4.
+
+\bibitem[Li et~al.(2015)Li, Hoi, Sahoo, and Liu]{OLMAR}
+B.~Li, S.~C.~H. Hoi, D.~Sahoo, and Z.~Y. Liu.
+\newblock Moving average reversion strategy for on-line portfolio selection.
+\newblock \emph{Artificial Intelligence}, 222:\penalty0 104--123, 2015.
+
+\bibitem[Li et~al.(2016)Li, Sahoo, and Hoi]{olpsjmlr}
+B.~Li, D.~Sahoo, and S.~C.~H. Hoi.
+\newblock {OLPS}: a toolbox for on-line portfolio selection.
+\newblock \emph{Journal of Machine Learning Research}, 17\penalty0
+  (1):\penalty0 1242--1246, 2016.
+
+\bibitem[Lintner(1965)]{portalpha0}
+J.~Lintner.
+\newblock The valuation of risk assets and the selection of risky investments
+  in stock portfolios and capital budgets.
+\newblock \emph{Review of Economics and Statistics}, 47\penalty0 (1):\penalty0
+  13--37, Feb. 1965.
+
+\bibitem[Mahdavi-Damghani et~al.(2017)Mahdavi-Damghani, Mustafayeva, Roberts,
+  and Buescu]{cointel}
+B.~Mahdavi-Damghani, K.~Mustafayeva, S.~Roberts, and C.~Buescu.
+\newblock Portfolio optimization in the context of cointelated pairs:
+  Stochastic differential equation vs. machine learning approach.
+\newblock \emph{Social Science Electronic Publishing}, 2017.
+
+\bibitem[Maillard et~al.(2010)Maillard, Roncalli, and Teiletche]{riskparity1}
+S.~Maillard, T.~Roncalli, and J.~Teiletche.
+\newblock On the properties of equally-weighted risk contributions portfolios.
+\newblock \emph{Social Science Electronic Publishing}, 36\penalty0
+  (4):\penalty0 60--70, 2010.
+
+\bibitem[Markowitz(1952)]{PS}
+H.~M. Markowitz.
+\newblock Portfolio selection.
+\newblock \emph{Journal of Finance}, 7\penalty0 (1):\penalty0 77--91, Mar.
+  1952.
+
+\bibitem[Mohsin et~al.(2015)Mohsin, Ongie, and Jacob]{itershrin}
+Y.~Q. Mohsin, G.~Ongie, and M.~Jacob.
+\newblock Iterative shrinkage algorithm for patch-smoothness regularized
+  medical image recovery.
+\newblock \emph{IEEE Transactions on Medical Imaging}, 34\penalty0
+  (12):\penalty0 2417--2428, Dec. 2015.
+
+\bibitem[Sharpe(1964)]{CAPM}
+W.~F. Sharpe.
+\newblock Capital asset prices: A theory of market equilibrium under conditions
+  of risk.
+\newblock \emph{Journal of Finance}, 19\penalty0 (3):\penalty0 425--442, Sep.
+  1964.
+
+\bibitem[Sharpe(1966)]{SHARPratio}
+W.~F. Sharpe.
+\newblock Mutual fund performance.
+\newblock \emph{Journal of Business}, 39\penalty0 (1):\penalty0 119--138, Jan.
+  1966.
+
+\bibitem[Shen et~al.(2014)Shen, Wang, and Ma]{doubleregu}
+W.~Shen, J.~Wang, and S.~Ma.
+\newblock Doubly regularized portfolio with risk minimization.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence (AAAI)}, 2014.
+
+\bibitem[Shiller(2000)]{irrationalexuberance}
+R.~J. Shiller.
+\newblock \emph{Irrational Exuberance}.
+\newblock Princeton University Press, Princeton, NJ, 2000.
+
+\bibitem[Shiller(2003)]{shiller3}
+R.~J. Shiller.
+\newblock From efficient markets theory to behavioral finance.
+\newblock \emph{Journal of Economic Perspectives}, 17\penalty0 (1):\penalty0
+  83--104, 2003.
+
+\bibitem[Still and Kondor(2010)]{regpo}
+S.~Still and I.~Kondor.
+\newblock Regularizing portfolio optimization.
+\newblock \emph{New Journal of Physics}, 12:\penalty0 1--14, 2010.
+
+\bibitem[Tibshirani(1996)]{LASSO}
+R.~Tibshirani.
+\newblock Regression shrinkage and selection via the lasso.
+\newblock \emph{Journal of the Royal Statistical Society}, 58\penalty0
+  (1):\penalty0 267--288, 1996.
+
+\bibitem[Treynor and Black(1973)]{inforatio2}
+J.~L. Treynor and F.~Black.
+\newblock How to use security analysis to improve portfolio selection.
+\newblock \emph{Journal of Business}, 46\penalty0 (1):\penalty0 66--86, Jan.
+  1973.
+
+\bibitem[Vardi and Zhang(2000)]{l1median3}
+Y.~Vardi and C.~H. Zhang.
+\newblock The multivariate $\ell^1$-median and associated data depth.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 97\penalty0 (4):\penalty0 1423--1426, Feb. 2000.
+
+\bibitem[Yang et~al.(2015)Yang, Couillet, and McKay]{rubuststatvarPO}
+L.~Yang, R.~Couillet, and M.~R. McKay.
+\newblock A robust statistics approach to minimum variance portfolio
+  optimization.
+\newblock \emph{IEEE Transactions on Signal Processing}, 63\penalty0
+  (24):\penalty0 6684--6697, Dec. 2015.
+
+\bibitem[Yin et~al.(2015)Yin, Lou, He, and Xin]{MLCS}
+P.~Yin, Y.~Lou, Q.~He, and J.~Xin.
+\newblock Minimization of $\ell_{1-2}$ for compressed sensing.
+\newblock \emph{{SIAM} Journal on Scientific Computing}, 37\penalty0
+  (1):\penalty0 A536--A563, 2015.
+
+\bibitem[Zhan et~al.(2016)Zhan, Cai, Guo, Liu, Chen, and Qu]{multclassimg}
+Z.~Zhan, J.~F. Cai, D.~Guo, Y.~Liu, Z.~Chen, and X.~Qu.
+\newblock Fast multiclass dictionaries learning with geometrical directions in
+  {MRI} reconstruction.
+\newblock \emph{IEEE Transactions on Biomedical Engineering}, 63\penalty0
+  (9):\penalty0 1850--1861, Sep. 2016.
+
+\bibitem[Zou and Hastie(2005)]{elasticnet}
+H.~Zou and T.~Hastie.
+\newblock Regularization and variable selection via the elastic net.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 67\penalty0 (2):\penalty0 301--320, 2005.
+
+\end{thebibliography}

@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 17-747.aux
+The style file: plainnat.bst
+Database file #1: mapBib.bib
+Warning--can't use both volume and number fields in bertsekas1995dynamic
+Warning--can't use both author and editor fields in Shapiro2013
+You've used 102 entries,
+            2773 wiz_defined-function locations,
+            1138 strings with 19347 characters,
+and the built_in function-call counts, 45938 in all, are:
+= -- 4156
+> -- 2341
+< -- 90
++ -- 801
+- -- 699
+* -- 3547
+:= -- 6957
+add.period$ -- 315
+call.type$ -- 102
+change.case$ -- 516
+chr.to.int$ -- 102
+cite$ -- 206
+duplicate$ -- 2238
+empty$ -- 3950
+format.name$ -- 871
+if$ -- 9714
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 121
+newline$ -- 521
+num.names$ -- 408
+pop$ -- 1093
+preamble$ -- 1
+purify$ -- 437
+quote$ -- 0
+skip$ -- 1710
+stack$ -- 0
+substring$ -- 1967
+swap$ -- 270
+text.length$ -- 24
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1017
+warning$ -- 2
+while$ -- 442
+width$ -- 0
+write$ -- 1318
+(There were 2 warnings)

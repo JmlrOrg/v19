@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.2}{Contribution}{section.1}% 2
+\BOOKMARK [2][-]{subsection.3}{Organization}{section.1}% 3
+\BOOKMARK [2][-]{subsection.4}{Prior Work}{section.1}% 4
+\BOOKMARK [1][-]{section.5}{The Proposed Classification Algorithm}{}% 5
+\BOOKMARK [1][-]{section.29}{Experimental Results}{}% 6
+\BOOKMARK [2][-]{subsection.30}{Classification of Synthetic Datasets}{section.29}% 7
+\BOOKMARK [2][-]{subsection.36}{Handwritten Digit Classification}{section.29}% 8
+\BOOKMARK [2][-]{subsection.40}{Facial Recognition}{section.29}% 9
+\BOOKMARK [1][-]{section.42}{Theoretical Analysis for a Simple Case}{}% 10
+\BOOKMARK [2][-]{subsection.43}{Main Results}{section.42}% 11
+\BOOKMARK [2][-]{subsection.51}{Proof of Main Results}{section.42}% 12
+\BOOKMARK [3][-]{subsubsection.52}{Proof of Theorem 2}{subsection.51}% 13
+\BOOKMARK [3][-]{subsubsection.66}{Proof of Corollary 3}{subsection.51}% 14
+\BOOKMARK [3][-]{subsubsection.73}{Proof of Corollary 4}{subsection.51}% 15
+\BOOKMARK [1][-]{section.80}{Discussion and Conclusion}{}% 16
+\BOOKMARK [1][-]{section.81}{Elementary Computations}{}% 17
+\BOOKMARK [2][-]{subsection.82}{Derivation of \(16\)}{section.81}% 18
+\BOOKMARK [2][-]{subsection.86}{Derivation of \(23\)}{section.81}% 19

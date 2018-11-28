@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: skmultiflow.aux
+The style file: plainnat.bst
+Database file #1: biblio.bib
+Warning--empty journal in bishop2006pattern
+Warning--empty journal in Gama2004
+You've used 14 entries,
+            2773 wiz_defined-function locations,
+            713 strings with 7815 characters,
+and the built_in function-call counts, 8019 in all, are:
+= -- 724
+> -- 537
+< -- 8
++ -- 182
+- -- 168
+* -- 699
+:= -- 1246
+add.period$ -- 57
+call.type$ -- 14
+change.case$ -- 96
+chr.to.int$ -- 14
+cite$ -- 30
+duplicate$ -- 324
+empty$ -- 576
+format.name$ -- 182
+if$ -- 1663
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 15
+newline$ -- 91
+num.names$ -- 56
+pop$ -- 181
+preamble$ -- 1
+purify$ -- 83
+quote$ -- 0
+skip$ -- 261
+stack$ -- 0
+substring$ -- 329
+swap$ -- 45
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 149
+warning$ -- 2
+while$ -- 67
+width$ -- 0
+write$ -- 213
+(There were 2 warnings)

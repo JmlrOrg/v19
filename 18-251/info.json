@@ -1,0 +1,18 @@
+{
+    "abstract": "scikit-multiflow is a framework for learning from data streams and multi-output learning in Python. Conceived to serve as a platform to encourage the democratization of stream learning research, it provides multiple state-of-the-art learning methods, data generators and evaluators for different stream learning problems, including single-output, multi-output and multi-label. scikit-multiflow builds upon popular open source frameworks including scikit-learn, MOA and MEKA. Development follows the FOSS principles. Quality is enforced by complying with PEP8 guidelines, using continuous integration and functional testing. The source code is available at https://github.com/scikit-multiflow/scikit-multiflow.",
+    "authors": [
+        "Jacob Montiel",
+        "Jesse Read",
+        "Albert Bifet",
+        "Talel Abdessalem"
+    ],
+    "id": "18-251",
+    "issue": 72,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "Scikit-Multiflow: A Multi-output Streaming Framework ",
+    "volume": 19,
+    "year": 2018
+}

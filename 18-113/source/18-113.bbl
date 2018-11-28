@@ -1,0 +1,379 @@
+\begin{thebibliography}{57}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abbeel and Ng(2004)]{abbeel2004apprenticeship}
+P.~Abbeel and A.~Y. Ng.
+\newblock Apprenticeship learning via inverse reinforcement learning.
+\newblock In \emph{International Conference on Machine Learning}, page~1, 2004.
+
+\bibitem[Al-Emran(2015)]{al2015hierarchical}
+M.~Al-Emran.
+\newblock Hierarchical reinforcement learning: a survey.
+\newblock \emph{International Journal of Computing and Digital Systems},
+  4\penalty0 (2), 2015.
+
+\bibitem[Albrecht and Stone(2017)]{albrecht2017autonomous}
+S.~V. Albrecht and P.~Stone.
+\newblock Autonomous agents modelling other agents: a comprehensive survey and
+  open problems.
+\newblock \emph{\tt arXiv:1709.08071 [cs.AI]}, 2017.
+
+\bibitem[Aldous(1985)]{aldous1985exchangeability}
+D.~J. Aldous.
+\newblock \emph{Exchangeability and Related Topics}.
+\newblock Springer, 1985.
+
+\bibitem[Argall et~al.(2009)Argall, Chernova, Veloso, and
+  Browning]{argall2009survey}
+B.~D. Argall, S.~Chernova, M.~Veloso, and B.~Browning.
+\newblock A survey of robot learning from demonstration.
+\newblock \emph{Robotics and Autonomous Systems}, 57\penalty0 (5):\penalty0
+  469--483, 2009.
+
+\bibitem[Babe\c{s}-Vroman et~al.(2011)Babe\c{s}-Vroman, Marivate, Subramanian,
+  and Littman]{babes2011apprenticeship}
+M.~Babe\c{s}-Vroman, V.~Marivate, K.~Subramanian, and M.~Littman.
+\newblock Apprenticeship learning about multiple intentions.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  897--904, 2011.
+
+\bibitem[Baird(1993)]{baird1994reinforcement}
+L.~C. Baird.
+\newblock Advantage updating.
+\newblock Technical report, Wright Lab, 1993.
+
+\bibitem[Bhatnagar et~al.(2009)Bhatnagar, Sutton, Ghavamzadeh, and
+  Lee]{bhatnagar2009natural}
+S.~Bhatnagar, R.~Sutton, M.~Ghavamzadeh, and M.~Lee.
+\newblock Natural actor-critic algorithms.
+\newblock \emph{Automatica}, 45\penalty0 (11), 2009.
+
+\bibitem[Blei and Frazier(2011)]{blei2011distance}
+D.~M. Blei and P.~I. Frazier.
+\newblock Distance dependent {C}hinese restaurant processes.
+\newblock \emph{Journal of Machine Learning Research}, 12\penalty0
+  (Nov):\penalty0 2461--2488, 2011.
+
+\bibitem[Blei et~al.(2003)Blei, Ng, and Jordan]{blei2003latent}
+D.~M. Blei, A.~Y. Ng, and M.~I. Jordan.
+\newblock Latent {D}irichlet allocation.
+\newblock \emph{Journal of Machine Learning Research}, 3\penalty0
+  (Jan):\penalty0 993--1022, 2003.
+
+\bibitem[Botvinick(2012)]{botvinick2012hierarchical}
+M.~M. Botvinick.
+\newblock Hierarchical reinforcement learning and decision making.
+\newblock \emph{Current Opinion in Neurobiology}, 22\penalty0 (6):\penalty0
+  956--962, 2012.
+
+\bibitem[Bradtke and Duff(1994)]{bradtke1995reinforcement}
+S.~J. Bradtke and M.~O. Duff.
+\newblock Reinforcement learning methods for continuous-time {M}arkov decision
+  problems.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  393--400, 1994.
+
+\bibitem[Cesa-Bianchi et~al.(2017)Cesa-Bianchi, Gentile, Neu, and
+  Lugosi]{cesa2017boltzmann}
+N.~Cesa-Bianchi, C.~Gentile, G.~Neu, and G.~Lugosi.
+\newblock Boltzmann exploration done right.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  6275--6284, 2017.
+
+\bibitem[Choi and Kim(2012)]{NIPS2012_4737}
+J.~Choi and K.-E. Kim.
+\newblock Nonparametric {B}ayesian inverse reinforcement learning for multiple
+  reward functions.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  305--313, 2012.
+
+\bibitem[Daniel et~al.(2016{\natexlab{a}})Daniel, Van~Hoof, Peters, and
+  Neumann]{daniel2016probabilistic}
+C.~Daniel, H.~Van~Hoof, J.~Peters, and G.~Neumann.
+\newblock Probabilistic inference for determining options in reinforcement
+  learning.
+\newblock \emph{Machine Learning}, 104\penalty0 (2-3):\penalty0 337--357,
+  2016{\natexlab{a}}.
+
+\bibitem[Daniel et~al.(2016{\natexlab{b}})Daniel, Neumann, Kroemer, and
+  Peters]{daniel2016hierarchical}
+Christian Daniel, Gerhard Neumann, Oliver Kroemer, and Jan Peters.
+\newblock Hierarchical relative entropy policy search.
+\newblock \emph{Journal of Machine Learning Research}, 17\penalty0
+  (1):\penalty0 3190--3239, 2016{\natexlab{b}}.
+
+\bibitem[Dimitrakakis and Rothkopf(2011)]{dimitrakakis2011bayesian}
+C.~Dimitrakakis and C.~A. Rothkopf.
+\newblock Bayesian multitask inverse reinforcement learning.
+\newblock In \emph{European Workshop on Reinforcement Learning}, pages
+  273--284, 2011.
+
+\bibitem[Foti and Williamson(2015)]{foti2015survey}
+N.~J. Foti and S.~A. Williamson.
+\newblock A survey of non-exchangeable priors for {B}ayesian nonparametric
+  models.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 37\penalty0 (2):\penalty0 359--371, 2015.
+
+\bibitem[Ghavamzadeh et~al.(2015)Ghavamzadeh, Mannor, Pineau, and
+  Tamar]{ghavamzadeh2015bayesian}
+M.~Ghavamzadeh, S.~Mannor, J.~Pineau, and A.~Tamar.
+\newblock Bayesian reinforcement learning: a survey.
+\newblock \emph{Foundations and Trends in Machine Learning}, 8\penalty0
+  (5-6):\penalty0 359--483, 2015.
+
+\bibitem[Kapron et~al.(2013)Kapron, King, and Mountjoy]{kapron2013dynamic}
+B.~M. Kapron, V.~King, and B.~Mountjoy.
+\newblock Dynamic graph connectivity in polylogarithmic worst case time.
+\newblock In \emph{Annual ACM-SIAM Symposium on Discrete Algorithms}, pages
+  1131--1142, 2013.
+
+\bibitem[Kirkpatrick et~al.(1983)Kirkpatrick, Gelatt, and
+  Vecchi]{kirkpatrick1983optimization}
+S.~Kirkpatrick, C.~D. Gelatt, and M.~P. Vecchi.
+\newblock Optimization by simulated annealing.
+\newblock \emph{Science}, 220\penalty0 (4598):\penalty0 671--680, 1983.
+
+\bibitem[Koller and Friedman(2009)]{koller2009probabilistic}
+D.~Koller and N.~Friedman.
+\newblock \emph{Probabilistic Graphical Models: Principles and Techniques}.
+\newblock MIT Press, 2009.
+
+\bibitem[Konidaris et~al.(2012)Konidaris, Kuindersma, Grupen, and
+  Barto]{konidaris2012robot}
+G.~Konidaris, S.~Kuindersma, R.~Grupen, and A.~Barto.
+\newblock Robot learning from demonstration by constructing skill trees.
+\newblock \emph{International Journal of Robotics Research}, 31\penalty0
+  (3):\penalty0 360--375, 2012.
+
+\bibitem[Krishnan et~al.(2016)Krishnan, Garg, Liaw, Miller, Pokorny, and
+  Goldberg]{hirl2016}
+S.~Krishnan, A.~Garg, R.~Liaw, L.~Miller, F.~T. Pokorny, and K.~Goldberg.
+\newblock {HIRL}: hierarchical inverse reinforcement learning for long-horizon
+  tasks with delayed rewards.
+\newblock \emph{\tt arXiv:1604.06508 [cs.RO]}, 2016.
+
+\bibitem[Levine et~al.(2011)Levine, Popovic, and Koltun]{levine2011nonlinear}
+S.~Levine, Z.~Popovic, and V.~Koltun.
+\newblock Nonlinear inverse reinforcement learning with {G}aussian processes.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  19--27, 2011.
+
+\bibitem[Lioutikov et~al.(2017)Lioutikov, Neumann, Maeda, and
+  Peters]{lioutikov2017learning}
+R.~Lioutikov, G.~Neumann, G.~Maeda, and J.~Peters.
+\newblock Learning movement primitive libraries through probabilistic
+  segmentation.
+\newblock \emph{International Journal of Robotics Research}, 36\penalty0
+  (8):\penalty0 879--894, 2017.
+
+\bibitem[Littman et~al.(1995)Littman, Dean, and
+  Kaelbling]{littman1995complexity}
+M.~L. Littman, T.~L. Dean, and L.~P. Kaelbling.
+\newblock On the complexity of solving {M}arkov decision problems.
+\newblock In \emph{Conference on Uncertainty in Artificial Intelligence}, pages
+  394--402, 1995.
+
+\bibitem[Michini and How(2012)]{michini2012bayesian}
+B.~Michini and J.~P. How.
+\newblock Bayesian nonparametric inverse reinforcement learning.
+\newblock In \emph{Joint European Conference on Machine Learning and Knowledge
+  Discovery in Databases}, pages 148--163, 2012.
+
+\bibitem[Michini et~al.(2013)Michini, Cutler, and How]{michini2013scalable}
+B.~Michini, M.~Cutler, and J.~P. How.
+\newblock Scalable reward learning from demonstration.
+\newblock In \emph{IEEE International Conference on Robotics and Automation},
+  pages 303--308, 2013.
+
+\bibitem[Michini et~al.(2015)Michini, Walsh, Agha-Mohammadi, and
+  How]{michini2015bayesian}
+B.~Michini, T.~J. Walsh, A.-A. Agha-Mohammadi, and J.~P. How.
+\newblock Bayesian nonparametric reward learning from demonstration.
+\newblock \emph{IEEE Transactions on Robotics}, 31\penalty0 (2):\penalty0
+  369--386, 2015.
+
+\bibitem[Neu and Szepesv\'{a}ri(2007)]{neu2007}
+G.~Neu and C.~Szepesv\'{a}ri.
+\newblock Apprenticeship learning using inverse reinforcement learning and
+  gradient methods.
+\newblock In \emph{Conference on Uncertainty in Artificial Intelligence}, pages
+  295--302, 2007.
+
+\bibitem[Ng and Russell(2000)]{ng2000algorithms}
+A.~Y. Ng and S.~J. Russell.
+\newblock Algorithms for inverse reinforcement learning.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  663--670, 2000.
+
+\bibitem[Ng et~al.(1999)Ng, Harada, and Russell]{ng1999policy}
+A.~Y. Ng, D.~Harada, and S.~Russell.
+\newblock Policy invariance under reward transformations: Theory and
+  application to reward shaping.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  278--287, 1999.
+
+\bibitem[Nguyen et~al.(2015)Nguyen, Low, and Jaillet]{nguyen2015inverse}
+Q.~P. Nguyen, B.~K.~H. Low, and P.~Jaillet.
+\newblock Inverse reinforcement learning with locally consistent reward
+  functions.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  1747--1755, 2015.
+
+\bibitem[Niekum et~al.(2012)Niekum, Osentoski, Konidaris, and
+  Barto]{niekum2012learning}
+S.~Niekum, S.~Osentoski, G.~Konidaris, and A.~G. Barto.
+\newblock Learning and generalization of complex tasks from unstructured
+  demonstrations.
+\newblock In \emph{IEEE/RSJ International Conference on Intelligent Robots and
+  Systems}, pages 5239--5246, 2012.
+
+\bibitem[Panella and Gmytrasiewicz(2017)]{panella2017interactive}
+A.~Panella and P~Gmytrasiewicz.
+\newblock Interactive {POMDP}s with finite-state models of other agents.
+\newblock \emph{Autonomous Agents and Multi-Agent Systems}, pages 861--904,
+  2017.
+
+\bibitem[Puterman(1994)]{puterman1994}
+M.~L. Puterman.
+\newblock \emph{Markov Decision Processes: Discrete Stochastic Dynamic
+  Programming}.
+\newblock John Wiley \& Sons, Inc., 1994.
+
+\bibitem[Ramachandran and Amir(2007)]{ramachandran2007bayesian}
+D.~Ramachandran and E.~Amir.
+\newblock Bayesian inverse reinforcement learning.
+\newblock \emph{International Joint Conference on Artificial Intelligence},
+  pages 2586--2591, 2007.
+
+\bibitem[Ranchod et~al.(2015)Ranchod, Rosman, and
+  Konidaris]{ranchod2015nonparametric}
+P.~Ranchod, B.~Rosman, and G.~Konidaris.
+\newblock Nonparametric {B}ayesian reward segmentation for skill discovery
+  using inverse reinforcement learning.
+\newblock In \emph{IEEE/RSJ International Conference on Intelligent Robots and
+  Systems}, pages 471--477, 2015.
+
+\bibitem[Roberts and Sahu(1997)]{roberts1997updating}
+G.~O. Roberts and S.~K. Sahu.
+\newblock Updating schemes, correlation structure, blocking and
+  parameterization for the {G}ibbs sampler.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 59\penalty0 (2):\penalty0 291--317, 1997.
+
+\bibitem[Rothkopf and Dimitrakakis(2011)]{rothkopf2011preference}
+C.~A. Rothkopf and C.~Dimitrakakis.
+\newblock Preference elicitation and inverse reinforcement learning.
+\newblock In \emph{Joint European Conference on Machine Learning and Knowledge
+  Discovery in Databases}, pages 34--48, 2011.
+
+\bibitem[Rueckert et~al.(2013)Rueckert, Neumann, Toussaint, and
+  Maass]{Rueckert2013}
+E.~Rueckert, G.~Neumann, M.~Toussaint, and W.~Maass.
+\newblock Learned graphical models for probabilistic planning provide a new
+  class of movement primitives.
+\newblock \emph{Frontiers in Computational Neuroscience}, 6:\penalty0 97, 2013.
+
+\bibitem[Schaal et~al.(2005)Schaal, Peters, Nakanishi, and
+  Ijspeert]{schaal2005learning}
+S.~Schaal, J.~Peters, J.~Nakanishi, and A.~Ijspeert.
+\newblock Learning movement primitives.
+\newblock \emph{Robotics Research}, pages 561--572, 2005.
+
+\bibitem[Settles(2010)]{settles2010active}
+B.~Settles.
+\newblock Active learning literature survey.
+\newblock Technical report, University of Wisconsin-Madison, 2010.
+
+\bibitem[{\c{S}}im\c{s}ek et~al.(2005){\c{S}}im\c{s}ek, Wolfe, and
+  Barto]{Simsek2005}
+\"{O} {\c{S}}im\c{s}ek, A.~P. Wolfe, and A.~G. Barto.
+\newblock Identifying useful subgoals in reinforcement learning by local graph
+  partitioning.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  816--823, 2005.
+
+\bibitem[{\v{S}}o\v{s}i\'{c} et~al.(2018{\natexlab{a}}){\v{S}}o\v{s}i\'{c},
+  Zoubir, and Koeppl]{sosic2018}
+A.~{\v{S}}o\v{s}i\'{c}, A.~M. Zoubir, and H.~Koeppl.
+\newblock Inverse reinforcement learning via nonparametric subgoal modeling.
+\newblock In \emph{AAAI Spring Symposium on Data-Efficient Reinforcement
+  Learning}, 2018{\natexlab{a}}.
+
+\bibitem[{\v{S}}o\v{s}i\'{c} et~al.(2018{\natexlab{b}}){\v{S}}o\v{s}i\'{c},
+  Zoubir, and Koeppl]{sosic2018pami}
+A.~{\v{S}}o\v{s}i\'{c}, A.~M. Zoubir, and H.~Koeppl.
+\newblock A {B}ayesian approach to policy recognition and state representation
+  learning.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 40\penalty0 (6):\penalty0 1295--1308, 2018{\natexlab{b}}.
+
+\bibitem[Stolle and Precup(2002)]{stolle2002learning}
+M.~Stolle and D.~Precup.
+\newblock Learning options in reinforcement learning.
+\newblock In \emph{International Symposium on Abstraction, Reformulation, and
+  Approximation}, pages 212--223, 2002.
+
+\bibitem[Surana and Srivastava(2014)]{surana2014bayesian}
+A.~Surana and K.~Srivastava.
+\newblock Bayesian nonparametric inverse reinforcement learning for switched
+  markov decision processes.
+\newblock In \emph{IEEE International Conference on Learning and Applications},
+  pages 47--54, 2014.
+
+\bibitem[Sutton and Barto(1998)]{sutton1998reinforcement}
+R.~S. Sutton and A.~G. Barto.
+\newblock \emph{Reinforcement Learning: An Introduction}.
+\newblock MIT Press, 1998.
+
+\bibitem[Sutton et~al.(1999)Sutton, Precup, and Singh]{sutton1999between}
+R.~S. Sutton, D.~Precup, and S.~Singh.
+\newblock Between {MDP}s and semi-{MDP}s: a framework for temporal abstraction
+  in reinforcement learning.
+\newblock \emph{Artificial Intelligence}, 112\penalty0 (1):\penalty0 181--211,
+  1999.
+
+\bibitem[Tamassia et~al.(2015)Tamassia, Zambetta, Raffe, and
+  Li]{tamassia2015learning}
+M.~Tamassia, F.~Zambetta, W.~Raffe, and X.~Li.
+\newblock Learning options for an {MDP} from demonstrations.
+\newblock In \emph{Australasian Conference on Artificial Life and Computational
+  Intelligence}, pages 226--242, 2015.
+
+\bibitem[Taylor and Karlin(1984)]{taylor2014introduction}
+H.~M. Taylor and S.~Karlin.
+\newblock \emph{An Introduction to Stochastic Modeling}.
+\newblock Academic Press, 1984.
+
+\bibitem[Tewari and Bartlett(2008)]{tewari2008optimistic}
+A.~Tewari and P.~L. Bartlett.
+\newblock Optimistic linear programming gives logarithmic regret for
+  irreducible {MDP}s.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  1505--1512, 2008.
+
+\bibitem[Yang et~al.(2007)Yang, Jiang, Hauptmann, and Ngo]{yang2007evaluating}
+J.~Yang, Y.-G. Jiang, A.~G. Hauptmann, and C.-W. Ngo.
+\newblock Evaluating bag-of-visual-words representations in scene
+  classification.
+\newblock In \emph{International Workshop on Multimedia Information Retrieval},
+  pages 197--206, 2007.
+
+\bibitem[Zhifei and Joo(2012)]{zhifei2012}
+S.~Zhifei and E.~M. Joo.
+\newblock A survey of inverse reinforcement learning techniques.
+\newblock \emph{International Journal of Intelligent Computing and
+  Cybernetics}, 5\penalty0 (3):\penalty0 293--311, 2012.
+
+\bibitem[Ziebart et~al.(2008)Ziebart, Maas, Bagnell, and
+  Dey]{ziebart2008maximum}
+B.~D. Ziebart, A.~L. Maas, J.~A. Bagnell, and A.~K. Dey.
+\newblock Maximum entropy inverse reinforcement learning.
+\newblock In \emph{AAAI Conference on Artificial Intelligence}, pages
+  1433--1438, 2008.
+
+\end{thebibliography}

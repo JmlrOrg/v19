@@ -1,0 +1,298 @@
+\begin{thebibliography}{53}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Adler et~al.(2017)Adler, Cao, Karp, Pekoz, and Ross]{adler}
+I.~Adler, Y.~Cao, R.~Karp, E.A. Pekoz, and S.M. Ross.
+\newblock Random knockout tournaments.
+\newblock \emph{Operations Research}, 2017.
+
+\bibitem[Ailon(2012)]{ailon3}
+N.~Ailon.
+\newblock An active learning algorithm for ranking from pairwise preferences
+  with almost optimal query complexity.
+\newblock \emph{Journal of Machine Learning Research}, 2012.
+
+\bibitem[Allison and Christakis(1994)]{allison}
+P.D. Allison and N.A. Christakis.
+\newblock Logit models for sets of ranked items.
+\newblock \emph{Sociological Methodology}, 1994.
+
+\bibitem[Baek et~al.(2013)Baek, Yi, Park, and Kim]{baek}
+S.K. Baek, I.G. Yi, H.J. Park, and B.J. Kim.
+\newblock Universal statistics of the knockout tournament.
+\newblock \emph{Nature, Scientific Reports}, 2013.
+
+\bibitem[Balinski and Laraki(2010)]{balinski}
+M.~Balinski and R.~Laraki.
+\newblock \emph{Majority Judgment, Measuring, Ranking, and Electing}.
+\newblock The MIT Press, 2010.
+
+\bibitem[Batchelder et~al.(1992)Batchelder, Bershal, and Simpson]{batchelder}
+W.H. Batchelder, N.J. Bershal, and R.S. Simpson.
+\newblock Dynamic paired-comparison scaling.
+\newblock \emph{Journal of Mathematical Psychology}, 1992.
+
+\bibitem[Bradley and Terry(1952)]{bradley1}
+R.A. Bradley and M.E. Terry.
+\newblock Rank analysis of incomplete block designs: I. the method of paired
+  comparisons.
+\newblock \emph{Biometrika}, 1952.
+
+\bibitem[Chatterjee and Mukherjee(2016)]{chatterjee}
+S.~Chatterjee and S.~Mukherjee.
+\newblock On estimation in tournaments and graphs under monotonicity
+  constraints.
+\newblock \emph{arXiv:1603.04556 [math.ST]}, 2016.
+
+\bibitem[Chung(1994)]{chung2}
+F.R.K. Chung.
+\newblock Spectral graph theory.
+\newblock \emph{AMS and CBMS}, 1994.
+
+\bibitem[Chung and Hwang(1978)]{chung1}
+F.R.K. Chung and F.K. Hwang.
+\newblock Do stronger players win more knockout tournaments?
+\newblock \emph{Journal of the American Statistical Association}, 1978.
+
+\bibitem[Claeskens and Hjort(2006)]{claeskens}
+G.~Claeskens and N.L. Hjort.
+\newblock Model selection and model averaging.
+\newblock \emph{Cambridge Series in Statistical and Probabilistic Mathematics},
+  2006.
+
+\bibitem[Colley(2002)]{colley}
+W.N. Colley.
+\newblock Colley's bias free college football ranking method: The colley matrix
+  explained, 2002.
+\newblock URL \url{http://www.colleyrankings.com/matrate.pdf}.
+
+\bibitem[Cremonesi et~al.(2010)Cremonesi, Koren, and Turrin]{cremonesi}
+P.~Cremonesi, Y.~Koren, and R.~Turrin.
+\newblock Performance of recommender algorithms on top-n recommendation tasks.
+\newblock \emph{Proceedings of the fourth ACM conference on recommender
+  systems}, 2010.
+
+\bibitem[David(1988)]{david}
+H.A. David.
+\newblock \emph{The method of paired comparisons}.
+\newblock Hodder Arnold, 1988.
+
+\bibitem[deCani(1969)]{decani}
+J.S. deCani.
+\newblock Maximum likelihood paired comparison ranking by linear programming.
+\newblock \emph{Biometrika}, page 537, 1969.
+
+\bibitem[Fan and Chen(1999)]{fan}
+J.~Fan and J.~Chen.
+\newblock One-step local quasi-likelihood estimation.
+\newblock \emph{Journal of the Royal Statistical Society}, 1999.
+
+\bibitem[Favardin et~al.(2002)Favardin, Lepelley, and Serais]{favardin}
+P.~Favardin, D.~Lepelley, and J.~Serais.
+\newblock Borda rule, copeland method and strategic manipulation.
+\newblock \emph{Rev.Econ.Design}, 2002.
+
+\bibitem[Govan(2008)]{govan1}
+A.Y. Govan.
+\newblock Ranking theory with application to popular sports, 2008.
+
+\bibitem[Heckel et~al.(2016)Heckel, Shah, Ramchandran, and Wainwright]{heckel}
+R.~Heckel, N.B. Shah, K.~Ramchandran, and M.J. Wainwright.
+\newblock Active ranking from pairwise comparisons and when parametric
+  assumptions don't help.
+\newblock \emph{arxiv:1606.08842v2 [cs.LG]}, 2016.
+
+\bibitem[Herbrich et~al.(2007)Herbrich, Minka, and Graepel]{herbrich}
+R.~Herbrich, T.~Minka, and T.~Graepel.
+\newblock Trueskill tm: A bayesian skill rating system.
+\newblock \emph{Advances in Neural Information Processing Systems, MIT Press},
+  2007.
+
+\bibitem[Huber(1963)]{huber}
+P.J. Huber.
+\newblock Pairwise comparison and ranking: optimum properties of the row sum
+  procedure.
+\newblock \emph{Annals of Mathematical Statistics}, 1963.
+
+\bibitem[Hwang(2009)]{hwang}
+S.H. Hwang.
+\newblock Contest success functions: Theory and evidence.
+\newblock \emph{Economics Department Working Paper Series. 11.}, 2009.
+\newblock URL \url{http://scholarworks.umass.edu/econ_workingpaper/11}.
+
+\bibitem[Israel(1981)]{israel}
+R.B. Israel.
+\newblock Stronger players need not win more knockout tournaments.
+\newblock \emph{Journal of the American Statistical Association}, 1981.
+
+\bibitem[Jia et~al.(2013)Jia, Skaperdas, and Vaidya]{jia}
+H.~Jia, S.~Skaperdas, and S.~Vaidya.
+\newblock Contest functions: Theoretical foundations and issues in estimation.
+\newblock \emph{International Journal of Industrial Organization}, 2013.
+
+\bibitem[Jiang et~al.(2010)Jiang, Lim, Yao, and Ye]{jiang}
+X.~Jiang, L.H. Lim, Y.~Yao, and Y.~Ye.
+\newblock Statistical ranking and combinatorial hodge theory.
+\newblock \emph{Mathematical Programming}, 2010.
+
+\bibitem[Levin and Nalebuff(1995)]{levin}
+J.~Levin and B.~Nalebuff.
+\newblock An introduction to vote-counting schemes.
+\newblock \emph{Journal of Economic Perspectives}, 1995.
+
+\bibitem[Marden(1996)]{marden}
+J.I. Marden.
+\newblock \emph{Analyzing and Modeling Rank Data}.
+\newblock Chapman and Hall/CRC, 1996.
+
+\bibitem[Mason and Handscomb(2002)]{mason}
+J.C. Mason and D.C. Handscomb.
+\newblock \emph{Chebyshev Polynomials}.
+\newblock CRC Press, 2002.
+
+\bibitem[Massey(2017)]{massey}
+K.~Massey.
+\newblock Massey ratings, 2017.
+\newblock URL \url{https://www.masseyratings.com/theory/massey97.pdf}.
+
+\bibitem[Morrison(1963)]{morrison}
+H.W. Morrison.
+\newblock Testable conditions for triads of paired comparison choices.
+\newblock \emph{Psychometrika}, 1963.
+
+\bibitem[Mutapcic and Boyd(2009)]{mutapcic}
+A.~Mutapcic and S.~Boyd.
+\newblock Cutting-set methods for robust convex optimization with pessimizing
+  oracles.
+\newblock \emph{Optimization Methods \& Software}, 2009.
+
+\bibitem[Nemirovski and Todd(2009)]{nemirovski}
+A.S. Nemirovski and M.J. Todd.
+\newblock Interior-point methods for optimization.
+\newblock \emph{Acta Numerica}, 2009.
+
+\bibitem[Oliveira et~al.(2018)Oliveira, Zehavi, and Davidov]{oliveira}
+I.F.D. Oliveira, S.~Zehavi, and O.~Davidov.
+\newblock Stochastic transitivity: Axioms and models.
+\newblock \emph{Journal of Mathematical Psychology}, 2018.
+
+\bibitem[Pacuit(2012)]{pacuit}
+E.~Pacuit.
+\newblock Voting methods.
+\newblock \emph{In The Stanford Encyclopedia of Philosophy}, 2012.
+
+\bibitem[Pan(2015)]{pan}
+V.~Pan.
+\newblock How bad are vandermonde matrices?
+\newblock \emph{SIAM Journal on Matrix Analysis and Applications}, 2015.
+
+\bibitem[Parrilo(2016)]{parrilo}
+P.A. Parrilo.
+\newblock Algebraic techniques and semidefinite optimization, 2016.
+\newblock URL
+  \url{http://stellar.mit.edu/S/course/6/sp10/6.256/courseMaterial/topics/topic2/lectureNotes/lecture-10/lecture-10.pdf}.
+
+\bibitem[Rajkumar and Agarwal(2014)]{rajkumar}
+A.~Rajkumar and S.~Agarwal.
+\newblock A statistical convergence perspective of algorithms for rank
+  aggregation from pairwise data.
+\newblock \emph{Proceedings of JMLR}, 2014.
+
+\bibitem[Ramsay(1988)]{ramsay}
+J.O. Ramsay.
+\newblock Monotone regression splines in action.
+\newblock \emph{Statistical Science}, 1988.
+
+\bibitem[Regenwetter and Davis-Stober(2008)]{regenwetter1}
+M.~Regenwetter and C.P. Davis-Stober.
+\newblock There are many models of transitive preference: a tutorial review and
+  current perspective.
+\newblock \emph{Decision Modeling and Behavior in Complex and Uncertain
+  Environments}, 2008.
+
+\bibitem[Regenwetter et~al.(2011)Regenwetter, Dana, and
+  Davis-Stober]{regenwetter3}
+M.~Regenwetter, J.~Dana, and C.P. Davis-Stober.
+\newblock Transitivity of preferences.
+\newblock \emph{Psychological Review}, 2011.
+
+\bibitem[Saari(1995)]{saari}
+D.G. Saari.
+\newblock Basic geometry of voting.
+\newblock \emph{Springer-Verlag Berlin Heidelberg}, 1995.
+
+\bibitem[Shah et~al.(2015{\natexlab{a}})Shah, Balakrishnan, Bradley, Parekh,
+  Ramchandran, and Wainwright]{shah2}
+N.B. Shah, S.~Balakrishnan, J.~Bradley, A.~Parekh, K.~Ramchandran, and M.J.
+  Wainwright.
+\newblock Estimation from pairwise comparisons: sharp minimax bounds with
+  topology dependence.
+\newblock \emph{Proceedings of the Eighteenth International Conference on
+  Artificial Intelligence and Statistics}, 2015{\natexlab{a}}.
+
+\bibitem[Shah et~al.(2015{\natexlab{b}})Shah, Balakrishnan, and
+  Guntuboyina]{shah}
+N.B. Shah, S.~Balakrishnan, and A.~Guntuboyina.
+\newblock Stochastically transitive models for pairwise comparisons:
+  statistical and computational issues.
+\newblock \emph{arXiv:1510.05610 [stat.ML]}, 2015{\natexlab{b}}.
+
+\bibitem[Simons and Yao(1999)]{simons}
+G.~Simons and Y.C. Yao.
+\newblock Asymptotics when the number of parameters tends to infinity in the
+  bradley-terry model for paired comparisons.
+\newblock \emph{The Annals of Statistics}, 1999.
+
+\bibitem[Stein(2012)]{stein}
+O.~Stein.
+\newblock How to solve a semi-infinite optimization problem.
+\newblock \emph{European Journal of Operational Research}, 2012.
+
+\bibitem[Su(2015)]{su}
+S.~Su.
+\newblock Fleximble parametric quantile regression model.
+\newblock \emph{Stat Compt}, 2015.
+
+\bibitem[Takeuchi et~al.(2006)Takeuchi, Le, Sears, and Smola]{takeuchi}
+I.~Takeuchi, Q.V. Le, T.D. Sears, and A.J. Smola.
+\newblock Nonparametric quantile estimation.
+\newblock \emph{Journal of Machine Learning Research}, 2006.
+
+\bibitem[Thurstone(1927)]{thurstone}
+L.L. Thurstone.
+\newblock A law of comparative judgment.
+\newblock \emph{Psychology Review}, 1927.
+
+\bibitem[Tsukida and Gupta(2011)]{tsukida}
+K.~Tsukida and M.R. Gupta.
+\newblock How to analyze paired comparison data, 2011.
+\newblock URL \url{http://www.dtic.mil/dtic/tr/fulltext/u2/a543806.pdf}.
+
+\bibitem[Vandenberghe and Boyd(1996)]{vandenberghe}
+L.~Vandenberghe and S.~Boyd.
+\newblock Semidefinite programming.
+\newblock \emph{SIAM Review}, 1996.
+
+\bibitem[Yellott(1970)]{yellott}
+J.I. Yellott.
+\newblock The relationship between thurstone's, luce's and dawkins' models for
+  paired comparisons.
+\newblock \emph{Annual Meeting of Mathematical Psychology}, 1970.
+
+\bibitem[Yellott(1977)]{yellott2}
+J.I. Yellott.
+\newblock The relationship between luce's choice axiom, thurstone's theory of
+  comparative judgment, and the double exponential.
+\newblock \emph{Journal of Mathematical Psychology}, 1977.
+
+\bibitem[Zermelo(1928)]{zermelo}
+E.~Zermelo.
+\newblock Die berechnung der turnier-ergebnisse als ein maximumproblem der
+  wahrscheinlichkeitsrechnung.
+\newblock \emph{Mathematische Zeitschrift}, 1928.
+
+\end{thebibliography}

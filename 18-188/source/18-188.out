@@ -1,0 +1,33 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Main Results}{}% 2
+\BOOKMARK [1][-]{section.25}{Implications: Rates of convergence}{}% 3
+\BOOKMARK [1][-]{section.37}{Extensions}{}% 4
+\BOOKMARK [2][-]{subsection.38}{Multi-Class Classification with Cross-Entropy Loss}{section.37}% 5
+\BOOKMARK [2][-]{subsection.44}{Deep networks}{section.37}% 6
+\BOOKMARK [2][-]{subsection.53}{Other optimization methods }{section.37}% 7
+\BOOKMARK [2][-]{subsection.56}{Other loss functions}{section.37}% 8
+\BOOKMARK [2][-]{subsection.57}{Matrix Factorization}{section.37}% 9
+\BOOKMARK [1][-]{section.58}{Summary}{}% 10
+\BOOKMARK [1][-]{section.64}{Proof of Theorems 3 and 4 for almost every dataset}{}% 11
+\BOOKMARK [2][-]{subsection.71}{Simple proof of Theorem 9}{section.64}% 12
+\BOOKMARK [2][-]{subsection.77}{Complete proof of Theorem 9 }{section.64}% 13
+\BOOKMARK [2][-]{subsection.93}{Proof of Theorem 4 }{section.64}% 14
+\BOOKMARK [2][-]{subsection.95}{Proof of Lemma 10}{section.64}% 15
+\BOOKMARK [2][-]{subsection.100}{Proof of Lemma 11}{section.64}% 16
+\BOOKMARK [1][-]{section.132}{Generic solutions of the KKT conditions in eq. 6 }{}% 17
+\BOOKMARK [1][-]{section.136}{Completing the proof of Theorem 3 for zero measure cases }{}% 18
+\BOOKMARK [2][-]{subsection.142}{Auxiliary notation}{section.136}% 19
+\BOOKMARK [2][-]{subsection.148}{Proof of Theorem 13}{section.136}% 20
+\BOOKMARK [2][-]{subsection.162}{Proof of Lemma 14}{section.136}% 21
+\BOOKMARK [2][-]{subsection.202}{Proof of the existence and uniqueness of the solution to eqs. 62-63 }{section.136}% 22
+\BOOKMARK [2][-]{subsection.215}{Proof of the existence and uniqueness of the solution to eqs. 64-65}{section.136}% 23
+\BOOKMARK [2][-]{subsection.224}{Proof of Lemma 15}{section.136}% 24
+\BOOKMARK [1][-]{section.229}{Calculation of convergence rates }{}% 25
+\BOOKMARK [2][-]{subsection.230}{Proof of Theorem 5}{section.229}% 26
+\BOOKMARK [2][-]{subsection.234}{Validation error lower bound}{section.229}% 27
+\BOOKMARK [1][-]{section.235}{Softmax output with cross-entropy loss}{}% 28
+\BOOKMARK [2][-]{subsection.244}{Notations and Definitions}{section.235}% 29
+\BOOKMARK [2][-]{subsection.250}{Auxiliary Lemma}{section.235}% 30
+\BOOKMARK [2][-]{subsection.256}{Proof of Theorem 7}{section.235}% 31
+\BOOKMARK [2][-]{subsection.264}{Proof of Lemma 20}{section.235}% 32
+\BOOKMARK [1][-]{section.285}{An experiment with stochastic gradient descent }{}% 33

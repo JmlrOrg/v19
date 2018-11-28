@@ -1,0 +1,194 @@
+\begin{thebibliography}{30}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bach et~al.(2013)Bach, Huang, London, and Getoor]{bach2013hinge}
+Stephen Bach, Bert Huang, Ben London, and Lise Getoor.
+\newblock Hinge-loss {M}arkov random fields: {C}onvex inference for structured
+  prediction.
+\newblock \emph{arXiv:1309.6813}, 2013.
+
+\bibitem[Blei and Smyth(2017)]{Blei2017Science}
+D.~Blei and P.~Smyth.
+\newblock Science and data science.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 114\penalty0
+  (33):\penalty0 8689--8692, 2017.
+
+\bibitem[Brodersen et~al.(2015)Brodersen, Gallusser, Koehler, Remy, and
+  Scott]{brodersen2015inferring}
+Kay~H Brodersen, Fabian Gallusser, Jim Koehler, Nicolas Remy, and Steven~L
+  Scott.
+\newblock Inferring causal impact using {B}ayesian structural time-series
+  models.
+\newblock \emph{The Annals of Applied Statistics}, 9\penalty0 (1):\penalty0
+  247--274, 2015.
+
+\bibitem[Caron et~al.(2006)Caron, Duflos, Pomorski, and
+  Vanheeghe]{caron2006gps}
+Francois Caron, Emmanuel Duflos, Denis Pomorski, and Philippe Vanheeghe.
+\newblock {GPS/IMU} data fusion using multisensor {K}alman filtering:
+  introduction of contextual aspects.
+\newblock \emph{Information fusion}, 7\penalty0 (2):\penalty0 221--230, 2006.
+
+\bibitem[Cleveland et~al.(1990)Cleveland, Cleveland, and
+  Terpenning]{cleveland1990stl}
+Robert~B Cleveland, William~S Cleveland, and Irma Terpenning.
+\newblock {STL: A} seasonal-trend decomposition procedure based on loess.
+\newblock \emph{Journal of Official Statistics}, 6\penalty0 (1):\penalty0 3,
+  1990.
+
+\bibitem[Cortes and Vapnik(1995)]{cortes1995support}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support vector machine.
+\newblock \emph{Machine learning}, 20\penalty0 (3):\penalty0 273--297, 1995.
+
+\bibitem[Csat{\'o} and Opper(2002)]{csato2002sparse}
+Lehel Csat{\'o} and Manfred Opper.
+\newblock Sparse on-line {G}aussian processes.
+\newblock \emph{Neural computation}, 14\penalty0 (3):\penalty0 641--668, 2002.
+
+\bibitem[Durbin and Koopman(2002)]{durbin2002simple}
+James Durbin and Siem~Jan Koopman.
+\newblock A simple and efficient simulation smoother for state space time
+  series analysis.
+\newblock \emph{Biometrika}, 89\penalty0 (3):\penalty0 603--616, 2002.
+
+\bibitem[Dy and Brodley(2004)]{dy2004feature}
+Jennifer~G Dy and Carla~E Brodley.
+\newblock Feature selection for unsupervised learning.
+\newblock \emph{Journal of machine learning research}, 5\penalty0
+  (Aug):\penalty0 845--889, 2004.
+
+\bibitem[George and McCulloch(1997)]{george1997approaches}
+Edward~I George and Robert~E McCulloch.
+\newblock Approaches for {B}ayesian variable selection.
+\newblock \emph{Statistica sinica}, pages 339--373, 1997.
+
+\bibitem[Griffiths(2003)]{griffiths2003bayesian}
+William~E Griffiths.
+\newblock Bayesian inference in the seemingly unrelated regressions model.
+\newblock In \emph{Computer-aided econometrics}, pages 263--290. CRC Press,
+  2003.
+
+\bibitem[Guyon and Elisseeff(2003)]{guyon2003introduction}
+Isabelle Guyon and Andr{\'e} Elisseeff.
+\newblock An introduction to variable and feature selection.
+\newblock \emph{Journal of machine learning research}, 3\penalty0
+  (Mar):\penalty0 1157--1182, 2003.
+
+\bibitem[Harvey(1990)]{harvey1990forecasting}
+Andrew~C Harvey.
+\newblock \emph{Forecasting, structural time series models and the {K}alman
+  filter}.
+\newblock Cambridge university press, 1990.
+
+\bibitem[Harvey et~al.(2007)Harvey, Trimbur, and Van~Dijk]{harvey2007trends}
+Andrew~C Harvey, Thomas~M Trimbur, and Herman~K Van~Dijk.
+\newblock Trends and cycles in economic time series: {A} {B}ayesian approach.
+\newblock \emph{Journal of Econometrics}, 140\penalty0 (2):\penalty0 618--649,
+  2007.
+
+\bibitem[Hoeting et~al.(1999)Hoeting, Madigan, Raftery, and
+  Volinsky]{hoeting1999bayesian}
+Jennifer~A Hoeting, David Madigan, Adrian~E Raftery, and Chris~T Volinsky.
+\newblock Bayesian model averaging: a tutorial.
+\newblock \emph{Statistical science}, pages 382--401, 1999.
+
+\bibitem[Keerthi and Lin(2003)]{keerthi2003asymptotic}
+S~Sathiya Keerthi and Chih-Jen Lin.
+\newblock Asymptotic behaviors of support vector machines with {G}aussian
+  kernel.
+\newblock \emph{Neural computation}, 15\penalty0 (7):\penalty0 1667--1689,
+  2003.
+
+\bibitem[Koo et~al.(2007)Koo, Globerson, Carreras~P{\'e}rez, and
+  Collins]{koo2007structured}
+Terry Koo, Amir Globerson, Xavier Carreras~P{\'e}rez, and Michael Collins.
+\newblock Structured prediction models via the matrix-tree theorem.
+\newblock In \emph{Joint Conference on Empirical Methods in Natural Language
+  Processing and Computational Natural Language Learning (EMNLP-CoNLL)}, pages
+  141--150, 2007.
+
+\bibitem[Krishnapuram et~al.(2005)Krishnapuram, Carin, Figueiredo, and
+  Hartemink]{krishnapuram2005sparse}
+Balaji Krishnapuram, Lawrence Carin, Mario~AT Figueiredo, and Alexander~J
+  Hartemink.
+\newblock Sparse multinomial logistic regression: {F}ast algorithms and
+  generalization bounds.
+\newblock \emph{IEEE transactions on pattern analysis and machine
+  intelligence}, 27\penalty0 (6):\penalty0 957--968, 2005.
+
+\bibitem[Madigan and Raftery(1994)]{madigan1994model}
+David Madigan and Adrian~E Raftery.
+\newblock Model selection and accounting for model uncertainty in graphical
+  models using {O}ccam's window.
+\newblock \emph{Journal of the American Statistical Association}, 89\penalty0
+  (428):\penalty0 1535--1546, 1994.
+
+\bibitem[Mohri et~al.(2012)Mohri, Rostamizadeh, and
+  Talwalkar]{mohri2012foundations}
+Mehryar Mohri, Afshin Rostamizadeh, and Ameet Talwalkar.
+\newblock \emph{Foundations of machine learning}.
+\newblock MIT press, 2012.
+
+\bibitem[Nowozin and Lampert(2011)]{nowozin2011structured}
+Sebastian Nowozin and Christoph~H Lampert.
+\newblock Structured learning and prediction in computer vision.
+\newblock \emph{Foundations and Trends in Computer Graphics and Vision},
+  6\penalty0 (3--4):\penalty0 185--365, 2011.
+
+\bibitem[Peters et~al.(2017)Peters, Janzing, and
+  Sch{\"o}lkopf]{peters2017elements}
+Jonas Peters, Dominik Janzing, and Bernhard Sch{\"o}lkopf.
+\newblock Elements of causal inference: foundations and learning algorithms.
+\newblock \emph{MIT Press}, 12:\penalty0 978--0, 2017.
+
+\bibitem[Petris et~al.(2009)Petris, Petrone, and Campagnoli]{petris2009dynamic}
+Giovanni Petris, Sonia Petrone, and Patrizia Campagnoli.
+\newblock Dynamic linear models.
+\newblock \emph{Dynamic Linear Models with {R}}, pages 31--84, 2009.
+
+\bibitem[Preis et~al.(2013)Preis, Moat, and Stanley]{preis2013quantifying}
+Tobias Preis, Helen~Susannah Moat, and H~Eugene Stanley.
+\newblock Quantifying trading behavior in financial markets using {G}oogle
+  {T}rends.
+\newblock \emph{Scientific reports}, 3:\penalty0 srep01684, 2013.
+
+\bibitem[Rossi et~al.(2012)Rossi, Allenby, and McCulloch]{rossi2012bayesian}
+Peter~E Rossi, Greg~M Allenby, and Rob McCulloch.
+\newblock \emph{Bayesian statistics and marketing}.
+\newblock John Wiley \& Sons, 2012.
+
+\bibitem[Said and Dickey(1984)]{said1984testing}
+Said~E Said and David~A Dickey.
+\newblock Testing for unit roots in autoregressive-moving average models of
+  unknown order.
+\newblock \emph{Biometrika}, 71\penalty0 (3):\penalty0 599--607, 1984.
+
+\bibitem[Scott and Varian(2014)]{scott2014predicting}
+Steven~L Scott and Hal~R Varian.
+\newblock Predicting the present with {B}ayesian structural time series.
+\newblock \emph{International Journal of Mathematical Modelling and Numerical
+  Optimisation}, 5\penalty0 (1-2):\penalty0 4--23, 2014.
+
+\bibitem[Scott and Varian(2015)]{scott2015bayesian}
+Steven~L Scott and Hal~R Varian.
+\newblock Bayesian variable selection for nowcasting economic time series.
+\newblock In \emph{Economic analysis of the digital economy}, pages 119--135.
+  University of Chicago Press, 2015.
+
+\bibitem[Torgo(2011)]{torgo2011data}
+Luis Torgo.
+\newblock Data mining with {R}.
+\newblock \emph{Learning with case studies. CRC, Boca Raton}, 2011.
+
+\bibitem[Varian(2014)]{varian2014big}
+Hal~R Varian.
+\newblock Big data: New tricks for econometrics.
+\newblock \emph{The Journal of Economic Perspectives}, 28\penalty0
+  (2):\penalty0 3--27, 2014.
+
+\end{thebibliography}

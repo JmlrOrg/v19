@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.5}{The Inference problem}{}% 2
+\BOOKMARK [2][-]{subsection.8}{Data augmentation I: Latent Poisson process}{section.5}% 3
+\BOOKMARK [2][-]{subsection.12}{Data augmentation II: P\363lya\205Gamma variables and marked Poisson process}{section.5}% 4
+\BOOKMARK [1][-]{section.20}{Inference in the augmented space}{}% 5
+\BOOKMARK [2][-]{subsection.23}{Variational mean\205field approximation}{section.20}% 6
+\BOOKMARK [2][-]{subsection.57}{Laplace approximation}{section.20}% 7
+\BOOKMARK [2][-]{subsection.60}{Predictive density}{section.20}% 8
+\BOOKMARK [1][-]{section.65}{Results}{}% 9
+\BOOKMARK [1][-]{section.78}{Discussion and Outlook}{}% 10
+\BOOKMARK [1][-]{section.79}{Poisson processes}{}% 11
+\BOOKMARK [1][-]{section.84}{The P\363lya-Gamma density}{}% 12
+\BOOKMARK [1][-]{section.85}{Variational inference for stochastic processes}{}% 13
+\BOOKMARK [1][-]{section.88}{The posterior point process is a marked Poisson process}{}% 14
+\BOOKMARK [1][-]{section.89}{Sparse Gaussian process approximation}{}% 15
+\BOOKMARK [1][-]{section.91}{Lower bound \046 hyperparameter optimization}{}% 16

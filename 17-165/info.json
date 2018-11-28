@@ -1,0 +1,19 @@
+{
+    "abstract": "We study maximum selection and sorting of $n$ numbers using imperfect pairwise comparators. The imperfect comparator returns the larger of the two inputs if the inputs are more than a given threshold apart and an adversarially-chosen input otherwise. We consider two adversarial models: a non-adaptive adversary that decides on the outcomes in advance and an adaptive adversary that decides on the outcome of each comparison depending on the previous comparisons and outcomes. Against the non-adaptive adversary, we derive a maximum-selection algorithm that uses at most $2n$ comparisons in expectation and a sorting algorithm that uses at most $2n\\ln n$ comparisons in expectation. In the presence of the adaptive adversary, the proposed maximum-selection algorithm uses $\\Theta(n\\log (1/{\\epsilon}))$ comparisons to output a correct answer with probability at least $1-\\epsilon$, resolving an open problem in Ajtai et al. (2015). Our study is motivated by a density-estimation problem. Given samples from an unknown distribution, we would like to find a distribution among a known class of $n$ candidate distributions that is close to the underlying distribution in $\\ell_1$ distance. Scheffe's algorithm, for example, in Devroye and Lugosi (2001) outputs a distribution at an $\\ell_1$ distance at most 9 times the minimum and runs in time $\\Theta(n^2\\log n)$. Using our algorithm, the runtime reduces to $\\Theta(n\\log n)$.",
+    "authors": [
+        "Jayadev Acharya",
+        "Moein Falahatgar",
+        "Ashkan Jafarpour",
+        "Alon Orlitsky",
+        "Ananda Theertha Suresh"
+    ],
+    "id": "17-165",
+    "issue": 59,
+    "pages": [
+        1,
+        31
+    ],
+    "title": " Maximum Selection and Sorting with Adversarial Comparators",
+    "volume": 19,
+    "year": 2018
+}

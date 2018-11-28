@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 17-402.aux
+The style file: plainnat.bst
+Database file #1: hinge_minimax.bib
+Warning--empty note in Kontorovich18
+You've used 28 entries,
+            2773 wiz_defined-function locations,
+            779 strings with 9815 characters,
+and the built_in function-call counts, 14588 in all, are:
+= -- 1326
+> -- 769
+< -- 26
++ -- 259
+- -- 231
+* -- 1102
+:= -- 2116
+add.period$ -- 89
+call.type$ -- 28
+change.case$ -- 157
+chr.to.int$ -- 28
+cite$ -- 57
+duplicate$ -- 722
+empty$ -- 1231
+format.name$ -- 277
+if$ -- 3179
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 31
+newline$ -- 151
+num.names$ -- 112
+pop$ -- 353
+preamble$ -- 1
+purify$ -- 133
+quote$ -- 0
+skip$ -- 589
+stack$ -- 0
+substring$ -- 657
+swap$ -- 154
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 288
+warning$ -- 1
+while$ -- 135
+width$ -- 0
+write$ -- 371
+(There was 1 warning)

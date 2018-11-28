@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 17-165.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Warning--empty journal in JelaniNPC
+You've used 39 entries,
+            2773 wiz_defined-function locations,
+            996 strings with 16123 characters,
+and the built_in function-call counts, 21288 in all, are:
+= -- 1944
+> -- 1069
+< -- 46
++ -- 365
+- -- 324
+* -- 1560
+:= -- 3006
+add.period$ -- 122
+call.type$ -- 39
+change.case$ -- 221
+chr.to.int$ -- 37
+cite$ -- 79
+duplicate$ -- 1087
+empty$ -- 1828
+format.name$ -- 383
+if$ -- 4714
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 43
+newline$ -- 204
+num.names$ -- 156
+pop$ -- 529
+preamble$ -- 1
+purify$ -- 186
+quote$ -- 0
+skip$ -- 897
+stack$ -- 0
+substring$ -- 1012
+swap$ -- 289
+text.length$ -- 26
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 409
+warning$ -- 1
+while$ -- 193
+width$ -- 0
+write$ -- 514
+(There was 1 warning)

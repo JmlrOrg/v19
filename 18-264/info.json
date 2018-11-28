@@ -1,0 +1,17 @@
+{
+    "abstract": "In 1984, Johnson and Lindenstrauss proved that any finite set of data in a high-dimensional space can be projected to a lower-dimensional space while preserving the pairwise Euclidean distances between points up to a bounded relative error. If the desired dimension of the image is too small, however, Kane, Meka, and Nelson (2011) and Jayram and Woodruff (2013) proved that such a projection does not exist. In this paper, we provide a precise asymptotic threshold for the dimension of the image, above which, there exists a projection preserving the Euclidean distance, but, below which, there does not exist such a projection.",
+    "authors": [
+        "Michael Burr",
+        "Shuhong Gao",
+        "Fiona Knoll"
+    ],
+    "id": "18-264",
+    "issue": 73,
+    "pages": [
+        1,
+        22
+    ],
+    "title": "Optimal Bounds for Johnson-Lindenstrauss Transformations",
+    "volume": 19,
+    "year": 2018
+}

@@ -1,0 +1,392 @@
+\begin{thebibliography}{58}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Achlioptas(2003)]{achlioptas2003database}
+Dimitris Achlioptas.
+\newblock Database-friendly random projections: Johnson-lindenstrauss with
+  binary coins.
+\newblock \emph{J. Comput. Syst. Sci.}, 66\penalty0 (4):\penalty0 671--687,
+  2003.
+
+\bibitem[Ailon and Chazelle(2006)]{ailon2006approximate}
+Nir Ailon and Bernard Chazelle.
+\newblock Approximate nearest neighbors and the fast {J}ohnson-{L}indenstrauss
+  transform.
+\newblock In \emph{Proc. 38th annual ACM Symposium on Theory of computing},
+  pages 557--563. ACM, 2006.
+
+\bibitem[Aziz et~al.(1996)Aziz, Sorensen, and Vn~der Spiegel]{aziz1996overview}
+Pervez~M Aziz, Henrik~V Sorensen, and J~Vn~der Spiegel.
+\newblock An overview of sigma-delta converters.
+\newblock \emph{IEEE Signal Proc. Mag.}, 13\penalty0 (1):\penalty0 61--84,
+  1996.
+
+\bibitem[Baraniuk et~al.(2006)Baraniuk, Davenport, DeVore, and
+  Wakin]{baraniuk2006johnson}
+Richard Baraniuk, Mark Davenport, Ronald DeVore, and Michael Wakin.
+\newblock The {J}ohnson-{L}indenstrauss lemma meets compressed sensing.
+\newblock \emph{preprint}, 2006.
+
+\bibitem[Baraniuk et~al.(2017)Baraniuk, Foucart, Needell, Plan, and
+  Wootters]{exponentialBFNPW14}
+Richard Baraniuk, Simon Foucart, Deanna Needell, Yaniv Plan, and Mary Wootters.
+\newblock Exponential decay of reconstruction error from binary measurements of
+  sparse signals.
+\newblock \emph{IEEE Trans. Info. Theory}, 63\penalty0 (6):\penalty0
+  3368--3385, 2017.
+
+\bibitem[Boufounos and Baraniuk(2008)]{BoufoB_1Bit}
+Petros Boufounos and Richard Baraniuk.
+\newblock 1-bit compressive sensing.
+\newblock In \emph{Proc. IEEE Conf. Inform. Science and Systems (CISS)},
+  Princeton, NJ, March 2008.
+
+\bibitem[Burge et~al.(1999)Burge, van Daalen, Rising, and
+  Shawe-Taylor]{burge1999rising}
+Peter~S. Burge, Max~R. van Daalen, Barry J.~P. Rising, and John~S.
+  Shawe-Taylor.
+\newblock Pulsed neural networks.
+\newblock In \emph{Stochastic Bit-stream Neural Networks}, pages 337--352. MIT
+  Press, Cambridge, MA, 1999.
+
+\bibitem[Cai et~al.(2006)Cai, He, Han, and Zhang]{CHHZ06}
+Deng Cai, Xiaofei He, Jiawei Han, and Hong-Jiang Zhang.
+\newblock Orthogonal {L}aplacianfaces for face recognition.
+\newblock \emph{IEEE Trans. Image Proc.}, 15\penalty0 (11):\penalty0
+  3608--3614, 2006.
+
+\bibitem[Cai et~al.(2007{\natexlab{a}})Cai, He, and Han]{CHH07b}
+Deng Cai, Xiaofei He, and Jiawei Han.
+\newblock Spectral regression for efficient regularized subspace learning.
+\newblock In \emph{Proc. Int. Conf. Computer Vision (ICCV'07)},
+  2007{\natexlab{a}}.
+
+\bibitem[Cai et~al.(2007{\natexlab{b}})Cai, He, Hu, Han, and Huang]{CHHH07}
+Deng Cai, Xiaofei He, Yuxiao Hu, Jiawei Han, and Thomas Huang.
+\newblock Learning a spatially smooth subspace for face recognition.
+\newblock In \emph{Proc. IEEE Conf. Computer Vision and Pattern Recognition
+  Machine Learning (CVPR'07)}, 2007{\natexlab{b}}.
+
+\bibitem[Calderbank et~al.(2009)Calderbank, Jafarpour, and
+  Schapire]{calderbank2009compressed}
+Robert Calderbank, Sina Jafarpour, and Robert Schapire.
+\newblock Compressed learning: Universal sparse dimensionality reduction and
+  learning in the measurement domain.
+\newblock \emph{preprint}, 2009.
+
+\bibitem[Cambareri et~al.(2017)Cambareri, Xu, and Jacques]{cambareri2017rare}
+Valerio Cambareri, Chunlei Xu, and Laurent Jacques.
+\newblock The rare eclipse problem on tiles: Quantised embeddings of disjoint
+  convex sets.
+\newblock \emph{arXiv preprint arXiv:1702.04664}, 2017.
+
+\bibitem[Cand\`{e}s et~al.(2006{\natexlab{a}})Cand\`{e}s, Romberg, and
+  Tao]{CandeRT_Robust}
+Emmanuel Cand\`{e}s, Justin Romberg, and Terrence Tao.
+\newblock Robust uncertainty principles: {E}xact signal reconstruction from
+  highly incomplete frequency information.
+\newblock \emph{IEEE Trans. Inform. Theory}, 52\penalty0 (2):\penalty0
+  489--509, 2006{\natexlab{a}}.
+
+\bibitem[Cand\`{e}s et~al.(2006{\natexlab{b}})Cand\`{e}s, Romberg, and
+  Tao]{CandeRT_Stable}
+Emmanuel Cand\`{e}s, Justin Romberg, and Terrence Tao.
+\newblock Stable signal recovery from incomplete and inaccurate measurements.
+\newblock \emph{Comm. Pure Appl. Math.}, 59\penalty0 (8):\penalty0 1207--1223,
+  2006{\natexlab{b}}.
+
+\bibitem[Candy and Temes(1962)]{candy1962oversampling}
+James~C Candy and Gabor~C Temes.
+\newblock \emph{Oversampling delta-sigma data converters: theory, design, and
+  simulation}.
+\newblock University of Texas Press, 1962.
+
+\bibitem[Choromanska et~al.(2016)Choromanska, Choromanski, Bojarski, Jebara,
+  Kumar, and LeCun]{choromanska2016binary}
+Anna Choromanska, Krzysztof Choromanski, Mariusz Bojarski, Tony Jebara, Sanjiv
+  Kumar, and Yann LeCun.
+\newblock Binary embeddings with structured hashed projections.
+\newblock In \emph{Proc. 33rd International Conference on Machine Learning},
+  pages 344--353, 2016.
+
+\bibitem[Christianini and Shawe-Taylor(2000)]{CristS_Introduction}
+Nello Christianini and John Shawe-Taylor.
+\newblock \emph{An Introduction to Support Vector Machines and Other
+  Kernel-Based Learning Methods}.
+\newblock Cambridge University Press, Cambridge, England, 2000.
+
+\bibitem[Courbariaux et~al.(2015)Courbariaux, Bengio, and
+  David]{courbariaux2015binaryconnect}
+Matthieu Courbariaux, Yoshua Bengio, and Jean-Pierre David.
+\newblock Binaryconnect: Training deep neural networks with binary weights
+  during propagations.
+\newblock In \emph{Advances in neural information processing systems}, pages
+  3123--3131, 2015.
+
+\bibitem[Courbariaux et~al.(2016)Courbariaux, Hubara, Soudry, El-Yaniv, and
+  Bengio]{courbariaux2016binarized}
+Matthieu Courbariaux, Itay Hubara, Daniel Soudry, Ran El-Yaniv, and Yoshua
+  Bengio.
+\newblock Binarized neural networks: Training deep neural networks with weights
+  and activations constrained to+ 1 or-1.
+\newblock \emph{arXiv preprint arXiv:1602.02830}, 2016.
+
+\bibitem[Dasgupta and Gupta(2003)]{dasgupta2003elementary}
+Sanjoy Dasgupta and Anupam Gupta.
+\newblock An elementary proof of a theorem of johnson and lindenstrauss.
+\newblock \emph{Random Structures \& Algorithms}, 22\penalty0 (1):\penalty0
+  60--65, 2003.
+
+\bibitem[Davenport et~al.(2010)Davenport, Boufounos, Wakin, and
+  Baraniuk]{davenport2010signal}
+Mark~A Davenport, Petros~T Boufounos, Michael~B Wakin, and Richard~G Baraniuk.
+\newblock Signal processing with compressive measurements.
+\newblock \emph{IEEE J. Sel. Topics Signal Process.}, 4\penalty0 (2):\penalty0
+  445--460, 2010.
+
+\bibitem[Dirksen and Stollenwerk(2016)]{dirksen2016fast}
+Sjoerd Dirksen and Alexander Stollenwerk.
+\newblock Fast binary embeddings with gaussian circulant matrices: improved
+  bounds.
+\newblock \emph{arXiv preprint arXiv:1608.06498}, 2016.
+
+\bibitem[Donoho(2006)]{Donoh_Compressed}
+D.~Donoho.
+\newblock Compressed sensing.
+\newblock \emph{IEEE Trans. Inform. Theory}, 52\penalty0 (4):\penalty0
+  1289--1306, 2006.
+
+\bibitem[Fang et~al.(2014)Fang, Shen, Li, and Ren]{fang2014sparse}
+Jun Fang, Yanning Shen, Hongbin Li, and Zhi Ren.
+\newblock Sparse signal recovery from one-bit quantized data: An iterative
+  reweighted algorithm.
+\newblock \emph{Signal Processing}, 102:\penalty0 201--206, 2014.
+
+\bibitem[Giryes et~al.(2016)Giryes, Sapiro, and Bronstein]{giryes2016deep}
+Raja Giryes, Guillermo Sapiro, and Alexander~M Bronstein.
+\newblock Deep neural networks with random gaussian weights: a universal
+  classification strategy?
+\newblock \emph{IEEE Trans. Signal Process.}, 64\penalty0 (13):\penalty0
+  3444--3457, 2016.
+
+\bibitem[Gong et~al.(2013)Gong, Lazebnik, Gordo, and
+  Perronnin]{gong2013iterative}
+Yunchao Gong, Svetlana Lazebnik, Albert Gordo, and Florent Perronnin.
+\newblock Iterative quantization: A procrustean approach to learning binary
+  codes for large-scale image retrieval.
+\newblock \emph{IEEE Trans. Pattern Anal. Machine Intell.}, 35\penalty0
+  (12):\penalty0 2916--2929, 2013.
+
+\bibitem[Gopi et~al.(2013)Gopi, Netrapalli, Jain, and Nori]{gopi2013one}
+Sivakant Gopi, Praneeth Netrapalli, Prateek Jain, and Aditya~V Nori.
+\newblock One-bit compressed sensing: {P}rovable support and vector recovery.
+\newblock In \emph{ICML (3)}, pages 154--162, 2013.
+
+\bibitem[Gupta et~al.(2010)Gupta, Nowak, and Recht]{gupta2010sample}
+Ankit Gupta, Robert Nowak, and Benjamin Recht.
+\newblock Sample complexity for 1-bit compressed sensing and sparse
+  classification.
+\newblock In \emph{Proc. IEEE Int. Symp. Inform. Theory (ISIT)}, pages
+  1553--1557. IEEE, 2010.
+
+\bibitem[Hahn et~al.(2014)Hahn, Rosenkranz, and Zoubir]{hahn2014adaptive}
+Jurgen Hahn, Simon Rosenkranz, and Abdelhak~M Zoubir.
+\newblock Adaptive compressed classification for hyperspectral imagery.
+\newblock In \emph{Proc. IEEE Int. Conf. Acoust., Speech, and Signal Processing
+  (ICASSP)}, pages 1020--1024. IEEE, 2014.
+
+\bibitem[He et~al.(2005)He, Yan, Hu, Niyogi, and Zhang]{HYHNZ05}
+Xiaofei He, Shuicheng Yan, Yuxiao Hu, Partha Niyogi, and Hong-Jiang Zhang.
+\newblock Face recognition using {L}aplacianfaces.
+\newblock \emph{IEEE Trans. Pattern Anal. Machine Intell.}, 27\penalty0
+  (3):\penalty0 328--340, 2005.
+
+\bibitem[Hearst et~al.(1998)Hearst, Dumais, Osuna, Platt, and
+  Scholkopf]{hearst1998support}
+Marti~A. Hearst, Susan~T Dumais, Edgar Osuna, John Platt, and Bernhard
+  Scholkopf.
+\newblock Support vector machines.
+\newblock \emph{IEEE Intelligent Syst. Appl.}, 13\penalty0 (4):\penalty0
+  18--28, 1998.
+
+\bibitem[Hubara et~al.(2016)Hubara, Courbariaux, Soudry, El-Yaniv, and
+  Bengio]{hubara2016quantized}
+Itay Hubara, Matthieu Courbariaux, Daniel Soudry, Ran El-Yaniv, and Yoshua
+  Bengio.
+\newblock Quantized neural networks: Training neural networks with low
+  precision weights and activations.
+\newblock \emph{arXiv preprint arXiv:1609.07061}, 2016.
+
+\bibitem[Hunter et~al.(2010)Hunter, Strohmer, Simos, Psihoyios, and
+  Tsitouras]{hunter2010compressive}
+Blake Hunter, Thomas Strohmer, Theodore~E Simos, George Psihoyios, and
+  Ch~Tsitouras.
+\newblock Compressive spectral clustering.
+\newblock In \emph{AIP Conference Proceedings}, volume 1281, pages 1720--1722.
+  AIP, 2010.
+
+\bibitem[Jacques et~al.(2013{\natexlab{a}})Jacques, Degraux, and
+  De~Vleeschouwer]{jacques2013quantized}
+Laurent Jacques, K{\'e}vin Degraux, and Christophe De~Vleeschouwer.
+\newblock Quantized iterative hard thresholding: Bridging 1-bit and
+  high-resolution quantized compressed sensing.
+\newblock \emph{arXiv preprint arXiv:1305.1786}, 2013{\natexlab{a}}.
+
+\bibitem[Jacques et~al.(2013{\natexlab{b}})Jacques, Laska, Boufounos, and
+  Baraniuk]{JacquLBB_Robust}
+Laurent Jacques, Jason Laska, Petros Boufounos, and Richard Baraniuk.
+\newblock {Robust 1-bit compressive sensing via binary stable embeddings of
+  sparse vectors}.
+\newblock \emph{IEEE Trans. Inform. Theory}, 59\penalty0 (4):\penalty0
+  2082--2102, 2013{\natexlab{b}}.
+
+\bibitem[Joachims(1998)]{joachims1998text}
+Thorsten Joachims.
+\newblock Text categorization with support vector machines: Learning with many
+  relevant features.
+\newblock \emph{Machine learning: ECML-98}, pages 137--142, 1998.
+
+\bibitem[Johnson and Lindenstrauss(1982)]{JohnsL_Extensions}
+William~B Johnson and Joram Lindenstrauss.
+\newblock Extensions of {L}ipschitz mappings into a {H}ilbert space.
+\newblock In \emph{Proc. Conf. Modern Anal. and Prob.}, New Haven, CT, June
+  1982.
+
+\bibitem[Kim and Smaragdis(2016)]{kim2016bitwise}
+Minje Kim and Paris Smaragdis.
+\newblock Bitwise neural networks.
+\newblock \emph{arXiv preprint arXiv:1601.06071}, 2016.
+
+\bibitem[Krahmer and Ward(2011)]{krahmer2011new}
+Felix Krahmer and Rachel Ward.
+\newblock New and improved {J}ohnson--{L}indenstrauss embeddings via the
+  restricted isometry property.
+\newblock \emph{SIAM J. Math. Anal.}, 43\penalty0 (3):\penalty0 1269--1281,
+  2011.
+
+\bibitem[Krizhevsky et~al.(2012)Krizhevsky, Sutskever, and
+  Hinton]{krizhevsky2012imagenet}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In \emph{Proc. Adv. in Neural Processing Systems (NIPS)}, pages
+  1097--1105, 2012.
+
+\bibitem[Laska et~al.(2011)Laska, Wen, Yin, and Baraniuk]{LaskaWYB_Trust}
+Jason~N Laska, Zaiwen Wen, Wotao Yin, and Richard~G Baraniuk.
+\newblock {Trust, but verify: Fast and accurate signal recovery from 1-bit
+  compressive measurements}.
+\newblock \emph{IEEE Trans. Signal Processing}, 59\penalty0 (11):\penalty0
+  5289--5301, 2011.
+
+\bibitem[LeCun(2018)]{MNIST}
+Yann LeCun.
+\newblock The {MNIST} database of handwritten digits, 2018.
+\newblock \url{http://yann.lecun.com/exdb/mnist/}.
+
+\bibitem[Lin et~al.(2015)Lin, Courbariaux, Memisevic, and
+  Bengio]{lin2015neural}
+Zhouhan Lin, Matthieu Courbariaux, Roland Memisevic, and Yoshua Bengio.
+\newblock Neural networks with few multiplications.
+\newblock \emph{arXiv preprint arXiv:1510.03009}, 2015.
+
+\bibitem[Marchesi et~al.(1993)Marchesi, Orlandi, Piazza, and
+  Uncini]{marchesi1993fast}
+Michele Marchesi, Gianni Orlandi, Francesco Piazza, and Aurelio Uncini.
+\newblock Fast neural networks without multipliers.
+\newblock \emph{IEEE Trans. Neural Networks}, 4\penalty0 (1):\penalty0 53--62,
+  1993.
+
+\bibitem[Ozuysal et~al.(2010)Ozuysal, Calonder, Lepetit, and
+  Fua]{ozuysal2010fast}
+Mustafa Ozuysal, Michael Calonder, Vincent Lepetit, and Pascal Fua.
+\newblock Fast keypoint recognition using random ferns.
+\newblock \emph{IEEE Trans. Pattern Anal. Machine Intell.}, 32\penalty0
+  (3):\penalty0 448--461, 2010.
+
+\bibitem[Plan and Vershynin(2013{\natexlab{a}})]{PlanV_One}
+Yaniv Plan and Roman Vershynin.
+\newblock One-bit compressed sensing by linear programming.
+\newblock \emph{Commun. Pur. Appl. Math.}, 66\penalty0 (8):\penalty0
+  1275--1297, 2013{\natexlab{a}}.
+
+\bibitem[Plan and Vershynin(2013{\natexlab{b}})]{PlanV_Robust}
+Yaniv Plan and Roman Vershynin.
+\newblock Robust 1-bit compressed sensing and sparse logistic regression: {A}
+  convex programming approach.
+\newblock \emph{IEEE Trans. Inform. Theory}, 59\penalty0 (1):\penalty0
+  482--494, 2013{\natexlab{b}}.
+
+\bibitem[Plan and Vershynin(2014)]{PlanV_Dimension}
+Yaniv Plan and Roman Vershynin.
+\newblock Dimension reduction by random hyperplane tessellations.
+\newblock \emph{Discrete \& Computational Geometry}, 51\penalty0 (2):\penalty0
+  438--461, 2014.
+
+\bibitem[Rahimi and Recht(2009)]{rahimi2009weighted}
+Ali Rahimi and Benjamin Recht.
+\newblock Weighted sums of random kitchen sinks: Replacing minimization with
+  randomization in learning.
+\newblock In \emph{Proc. Adv. in Neural Processing Systems (NIPS)}, pages
+  1313--1320, 2009.
+
+\bibitem[Rastegari et~al.(2016)Rastegari, Ordonez, Redmon, and
+  Farhadi]{rastegari2016xnor}
+Mohammad Rastegari, Vicente Ordonez, Joseph Redmon, and Ali Farhadi.
+\newblock Xnor-net: Imagenet classification using binary convolutional neural
+  networks.
+\newblock In \emph{European Conference on Computer Vision}, pages 525--542.
+  Springer, 2016.
+
+\bibitem[Russakovsky et~al.(2015)Russakovsky, Deng, Su, Krause, Satheesh, Ma,
+  Huang, Karpathy, Khosla, Bernstein, et~al.]{russakovsky2015imagenet}
+Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma,
+  Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, et~al.
+\newblock Imagenet large scale visual recognition challenge.
+\newblock \emph{Int. J. Computer Vision}, 115\penalty0 (3):\penalty0 211--252,
+  2015.
+
+\bibitem[Simard and Graf(1994)]{simard1994backpropagation}
+Patrice~Y Simard and Hans~Peter Graf.
+\newblock Backpropagation without multiplication.
+\newblock In \emph{Proc. Adv. in Neural Processing Systems (NIPS)}, pages
+  232--239, 1994.
+
+\bibitem[Simonyan and Zisserman(2014)]{simonyan2014very}
+Karen Simonyan and Andrew Zisserman.
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock \emph{arXiv preprint arXiv:1409.1556}, 2014.
+
+\bibitem[Steinwart and Christmann(2008)]{steinwart2008support}
+Ingo Steinwart and Andreas Christmann.
+\newblock \emph{Support vector machines}.
+\newblock Springer Science \& Business Media, 2008.
+
+\bibitem[Szegedy et~al.(2015)Szegedy, Liu, Jia, Sermanet, Reed, Anguelov,
+  Erhan, Vanhoucke, and Rabinovich]{szegedy2015going}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock In \emph{Proc. IEEE Conf. Computer Vision and Pattern Recognition},
+  pages 1--9, 2015.
+
+\bibitem[Yan et~al.(2012)Yan, Yang, and Osher]{yan2012robust}
+Ming Yan, Yi~Yang, and Stanley Osher.
+\newblock Robust 1-bit compressive sensing using adaptive outlier pursuit.
+\newblock \emph{IEEE Trans. Signal Processing}, 60\penalty0 (7):\penalty0
+  3868--3875, 2012.
+
+\bibitem[Yi et~al.(2015)Yi, Caravans, and Price]{price2015binary}
+Xinyang Yi, Constantine Caravans, and Eric Price.
+\newblock Binary embedding: Fundamental limits and fast algorithm.
+\newblock In \emph{Int. Conf. on Machine Learning}, pages 2162--2170, 2015.
+
+\bibitem[Yu et~al.(2014)Yu, Kumar, Gong, and Chang]{yu2014circulant}
+Felix~X. Yu, Sanjiv Kumar, Yunchao Gong, and Shih-Fu Chang.
+\newblock Circulant binary embedding.
+\newblock In \emph{Int. Conf. on machine learning}, volume~6, page~7, 2014.
+
+\end{thebibliography}

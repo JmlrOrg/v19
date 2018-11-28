@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: plainnat.bst
+Database file #1: bib.bib
+Warning--empty note in csato2002phd
+Warning--empty publisher in cunningham2008inferring
+Warning--empty journal in gridcelldata
+Warning--empty publisher in hensman2015mcmc
+Warning--can't use both author and editor fields in konstantopoulos2011radon
+Warning--empty publisher in konstantopoulos2011radon
+Warning--empty publisher in linderman2015dependent
+Warning--empty publisher in murray2009gaussian
+You've used 48 entries,
+            2773 wiz_defined-function locations,
+            926 strings with 15431 characters,
+and the built_in function-call counts, 25712 in all, are:
+= -- 2390
+> -- 1366
+< -- 52
++ -- 461
+- -- 413
+* -- 2066
+:= -- 3803
+add.period$ -- 197
+call.type$ -- 48
+change.case$ -- 274
+chr.to.int$ -- 48
+cite$ -- 104
+duplicate$ -- 1211
+empty$ -- 2091
+format.name$ -- 489
+if$ -- 5558
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 53
+newline$ -- 295
+num.names$ -- 194
+pop$ -- 555
+preamble$ -- 1
+purify$ -- 232
+quote$ -- 0
+skip$ -- 977
+stack$ -- 0
+substring$ -- 1101
+swap$ -- 245
+text.length$ -- 29
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 498
+warning$ -- 8
+while$ -- 224
+width$ -- 0
+write$ -- 727
+(There were 8 warnings)

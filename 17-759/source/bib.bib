@@ -1,0 +1,567 @@
+@inproceedings{adams2009tractable,
+ author = {Adams, Ryan P. and Murray, Iain and MacKay, David J. C.},
+ title = {Tractable Nonparametric Bayesian Inference in Poisson Processes with Gaussian Process Intensities},
+ booktitle = {Proceedings of the 26th Annual International Conference on Machine Learning},
+ doi = {10.1145/1553374.1553376},
+ pages = {9--16},
+ year = {2009}
+} 
+
+
+@InProceedings{lloyd2015variational,
+  title = 	 {Variational Inference for Gaussian Process Modulated Poisson Processes},
+  author = 	 {Chris Lloyd and Tom Gunter and Michael Osborne and Stephen Roberts},
+  booktitle = 	 {Proceedings of the 32nd International Conference on Machine Learning},
+  pages = 	 {1814--1822},
+  year = 	 {2015},
+  volume = 	 {37},
+  url = 	 {http://proceedings.mlr.press/v37/lloyd15.html},
+  abstract = 	 {We present the first fully variational Bayesian inference scheme for continuous Gaussian-process-modulated Poisson processes. Such point processes are used in a variety of domains, including neuroscience, geo-statistics and astronomy, but their use is hindered by the computational cost of existing inference schemes. Our scheme: requires no discretisation of the domain; scales linearly in the number of observed events; and is many orders of magnitude faster than previous sampling based approaches. The resulting algorithm is shown to outperform standard methods on synthetic examples, coal mining disaster data and in the prediction of Malaria incidences in Kenya.}
+}
+
+
+@book{kingman1993poisson,
+  title={Poisson processes},
+  author={Kingman, John Frank Charles},
+  year={1993},
+  publisher={Oxford University Press},
+  ISBN =  {9780198536932}
+}
+
+@InProceedings{walder17fast,
+  title = 	 {Fast {B}ayesian Intensity Estimation for the Permanental Process},
+  author = 	 {Christian J. Walder and Adrian N. Bishop},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {3579--3588},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/walder17a/walder17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/walder17a.html},
+  abstract = 	 {The Cox process is a stochastic process which generalises the Poisson process by letting the underlying intensity function itself be a stochastic process. In this paper we present a fast Bayesian inference scheme for the permanental process, a Cox process under which the square root of the intensity is a Gaussian process. In particular we exploit connections with reproducing kernel Hilbert spaces, to derive efficient approximate Bayesian inference algorithms based on the Laplace approximation to the predictive distribution and marginal likelihood. We obtain a simple algorithm which we apply to toy and real-world problems, obtaining orders of magnitude speed improvements over previous work.}
+}
+
+
+@article{moreira2013predicting,
+  title={Predicting taxi--passenger demand using streaming data},
+  author={Moreira-Matias, Luis and Gama, Joao and Ferreira, Michel and Mendes-Moreira, Joao and Damas, Luis},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  volume={14},
+  number={3},
+  pages={1393--1402},
+  year={2013},
+  publisher={IEEE}
+}
+
+
+@article{polson2013bayesian,
+author = { Nicholas G.   Polson  and  James G.   Scott  and  Jesse   Windle },
+title = {Bayesian Inference for Logistic Models Using Pólya–Gamma Latent Variables},
+journal = {Journal of the American Statistical Association},
+volume = {108},
+number = {504},
+pages = {1339-1349},
+year  = {2013},
+doi = {10.1080/01621459.2013.829001}
+}
+
+
+@inproceedings{john2018large,
+  title = 	 {Large-Scale {C}ox Process Inference using Variational {F}ourier Features},
+  author = 	 {John, ST and Hensman, James},
+  booktitle = 	 {Proceedings of the 35th International Conference on Machine Learning},
+  pages = 	 {2362--2370},
+  year = 	 {2018},
+  volume = 	 {80},
+  url = 	 {http://proceedings.mlr.press/v80/john18a.html},
+  abstract = 	 {Gaussian process modulated Poisson processes provide a flexible framework for modeling spatiotemporal point patterns. So far this had been restricted to one dimension, binning to a pre-determined grid, or small data sets of up to a few thousand data points. Here we introduce Cox process inference based on Fourier features. This sparse representation induces global rather than local constraints on the function space and is computationally efficient. This allows us to formulate a grid-free approximation that scales well with the number of data points and the size of the domain. We demonstrate that this allows MCMC approximations to the non-Gaussian posterior. In practice, we find that Fourier features have more consistent optimization behavior than previous approaches. Our approximate Bayesian method can fit over 100 000 events with complex spatiotemporal patterns in three dimensions on a single GPU.}
+}
+
+
+@inproceedings{murray2006mcmc,
+ author = {Murray, Iain and Ghahramani, Zoubin and MacKay, David J. C.},
+ title = {MCMC for Doubly-intractable Distributions},
+ booktitle = {Proceedings of the Twenty-Second Conference on Uncertainty in Artificial Intelligence},
+ year = {2006},
+ isbn = {0-9749039-2-2},
+ pages = {359--366},
+ numpages = {8},
+} 
+
+
+@article{dempster1977maximum,
+  title={Maximum likelihood from incomplete data via the EM algorithm},
+  author={Dempster, Arthur P and Laird, Nan M and Rubin, Donald B},
+  journal={Journal of the royal statistical society. Series B (methodological)},
+  pages={1--38},
+  year={1977},
+  publisher={JSTOR}
+}
+
+@article{knollmuller2017inference,
+ author = {{Knollm{\"u}ller}, J. and {Steininger}, T. and {En{\ss}lin}, T.~A.
+	},
+ title = "{Inference of signals with unknown correlation structure from nonlinear measurements}",
+ journal = {ArXiv e-prints},
+ archivePrefix = "arXiv",
+ eprint = {1711.02955},
+ primaryClass = "stat.ME",
+ keywords = {Statistics - Methodology, Astrophysics - Instrumentation and Methods for Astrophysics},
+ year = 2017,
+ url = {https://arxiv.org/abs/1711.02955}
+}
+
+
+
+@book{solin2016stochastic,
+title={Stochastic Differential Equation Methods for Spatio-Temporal Gaussian Process Regression},
+author={Solin, Arno},
+year={2016},
+pages={68 + app. 72},
+isbn={978-952-60-6711-7},
+publisher={Aalto University},
+} 
+
+@article{dunn2015correlations,
+    author = {Dunn, Benjamin AND Mørreaunet, Maria AND Roudi, Yasser},
+    journal = {PLOS Computational Biology},
+    title = {Correlations and Functional Connections in a Population of Grid Cells},
+    year = {2015},
+    volume = {11},
+    pages = {1-21},
+    abstract = {Author Summary The way mammals navigate in space is hypothesized to depend on neural structures in the temporal lobe including the hippocampus and medial entorhinal cortex (MEC). In particular, grid cells, neurons whose firing is mostly restricted to regions of space that form a hexagonal pattern, are believed to be an important part of this circuitry. Despite several years of work, not much is known about the correlated activity of neurons in the MEC and how grid cells are functionally coupled to each other. Here, we have taken a statistical approach to these questions and studied pairwise correlations and functional connections between simultaneously recorded grid cells. Through careful statistical analysis, we demonstrate that grid cells with nearby firing vertices tend to have positive effects on eliciting responses in each other, while those further apart tend to have inhibitory or no effects. Cells that respond similarly to manipulations of the environment are considered to belong to the same module. Cells belonging to a module have stronger interactions with each other than those in different modules. These results are consistent with and shed light on the population-based mechanisms suggested by models for the generation of grid cell firing.},
+    number = {2},
+    doi = {10.1371/journal.pcbi.1004052}
+}
+
+
+
+
+@InProceedings{lloyd2016latent,
+  title = 	 {Latent Point Process Allocation},
+  author = 	 {Chris Lloyd and Tom Gunter and Michael Osborne and Stephen Roberts and Tom Nickson},
+  booktitle = 	 {Proceedings of the 19th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {389--397},
+  year = 	 {2016},
+  volume = 	 {51},
+  url = 	 {http://proceedings.mlr.press/v51/lloyd16.html},
+  abstract = 	 {We introduce a probabilistic model for the factorisation of continuous Poisson process rate functions. Our model can be thought of as a topic model for Poisson point processes in which each point is assigned to one of a set of latent rate functions that are shared across multiple outputs. We show that the model brings a means of incorporating structure in point process inference beyond the state-of-the-art.  We derive an efficient variational inference scheme for the model based on sparse Gaussian processes that scales linearly in the number of data points.  Finally, we demonstrate, using examples from spatial and temporal statistics, how the model can be used for discovering hidden structure with greater precision than standard frequentist approaches.}
+}
+
+@article{kirichenko2015optimality,
+  author  = {Alisa Kirichenko and Harry van Zanten},
+  title   = {Optimality of Poisson Processes Intensity Learning with Gaussian Processes},
+  journal = {Journal of Machine Learning Research},
+  year    = {2015},
+  volume  = {16},
+  pages   = {2909-2919},
+  url     = {http://jmlr.org/papers/v16/kirichenko15a.html}
+}
+
+@article{kingma2014adam,
+  author    = {Diederik P. Kingma and
+               Jimmy Ba},
+  title     = {Adam: {A} Method for Stochastic Optimization},
+  journal   = {preprint arXiv},
+  volume    = {abs/1412.6980},
+  year      = {2014},
+  url       = {http://arxiv.org/abs/1412.6980}
+}
+
+@article{GPflow2017,
+author = {Matthews, Alexander G. de G. and {van der Wilk}, Mark and Nickson, Tom and Fujii, Keisuke. and {Boukouvalas}, Alexis and {Le{‘o}n-Villagr{‘a}}, Pablo and Ghahramani, Zoubin and Hensman, James},
+title = {GPflow: A Gaussian process library using TensorFlow},
+journal = {Journal of Machine Learning Research},
+year = {2017},
+volume = {18},
+number = {40},
+pages = {1-6},
+url = {http://jmlr.org/papers/v18/16-537.html}
+}
+
+@inproceedings{donner2018efficient,
+ author = {Donner, Christian and Opper, Manfred},
+ title = {Efficient Bayesian Inference for a Gaussian Process Density Model},
+ booktitle = {Proceedings of the 34th Conference on Uncertainty in Artificial Intelligence},
+ year = {2018},
+ url = {http://auai.org/uai2018/proceedings/papers/34.pdf}
+} 
+
+@inproceedings{murray2010elliptical,
+  title = 	 {Elliptical slice sampling},
+  author = 	 {Iain Murray and Ryan Adams and David MacKay},
+  booktitle = 	 {Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {541--548},
+  year = 	 {2010},
+  volume = 	 {9},
+  url = 	 {http://proceedings.mlr.press/v9/murray10a.html},
+  abstract = 	 {Many probabilistic models introduce strong dependencies between variables using a latent multivariate Gaussian distribution or a Gaussian process. We present a new Markov chain Monte Carlo algorithm for performing inference in models with multivariate Gaussian priors. Its key properties are: 1) it has simple, generic code applicable to many models, 2) it has no free parameters, 3) it works well for a variety of Gaussian process based models. These properties make our method ideal for use while model building, removing the need to spend time deriving and tuning updates for more complex algorithms.}
+}
+
+
+@article{lewis1979simulation,
+author = {Lewis, P. A. W and Shedler, G. S.},
+title = {Simulation of nonhomogeneous poisson processes by thinning},
+journal = {Naval Research Logistics Quarterly},
+volume = {26},
+number = {3},
+pages = {403-413},
+year = {1979},
+doi = {10.1002/nav.3800260304},
+abstract = {Abstract A simple and relatively efficient method for simulating one-dimensional and two-dimensional nonhomogeneous Poisson processes is presented The method is applicable for any rate function and is based on controlled deletion of points in a Poisson process whose rate function dominates the given rate function In its simplest implementation, the method obviates the need for numerical integration of the rate function, for ordering of points, and for generation of Poisson variates.}
+}
+
+@article{csato2002sparse,
+author = {Csat{\'o}, Lehel and Opper, Manfred},
+title = {Sparse On-Line Gaussian Processes},
+journal = {Neural Computation},
+volume = {14},
+number = {3},
+pages = {641-668},
+year = {2002},
+doi = {10.1162/089976602317250933},
+    abstract = { We develop an approach for sparse representations of gaussian process (GP) models (which are Bayesian types of kernel machines) in order to overcome their limitations for large data sets. The method is based on a combination of a Bayesian on-line algorithm, together with a sequential construction of a relevant subsample of the data that fully specifies the prediction of the GP model. By using an appealing parameterization and projection techniques in a reproducing kernel Hilbert space, recursions for the effective parameters and a sparse gaussian approximation of the posterior process are obtained. This allows for both a propagation of predictions and Bayesian error measures. The significance and robustness of our approach are demonstrated on a variety of experiments. }
+}
+
+
+
+@unpublished{csato2002phd,
+           title = {Gaussian processes-iterative sparse approximations},
+          school = {Aston University},
+          author = {Lehel Csat{\'o}},
+            year = {2002},
+        keywords = {Gaussian processes,online learning,sparse approximations},
+             url = {http://publications.aston.ac.uk/1327/},
+        abstract = {In recent years there has been an increased interest in applying non-parametric methods to real-world problems. Significant research has been devoted to Gaussian processes (GPs) due to their increased flexibility when compared with parametric models. These methods use Bayesian learning, which generally leads to analytically intractable posteriors. This thesis proposes a two-step solution to construct a probabilistic approximation to the posterior. In the first step we adapt the Bayesian online learning to GPs: the final approximation to the posterior is the result of propagating the first and second moments of intermediate posteriors obtained by combining a new example with the previous approximation. The propagation of em functional forms is solved by showing the existence of a parametrisation to posterior moments that uses combinations of the kernel function at the training points, transforming the Bayesian online learning of functions into a parametric formulation. The drawback is the prohibitive quadratic scaling of the number of parameters with the size of the data, making the method inapplicable to large datasets. The second step solves the problem of the exploding parameter size and makes GPs applicable to arbitrarily large datasets. The approximation is based on a measure of distance between two GPs, the KL-divergence between GPs. This second approximation is with a constrained GP in which only a small subset of the whole training dataset is used to represent the GP. This subset is called the em Basis Vector, or BV set and the resulting GP is a sparse approximation to the true posterior. As this sparsity is based on the KL-minimisation, it is probabilistic and independent of the way the posterior approximation from the first step is obtained. We combine the sparse approximation with an extension to the Bayesian online algorithm that allows multiple iterations for each input and thus approximating a batch solution. The resulting sparse learning algorithm is a generic one: for different problems we only change the likelihood. The algorithm is applied to a variety of problems and we examine its performance both on more classical regression and classification tasks and to the data-assimilation and a simple density estimation problems.}
+}
+
+
+
+@article{batz2018approximate,
+      author         = "Batz, Philipp and Ruttor, Andreas and Opper, Manfred",
+      title          = "{Approximate Bayes learning of stochastic differential
+                        equations}",
+      journal        = "Phys. Rev.",
+      volume         = "E98",
+      year           = "2018",
+      number         = "2",
+      pages          = "022109",
+      doi            = "10.1103/PhysRevE.98.022109",
+      eprint         = "1702.05390",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.data-an",
+      SLACcitation   = "%%CITATION = ARXIV:1702.05390;%%"
+}
+
+
+
+
+@InProceedings{flaxman2017poisson,
+  title = 	 {{Poisson intensity estimation with reproducing kernels}},
+  author = 	 {Seth Flaxman and Yee Whye Teh and Dino Sejdinovic},
+  booktitle = 	 {Proceedings of the 20th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {270--279},
+  year = 	 {2017},
+  volume = 	 {54},
+  publisher = 	 {PMLR},
+  url = 	 {http://proceedings.mlr.press/v54/flaxman17a.html},
+  abstract = 	 {Despite the fundamental nature of the Poisson process in the theory and application of stochastic processes, and its attractive generalizations (e.g. Cox process), few tractable nonparametric modeling approaches exist, especially in high dimensional settings. In this paper we develop a new, computationally tractable Reproducing Kernel Hilbert Space (RKHS) formulation for the inhomogeneous Poisson process. We model the square root of the intensity as an RKHS function. The modeling challenge is that the usual representer theorem arguments no longer apply due to the form of the inhomogeneous Poisson process likelihood.  However, we prove that the representer theorem does hold in an appropriately transformed RKHS, guaranteeing that the optimization of the penalized likelihood can be cast as a tractable finite-dimensional problem.  The resulting approach is simple to implement, and readily scales to high dimensions and large-scale datasets. }
+}
+
+@Inbook{konstantopoulos2011radon,
+author="Konstantopoulos, Takis
+and Zerakidze, Zurab
+and Sokhadze, Grigol",
+editor="Lovric, Miodrag",
+title="Radon--Nikod{\'y}m Theorem",
+bookTitle="International Encyclopedia of Statistical Science",
+year="2011",
+pages="1161--1164",
+isbn="978-3-642-04898-2"
+}
+
+
+@book{daley2007introduction,
+  title={An introduction to the theory of point processes: volume II: general theory and structure},
+  author={Daley, Daryl J and Vere-Jones, David},
+  year={2007},
+  publisher={Springer Science \& Business Media}
+}
+
+
+@article{cox1955some,
+ ISSN = {00359246},
+ abstract = {The paper deals with a number of problems of statistical analysis connected with events occurring haphazardly in space or time. The topics discussed include: tests of randomness, components of variance, the correlation between events of different types, and a modification of the snap-round method used in operational research.},
+ author = {D. R. Cox},
+ journal = {Journal of the Royal Statistical Society. Series B (Methodological)},
+ number = {2},
+ pages = {129--164},
+ publisher = {[Royal Statistical Society, Wiley]},
+ title = {Some Statistical Methods Connected with Series of Events},
+ volume = {17},
+ year = {1955}
+}
+
+@book{press1989numerical,
+  title={Numerical recipes},
+  author={Press, William H and Flannery, Brian P and Teukolsky, Saul A and Vetterling, William T and others},
+  volume={3},
+  year={2007},
+  publisher={Cambridge University Press},
+  isbn={978-0-521-88068-8}
+}
+
+@inproceedings{wenzel2017scalable,
+author = {Wenzel, Florian and Galy-Fajou, Th{\'{e}}o and Donner, Christian and Kloft, Marius and Opper, Manfred},
+booktitle = {Advances in Approximate Bayesian Inference, NIPS Workshop},
+title = {Scalable Logit Gaussian Process Classification},
+year = {2017},
+URL = {http://approximateinference.org/2017/accepted/WenzelEtAl2017.pdf}
+}
+
+@incollection{linderman2015dependent,
+title = {Dependent Multinomial Models Made Easy: Stick-Breaking with the Polya-gamma Augmentation},
+author = {Linderman, Scott and Johnson, Matthew and Adams, Ryan P},
+booktitle = {Advances in Neural Information Processing Systems 28},
+pages = {3456--3464},
+year = {2015},
+url = {http://papers.nips.cc/paper/5660-dependent-multinomial-models-made-easy-stick-breaking-with-the-polya-gamma-augmentation}
+}
+
+@InProceedings{linderman2017bayesian,
+  title = 	 {{Bayesian Learning and Inference in Recurrent Switching Linear Dynamical Systems}},
+  author = 	 {Scott Linderman and Matthew Johnson and Andrew Miller and Ryan Adams and David Blei and Liam Paninski},
+  booktitle = 	 {Proceedings of the 20th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {914--922},
+  year = 	 {2017},
+  volume = 	 {54},
+  url = 	 {http://proceedings.mlr.press/v54/linderman17a.html},
+  abstract = 	 {Many natural systems, such as neurons firing in the brain or basketball teams traversing a court, give rise to time series data with complex, nonlinear dynamics.  We can gain insight into these systems by decomposing the data into segments that are each explained by simpler dynamic units. Building on switching linear dynamical systems (SLDS), we develop a model class and Bayesian inference algorithms that not only discover these dynamical units but also, by learning how transition probabilities depend on observations or continuous latent states, explain their switching behavior.  Our key innovation is to design these recurrent SLDS models to enable recent Pólya-gamma auxiliary variable techniques and thus make approximate Bayesian learning and inference in these models easy, fast, and scalable.}
+}
+
+
+@article{hawkes1971spectra,
+ ISSN = {00063444},
+ abstract = {In recent years methods of data analysis for point processes have received some attention, for example, by Cox & Lewis (1966) and Lewis (1964). In particular Bartlett (1963 a,b) has introduced methods of analysis based on the point spectrum. Theoretical models are relatively sparse. In this paper the theoretical properties of a class of processes with particular reference to the point spectrum or corresponding covariance density functions are discussed. A particular result is a self-exciting process with the same second-order properties as a certain doubly stochastic process. These are not distinguishable by methods of data analysis based on these properties.},
+ author = {Alan G. Hawkes},
+ journal = {Biometrika},
+ number = {1},
+ pages = {83--90},
+ title = {Spectra of Some Self-Exciting and Mutually Exciting Point Processes},
+ volume = {58},
+ year = {1971}
+}
+
+
+
+@book{rasmussen2006gaussian,
+  title = {Gaussian Processes for Machine Learning},
+  author = {Rasmussen, Carl E. and Williams, Christopher K. I.},
+  pages = {248},
+  publisher = {MIT Press},
+  address = {Cambridge, MA, USA},
+  year = {2006},
+  isbn={0-262-18253-X}
+}
+
+@article{embrechts2011multivariate, 
+title={Multivariate Hawkes processes: an application to financial data}, 
+volume={48}, 
+DOI={10.1239/jap/1318940477}, 
+number={A}, 
+journal={Journal of Applied Probability}, 
+author={Embrechts, Paul and Liniger, Thomas and Lin, Lu}, 
+year={2011}, 
+pages={367–378}}
+
+@article{donner2017inverse,
+  title = {Inverse Ising problem in continuous time: A latent variable approach},
+  author = {Donner, Christian and Opper, Manfred},
+  journal = {Phys. Rev. E},
+  volume = {96},
+  issue = {6},
+  pages = {062104},
+  numpages = {9},
+  year = {2017},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.96.062104}
+}
+
+
+@article{scott2013expectation,
+  title={Expectation-maximization for logistic regression},
+  author={Scott, James G and Sun, Liang},
+  journal={arXiv preprint arXiv:1306.0040},
+  year={2013}
+}
+
+@inproceedings{titsias2009variational,
+  title = 	 {Variational Learning of Inducing Variables in Sparse Gaussian Processes},
+  author = 	 {Michalis Titsias},
+  booktitle = 	 {Proceedings of the Twelfth International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {567--574},
+  year = 	 {2009},
+  volume = 	 {5},
+  url = 	 {http://proceedings.mlr.press/v5/titsias09a.html},
+}
+
+
+@book{bishop2006pattern,
+ author = {Bishop, Christopher M.},
+ title = {Pattern Recognition and Machine Learning (Information Science and Statistics)},
+ year = {2006},
+ isbn = {0387310738},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+} 
+
+@InProceedings{matthews2016sparse,
+  title = 	 {On Sparse Variational Methods and the Kullback-Leibler Divergence between Stochastic Processes},
+  author = 	 {Alexander G. de G. Matthews and James Hensman and Richard Turner and Zoubin Ghahramani},
+  booktitle = 	 {Proceedings of the 19th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {231--239},
+  year = 	 {2016},
+  volume = 	 {51},
+  url = 	 {http://proceedings.mlr.press/v51/matthews16.html},
+  abstract = 	 {The variational framework for learning inducing variables (Titsias, 2009) has had a large impact on the Gaussian process literature. The framework may be interpreted as minimizing a rigorously defined Kullback-Leibler divergence between the approximating and posterior processes. To our knowledge this connection has thus far gone unremarked in the literature. In this paper we give a substantial generalization of the literature on this topic. We give a new proof of the result for infinite index sets which allows inducing points that are not data points and likelihoods that depend on all function values. We then discuss augmented index sets and show that, contrary to previous works, marginal consistency of augmentation is not enough to guarantee consistency of variational inference with the original model. We then characterize an extra condition where such a guarantee is obtainable. Finally we show how our framework sheds light on interdomain sparse approximations and sparse approximations for Cox processes.}
+}
+
+
+@incollection{murray2009gaussian,
+title = {The Gaussian Process Density Sampler},
+author = {Murray, Iain and David MacKay and Adams, Ryan P},
+booktitle = {Advances in Neural Information Processing Systems 21},
+pages = {9--16},
+year = {2009},
+url = {http://papers.nips.cc/paper/3410-the-gaussian-process-density-sampler.pdf}
+}
+
+
+@incollection{hensman2015mcmc,
+title = {MCMC for Variationally Sparse Gaussian Processes},
+author = {Hensman, James and Matthews, Alexander G and Filippone, Maurizio and Ghahramani, Zoubin},
+booktitle = {Advances in Neural Information Processing Systems 28},
+pages = {1648--1656},
+year = {2015},
+url = {http://papers.nips.cc/paper/5875-mcmc-for-variationally-sparse-gaussian-processes.pdf}
+}
+
+@inproceedings{samo2015scalable,
+  title = 	 {Scalable Nonparametric Bayesian Inference on Point Processes with Gaussian Processes},
+  author = 	 {Yves-Laurent Kom Samo and Stephen Roberts},
+  booktitle = 	 {Proceedings of the 32nd International Conference on Machine Learning},
+  pages = 	 {2227--2236},
+  year = 	 {2015},
+  volume = 	 {37},
+  url = 	 {http://proceedings.mlr.press/v37/samo15.html}
+}
+
+
+@inproceedings{gunter2014efficient,
+Author = {Tom Gunter and Chris Lloyd and Michael A. Osborne and Stephen J. Roberts}, 
+Title = {Efficient Bayesian Nonparametric Modelling of Structured Point Processes}, 
+Booktitle = {Uncertainty in Artificial Intelligence (UAI)}, 
+Year = {2014},
+URL = {https://arxiv.org/abs/1407.6949}}
+
+@inproceedings{teh2011gaussian,
+title = {Gaussian process modulated renewal processes},
+author = {Yee W. Teh and Rao, Vinayak},
+booktitle = {Advances in Neural Information Processing Systems 24},
+pages = {2474--2482},
+year = {2011},
+url = {http://papers.nips.cc/paper/4358-gaussian-process-modulated-renewal-processes.pdf}
+}
+
+@article{ogata1998space,
+author="Ogata, Yosihiko",
+title="Space-Time Point-Process Models for Earthquake Occurrences",
+journal="Annals of the Institute of Statistical Mathematics",
+year="1998",
+volume="50",
+number="2",
+pages="379--402",
+doi="10.1023/A:1003403601725",
+}
+
+
+@article{brillinger1988maximum,
+author="Brillinger, David R.",
+title="Maximum likelihood analysis of spike trains of interacting nerve cells",
+journal="Biological Cybernetics",
+year="1988",
+day="01",
+volume="59",
+number="3",
+pages="189--200",
+doi="10.1007/BF00318010",
+}
+
+@article{stoyan2000recent,
+ ISSN = {08834237},
+ author = {Dietrich Stoyan and Antti Penttinen},
+ journal = {Statistical Science},
+ number = {1},
+ pages = {61--78},
+ publisher = {Institute of Mathematical Statistics},
+ title = {Recent Applications of Point Process Methods in Forestry Statistics},
+ volume = {15},
+ year = {2000}
+}
+
+
+@incollection{cunningham2008inferring,
+title = {Inferring Neural Firing Rates from Spike Trains Using Gaussian Processes},
+author = {Cunningham, John P and Yu, Byron M and Shenoy, Krishna V and Sahani, Maneesh},
+booktitle = {Advances in Neural Information Processing Systems 20},
+pages = {329--336},
+year = {2008},
+url = {http://papers.nips.cc/paper/3229-inferring-neural-firing-rates-from-spike-trains-using-gaussian-processes.pdf}
+}
+
+@article{moller1998log,
+author = {M{\o}ller, Jesper and Syversveen, Anne Randi and Waagepetersen, Rasmus Plenge},
+title = {Log Gaussian Cox Processes},
+journal = {Scandinavian Journal of Statistics},
+volume = {25},
+number = {3},
+pages = {451-482},
+year = {1998},
+doi = {10.1111/1467-9469.00115}
+}
+
+@article{brix2001spatiotemporal,
+author = {Brix, Anders and Diggle, Peter J.},
+title = {Spatiotemporal prediction for log-Gaussian Cox processes},
+journal = {Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
+volume = {63},
+number = {4},
+pages = {823-841},
+year={2001},
+keywords = {Markov process, Metropolis adjusted Langevin algorithm, Ornstein–Uhlenbeck process, Space–time point process},
+doi = {10.1111/1467-9868.00315},
+abstract = {Space–time point pattern data have become more widely available as a result of technological developments in areas such as geographic information systems. We describe a flexible class of space–time point processes. Our models are Cox processes whose stochastic intensity is a space–time Ornstein–Uhlenbeck process. We develop moment-based methods of parameter estimation, show how to predict the underlying intensity by using a Markov chain Monte Carlo approach and illustrate the performance of our methods on a synthetic data set.}
+}
+
+@article{gridcelldata, 
+title={Grid cell data of Sargolini et al 2006}, 
+publisher={Norstore}, 
+author={For The Biology Of Memory, Centre and Sargolini, Fransesca}, 
+year={2014},
+DOI={10.11582/2014.00003}} 
+
+@article {sargolini06,
+	author = {Sargolini, Francesca and Fyhn, Marianne and Hafting, Torkel and McNaughton, Bruce L. and Witter, Menno P. and Moser, May-Britt and Moser, Edvard I.},
+	title = {Conjunctive Representation of Position, Direction, and Velocity in Entorhinal Cortex},
+	volume = {312},
+	number = {5774},
+	pages = {758--762},
+	year = {2006},
+	doi = {10.1126/science.1125572},
+	publisher = {American Association for the Advancement of Science},
+	journal = {Science}
+}

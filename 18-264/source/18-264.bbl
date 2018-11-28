@@ -1,0 +1,147 @@
+\begin{thebibliography}{22}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Achlioptas(2003)]{Achlioptas}
+Dimitris Achlioptas.
+\newblock Database-friendly random projections: {Johnson}-{Lindenstrauss} with
+  binary coins.
+\newblock \emph{Journal of Computer and System Sciences}, 66\penalty0
+  (4):\penalty0 671--687, 2003.
+
+\bibitem[Ailon and Chazelle(2006)]{AilonChazelle_ANN}
+Nir Ailon and Bernard Chazelle.
+\newblock Approximate nearest neighbors and the fast {Johnson}-{Lindenstrauss}
+  transform.
+\newblock In \emph{Proceedings of the 38th ACM Symposium on Theory of Computing
+  (STOC)}, pages 557--563, 2006.
+
+\bibitem[Alon(2003)]{Alon}
+Noga Alon.
+\newblock Problems and results in extremal combinatorics.
+\newblock \emph{Discrete Mathematics}, 273:\penalty0 31--53, 2003.
+
+\bibitem[Arriaga and Vempala(2006)]{MachineLearning_Vempala}
+Rosa~I. Arriaga and Santosh Vempala.
+\newblock An algorithmic theory of learning: Robust concepts and random
+  projection.
+\newblock \emph{Machine Learning}, 63:\penalty0 161--182, 2006.
+
+\bibitem[Bingham and Mannila(2001)]{DocSim_Bingham}
+Ella Bingham and Heikki Mannila.
+\newblock Random projection in dimensionality reduction: applications to image
+  and text data.
+\newblock In \emph{Knowledge Discovery and Data Mining}, pages 245--250, 2001.
+
+\bibitem[Cand{\`e}s(2008)]{RIP_Candes}
+Emmanuel~J. Cand{\`e}s.
+\newblock The restricted isometry property and its implications for compressed
+  sensing.
+\newblock \emph{Comptes Rendus Math{\'{e}}matique. Acad{\'{e}}mie des Sciences.
+  Paris}, 346:\penalty0 589--592, 2008.
+
+\bibitem[Clarkson and Woodruff(2013)]{LowRank_ClarksonWoodruff}
+Kenneth~L. Clarkson and David~P. Woodruff.
+\newblock Low rank approximation and regression in input sparsity time.
+\newblock In \emph{Proceedings of the 45th ACM Symposium on Theory of Computing
+  (STOC)}, pages 81--90, 2013.
+
+\bibitem[Cormode and Indyk(2016)]{Streaming}
+Graham Cormode and Piotr Indyk.
+\newblock Stable distributions in streaming computation.
+\newblock In Garofalakis M., Gehrke J., and Rastoi R., editors, \emph{Data
+  Stream Management}. Springer, Berlin, Heidelberg, 2016.
+
+\bibitem[Dasgupta et~al.(2010)Dasgupta, Kumar, and
+  Sarl\'os]{DasguptaKumarSarlos}
+Anirban Dasgupta, Ravi Kumar, and Tam\'as Sarl\'os.
+\newblock A sparse {Johnson}-{Lindenstrauss} transform.
+\newblock In \emph{Proceedings of the 42nd ACM Symposium on Theory of Computing
+  (STOC)}, pages 341--350, 2010.
+
+\bibitem[Dasgupta and Gupta(2003)]{DasguptaGupta}
+Sanjoy Dasgupta and Anupam Gupta.
+\newblock An elementary proof of a theorem of {Johnson} and {Lindenstrauss}.
+\newblock \emph{Random Structure and Algorithms}, 22\penalty0 (1):\penalty0
+  60--65, 2003.
+
+\bibitem[Frankl and Maehara(1988)]{FranklMaehara}
+Peter Frankl and Hiroshi Maehara.
+\newblock The {Johnson}-{Lindenstrauss} lemma and the sphericity of some
+  graphs.
+\newblock \emph{Journal of Combinatorial Theory Series B}, 44\penalty0
+  (3):\penalty0 355--362, 1988.
+
+\bibitem[Indyk and Motwani(1998)]{IndykMotwani}
+Piotr Indyk and Rajeev Motwani.
+\newblock Approximate nearest neighbors: Towards removing the curse of
+  dimensionality.
+\newblock In \emph{Proceedings of the 30th ACM Symposium on Theory of Computing
+  (STOC)}, pages 604--613, 1998.
+
+\bibitem[Jayram and Woodruff(2013)]{WoodruffJayram}
+T.~S. Jayram and David~P. Woodruff.
+\newblock Optimal bounds for {Johnson}-{Lindenstrauss} transforms and streaming
+  problems with subconstant error.
+\newblock \emph{ACM Transactions on Algorithms}, 9\penalty0 (26), 2013.
+
+\bibitem[Johnson and Lindenstrauss(1984)]{JohnsonLindenstrauss}
+William~B. Johnson and Joram Lindenstrauss.
+\newblock Extensions of {Lipschitz} mappings into a hilbert space.
+\newblock \emph{Contemporary Mathematics}, 26:\penalty0 189--206, 1984.
+
+\bibitem[Kane and Nelson(2014)]{KaneNelson_Sparser}
+Daniel~M. Kane and Jelani Nelson.
+\newblock Sparser {Johnson}-{Lindenstrauss} transforms.
+\newblock \emph{Journal of the ACM}, 61\penalty0 (1), 2014.
+
+\bibitem[Kane et~al.(2011)Kane, Meka, and Nelson]{KaneNelsonMeka}
+Daniel~M. Kane, Raghu Meka, and Jelani Nelson.
+\newblock Almost optimal explicit {Johnson}-{Lindenstrauss} families.
+\newblock In \emph{Proceedings of the 15th International Workshop on
+  Randomization and Computation (RANDOM)}, pages 628--639, 2011.
+
+\bibitem[Lin and Gunopulos(2003)]{DocSim_Lin}
+Jessica Lin and Dimitrios Gunopulos.
+\newblock Dimensionality reduction by random projection and latent semantic
+  indexing.
+\newblock In \emph{Proceedings of the Text Mining Workshop, at the 3rd SIAM
+  International Conference on Data Mining}, May 2003.
+
+\bibitem[Matousek(2008)]{Matousek}
+Jiri Matousek.
+\newblock On variants of the {Johnson}-{Lindenstrauss} lemma.
+\newblock \emph{Random Structure and Algorithms}, 33\penalty0 (2):\penalty0
+  142--156, 2008.
+
+\bibitem[Nguyen et~al.(2009)Nguyen, Do, and Tran]{LowRank_Nguyen}
+Nam~H. Nguyen, Thong~T. Do, and Trac~D. Tran.
+\newblock A fast and efficient algorithm for low-rank approximation of a
+  matrix.
+\newblock In \emph{Proceedings of the 41st ACM Symposium on Theory of Computing
+  (STOC)}, 2009.
+
+\bibitem[Robbins(1955)]{Robbins}
+Herbert Robbins.
+\newblock A remark on {Stirling} formula.
+\newblock \emph{American Mathematical Monthly}, 62:\penalty0 26--29, 1955.
+
+\bibitem[Ubaru et~al.(2017)Ubaru, Mazumdar, and Saad]{LowRank_Ubaru}
+Shashanka Ubaru, Arya Mazumdar, and Yousef Saad.
+\newblock Low rank approximation and decomposition of large matrices using
+  error correcting codes.
+\newblock \emph{IEEE Transactions on Information Theory}, 63\penalty0
+  (9):\penalty0 5544--5558, 2017.
+
+\bibitem[Weinberger et~al.(2009)Weinberger, Dasgupta, Langford, Smola, and
+  Attenberg]{MachineLearning_Weinberger}
+Kilian~Q. Weinberger, Anirban Dasgupta, John Langford, Alexander~J. Smola, and
+  Josh Attenberg.
+\newblock Feature hashing for large scale multitask learning.
+\newblock In \emph{Proceedings of the 26th Annual International Conference on
+  Machine Learning (ICML)}, volume 1113-1120, 2009.
+
+\end{thebibliography}

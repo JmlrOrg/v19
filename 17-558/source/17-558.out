@@ -1,0 +1,28 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Preliminaries and Related Works}{}% 2
+\BOOKMARK [2][-]{subsection.3}{Problem Setting of Short-term Portfolio Optimization}{section.2}% 3
+\BOOKMARK [2][-]{subsection.5}{Related Works on Short-term Portfolio Optimization}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.6}{Two Trivial Systems}{subsection.5}% 5
+\BOOKMARK [3][-]{subsubsection.7}{Systems Based on Correlation}{subsection.5}% 6
+\BOOKMARK [3][-]{subsubsection.8}{Systems Based on Average Indices}{subsection.5}% 7
+\BOOKMARK [2][-]{subsection.12}{Related Works on Sparsity Constraints}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.13}{Systems for Long-term Portfolio Optimization}{subsection.12}% 9
+\BOOKMARK [3][-]{subsubsection.16}{Systems for Lazy Updates}{subsection.12}% 10
+\BOOKMARK [1][-]{section.19}{Short-term Sparse Portfolio Optimization}{}% 11
+\BOOKMARK [2][-]{subsection.20}{Price Information}{section.19}% 12
+\BOOKMARK [2][-]{subsection.23}{Sparse Portfolio Model}{section.19}% 13
+\BOOKMARK [2][-]{subsection.26}{Solving Algorithm}{section.19}% 14
+\BOOKMARK [3][-]{subsubsection.27}{The Existence of Saddle Point}{subsection.26}% 15
+\BOOKMARK [3][-]{subsubsection.38}{The Algorithm Based on ADMM}{subsection.26}% 16
+\BOOKMARK [3][-]{subsubsection.60}{Sparsity of the Portfolio}{subsection.26}% 17
+\BOOKMARK [1][-]{section.70}{Experimental Results}{}% 18
+\BOOKMARK [2][-]{subsection.78}{Parameter Setting}{section.70}% 19
+\BOOKMARK [2][-]{subsection.103}{Cumulative Wealth}{section.70}% 20
+\BOOKMARK [2][-]{subsection.106}{Mean Excess Return}{section.70}% 21
+\BOOKMARK [2][-]{subsection.109}{ Factor}{section.70}% 22
+\BOOKMARK [2][-]{subsection.112}{Order Statistics}{section.70}% 23
+\BOOKMARK [2][-]{subsection.120}{Sharpe Ratio}{section.70}% 24
+\BOOKMARK [2][-]{subsection.123}{Information Ratio}{section.70}% 25
+\BOOKMARK [2][-]{subsection.125}{Transaction Costs}{section.70}% 26
+\BOOKMARK [2][-]{subsection.133}{Running Times}{section.70}% 27
+\BOOKMARK [1][-]{section.134}{Conclusions}{}% 28

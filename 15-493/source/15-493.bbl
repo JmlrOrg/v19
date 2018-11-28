@@ -1,0 +1,560 @@
+\begin{thebibliography}{85}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Allen and Liu(2012)]{allen2012log}
+Genevera~I Allen and Zhandong Liu.
+\newblock A log-linear graphical model for inferring genetic networks from
+  high-throughput sequencing data.
+\newblock In \emph{IEEE International Conference on Bioinformatics and
+  Biomedicine}, 2012.
+
+\bibitem[Arcones(1995)]{arcones1995bernstein}
+Miguel~A Arcones.
+\newblock A {B}ernstein-type inequality for ${U}$-statistics and
+  ${U}$-processes.
+\newblock \emph{Statistics \& probability letters}, 22\penalty0 (3):\penalty0
+  239--247, 1995.
+
+\bibitem[Banerjee et~al.(2008)Banerjee, El~Ghaoui, and
+  d'Aspremont]{banerjee2008model}
+Onureena Banerjee, Laurent El~Ghaoui, and Alexandre d'Aspremont.
+\newblock Model selection through sparse maximum likelihood estimation for
+  multivariate {G}aussian or binary data.
+\newblock \emph{The Journal of Machine Learning Research}, 9:\penalty0
+  485--516, 2008.
+
+\bibitem[Belloni et~al.(2012)Belloni, Chen, Chernozhukov, and
+  Hansen]{belloni2012sparse}
+Alexandre Belloni, Daniel Chen, Victor Chernozhukov, and Christian Hansen.
+\newblock Sparse models and methods for optimal instruments with an application
+  to eminent domain.
+\newblock \emph{Econometrica}, 80\penalty0 (6):\penalty0 2369--2429, 2012.
+
+\bibitem[Belloni et~al.(2013)Belloni, Chernozhukov, and Wei]{belloni2013honest}
+Alexandre Belloni, Victor Chernozhukov, and Ying Wei.
+\newblock Honest confidence regions for a regression parameter in logistic
+  regression with a large number of controls.
+\newblock \emph{arXiv:1304.3969}, 2013.
+
+\bibitem[Besag(1974)]{besag1974spatial}
+Julian Besag.
+\newblock Spatial interaction and the statistical analysis of lattice systems.
+\newblock \emph{Journal of the Royal Statistical Society. Series B
+  (Methodological)}, 36\penalty0 (2):\penalty0 192--236, 1974.
+
+\bibitem[Bickel et~al.(2009)Bickel, Ritov, and
+  Tsybakov]{bickel2009simultaneous}
+Peter~J Bickel, Ya'acov Ritov, and Alexandre~B Tsybakov.
+\newblock Simultaneous analysis of {LASSO} and {D}antzig selector.
+\newblock \emph{The Annals of Statistics}, 37:\penalty0 1705--1732, 2009.
+
+\bibitem[Bradic et~al.(2011)Bradic, Fan, and Wang]{bradic2011penalized}
+Jelena Bradic, Jianqing Fan, and Weiwei Wang.
+\newblock Penalized composite quasi-likelihood for ultrahigh dimensional
+  variable selection.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 73\penalty0 (3):\penalty0 325--349, 2011.
+
+\bibitem[Cai et~al.(2011)Cai, Liu, and Luo]{cai2011constrained}
+Tony Cai, Weidong Liu, and Xi~Luo.
+\newblock A constrained $\ell_1$-minimization approach to sparse precision
+  matrix estimation.
+\newblock \emph{Journal of the American Statistical Association}, 106\penalty0
+  (494):\penalty0 594--607, 2011.
+
+\bibitem[Cand\'{e}s et~al.(2007)Cand\'{e}s, Tao, et~al.]{candes2007dantzig}
+Emmanuel Cand\'{e}s, Terence Tao, et~al.
+\newblock The {D}antzig selector: Statistical estimation when p is much larger
+  than n.
+\newblock \emph{The Annals of Statistics}, 35\penalty0 (6):\penalty0
+  2313--2351, 2007.
+
+\bibitem[Cand\'{e}s and Tao(2005)]{candes2005decoding}
+Emmanuel~J Cand\'{e}s and Terence Tao.
+\newblock Decoding by linear programming.
+\newblock \emph{IEEE Transactions on Information Theory}, 51\penalty0
+  (12):\penalty0 4203--4215, 2005.
+
+\bibitem[Chan(2012)]{chan2012nuisance}
+Kwun Chuen~Gary Chan.
+\newblock Nuisance parameter elimination for proportional likelihood ratio
+  models with nonignorable missingness and random truncation.
+\newblock \emph{Biometrika}, 100\penalty0 (1):\penalty0 269--276, 2012.
+
+\bibitem[Chen et~al.(2015)Chen, Witten, and Shojaie]{chen2013selection}
+Shizhe Chen, Daniela~M Witten, and Ali Shojaie.
+\newblock Selection and estimation for mixed graphical models.
+\newblock \emph{Biometrika}, 102\penalty0 (1):\penalty0 47--64, 2015.
+
+\bibitem[Cheng et~al.(2014)Cheng, Levina, Wang, and Zhu]{cheng2012sparse}
+Jie Cheng, Elizaveta Levina, Pei Wang, and Ji~Zhu.
+\newblock A sparse {I}sing model with covariates.
+\newblock \emph{Biometrics}, 70\penalty0 (4):\penalty0 943--953, 2014.
+
+\bibitem[Cheng et~al.(2017)Cheng, Li, Levina, and Zhu]{cheng2013high}
+Jie Cheng, Tianxi Li, Elizaveta Levina, and Ji~Zhu.
+\newblock High-dimensional mixed graphical models.
+\newblock \emph{Journal of Computational and Graphical Statistics}, 26\penalty0
+  (2):\penalty0 367--378, 2017.
+
+\bibitem[Danaher et~al.(2014)Danaher, Wang, and Witten]{danaher2014joint}
+Patrick Danaher, Pei Wang, and Daniela~M Witten.
+\newblock The joint graphical {LASSO} for inverse covariance estimation across
+  multiple classes.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 76\penalty0 (2):\penalty0 373--397, 2014.
+
+\bibitem[Diao et~al.(2012)Diao, Ning, et~al.]{diao2012maximum}
+Guoqing Diao, Jing Ning, et~al.
+\newblock Maximum likelihood estimation for semiparametric density ratio model.
+\newblock \emph{The International Journal of Biostatistics}, 8\penalty0
+  (1):\penalty0 1--29, 2012.
+
+\bibitem[Drton and Perlman(2008)]{drton2008sinful}
+Mathias Drton and Michael~D Perlman.
+\newblock A {SIN}ful approach to {G}aussian graphical model selection.
+\newblock \emph{Journal of Statistical Planning and Inference}, 138\penalty0
+  (4):\penalty0 1179--1200, 2008.
+
+\bibitem[Drton et~al.(2007)Drton, Perlman, et~al.]{drton2007multiple}
+Mathias Drton, Michael~D Perlman, et~al.
+\newblock Multiple testing and error control in {G}aussian graphical model
+  selection.
+\newblock \emph{Statistical Science}, 22\penalty0 (3):\penalty0 430--449, 2007.
+
+\bibitem[Edwards(2000)]{edwards2000introduction}
+David Edwards.
+\newblock \emph{Introduction to Graphical Modelling}.
+\newblock Springer, 2000.
+
+\bibitem[Epskamp(2015)]{isingsampler}
+Sasha Epskamp.
+\newblock \emph{Sampling Methods and Distribution Functions for the Ising
+  Model}, 2015.
+\newblock R package.
+
+\bibitem[Fan and Lv(2011)]{fan2011nonconcave}
+Jianqing Fan and Jinchi Lv.
+\newblock Nonconcave penalized likelihood with {NP}-dimensionality.
+\newblock \emph{Information Theory, IEEE Transactions on}, 57\penalty0
+  (8):\penalty0 5467--5484, 2011.
+
+\bibitem[Fan et~al.(2014)Fan, Xue, Zou, et~al.]{fan2014strong}
+Jianqing Fan, Lingzhou Xue, Hui Zou, et~al.
+\newblock Strong oracle optimality of folded concave penalized estimation.
+\newblock \emph{The Annals of Statistics}, 42\penalty0 (3):\penalty0 819--849,
+  2014.
+
+\bibitem[Fan et~al.(2017)Fan, Liu, Ning, and Zou]{fan2014high}
+Jianqing Fan, Han Liu, Yang Ning, and Hui Zou.
+\newblock High dimensional semiparametric latent graphical model for mixed
+  data.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 79\penalty0 (2):\penalty0 405--421, 2017.
+
+\bibitem[Fan et~al.(2018)Fan, Liu, Sun, and Zhang]{fan2018lamm}
+Jianqing Fan, Han Liu, Qiang Sun, and Tong Zhang.
+\newblock I-{LAMM} for sparse learning: Simultaneous control of algorithmic
+  complexity and statistical error.
+\newblock \emph{Annals of statistics}, 46\penalty0 (2):\penalty0 814--841,
+  2018.
+
+\bibitem[Fellinghauer et~al.(2013)Fellinghauer, B{\"u}hlmann, Ryffel,
+  Von~Rhein, and Reinhardt]{fellinghauer2013stable}
+Bernd Fellinghauer, Peter B{\"u}hlmann, Martin Ryffel, Michael Von~Rhein, and
+  Jan~D Reinhardt.
+\newblock Stable graphical model estimation with random forests for discrete,
+  continuous, and mixed variables.
+\newblock \emph{Computational Statistics \& Data Analysis}, 64:\penalty0
+  132--152, 2013.
+
+\bibitem[Friedman et~al.(2008)Friedman, Hastie, and
+  Tibshirani]{friedman2008sparse}
+Jerome Friedman, Trevor Hastie, and Robert Tibshirani.
+\newblock Sparse inverse covariance estimation with the graphical {LASSO}.
+\newblock \emph{Biostatistics}, 9\penalty0 (3):\penalty0 432--441, 2008.
+
+\bibitem[Friedman et~al.(2010)Friedman, Hastie, and
+  Tibshirani]{friedman2010applications}
+Jerome Friedman, Trevor Hastie, and Rob Tibshirani.
+\newblock Applications of the {LASSO} and grouped {LASSO} to the estimation of
+  sparse graphical models.
+\newblock Technical report, 2010.
+
+\bibitem[Ge et~al.(2017)Ge, Li, Jiang, Liu, Zhang, Wang, and Zhao]{gepicasso}
+J~Ge, X~Li, H~Jiang, H~Liu, T~Zhang, M~Wang, and T~Zhao.
+\newblock \emph{Picasso: A Sparse Learning Library for High Dimensional Data
+  Analysis in R and Python}, 2017.
+\newblock R package.
+
+\bibitem[Gu et~al.(2015)Gu, Cao, Ning, and Liu]{gu2015local}
+Quanquan Gu, Yuan Cao, Yang Ning, and Han Liu.
+\newblock Local and global inference for high dimensional gaussian copula
+  graphical models.
+\newblock \emph{arXiv preprint arXiv:1502.02347}, 2015.
+
+\bibitem[Guo et~al.(2011)Guo, Levina, Michailidis, and Zhu]{guo2011joint}
+Jian Guo, Elizaveta Levina, George Michailidis, and Ji~Zhu.
+\newblock Joint estimation of multiple graphical models.
+\newblock \emph{Biometrika}, 98\penalty0 (1):\penalty0 1--15, 2011.
+
+\bibitem[Guo et~al.(2015)Guo, Levina, Michailidis, and Zhu]{guo2014graphical}
+Jian Guo, Elizaveta Levina, George Michailidis, and Ji~Zhu.
+\newblock Graphical models for ordinal data.
+\newblock \emph{Journal of Computational and Graphical Statistics}, 24\penalty0
+  (1):\penalty0 183--204, 2015.
+
+\bibitem[H{\"o}fling and Tibshirani(2009)]{hofling2009estimation}
+Holger H{\"o}fling and Robert Tibshirani.
+\newblock Estimation of sparse binary pairwise markov networks using
+  pseudo-likelihoods.
+\newblock \emph{The Journal of Machine Learning Research}, 10:\penalty0
+  883--906, 2009.
+
+\bibitem[Jankov\'a and van~de Geer(2015)]{jankova2014confidence}
+Jana Jankov\'a and Sara van~de Geer.
+\newblock Confidence intervals for high-dimensional inverse covariance
+  estimation.
+\newblock \emph{Electronic Journal of Statistics}, 9\penalty0 (1):\penalty0
+  1205--1229, 2015.
+\newblock \doi{10.1214/15-EJS1031}.
+
+\bibitem[Javanmard and Montanari(2014)]{javanmard2013confidence}
+Adel Javanmard and Andrea Montanari.
+\newblock Confidence intervals and hypothesis testing for high-dimensional
+  regression.
+\newblock \emph{The Journal of Machine Learning Research}, 15\penalty0
+  (1):\penalty0 2869--2909, 2014.
+
+\bibitem[Lam and Fan(2009)]{lam2009sparsistency}
+Clifford Lam and Jianqing Fan.
+\newblock Sparsistency and rates of convergence in large covariance matrix
+  estimation.
+\newblock \emph{Annals of statistics}, 37\penalty0 (6B):\penalty0 4254--4278,
+  2009.
+
+\bibitem[Lauritzen(1996)]{lauritzen1996graphical}
+Steffen~L Lauritzen.
+\newblock \emph{Graphical Models}.
+\newblock Oxford University Press, 1996.
+
+\bibitem[Lee and Hastie(2015)]{lee2013structure}
+Jason~D Lee and Trevor~J Hastie.
+\newblock Learning the structure of mixed graphical models.
+\newblock \emph{Journal of Computational and Graphical Statistics}, 24\penalty0
+  (1):\penalty0 230--253, 2015.
+
+\bibitem[Lee et~al.(2016)Lee, Sun, Sun, Taylor, et~al.]{lee2016exact}
+Jason~D Lee, Dennis~L Sun, Yuekai Sun, Jonathan~E Taylor, et~al.
+\newblock Exact post-selection inference, with application to the {LASSO}.
+\newblock \emph{The Annals of Statistics}, 44\penalty0 (3):\penalty0 907--927,
+  2016.
+
+\bibitem[Lee et~al.(2006)Lee, Ganapathi, and Koller]{lee2006efficient}
+Su-In Lee, Varun Ganapathi, and Daphne Koller.
+\newblock Efficient structure learning of {M}arkov networks using $ \ell_1
+  $-regularization.
+\newblock In \emph{Advances in neural Information processing systems}, 2006.
+
+\bibitem[Liang and Qin(2000)]{liang2000regression}
+Kung-Yee Liang and Jing Qin.
+\newblock Regression analysis under non-standard situations: a pairwise
+  pseudolikelihood approach.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 62\penalty0 (4):\penalty0 773--786, 2000.
+
+\bibitem[Liu et~al.(2009)Liu, Lafferty, and Wasserman]{liu2009nonparanormal}
+Han Liu, John Lafferty, and Larry Wasserman.
+\newblock The {N}onparanormal: Semiparametric estimation of high dimensional
+  undirected graphs.
+\newblock \emph{The Journal of Machine Learning Research}, 10:\penalty0
+  2295--2328, 2009.
+
+\bibitem[Liu et~al.(2012)Liu, Han, Yuan, Lafferty, Wasserman,
+  et~al.]{liu2012high}
+Han Liu, Fang Han, Ming Yuan, John Lafferty, Larry Wasserman, et~al.
+\newblock High-dimensional semiparametric {G}aussian copula graphical models.
+\newblock \emph{The Annals of Statistics}, 40\penalty0 (4):\penalty0
+  2293--2326, 2012.
+
+\bibitem[Liu et~al.(2013)]{liu2013gaussian}
+Weidong Liu et~al.
+\newblock {G}aussian graphical model estimation with false discovery rate
+  control.
+\newblock \emph{The Annals of Statistics}, 41\penalty0 (6):\penalty0
+  2948--2978, 2013.
+
+\bibitem[Lockhart et~al.(2014)Lockhart, Taylor, Tibshirani, Tibshirani,
+  et~al.]{lockhart2014significance}
+Richard Lockhart, Jonathan Taylor, Ryan~J Tibshirani, Robert Tibshirani, et~al.
+\newblock A significance test for the {LASSO}.
+\newblock \emph{The Annals of Statistics}, 42\penalty0 (2):\penalty0 413--468,
+  2014.
+
+\bibitem[Loh and Wainwright(2015)]{loh2013regularized}
+Po-Ling Loh and Martin~J Wainwright.
+\newblock Regularized {M}-estimators with nonconvexity: Statistical and
+  algorithmic theory for local optima.
+\newblock \emph{Journal of Machine Learning Research}, 16:\penalty0 559--616,
+  2015.
+
+\bibitem[Meinshausen and B{\"u}hlmann(2006)]{meinshausen2006high}
+Nicolai Meinshausen and Peter B{\"u}hlmann.
+\newblock High-dimensional graphs and variable selection with the {LASSO}.
+\newblock \emph{The Annals of Statistics}, 34\penalty0 (3):\penalty0
+  1436--1462, 2006.
+
+\bibitem[Mohan et~al.(2014)Mohan, London, Fazel, Witten, and
+  Lee]{mohan2014node}
+Karthik Mohan, Palma London, Maryam Fazel, Daniela Witten, and Su-In Lee.
+\newblock Node-based learning of multiple {G}aussian graphical models.
+\newblock \emph{The Journal of Machine Learning Research}, 15\penalty0
+  (1):\penalty0 445--488, 2014.
+
+\bibitem[Negahban et~al.(2012)Negahban, Ravikumar, Wainwright, and
+  Yu]{negahban2012unified}
+Sahand~N. Negahban, Pradeep Ravikumar, Martin~J. Wainwright, and Bin Yu.
+\newblock A unified framework for high-dimensional analysis of {M}-estimators
+  with decomposable regularizers.
+\newblock \emph{Statistical Science}, 27\penalty0 (4):\penalty0 538--557, 11
+  2012.
+
+\bibitem[Neykov et~al.(2018)Neykov, Ning, Liu, Liu, et~al.]{neykov2018unified}
+Matey Neykov, Yang Ning, Jun~S Liu, Han Liu, et~al.
+\newblock A unified theory of confidence regions and testing for
+  high-dimensional estimating equations.
+\newblock \emph{Statistical Science}, 33\penalty0 (3):\penalty0 427--443, 2018.
+
+\bibitem[Ning and Liu(2013)]{ning2013high}
+Yang Ning and Han Liu.
+\newblock High-dimensional semiparametric bigraphical models.
+\newblock \emph{Biometrika}, 100\penalty0 (3):\penalty0 655--670, 2013.
+
+\bibitem[Ning et~al.(2017{\natexlab{a}})Ning, Liu, et~al.]{ning2017general}
+Yang Ning, Han Liu, et~al.
+\newblock A general theory of hypothesis tests and confidence regions for
+  sparse high dimensional models.
+\newblock \emph{The Annals of Statistics}, 45\penalty0 (1):\penalty0 158--195,
+  2017{\natexlab{a}}.
+
+\bibitem[Ning et~al.(2017{\natexlab{b}})Ning, Zhao, Liu, et~al.]{ning2014sparc}
+Yang Ning, Tianqi Zhao, Han Liu, et~al.
+\newblock A likelihood ratio framework for high-dimensional semiparametric
+  regression.
+\newblock \emph{The Annals of Statistics}, 45\penalty0 (6):\penalty0
+  2299--2327, 2017{\natexlab{b}}.
+
+\bibitem[Peng et~al.(2009)Peng, Wang, Zhou, and Zhu]{peng2009partial}
+Jie Peng, Pei Wang, Nengfeng Zhou, and Ji~Zhu.
+\newblock Partial correlation estimation by joint sparse regression models.
+\newblock \emph{Journal of the American Statistical Association}, 104\penalty0
+  (486):\penalty0 735--746, 2009.
+
+\bibitem[Raskutti et~al.(2010)Raskutti, Wainwright, and
+  Yu]{raskutti2010restricted}
+Garvesh Raskutti, Martin~J Wainwright, and Bin Yu.
+\newblock Restricted eigenvalue properties for correlated {G}aussian designs.
+\newblock \emph{The Journal of Machine Learning Research}, 11:\penalty0
+  2241--2259, 2010.
+
+\bibitem[Ravikumar et~al.(2010)Ravikumar, Wainwright, Lafferty,
+  et~al.]{ravikumar2010high}
+Pradeep Ravikumar, Martin~J Wainwright, John~D Lafferty, et~al.
+\newblock High-dimensional {I}sing model selection using $\ell_1$-regularized
+  logistic regression.
+\newblock \emph{The Annals of Statistics}, 38\penalty0 (3):\penalty0
+  1287--1319, 2010.
+
+\bibitem[Ravikumar et~al.(2011)Ravikumar, Wainwright, Raskutti, Yu,
+  et~al.]{ravikumar2011high}
+Pradeep Ravikumar, Martin~J Wainwright, Garvesh Raskutti, Bin Yu, et~al.
+\newblock High-dimensional covariance estimation by minimizing
+  $\ell_1$-penalized log-determinant divergence.
+\newblock \emph{Electronic Journal of Statistics}, 5:\penalty0 935--980, 2011.
+
+\bibitem[Ren et~al.(2015)Ren, Sun, Zhang, Zhou, et~al.]{ren2013asymptotic}
+Zhao Ren, Tingni Sun, Cun-Hui Zhang, Harrison~H Zhou, et~al.
+\newblock Asymptotic normality and optimalities in estimation of large gaussian
+  graphical models.
+\newblock \emph{The Annals of Statistics}, 43\penalty0 (3):\penalty0 991--1026,
+  2015.
+
+\bibitem[Rothman et~al.(2008)Rothman, Bickel, Levina, and
+  Zhu]{rothman2008sparse}
+Adam~J Rothman, Peter~J Bickel, Elizaveta Levina, and Ji~Zhu.
+\newblock Sparse permutation invariant covariance estimation.
+\newblock \emph{Electronic Journal of Statistics}, 2:\penalty0 494--515, 2008.
+
+\bibitem[Shen et~al.(2012)Shen, Pan, and Zhu]{shen2012likelihood}
+Xiaotong Shen, Wei Pan, and Yunzhang Zhu.
+\newblock Likelihood-based selection and sharp parameter estimation.
+\newblock \emph{Journal of the American Statistical Association}, 107\penalty0
+  (497):\penalty0 223--232, 2012.
+
+\bibitem[Sun and Zhang(2013)]{sun2013sparse}
+Tingni Sun and Cun-Hui Zhang.
+\newblock Sparse matrix inversion with scaled {LASSO}.
+\newblock \emph{The Journal of Machine Learning Research}, 14\penalty0
+  (1):\penalty0 3385--3418, 2013.
+
+\bibitem[Tan et~al.(2014)Tan, London, Mohan, Lee, Fazel, and
+  Witten]{tan2014learning}
+Kean~Ming Tan, Palma London, Karthik Mohan, Su-In Lee, Maryam Fazel, and
+  Daniela Witten.
+\newblock Learning graphical models with hubs.
+\newblock \emph{The Journal of Machine Learning Research}, 15\penalty0
+  (1):\penalty0 3297--3331, 2014.
+
+\bibitem[Tan et~al.(2016)Tan, Ning, Witten, and Liu]{tan2016replicates}
+Kean~Ming Tan, Yang Ning, Daniela~M Witten, and Han Liu.
+\newblock Replicates in high dimensions, with applications to latent variable
+  graphical models.
+\newblock \emph{Biometrika}, 103\penalty0 (4):\penalty0 761--777, 2016.
+
+\bibitem[Tibshirani(1996)]{tibshirani1996regression}
+Robert Tibshirani.
+\newblock Regression shrinkage and selection via the {LASSO}.
+\newblock \emph{Journal of the Royal Statistical Society. Series B
+  (Methodological)}, 58\penalty0 (1):\penalty0 267--288, 1996.
+
+\bibitem[Tsoumakas et~al.(2011)Tsoumakas, Spyromitros-Xioufis, Vilcek, and
+  Vlahavas]{tsoumakas2011mulan}
+Grigorios Tsoumakas, Eleftherios Spyromitros-Xioufis, Jozef Vilcek, and Ioannis
+  Vlahavas.
+\newblock Mulan: A java library for multi-label learning.
+\newblock \emph{The Journal of Machine Learning Research}, 12:\penalty0
+  2411--2414, 2011.
+
+\bibitem[Turnbull et~al.(2008)Turnbull, Barrington, Torres, and
+  Lanckriet]{turnbull2008semantic}
+Douglas Turnbull, Luke Barrington, David Torres, and Gert Lanckriet.
+\newblock Semantic annotation and retrieval of music and sound effects.
+\newblock \emph{IEEE Transactions on Audio, Speech, and Language Processing},
+  16\penalty0 (2):\penalty0 467--476, 2008.
+
+\bibitem[Tzanetakis and Cook(2002)]{tzanetakis2002musical}
+George Tzanetakis and Perry Cook.
+\newblock Musical genre classification of audio signals.
+\newblock \emph{Speech and Audio Processing, IEEE transactions on}, 10\penalty0
+  (5):\penalty0 293--302, 2002.
+
+\bibitem[{van de Geer} et~al.(2014){van de Geer}, {B{\"u}hlmann}, {Ritov}, and
+  {Dezeure}]{van2013asymptotically}
+S.~{van de Geer}, P.~{B{\"u}hlmann}, Y.~{Ritov}, and R.~{Dezeure}.
+\newblock On asymptotically optimal confidence regions and tests for
+  high-dimensional models.
+\newblock \emph{The Annals of Statistics}, 42\penalty0 (3):\penalty0
+  1166--1202, 06 2014.
+\newblock \doi{10.1214/14-AOS1221}.
+
+\bibitem[Van~der Vaart(2000)]{van2000asymptotic}
+Aad~W Van~der Vaart.
+\newblock \emph{Asymptotic Statistics}.
+\newblock Cambridge university press, 2000.
+
+\bibitem[Voorman et~al.(2014)Voorman, Shojaie, and Witten]{voorman2014graph}
+Arend Voorman, Ali Shojaie, and Daniela Witten.
+\newblock Graph estimation with joint additive models.
+\newblock \emph{Biometrika}, 101\penalty0 (1):\penalty0 85--101, 2014.
+
+\bibitem[Wang et~al.(2014)Wang, Liu, and Zhang]{wang2013optimal}
+Zhaoran Wang, Han Liu, and Tong Zhang.
+\newblock Optimal computational and statistical rates of convergence for sparse
+  nonconvex learning problems.
+\newblock \emph{The Annals of Statistics}, 42\penalty0 (6):\penalty0
+  2164--2201, 12 2014.
+\newblock \doi{10.1214/14-AOS1238}.
+
+\bibitem[Whittaker(2009)]{whittaker2009graphical}
+Joe Whittaker.
+\newblock \emph{Graphical Models in Applied Multivariate Statistics}.
+\newblock Wiley Publishing, 2009.
+
+\bibitem[Xiao and Zhang(2013)]{xiao2013proximal}
+Lin Xiao and Tong Zhang.
+\newblock A proximal-gradient homotopy method for the sparse least-squares
+  problem.
+\newblock \emph{SIAM Journal on Optimization}, 23\penalty0 (2):\penalty0
+  1062--1091, 2013.
+
+\bibitem[Xue et~al.(2012{\natexlab{a}})Xue, Zou, Cai,
+  et~al.]{xue2012nonconcave}
+Lingzhou Xue, Hui Zou, Tianxi Cai, et~al.
+\newblock Nonconcave penalized composite conditional likelihood estimation of
+  sparse {I}sing models.
+\newblock \emph{The Annals of Statistics}, 40\penalty0 (3):\penalty0
+  1403--1429, 2012{\natexlab{a}}.
+
+\bibitem[Xue et~al.(2012{\natexlab{b}})Xue, Zou, et~al.]{xue2012regularized}
+Lingzhou Xue, Hui Zou, et~al.
+\newblock Regularized rank-based estimation of high-dimensional nonparanormal
+  graphical models.
+\newblock \emph{The Annals of Statistics}, 40\penalty0 (5):\penalty0
+  2541--2571, 2012{\natexlab{b}}.
+
+\bibitem[Yang et~al.(2013{\natexlab{a}})Yang, Ravikumar, Allen, and
+  Liu]{yang2013graphical}
+Eunho Yang, Pradeep Ravikumar, Genevera~I Allen, and Zhandong Liu.
+\newblock On graphical models via univariate exponential family distributions.
+\newblock \emph{arXiv preprint arXiv:1301.4183}, 2013{\natexlab{a}}.
+
+\bibitem[Yang et~al.(2013{\natexlab{b}})Yang, Ravikumar, Allen, and
+  Liu]{yang2013poisson}
+Eunho Yang, Pradeep Ravikumar, Genevera~I Allen, and Zhandong Liu.
+\newblock On {P}oisson graphical models.
+\newblock \emph{Advances in Neural Information Processing Systems}, pages
+  1718--1726, 2013{\natexlab{b}}.
+
+\bibitem[Yang et~al.(2014)Yang, Ravikumar, Allen, Baker, Wan, and
+  Liu]{yang2014mixed}
+Eunho Yang, Pradeep Ravikumar, Genevera~I Allen, Yulia Baker, Ying-Wooi Wan,
+  and Zhandong Liu.
+\newblock A general framework for mixed graphical models.
+\newblock \emph{arXiv preprint arXiv:1411.0288}, 2014.
+
+\bibitem[Yuan(2010)]{yuan2010high}
+Ming Yuan.
+\newblock High dimensional inverse covariance matrix estimation via linear
+  programming.
+\newblock \emph{Journal of Machine Learning Research}, 11:\penalty0 2261--2286,
+  2010.
+
+\bibitem[Yuan and Lin(2007)]{yuan2007model}
+Ming Yuan and Yi~Lin.
+\newblock Model selection and estimation in the {G}aussian graphical model.
+\newblock \emph{Biometrika}, 94\penalty0 (1):\penalty0 19--35, 2007.
+
+\bibitem[Zhang and Huang(2008)]{zhang2008sparsity}
+Cun-Hui Zhang and Jian Huang.
+\newblock The sparsity and bias of the {LASSO} selection in high-dimensional
+  linear regression.
+\newblock \emph{The Annals of Statistics}, pages 1567--1594, 2008.
+
+\bibitem[Zhang and Zhang(2014)]{zhang2014confidence}
+Cun-Hui Zhang and Stephanie~S Zhang.
+\newblock Confidence intervals for low dimensional parameters in high
+  dimensional linear models.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 76\penalty0 (1):\penalty0 217--242, 2014.
+
+\bibitem[Zhang(2010)]{zhang2010analysis}
+Tong Zhang.
+\newblock Analysis of multi-stage convex relaxation for sparse regularization.
+\newblock \emph{The Journal of Machine Learning Research}, 11:\penalty0
+  1081--1107, 2010.
+
+\bibitem[Zhang et~al.(2013)]{zhang2013multi}
+Tong Zhang et~al.
+\newblock Multi-stage convex relaxation for feature selection.
+\newblock \emph{Bernoulli}, 19\penalty0 (5B):\penalty0 2277--2293, 2013.
+
+\bibitem[Zou and Li(2008)]{zou2008one}
+Hui Zou and Runze Li.
+\newblock One-step sparse estimates in nonconcave penalized likelihood models.
+\newblock \emph{Annals of statistics}, 36\penalty0 (4):\penalty0 1509, 2008.
+
+\end{thebibliography}

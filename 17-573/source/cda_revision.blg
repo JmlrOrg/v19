@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: cda_revision.aux
+The style file: plainnat.bst
+Database file #1: reference.bib
+Warning--there's a number but no volume in johndrow2016inefficiency
+Warning--there's a number but no volume in quiroz2016exact
+You've used 29 entries,
+            2773 wiz_defined-function locations,
+            779 strings with 10405 characters,
+and the built_in function-call counts, 15035 in all, are:
+= -- 1361
+> -- 867
+< -- 21
++ -- 294
+- -- 264
+* -- 1276
+:= -- 2257
+add.period$ -- 87
+call.type$ -- 29
+change.case$ -- 172
+chr.to.int$ -- 28
+cite$ -- 60
+duplicate$ -- 665
+empty$ -- 1210
+format.name$ -- 307
+if$ -- 3159
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 30
+newline$ -- 153
+num.names$ -- 116
+pop$ -- 327
+preamble$ -- 1
+purify$ -- 144
+quote$ -- 0
+skip$ -- 523
+stack$ -- 0
+substring$ -- 733
+swap$ -- 94
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 314
+warning$ -- 2
+while$ -- 145
+width$ -- 0
+write$ -- 384
+(There were 2 warnings)

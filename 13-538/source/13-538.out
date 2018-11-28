@@ -1,0 +1,49 @@
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.10}{Contributions}{section.2}% 2
+\BOOKMARK [2][-]{subsection.13}{Related Work}{section.2}% 3
+\BOOKMARK [2][-]{subsection.14}{Summary of the Paper}{section.2}% 4
+\BOOKMARK [1][-]{section.15}{TV-L1: Fast Prox-Operators for Tv11D}{}% 5
+\BOOKMARK [2][-]{subsection.17}{The Taut-String Method for Tv11D}{section.15}% 6
+\BOOKMARK [3][-]{subsubsection.27}{Efficient Implementation of Taut-Strings}{subsection.17}% 7
+\BOOKMARK [2][-]{subsection.28}{Linearized Taut-String Method for Tv11D}{section.15}% 8
+\BOOKMARK [2][-]{subsection.41}{Comparison of Taut-String Methods and a Hybrid Strategy}{section.15}% 9
+\BOOKMARK [2][-]{subsection.44}{Taut-string Methods for Weighted Tv11D}{section.15}% 10
+\BOOKMARK [1][-]{section.51}{Other One-Dimensional TV Variants}{}% 11
+\BOOKMARK [2][-]{subsection.52}{TV-L2: Proximity for Tv21D}{section.51}% 12
+\BOOKMARK [2][-]{subsection.62}{TV-Lp: Proximity for Tvp1D}{section.51}% 13
+\BOOKMARK [3][-]{subsubsection.64}{Efficient Projection onto the q-ball}{subsection.62}% 14
+\BOOKMARK [3][-]{subsubsection.73}{Frank-Wolfe Algorithm for TV-Lp Proximity}{subsection.62}% 15
+\BOOKMARK [2][-]{subsection.76}{Prox Operator for TV-L}{section.51}% 16
+\BOOKMARK [1][-]{section.78}{Prox Operators for Multidimensional TV}{}% 17
+\BOOKMARK [2][-]{subsection.79}{Proximity Stacking}{section.78}% 18
+\BOOKMARK [3][-]{subsubsection.84}{Proximal Dykstra \(PD\)}{subsection.79}% 19
+\BOOKMARK [3][-]{subsubsection.87}{Alternating Reflections \205 Douglas-Rachford \(DR\)}{subsection.79}% 20
+\BOOKMARK [3][-]{subsubsection.93}{Alternating-Direction Method of Multipliers \(ADMM\)}{subsection.79}% 21
+\BOOKMARK [3][-]{subsubsection.95}{Dual Proximity Methods}{subsection.79}% 22
+\BOOKMARK [2][-]{subsection.96}{Two-Dimensional TV}{section.78}% 23
+\BOOKMARK [2][-]{subsection.101}{Higher-Dimensional TV}{section.78}% 24
+\BOOKMARK [1][-]{section.106}{Experiments and Applications}{}% 25
+\BOOKMARK [2][-]{subsection.107}{Tv11D Experiments and Applications}{section.106}% 26
+\BOOKMARK [3][-]{subsubsection.108}{Running Time Results for Synthetic Data}{subsection.107}% 27
+\BOOKMARK [3][-]{subsubsection.115}{Worst Case Scenario}{subsection.107}% 28
+\BOOKMARK [3][-]{subsubsection.118}{Running Times on Natural Images}{subsection.107}% 29
+\BOOKMARK [3][-]{subsubsection.125}{Running Time Results for Weighted TV-L1}{subsection.107}% 30
+\BOOKMARK [2][-]{subsection.132}{Experiments for other 1D-TV Variants}{section.106}% 31
+\BOOKMARK [3][-]{subsubsection.133}{Running Time Results for TV-L2}{subsection.132}% 32
+\BOOKMARK [3][-]{subsubsection.138}{Running Time Results for TV-Lp}{subsection.132}% 33
+\BOOKMARK [3][-]{subsubsection.152}{Running Time Results for TV-L}{subsection.132}% 34
+\BOOKMARK [3][-]{subsubsection.159}{Application: Proximal Optimization for Fused-Lasso}{subsection.132}% 35
+\BOOKMARK [3][-]{subsubsection.161}{Fused-Lasso Experiments: Simulation}{subsection.132}% 36
+\BOOKMARK [3][-]{subsubsection.164}{Fused-Lasso Experiments: Microarray Classification}{subsection.132}% 37
+\BOOKMARK [2][-]{subsection.167}{2D-TV: Experiments and Applications}{section.106}% 38
+\BOOKMARK [3][-]{subsubsection.168}{Image Denoising through Anisotropic Filtering}{subsection.167}% 39
+\BOOKMARK [3][-]{subsubsection.179}{Parallelization Experiments}{subsection.167}% 40
+\BOOKMARK [3][-]{subsubsection.182}{Anisotropic Image Deconvolution}{subsection.167}% 41
+\BOOKMARK [3][-]{subsubsection.190}{2D Fused-Lasso Signal Approximator}{subsection.167}% 42
+\BOOKMARK [2][-]{subsection.192}{Application of Higher-Dimensional TV}{section.106}% 43
+\BOOKMARK [1][-]{section.201}{Mathematical Background}{}% 44
+\BOOKMARK [1][-]{section.222}{proxTV Toolbox}{}% 45
+\BOOKMARK [1][-]{section.227}{Proof on the Equality of Taut-String Problems}{}% 46
+\BOOKMARK [1][-]{section.241}{Proof on the Equivalence of Linearized Taut-String Method}{}% 47
+\BOOKMARK [1][-]{section.243}{Projected-Newton for Weighted Tv11D}{}% 48
+\BOOKMARK [1][-]{section.251}{Testing Images and Videos, and Experimental Results}{}% 49

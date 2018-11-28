@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 17-701.aux
+The style file: plainnat.bst
+Database file #1: example.bib
+Warning--empty journal in griffin2007caltech
+You've used 25 entries,
+            2773 wiz_defined-function locations,
+            750 strings with 9671 characters,
+and the built_in function-call counts, 13261 in all, are:
+= -- 1189
+> -- 818
+< -- 18
++ -- 274
+- -- 249
+* -- 1108
+:= -- 1993
+add.period$ -- 77
+call.type$ -- 25
+change.case$ -- 158
+chr.to.int$ -- 25
+cite$ -- 51
+duplicate$ -- 586
+empty$ -- 1034
+format.name$ -- 288
+if$ -- 2798
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 24
+newline$ -- 133
+num.names$ -- 100
+pop$ -- 313
+preamble$ -- 1
+purify$ -- 133
+quote$ -- 0
+skip$ -- 477
+stack$ -- 0
+substring$ -- 565
+swap$ -- 93
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 270
+warning$ -- 1
+while$ -- 119
+width$ -- 0
+write$ -- 330
+(There was 1 warning)

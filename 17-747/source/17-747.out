@@ -1,0 +1,24 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.3}{Notation}{}% 2
+\BOOKMARK [1][-]{section.6}{Triangular Transport Maps: a Building Block}{}% 3
+\BOOKMARK [1][-]{section.21}{Markov Networks}{}% 4
+\BOOKMARK [1][-]{section.27}{Sparsity of Triangular Transport Maps}{}% 5
+\BOOKMARK [2][-]{subsection.28}{Sparsity Bounds}{section.27}% 6
+\BOOKMARK [2][-]{subsection.48}{Connection to Gaussian Markov Random Fields}{section.27}% 7
+\BOOKMARK [2][-]{subsection.50}{Ordering of Triangular Maps}{section.27}% 8
+\BOOKMARK [1][-]{section.58}{Decomposability of Transport Maps}{}% 9
+\BOOKMARK [2][-]{subsection.62}{Preliminary Notions}{section.58}% 10
+\BOOKMARK [2][-]{subsection.65}{Decomposition and Graph Sparsification}{section.58}% 11
+\BOOKMARK [2][-]{subsection.79}{Recursive Decompositions}{section.58}% 12
+\BOOKMARK [2][-]{subsection.89}{Computation of Decomposable Transports}{section.58}% 13
+\BOOKMARK [1][-]{section.96}{Sequential Inference on State-Space Models: Variational Algorithms}{}% 14
+\BOOKMARK [2][-]{subsection.99}{Smoothing and Filtering: the Full Bayesian Solution}{section.96}% 15
+\BOOKMARK [2][-]{subsection.112}{The Linear Gaussian Case: Connection with the RTS Smoother}{section.96}% 16
+\BOOKMARK [2][-]{subsection.116}{Sequential Joint Parameter and State Estimation}{section.96}% 17
+\BOOKMARK [2][-]{subsection.129}{Fixed-Point Smoothing}{section.96}% 18
+\BOOKMARK [1][-]{section.132}{Numerical Illustration}{}% 19
+\BOOKMARK [1][-]{section.142}{Discussion}{}% 20
+\BOOKMARK [1][-]{section.143}{Generalized Knothe-Rosenblatt Rearrangement}{}% 21
+\BOOKMARK [1][-]{section.151}{Proofs of the Main Results}{}% 22
+\BOOKMARK [1][-]{section.164}{Algorithms for Inference on State-Space Models}{}% 23
+\BOOKMARK [1][-]{section.170}{Additional Results for the Stochastic Volatility Model}{}% 24

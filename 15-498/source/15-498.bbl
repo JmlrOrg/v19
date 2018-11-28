@@ -1,0 +1,353 @@
+\begin{thebibliography}{56}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Andoni and Indyk(2006)]{Andoni06}
+A.~Andoni and P.~Indyk.
+\newblock Near-optimal hashing algorithms for approximate nearest neighbor in
+  high dimensions.
+\newblock In \emph{Foundations of Computer Science, 2006. FOCS'06. 47th Annual
+  IEEE Symposium on}, pages 459--468. IEEE, 2006.
+
+\bibitem[Arlot(2007)]{Arl:2007:phd}
+S.~Arlot.
+\newblock \emph{Resampling and Model Selection}.
+\newblock PhD thesis, University Paris-Sud 11, December 2007.
+\newblock URL \url{http://tel.archives-ouvertes.fr/tel-00198803/en/}.
+\newblock oai:tel.archives-ouvertes.fr:tel-00198803\_v1.
+
+\bibitem[Arlot and Bach(2009)]{ArlotBach09}
+S.~Arlot and F.~Bach.
+\newblock Data-driven calibration of linear estimators with minimal penalties.
+\newblock \emph{Advances in Neural Information Processing Systems (NIPS)},
+  2:\penalty0 46--54, 2009.
+
+\bibitem[Arlot and Celisse(2010)]{ArCe_2010_survey}
+S.~Arlot and A.~Celisse.
+\newblock A survey of cross-validation procedures for model selection.
+\newblock \emph{Statistics Surveys}, 4:\penalty0 40--79, 2010.
+
+\bibitem[Arlot and Lerasle(2012)]{ArlotLerasle2012}
+S.~Arlot and M.~Lerasle.
+\newblock Why v= 5 is enough in v-fold cross-validation.
+\newblock \emph{arXiv preprint arXiv:1210.5830}, 2012.
+
+\bibitem[Berrett et~al.(2016)Berrett, Samworth, and Yuan]{BerrSamwYuan_2016}
+T.~B. Berrett, R.~J. Samworth, and M.~Yuan.
+\newblock Efficient multivariate entropy estimation via $ k $-nearest neighbour
+  distances.
+\newblock \emph{arXiv preprint arXiv:1606.00304}, 2016.
+
+\bibitem[Biau and Devroye(2016)]{BiauDevroye_2016}
+G.~Biau and L.~Devroye.
+\newblock \emph{Lectures on the nearest neighbor method}.
+\newblock Springer, 2016.
+
+\bibitem[Biau et~al.(2010{\natexlab{a}})Biau, C{\'e}rou, and
+  Guyader]{Biau_Cerou_Guyader:2010}
+G.~Biau, F.~C{\'e}rou, and A.~Guyader.
+\newblock On the rate of convergence of the bagged nearest neighbor estimate.
+\newblock \emph{The Journal of Machine Learning Research}, 11:\penalty0
+  687--712, 2010{\natexlab{a}}.
+
+\bibitem[Biau et~al.(2010{\natexlab{b}})Biau, C{\'e}rou, and
+  Guyader]{Biau_Cerou_Guyader:2010_function}
+G.~Biau, F.~C{\'e}rou, and A.~Guyader.
+\newblock Rates of convergence of the functional-nearest neighbor estimate.
+\newblock \emph{Information Theory, IEEE Transactions on}, 56\penalty0
+  (4):\penalty0 2034--2040, 2010{\natexlab{b}}.
+
+\bibitem[Boucheron et~al.(2005)Boucheron, Bousquet, Lugosi, and
+  Massart]{Bou_Bou_Lug_Mas:2005}
+S.~Boucheron, O.~Bousquet, G.~Lugosi, and P.~Massart.
+\newblock Moment inequalities for functions of independent random variables.
+\newblock \emph{Ann. Probab.}, 33\penalty0 (2):\penalty0 514--560, 2005.
+\newblock ISSN 0091-1798.
+
+\bibitem[Boucheron et~al.(2013)Boucheron, Lugosi, and Massart]{BouLugMas_2013}
+S.~Boucheron, G.~Lugosi, and P.~Massart.
+\newblock \emph{Concentration Inequalities: A Nonasymptotic Theory of
+  Independence}.
+\newblock Oxford University Press, 2013.
+
+\bibitem[Breiman and Spector(1992)]{Bre_Spe:1992}
+L.~Breiman and Ph. Spector.
+\newblock Submodel selection and evaluation in regression. the x-random case.
+\newblock \emph{International Statistical Review}, 60\penalty0 (3):\penalty0
+  291--319, 1992.
+
+\bibitem[Burman(1989)]{Burm89}
+P.~Burman.
+\newblock {C}omparative study of {O}rdinary {C}ross-{V}alidation, v-{F}old
+  {C}ross-{V}alidation and the repeated {L}earning-{T}esting {M}ethods.
+\newblock \emph{Biometrika}, 76\penalty0 (3):\penalty0 503--514, 1989.
+
+\bibitem[Cannings et~al.(2017)Cannings, Berrett, and
+  Samworth]{CanniBerrettSamwo_2017}
+T.~I. Cannings, T.~B. Berrett, and R.~J. Samworth.
+\newblock Local nearest neighbour classification with applications to
+  semi-supervised learning.
+\newblock \emph{arXiv preprint arXiv:1704.00642}, 2017.
+
+\bibitem[Celisse(2008)]{Cel:2008:phd}
+A.~Celisse.
+\newblock \emph{{M}odel selection via cross-validation in density estimation,
+  regression and change-points detection. (In English)}.
+\newblock PhD thesis, University Paris-Sud 11.
+  \texttt{http://tel.archives-ouvertes.fr/tel-00346320/en/}., December 2008.
+\newblock URL \url{http://tel.archives-ouvertes.fr/tel-00346320/en/}.
+
+\bibitem[Celisse(2014)]{Celi_2014}
+A.~Celisse.
+\newblock Optimal cross-validation in density estimation with the $l^2$-loss.
+\newblock \emph{The Annals of Statistics}, 42\penalty0 (5):\penalty0
+  1879--1910, 2014.
+
+\bibitem[Celisse and Mary-Huard(2011)]{CelisseMaryHuard11}
+A.~Celisse and T.~Mary-Huard.
+\newblock Exact cross-validation for knn: applications to passive and active
+  learning in classification.
+\newblock \emph{JSFdS}, 152\penalty0 (3), 2011.
+
+\bibitem[Celisse and Robin(2008)]{CeRo08}
+A.~Celisse and S.~Robin.
+\newblock {N}onparametric density estimation by exact leave-p-out
+  cross-validation.
+\newblock \emph{Computational Statistics and Data Analysis}, 52\penalty0
+  (5):\penalty0 2350--2368, 2008.
+
+\bibitem[Chaudhuri and Dasgupta(2014)]{Chaudhuri_Dasgupta2014}
+K.~Chaudhuri and S.~Dasgupta.
+\newblock Rates of convergence for nearest neighbor classification.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  3437--3445, 2014.
+
+\bibitem[Cover(1968)]{Cover68}
+T.~M. Cover.
+\newblock Rates of convergence for nearest neighbor procedures.
+\newblock In \emph{Proceedings of the Hawaii International Conference on
+  Systems Sciences}, pages 413--415, 1968.
+
+\bibitem[Cover and Hart(1967)]{Cover_Hart:1967}
+T.~M. Cover and P.~E. Hart.
+\newblock Nearest neighbor pattern classification.
+\newblock \emph{Information Theory, IEEE Transactions on}, 13\penalty0
+  (1):\penalty0 21--27, 1967.
+
+\bibitem[Devroye and Wagner(1979{\natexlab{a}})]{DevWag_79potential}
+L.~Devroye and T.~Wagner.
+\newblock Distribution-free performance bounds for potential function rules.
+\newblock \emph{IEEE Transactions on Information Theory}, 25:\penalty0
+  601--604, 1979{\natexlab{a}}.
+
+\bibitem[Devroye et~al.(1996)Devroye, Gy{\"o}rfi, and Lugosi]{DeGyLu_1996}
+L.~Devroye, L.~Gy{\"o}rfi, and G.~Lugosi.
+\newblock \emph{A Probilistic Theory of Pattern Recognition}.
+\newblock Springer Verlag, 1996.
+
+\bibitem[Devroye and Wagner(1977)]{Dev_Wag:1977}
+L.~P. Devroye and T.~J. Wagner.
+\newblock The strong uniform consistency of nearest neighbor density estimates.
+\newblock \emph{Ann. Statist.}, 5\penalty0 (3):\penalty0 536--540, 1977.
+\newblock ISSN 0090-5364.
+
+\bibitem[Devroye and Wagner(1979{\natexlab{b}})]{DeWa79}
+L.~P. Devroye and T.~J. Wagner.
+\newblock Distribution-free inequalities for the deleted and holdout error
+  estimates.
+\newblock \emph{Information Theory, IEEE Transactions on}, 25\penalty0
+  (2):\penalty0 202--207, 1979{\natexlab{b}}.
+
+\bibitem[Devroye and Wagner(1980)]{DevroyeWagner80}
+L.P. Devroye and T.J. Wagner.
+\newblock Distribution-free consistency results in nonparametric discrimination
+  and regression function estimation.
+\newblock \emph{Ann. Statist.}, 8\penalty0 (2):\penalty0 231--239, 1980.
+
+\bibitem[Fix and Hodges(1951)]{FixHodges51}
+E.~Fix and J.~Hodges.
+\newblock \emph{Nearest Neighbor (NN) Norms: NN Pattern Classification
+  Techniques}, chapter Discriminatory analysis- nonparametric discrimination:
+  Consistency principles.
+\newblock {IEEE} Computer Society Press, Los Alamitos, {CA}, 1951.
+\newblock Reprint of original work from 1952.
+
+\bibitem[Fuchs et~al.(2013)Fuchs, Hornung, De~Bin, and Boulesteix]{FHDBB:2013}
+M.~Fuchs, R.~Hornung, R.~De~Bin, and A.-L. Boulesteix.
+\newblock A u-statistic estimator for the variance of resampling-based error
+  estimators.
+\newblock Technical report, arXiv, 2013.
+
+\bibitem[Geisser(1975)]{Gei:1975}
+S.~Geisser.
+\newblock {T}he predictive sample reuse method with applications.
+\newblock \emph{J. Amer. Statist. Assoc.}, 70:\penalty0 320--328, 1975.
+
+\bibitem[Gy\"{o}rfi(1981)]{Gyorfi_1981}
+L.~Gy\"{o}rfi.
+\newblock The rate of convergence of $k_n$-nn regression estimates and
+  classification rules.
+\newblock \emph{IEEE Trans. Commun}, 27\penalty0 (3):\penalty0 362--364, 1981.
+
+\bibitem[Hall et~al.(2008)Hall, Park, and Samworth]{Hall_Park_Samworth:2008}
+P.~Hall, B.~U. Park, and R.~J. Samworth.
+\newblock Choice of neighbor order in nearest-neighbor classification.
+\newblock \emph{The Annals of Statistics}, pages 2135--2152, 2008.
+
+\bibitem[Hastie et~al.(2001)Hastie, Tibshirani, and Friedman]{Has_Tib_Fri:2001}
+T.~Hastie, R.~Tibshirani, and J.~Friedman.
+\newblock \emph{The elements of statistical learning}.
+\newblock Springer Series in Statistics. Springer-Verlag, New York, 2001.
+\newblock ISBN 0-387-95284-5.
+\newblock Data mining, inference, and prediction.
+
+\bibitem[Hoeffding(1963)]{Hoef:1963}
+W.~Hoeffding.
+\newblock Probability inequalities for sums of bounded random variables.
+\newblock \emph{Journ. of the American Statistical Association}, 58\penalty0
+  (301):\penalty0 13--30, 1963.
+
+\bibitem[Ibragimov and Sharakhmetov(2002)]{IbragShar2002}
+R.~Ibragimov and S.~Sharakhmetov.
+\newblock On extremal problems and best constants in moment inequalities.
+\newblock \emph{Sankhy{\=a}: The Indian Journal of Statistics, Series A}, pages
+  42--56, 2002.
+
+\bibitem[Indyk and Motwani(1998)]{Indyk98}
+P.~Indyk and R.~Motwani.
+\newblock Approximate nearest neighbors: towards removing the curse of
+  dimensionality.
+\newblock In \emph{Proceedings of the thirtieth annual ACM symposium on Theory
+  of computing}, pages 604--613. ACM, 1998.
+
+\bibitem[Kearns and Ron(1999)]{KeRo99}
+M.~Kearns and D.~Ron.
+\newblock {A}lgorithmic {S}tability and {S}anity-{C}heck {B}ounds for
+  {L}eave-{O}ne-{O}ut {C}ross-{V}alidation.
+\newblock \emph{Neural Computation}, 11:\penalty0 1427--1453, 1999.
+
+\bibitem[Koroljuk and Borovskich(1994)]{Ko_Bo:1994}
+V.~S. Koroljuk and Y.~V. Borovskich.
+\newblock \emph{Theory of U-statistics}.
+\newblock Springer, 1994.
+
+\bibitem[Kulkarni and Posner(1995)]{KulkPosner:1995}
+S.~R. Kulkarni and S.~E. Posner.
+\newblock Rates of convergence of nearest neighbor estimation under arbitrary
+  sampling.
+\newblock \emph{Information Theory, IEEE Transactions on}, 41\penalty0
+  (4):\penalty0 1028--1039, 1995.
+
+\bibitem[Li et~al.(2004)Li, Umbach, Terry, and Taylor]{Li04}
+L.~Li, D.~M. Umbach, P.~Terry, and J.~A. Taylor.
+\newblock Application of the ga/knn method to seldi proteomics data.
+\newblock \emph{Bioinformatics}, 20\penalty0 (10):\penalty0 1638--1640, 2004.
+
+\bibitem[Massart and N{\'e}d{\'e}lec(2006)]{MassNedelec_2006}
+P.~Massart and E.~N{\'e}d{\'e}lec.
+\newblock Risk bounds for statistical learning.
+\newblock \emph{The Annals of Statistics}, pages 2326--2366, 2006.
+
+\bibitem[Psaltis et~al.(1994)Psaltis, Snapp, and
+  Venkatesh]{Psaltis_Snapp_Venkatesh:1994}
+D.~Psaltis, R.~R. Snapp, and S.~S. Venkatesh.
+\newblock On the finite sample performance of the nearest neighbor classifier.
+\newblock \emph{Information Theory, IEEE Transactions on}, 40\penalty0
+  (3):\penalty0 820--837, 1994.
+
+\bibitem[Rogers and Wagner(1978)]{RogersWagner78}
+W.~H. Rogers and T.~J. Wagner.
+\newblock A finite sample distribution-free performance bound for local
+  discrimination rules.
+\newblock \emph{Annals of Statistics}, 6\penalty0 (3):\penalty0 506--514, 1978.
+
+\bibitem[Scheirer and Slaney(2003)]{Scheirer03}
+E.~D. Scheirer and M.~Slaney.
+\newblock Multi-feature speech/music discrimination system, May~27 2003.
+\newblock US Patent 6,570,991.
+
+\bibitem[Serfling(1980)]{Serf:1980}
+R.~J. Serfling.
+\newblock \emph{Approximation Theorems of Mathematical Statistics}.
+\newblock John Wiley \& Sons Inc., 1980.
+
+\bibitem[Shao(1993)]{Sha:1993}
+J.~Shao.
+\newblock Linear model selection by cross-validation.
+\newblock \emph{J. Amer. Statist. Assoc.}, 88\penalty0 (422):\penalty0
+  486--494, 1993.
+\newblock ISSN 0162-1459.
+
+\bibitem[Shao(1997)]{Shao97}
+J.~Shao.
+\newblock {A}n asymptotic theory for linear model selection.
+\newblock \emph{Statistica Sinica}, 7:\penalty0 221--264, 1997.
+
+\bibitem[Simard et~al.(1998)Simard, LeCun, Denker, and Victorri]{Simard98}
+P.~Y. Simard, Y.~A. LeCun, J.~S. Denker, and B.~Victorri.
+\newblock Transformation invariance in pattern recognition tangent distance and
+  tangent propagation.
+\newblock In \emph{Neural networks: tricks of the trade}, pages 239--274.
+  Springer, 1998.
+
+\bibitem[Snapp and Venkatesh(1998)]{Snapp_Venkatesh:1998}
+R.~R Snapp and S.~S. Venkatesh.
+\newblock Asymptotic expansions of the $ k $ nearest neighbor risk.
+\newblock \emph{The Annals of Statistics}, 26\penalty0 (3):\penalty0 850--878,
+  1998.
+
+\bibitem[Steele(2009)]{Steele_2009}
+B.~M. Steele.
+\newblock Exact bootstrap k-nearest neighbor learners.
+\newblock \emph{Machine Learning}, 74\penalty0 (3):\penalty0 235--255, 2009.
+
+\bibitem[Stone(1977)]{Stone_1977}
+C.~J. Stone.
+\newblock Consistent nonparametric regression.
+\newblock \emph{The annals of statistics}, pages 595--620, 1977.
+
+\bibitem[Stone(1982)]{Sto:1982}
+C.~J. Stone.
+\newblock Optimal global rates of convergence for nonparametric regression.
+\newblock \emph{Ann. Statist.}, 10\penalty0 (4):\penalty0 1040--1053, 1982.
+\newblock ISSN 0090-5364.
+
+\bibitem[Stone(1974)]{Ston74}
+M.~Stone.
+\newblock {C}ross-validatory choice and assessment of statistical predictions.
+\newblock \emph{J. Roy. Statist. Soc. Ser. B}, 36:\penalty0 111--147, 1974.
+\newblock ISSN 0035-9246.
+\newblock With discussion by G. A. Barnard, A. C. Atkinson, L. K. Chan, A. P.
+  Dawid, F. Downton, J. Dickey, A. G. Baker, O. Barndorff-Nielsen, D. R. Cox,
+  S. Giesser, D. Hinkley, R. R. Hocking, and A. S. Young, and with a reply by
+  the authors.
+
+\bibitem[Yang(1999)]{Yang_1999}
+Y.~Yang.
+\newblock Minimax nonparametric classification. i. rates of convergence.
+\newblock \emph{IEEE Transactions on Information Theory}, 45\penalty0
+  (7):\penalty0 2271--2284, 1999.
+
+\bibitem[Yang(2006)]{Yan:2006}
+Y.~Yang.
+\newblock Comparing learning methods for classification.
+\newblock \emph{Statistica Sinica}, 16\penalty0 (2):\penalty0 635--657, 2006.
+\newblock ISSN 1017-0405.
+
+\bibitem[Yang(2007)]{Yang07}
+Y.~Yang.
+\newblock {C}onsistency of cross-validation for comparing regression
+  procedures.
+\newblock \emph{The Annals of Statistics}, 35\penalty0 (6):\penalty0
+  2450--2473, 2007.
+
+\bibitem[Zhang(1993)]{Zha:1993}
+P.~Zhang.
+\newblock Model selection via multifold cross validation.
+\newblock \emph{Ann. Statist.}, 21\penalty0 (1):\penalty0 299--313, 1993.
+\newblock ISSN 0090-5364.
+
+\end{thebibliography}

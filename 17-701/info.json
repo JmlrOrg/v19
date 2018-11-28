@@ -1,0 +1,17 @@
+{
+    "abstract": "The difficulty of multi-class classification generally increases with the number of classes. Using data for a small set of the classes, can we predict how well the classifier scales as the number of classes increases? We propose a framework for studying this question, assuming that classes in both sets are sampled from the same population and that the classifier is based on independently learned scoring functions. Under this framework, we can express the classification accuracy on a set of $k$ classes as the $(k - 1)$st moment of a discriminability function; the discriminability function itself does not depend on $k$. We leverage this result to develop a non-parametric regression estimator for the discriminability function, which can extrapolate accuracy results to larger unobserved sets. We also formalize an alternative approach that extrapolates accuracy separately for each class, and identify tradeoffs between the two methods. We show that both methods can accurately predict classifier performance on label sets up to ten times the size of the original set, both in simulations as well as in realistic face recognition or character recognition tasks.",
+    "authors": [
+        "Charles Zheng",
+        "Rakesh Achanta",
+        "Yuval Benjamini"
+    ],
+    "id": "17-701",
+    "issue": 65,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Extrapolating Expected Accuracies for Large Multi-Class Problems",
+    "volume": 19,
+    "year": 2018
+}

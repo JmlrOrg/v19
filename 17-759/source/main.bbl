@@ -1,0 +1,379 @@
+\begin{thebibliography}{48}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Adams et~al.(2009)Adams, Murray, and MacKay]{adams2009tractable}
+Ryan~P. Adams, Iain Murray, and David J.~C. MacKay.
+\newblock Tractable nonparametric bayesian inference in poisson processes with
+  gaussian process intensities.
+\newblock In \emph{Proceedings of the 26th Annual International Conference on
+  Machine Learning}, pages 9--16, 2009.
+\newblock \doi{10.1145/1553374.1553376}.
+
+\bibitem[Batz et~al.(2018)Batz, Ruttor, and Opper]{batz2018approximate}
+Philipp Batz, Andreas Ruttor, and Manfred Opper.
+\newblock {Approximate Bayes learning of stochastic differential equations}.
+\newblock \emph{Phys. Rev.}, E98\penalty0 (2):\penalty0 022109, 2018.
+\newblock \doi{10.1103/PhysRevE.98.022109}.
+
+\bibitem[Bishop(2006)]{bishop2006pattern}
+Christopher~M. Bishop.
+\newblock \emph{Pattern Recognition and Machine Learning (Information Science
+  and Statistics)}.
+\newblock Springer-Verlag, Berlin, Heidelberg, 2006.
+\newblock ISBN 0387310738.
+
+\bibitem[Brillinger(1988)]{brillinger1988maximum}
+David~R. Brillinger.
+\newblock Maximum likelihood analysis of spike trains of interacting nerve
+  cells.
+\newblock \emph{Biological Cybernetics}, 59\penalty0 (3):\penalty0 189--200,
+  1988.
+\newblock \doi{10.1007/BF00318010}.
+
+\bibitem[Brix and Diggle(2001)]{brix2001spatiotemporal}
+Anders Brix and Peter~J. Diggle.
+\newblock Spatiotemporal prediction for log-gaussian cox processes.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 63\penalty0 (4):\penalty0 823--841, 2001.
+\newblock \doi{10.1111/1467-9868.00315}.
+
+\bibitem[Cox(1955)]{cox1955some}
+D.~R. Cox.
+\newblock Some statistical methods connected with series of events.
+\newblock \emph{Journal of the Royal Statistical Society. Series B
+  (Methodological)}, 17\penalty0 (2):\penalty0 129--164, 1955.
+\newblock ISSN 00359246.
+
+\bibitem[Csat{\'o}(2002)]{csato2002phd}
+Lehel Csat{\'o}.
+\newblock Gaussian processes-iterative sparse approximations.
+\newblock 2002.
+\newblock URL \url{http://publications.aston.ac.uk/1327/}.
+
+\bibitem[Csat{\'o} and Opper(2002)]{csato2002sparse}
+Lehel Csat{\'o} and Manfred Opper.
+\newblock Sparse on-line gaussian processes.
+\newblock \emph{Neural Computation}, 14\penalty0 (3):\penalty0 641--668, 2002.
+\newblock \doi{10.1162/089976602317250933}.
+
+\bibitem[Cunningham et~al.(2008)Cunningham, Yu, Shenoy, and
+  Sahani]{cunningham2008inferring}
+John~P Cunningham, Byron~M Yu, Krishna~V Shenoy, and Maneesh Sahani.
+\newblock Inferring neural firing rates from spike trains using gaussian
+  processes.
+\newblock In \emph{Advances in Neural Information Processing Systems 20}, pages
+  329--336. 2008.
+\newblock URL
+  \url{http://papers.nips.cc/paper/3229-inferring-neural-firing-rates-from-spike-trains-using-gaussian-processes.pdf}.
+
+\bibitem[de~G.~Matthews et~al.(2016)de~G.~Matthews, Hensman, Turner, and
+  Ghahramani]{matthews2016sparse}
+Alexander~G. de~G.~Matthews, James Hensman, Richard Turner, and Zoubin
+  Ghahramani.
+\newblock On sparse variational methods and the kullback-leibler divergence
+  between stochastic processes.
+\newblock In \emph{Proceedings of the 19th International Conference on
+  Artificial Intelligence and Statistics}, volume~51, pages 231--239, 2016.
+\newblock URL \url{http://proceedings.mlr.press/v51/matthews16.html}.
+
+\bibitem[Donner and Opper(2017)]{donner2017inverse}
+Christian Donner and Manfred Opper.
+\newblock Inverse ising problem in continuous time: A latent variable approach.
+\newblock \emph{Phys. Rev. E}, 96:\penalty0 062104, 2017.
+\newblock \doi{10.1103/PhysRevE.96.062104}.
+
+\bibitem[Donner and Opper(2018)]{donner2018efficient}
+Christian Donner and Manfred Opper.
+\newblock Efficient bayesian inference for a gaussian process density model.
+\newblock In \emph{Proceedings of the 34th Conference on Uncertainty in
+  Artificial Intelligence}, 2018.
+\newblock URL \url{http://auai.org/uai2018/proceedings/papers/34.pdf}.
+
+\bibitem[Dunn et~al.(2015)Dunn, Mørreaunet, and Roudi]{dunn2015correlations}
+Benjamin Dunn, Maria Mørreaunet, and Yasser Roudi.
+\newblock Correlations and functional connections in a population of grid
+  cells.
+\newblock \emph{PLOS Computational Biology}, 11\penalty0 (2):\penalty0 1--21,
+  2015.
+\newblock \doi{10.1371/journal.pcbi.1004052}.
+
+\bibitem[Embrechts et~al.(2011)Embrechts, Liniger, and
+  Lin]{embrechts2011multivariate}
+Paul Embrechts, Thomas Liniger, and Lu~Lin.
+\newblock Multivariate hawkes processes: an application to financial data.
+\newblock \emph{Journal of Applied Probability}, 48\penalty0 (A):\penalty0
+  367–378, 2011.
+\newblock \doi{10.1239/jap/1318940477}.
+
+\bibitem[Flaxman et~al.(2017)Flaxman, Teh, and Sejdinovic]{flaxman2017poisson}
+Seth Flaxman, Yee~Whye Teh, and Dino Sejdinovic.
+\newblock {Poisson intensity estimation with reproducing kernels}.
+\newblock In \emph{Proceedings of the 20th International Conference on
+  Artificial Intelligence and Statistics}, volume~54, pages 270--279. PMLR,
+  2017.
+\newblock URL \url{http://proceedings.mlr.press/v54/flaxman17a.html}.
+
+\bibitem[For The Biology Of~Memory and Sargolini(2014)]{gridcelldata}
+Centre For The Biology Of~Memory and Fransesca Sargolini.
+\newblock Grid cell data of sargolini et al 2006.
+\newblock 2014.
+\newblock \doi{10.11582/2014.00003}.
+
+\bibitem[Gunter et~al.(2014)Gunter, Lloyd, Osborne, and
+  Roberts]{gunter2014efficient}
+Tom Gunter, Chris Lloyd, Michael~A. Osborne, and Stephen~J. Roberts.
+\newblock Efficient bayesian nonparametric modelling of structured point
+  processes.
+\newblock In \emph{Uncertainty in Artificial Intelligence (UAI)}, 2014.
+\newblock URL \url{https://arxiv.org/abs/1407.6949}.
+
+\bibitem[Hawkes(1971)]{hawkes1971spectra}
+Alan~G. Hawkes.
+\newblock Spectra of some self-exciting and mutually exciting point processes.
+\newblock \emph{Biometrika}, 58\penalty0 (1):\penalty0 83--90, 1971.
+\newblock ISSN 00063444.
+
+\bibitem[Hensman et~al.(2015)Hensman, Matthews, Filippone, and
+  Ghahramani]{hensman2015mcmc}
+James Hensman, Alexander~G Matthews, Maurizio Filippone, and Zoubin Ghahramani.
+\newblock Mcmc for variationally sparse gaussian processes.
+\newblock In \emph{Advances in Neural Information Processing Systems 28}, pages
+  1648--1656. 2015.
+\newblock URL
+  \url{http://papers.nips.cc/paper/5875-mcmc-for-variationally-sparse-gaussian-processes.pdf}.
+
+\bibitem[John and Hensman(2018)]{john2018large}
+ST~John and James Hensman.
+\newblock Large-scale {C}ox process inference using variational {F}ourier
+  features.
+\newblock In \emph{Proceedings of the 35th International Conference on Machine
+  Learning}, volume~80, pages 2362--2370, 2018.
+\newblock URL \url{http://proceedings.mlr.press/v80/john18a.html}.
+
+\bibitem[Kingma and Ba(2014)]{kingma2014adam}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock Adam: {A} method for stochastic optimization.
+\newblock \emph{preprint arXiv}, abs/1412.6980, 2014.
+\newblock URL \url{http://arxiv.org/abs/1412.6980}.
+
+\bibitem[Kingman(1993)]{kingman1993poisson}
+John Frank~Charles Kingman.
+\newblock \emph{Poisson processes}.
+\newblock Oxford University Press, 1993.
+\newblock ISBN 9780198536932.
+
+\bibitem[Kirichenko and van Zanten(2015)]{kirichenko2015optimality}
+Alisa Kirichenko and Harry van Zanten.
+\newblock Optimality of poisson processes intensity learning with gaussian
+  processes.
+\newblock \emph{Journal of Machine Learning Research}, 16:\penalty0 2909--2919,
+  2015.
+\newblock URL \url{http://jmlr.org/papers/v16/kirichenko15a.html}.
+
+\bibitem[{Knollm{\"u}ller} et~al.(2017){Knollm{\"u}ller}, {Steininger}, and
+  {En{\ss}lin}]{knollmuller2017inference}
+J.~{Knollm{\"u}ller}, T.~{Steininger}, and T.~A. {En{\ss}lin}.
+\newblock {Inference of signals with unknown correlation structure from
+  nonlinear measurements}.
+\newblock \emph{ArXiv e-prints}, 2017.
+\newblock URL \url{https://arxiv.org/abs/1711.02955}.
+
+\bibitem[Konstantopoulos et~al.(2011)Konstantopoulos, Zerakidze, and
+  Sokhadze]{konstantopoulos2011radon}
+Takis Konstantopoulos, Zurab Zerakidze, and Grigol Sokhadze.
+\newblock \emph{Radon--Nikod{\'y}m Theorem}, pages 1161--1164.
+\newblock 2011.
+\newblock ISBN 978-3-642-04898-2.
+
+\bibitem[Lewis and Shedler(1979)]{lewis1979simulation}
+P.~A.~W Lewis and G.~S. Shedler.
+\newblock Simulation of nonhomogeneous poisson processes by thinning.
+\newblock \emph{Naval Research Logistics Quarterly}, 26\penalty0 (3):\penalty0
+  403--413, 1979.
+\newblock \doi{10.1002/nav.3800260304}.
+
+\bibitem[Linderman et~al.(2015)Linderman, Johnson, and
+  Adams]{linderman2015dependent}
+Scott Linderman, Matthew Johnson, and Ryan~P Adams.
+\newblock Dependent multinomial models made easy: Stick-breaking with the
+  polya-gamma augmentation.
+\newblock In \emph{Advances in Neural Information Processing Systems 28}, pages
+  3456--3464. 2015.
+\newblock URL
+  \url{http://papers.nips.cc/paper/5660-dependent-multinomial-models-made-easy-stick-breaking-with-the-polya-gamma-augmentation}.
+
+\bibitem[Linderman et~al.(2017)Linderman, Johnson, Miller, Adams, Blei, and
+  Paninski]{linderman2017bayesian}
+Scott Linderman, Matthew Johnson, Andrew Miller, Ryan Adams, David Blei, and
+  Liam Paninski.
+\newblock {Bayesian Learning and Inference in Recurrent Switching Linear
+  Dynamical Systems}.
+\newblock In \emph{Proceedings of the 20th International Conference on
+  Artificial Intelligence and Statistics}, volume~54, pages 914--922, 2017.
+\newblock URL \url{http://proceedings.mlr.press/v54/linderman17a.html}.
+
+\bibitem[Lloyd et~al.(2015)Lloyd, Gunter, Osborne, and
+  Roberts]{lloyd2015variational}
+Chris Lloyd, Tom Gunter, Michael Osborne, and Stephen Roberts.
+\newblock Variational inference for gaussian process modulated poisson
+  processes.
+\newblock In \emph{Proceedings of the 32nd International Conference on Machine
+  Learning}, volume~37, pages 1814--1822, 2015.
+\newblock URL \url{http://proceedings.mlr.press/v37/lloyd15.html}.
+
+\bibitem[Lloyd et~al.(2016)Lloyd, Gunter, Osborne, Roberts, and
+  Nickson]{lloyd2016latent}
+Chris Lloyd, Tom Gunter, Michael Osborne, Stephen Roberts, and Tom Nickson.
+\newblock Latent point process allocation.
+\newblock In \emph{Proceedings of the 19th International Conference on
+  Artificial Intelligence and Statistics}, volume~51, pages 389--397, 2016.
+\newblock URL \url{http://proceedings.mlr.press/v51/lloyd16.html}.
+
+\bibitem[Matthews et~al.(2017)Matthews, {van der Wilk}, Nickson, Fujii,
+  {Boukouvalas}, {Le{‘o}n-Villagr{‘a}}, Ghahramani, and
+  Hensman]{GPflow2017}
+Alexander G. de~G. Matthews, Mark {van der Wilk}, Tom Nickson, Keisuke. Fujii,
+  Alexis {Boukouvalas}, Pablo {Le{‘o}n-Villagr{‘a}}, Zoubin Ghahramani, and
+  James Hensman.
+\newblock Gpflow: A gaussian process library using tensorflow.
+\newblock \emph{Journal of Machine Learning Research}, 18\penalty0
+  (40):\penalty0 1--6, 2017.
+\newblock URL \url{http://jmlr.org/papers/v18/16-537.html}.
+
+\bibitem[M{\o}ller et~al.(1998)M{\o}ller, Syversveen, and
+  Waagepetersen]{moller1998log}
+Jesper M{\o}ller, Anne~Randi Syversveen, and Rasmus~Plenge Waagepetersen.
+\newblock Log gaussian cox processes.
+\newblock \emph{Scandinavian Journal of Statistics}, 25\penalty0 (3):\penalty0
+  451--482, 1998.
+\newblock \doi{10.1111/1467-9469.00115}.
+
+\bibitem[Moreira-Matias et~al.(2013)Moreira-Matias, Gama, Ferreira,
+  Mendes-Moreira, and Damas]{moreira2013predicting}
+Luis Moreira-Matias, Joao Gama, Michel Ferreira, Joao Mendes-Moreira, and Luis
+  Damas.
+\newblock Predicting taxi--passenger demand using streaming data.
+\newblock \emph{IEEE Transactions on Intelligent Transportation Systems},
+  14\penalty0 (3):\penalty0 1393--1402, 2013.
+
+\bibitem[Murray et~al.(2006)Murray, Ghahramani, and MacKay]{murray2006mcmc}
+Iain Murray, Zoubin Ghahramani, and David J.~C. MacKay.
+\newblock Mcmc for doubly-intractable distributions.
+\newblock In \emph{Proceedings of the Twenty-Second Conference on Uncertainty
+  in Artificial Intelligence}, pages 359--366, 2006.
+\newblock ISBN 0-9749039-2-2.
+
+\bibitem[Murray et~al.(2009)Murray, MacKay, and Adams]{murray2009gaussian}
+Iain Murray, David MacKay, and Ryan~P Adams.
+\newblock The gaussian process density sampler.
+\newblock In \emph{Advances in Neural Information Processing Systems 21}, pages
+  9--16. 2009.
+\newblock URL
+  \url{http://papers.nips.cc/paper/3410-the-gaussian-process-density-sampler.pdf}.
+
+\bibitem[Murray et~al.(2010)Murray, Adams, and MacKay]{murray2010elliptical}
+Iain Murray, Ryan Adams, and David MacKay.
+\newblock Elliptical slice sampling.
+\newblock In \emph{Proceedings of the Thirteenth International Conference on
+  Artificial Intelligence and Statistics}, volume~9, pages 541--548, 2010.
+\newblock URL \url{http://proceedings.mlr.press/v9/murray10a.html}.
+
+\bibitem[Ogata(1998)]{ogata1998space}
+Yosihiko Ogata.
+\newblock Space-time point-process models for earthquake occurrences.
+\newblock \emph{Annals of the Institute of Statistical Mathematics},
+  50\penalty0 (2):\penalty0 379--402, 1998.
+\newblock \doi{10.1023/A:1003403601725}.
+
+\bibitem[Polson et~al.(2013)Polson, Scott, and Windle]{polson2013bayesian}
+Nicholas~G. Polson, James~G. Scott, and Jesse Windle.
+\newblock Bayesian inference for logistic models using pólya–gamma latent
+  variables.
+\newblock \emph{Journal of the American Statistical Association}, 108\penalty0
+  (504):\penalty0 1339--1349, 2013.
+\newblock \doi{10.1080/01621459.2013.829001}.
+
+\bibitem[Press et~al.(2007)Press, Flannery, Teukolsky, Vetterling,
+  et~al.]{press1989numerical}
+William~H Press, Brian~P Flannery, Saul~A Teukolsky, William~T Vetterling,
+  et~al.
+\newblock \emph{Numerical recipes}, volume~3.
+\newblock Cambridge University Press, 2007.
+\newblock ISBN 978-0-521-88068-8.
+
+\bibitem[Rasmussen and Williams(2006)]{rasmussen2006gaussian}
+Carl~E. Rasmussen and Christopher K.~I. Williams.
+\newblock \emph{Gaussian Processes for Machine Learning}.
+\newblock MIT Press, Cambridge, MA, USA, 2006.
+\newblock ISBN 0-262-18253-X.
+
+\bibitem[Samo and Roberts(2015)]{samo2015scalable}
+Yves-Laurent~Kom Samo and Stephen Roberts.
+\newblock Scalable nonparametric bayesian inference on point processes with
+  gaussian processes.
+\newblock In \emph{Proceedings of the 32nd International Conference on Machine
+  Learning}, volume~37, pages 2227--2236, 2015.
+\newblock URL \url{http://proceedings.mlr.press/v37/samo15.html}.
+
+\bibitem[Sargolini et~al.(2006)Sargolini, Fyhn, Hafting, McNaughton, Witter,
+  Moser, and Moser]{sargolini06}
+Francesca Sargolini, Marianne Fyhn, Torkel Hafting, Bruce~L. McNaughton,
+  Menno~P. Witter, May-Britt Moser, and Edvard~I. Moser.
+\newblock Conjunctive representation of position, direction, and velocity in
+  entorhinal cortex.
+\newblock \emph{Science}, 312\penalty0 (5774):\penalty0 758--762, 2006.
+\newblock \doi{10.1126/science.1125572}.
+
+\bibitem[Solin(2016)]{solin2016stochastic}
+Arno Solin.
+\newblock \emph{Stochastic Differential Equation Methods for Spatio-Temporal
+  Gaussian Process Regression}.
+\newblock Aalto University, 2016.
+\newblock ISBN 978-952-60-6711-7.
+
+\bibitem[Stoyan and Penttinen(2000)]{stoyan2000recent}
+Dietrich Stoyan and Antti Penttinen.
+\newblock Recent applications of point process methods in forestry statistics.
+\newblock \emph{Statistical Science}, 15\penalty0 (1):\penalty0 61--78, 2000.
+\newblock ISSN 08834237.
+
+\bibitem[Teh and Rao(2011)]{teh2011gaussian}
+Yee~W. Teh and Vinayak Rao.
+\newblock Gaussian process modulated renewal processes.
+\newblock In \emph{Advances in Neural Information Processing Systems 24}, pages
+  2474--2482, 2011.
+\newblock URL
+  \url{http://papers.nips.cc/paper/4358-gaussian-process-modulated-renewal-processes.pdf}.
+
+\bibitem[Titsias(2009)]{titsias2009variational}
+Michalis Titsias.
+\newblock Variational learning of inducing variables in sparse gaussian
+  processes.
+\newblock In \emph{Proceedings of the Twelfth International Conference on
+  Artificial Intelligence and Statistics}, volume~5, pages 567--574, 2009.
+\newblock URL \url{http://proceedings.mlr.press/v5/titsias09a.html}.
+
+\bibitem[Walder and Bishop(2017)]{walder17fast}
+Christian~J. Walder and Adrian~N. Bishop.
+\newblock Fast {B}ayesian intensity estimation for the permanental process.
+\newblock In Doina Precup and Yee~Whye Teh, editors, \emph{Proceedings of the
+  34th International Conference on Machine Learning}, volume~70 of
+  \emph{Proceedings of Machine Learning Research}, pages 3579--3588,
+  International Convention Centre, Sydney, Australia, 06--11 Aug 2017. PMLR.
+\newblock URL \url{http://proceedings.mlr.press/v70/walder17a.html}.
+
+\bibitem[Wenzel et~al.(2017)Wenzel, Galy-Fajou, Donner, Kloft, and
+  Opper]{wenzel2017scalable}
+Florian Wenzel, Th{\'{e}}o Galy-Fajou, Christian Donner, Marius Kloft, and
+  Manfred Opper.
+\newblock Scalable logit gaussian process classification.
+\newblock In \emph{Advances in Approximate Bayesian Inference, NIPS Workshop},
+  2017.
+\newblock URL
+  \url{http://approximateinference.org/2017/accepted/WenzelEtAl2017.pdf}.
+
+\end{thebibliography}

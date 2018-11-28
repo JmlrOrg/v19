@@ -1,0 +1,17 @@
+{
+    "abstract": "We investigate the low-dimensional structure of deterministic transformations between random variables, i.e., transport maps between probability measures. In the context of statistics and machine learning, these transformations can be used to couple a tractable ``reference'' measure (e.g., a standard Gaussian) with a target measure of interest. Direct simulation from the desired measure can then be achieved by pushing forward reference samples through the map. Yet characterizing such a map---e.g., representing and evaluating it---grows challenging in high dimensions. The central contribution of this paper is to establish a link between the Markov properties of the target measure and the existence of low-dimensional couplings, induced by transport maps that are sparse and/or decomposable. Our analysis not only facilitates the construction of transformations in high-dimensional settings, but also suggests new inference methodologies for continuous non-Gaussian graphical models. For instance, in the context of nonlinear state-space models, we describe new variational algorithms for filtering, smoothing, and sequential parameter inference. These algorithms can be understood as the natural generalization---to the non-Gaussian case---of the square-root Rauch--Tung--Striebel Gaussian smoother.",
+    "authors": [
+        "Alessio Spantini",
+        "Daniele Bigoni",
+        "Youssef Marzouk"
+    ],
+    "id": "17-747",
+    "issue": 66,
+    "pages": [
+        1,
+        71
+    ],
+    "title": "Inference via Low-Dimensional Couplings",
+    "volume": 19,
+    "year": 2018
+}

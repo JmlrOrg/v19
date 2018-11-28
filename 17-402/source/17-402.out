@@ -1,0 +1,29 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.3}{K-Hyperplane Hinge-Minimax Classifier}{}% 2
+\BOOKMARK [2][-]{subsection.6}{Mixed Risk for K-Hyperplane Model}{section.3}% 3
+\BOOKMARK [3][-]{subsubsection.14}{The Expected Risk of the Negative Class}{subsection.6}% 4
+\BOOKMARK [2][-]{subsection.20}{K-Hyperplane Hinge-Minimax \(KHHM\) Training}{section.3}% 5
+\BOOKMARK [2][-]{subsection.30}{Generalization Bound for KHHM Model}{section.3}% 6
+\BOOKMARK [3][-]{subsubsection.31}{Uniform generalization bound for the empirical background risk}{subsection.30}% 7
+\BOOKMARK [3][-]{subsubsection.45}{Uniform generalization bound for the empirical risk of the hinge-loss}{subsection.30}% 8
+\BOOKMARK [1][-]{section.49}{Latent Hinge-Minimax Classifier}{}% 9
+\BOOKMARK [2][-]{subsection.52}{Expected Latent Mixed Risk}{section.49}% 10
+\BOOKMARK [2][-]{subsection.56}{Empirical Latent Mixed Risk}{section.49}% 11
+\BOOKMARK [2][-]{subsection.62}{LHM Training Algorithm}{section.49}% 12
+\BOOKMARK [2][-]{subsection.81}{Generalization Bound for LHM Model with Fixed Assignment}{section.49}% 13
+\BOOKMARK [1][-]{section.85}{Mapping LHM Classifier to a Neural Network}{}% 14
+\BOOKMARK [2][-]{subsection.86}{Binary NN}{section.85}% 15
+\BOOKMARK [2][-]{subsection.89}{Multi-Class NN}{section.85}% 16
+\BOOKMARK [1][-]{section.90}{Experiments}{}% 17
+\BOOKMARK [2][-]{subsection.91}{K-Hyperplane Hinge-Minimax Classifier}{section.90}% 18
+\BOOKMARK [3][-]{subsubsection.96}{Synthetic Data Example}{subsection.91}% 19
+\BOOKMARK [3][-]{subsubsection.99}{Letter Recognition}{subsection.91}% 20
+\BOOKMARK [3][-]{subsubsection.102}{Large Scale Scene Recognition}{subsection.91}% 21
+\BOOKMARK [2][-]{subsection.108}{Latent Hinge Minimax Classifier}{section.90}% 22
+\BOOKMARK [3][-]{subsubsection.113}{Synthetic Data}{subsection.108}% 23
+\BOOKMARK [3][-]{subsubsection.117}{Ensembles of Hyperplanes}{subsection.108}% 24
+\BOOKMARK [2][-]{subsection.122}{Hinge-Minimax Training in Deep Architecture}{section.90}% 25
+\BOOKMARK [3][-]{subsubsection.125}{Binary Imbalanced Setting}{subsection.122}% 26
+\BOOKMARK [3][-]{subsubsection.126}{Multi-Class Setting}{subsection.122}% 27
+\BOOKMARK [1][-]{section.127}{Training Efficiency}{}% 28
+\BOOKMARK [1][-]{section.128}{Conclusions and Future Work}{}% 29

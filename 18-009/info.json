@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper deals with inference and prediction for multiple correlated time series, where one also has the choice of using a candidate pool of contemporaneous predictors for each target series. Starting with a structural model for time series, we use Bayesian tools for model fitting, prediction and feature selection, thus extending some recent works along these lines for the univariate case. The Bayesian paradigm in this multivariate setting helps the model avoid overfitting, as well as captures correlations among multiple target time series with various state components. The model provides needed flexibility in selecting a different set of components and available predictors for each target series. The cyclical component in the model can handle large variations in the short term, which may be caused by external shocks. Extensive simulations were run to investigate properties such as estimation accuracy and performance in forecasting. This was followed by an empirical study with one-step-ahead prediction on the max log return of a portfolio of stocks that involve four leading financial institutions. Both the simulation studies and the extensive empirical study confirm that this multivariate model outperforms three other benchmark models, viz. a model that treats each target series as independent, the autoregressive integrated moving average model with regression (ARIMAX), and the multivariate ARIMAX (MARIMAX) model.",
+    "authors": [
+        "S. Rao Jammalamadaka",
+        "Jinwen Qiu",
+        "Ning Ning"
+    ],
+    "id": "18-009",
+    "issue": 68,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Multivariate Bayesian Structural Time Series Model",
+    "volume": 19,
+    "year": 2018
+}

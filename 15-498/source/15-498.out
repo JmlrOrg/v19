@@ -1,0 +1,52 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{U-statistics and LpO estimator}{}% 2
+\BOOKMARK [2][-]{subsection.3}{Statistical framework}{section.2}% 3
+\BOOKMARK [2][-]{subsection.9}{U-statistics: General bounds on LpO moments}{section.2}% 4
+\BOOKMARK [1][-]{section.19}{New bounds on LpO moments for the kNN classifier}{}% 5
+\BOOKMARK [1][-]{section.29}{Exponential concentration inequalities}{}% 6
+\BOOKMARK [1][-]{section.37}{Assessing the gap between LpO and classification error}{}% 7
+\BOOKMARK [2][-]{subsection.38}{Upper bounds}{section.37}% 8
+\BOOKMARK [2][-]{subsection.43}{Lower bounds}{section.37}% 9
+\BOOKMARK [3][-]{subsubsection.44}{Bias of the L1O estimator}{subsection.43}% 10
+\BOOKMARK [3][-]{subsubsection.47}{Mean squared error}{subsection.43}% 11
+\BOOKMARK [2][-]{subsection.49}{Minimax rates}{section.37}% 12
+\BOOKMARK [1][-]{section.55}{Discussion}{}% 13
+\BOOKMARK [1][-]{section.56}{Proofs of polynomial moment upper bounds}{}% 14
+\BOOKMARK [2][-]{subsection.57}{Proof of Theorem 2.2}{section.56}% 15
+\BOOKMARK [3][-]{subsubsection.58}{Exploiting Proposition 2.1}{subsection.57}% 16
+\BOOKMARK [3][-]{subsubsection.60}{The setting q=2}{subsection.57}% 17
+\BOOKMARK [3][-]{subsubsection.61}{The setting q>2}{subsection.57}% 18
+\BOOKMARK [2][-]{subsection.62}{Proof of Theorem 3.1}{section.56}% 19
+\BOOKMARK [3][-]{subsubsection.63}{Upper bounding j hm}{subsection.62}% 20
+\BOOKMARK [3][-]{subsubsection.66}{Case q>2}{subsection.62}% 21
+\BOOKMARK [3][-]{subsubsection.67}{Case q=2}{subsection.62}% 22
+\BOOKMARK [2][-]{subsection.69}{Proof of Theorem 3.2}{section.56}% 23
+\BOOKMARK [1][-]{section.70}{Proofs of exponential concentration inequalities}{}% 24
+\BOOKMARK [2][-]{subsection.71}{Proof of Proposition 4.1}{section.70}% 25
+\BOOKMARK [2][-]{subsection.72}{Proof of Theorem 4.1}{section.70}% 26
+\BOOKMARK [3][-]{subsubsection.73}{Upper bounding R"0362Rp\( D\)- R"0362Rp\( Dj \)}{subsection.72}% 27
+\BOOKMARK [3][-]{subsubsection.74}{Evaluating the influence of each neighbor}{subsection.72}% 28
+\BOOKMARK [3][-]{subsubsection.75}{Generalized Efron-Stein inequality}{subsection.72}% 29
+\BOOKMARK [2][-]{subsection.76}{Proof of Theorem 4.2 and Proposition 4.2}{section.70}% 30
+\BOOKMARK [3][-]{subsubsection.77}{Proof of Theorem 4.2}{subsection.76}% 31
+\BOOKMARK [3][-]{subsubsection.79}{Proof of Proposition 4.2}{subsection.76}% 32
+\BOOKMARK [1][-]{section.80}{Proofs of deviation upper bounds}{}% 33
+\BOOKMARK [2][-]{subsection.81}{Proof of Ineq. \(5.3\) in Theorem 5.1}{section.80}% 34
+\BOOKMARK [3][-]{subsubsection.82}{Main part of the proof}{subsection.81}% 35
+\BOOKMARK [3][-]{subsubsection.87}{Combinatorial lemmas}{subsection.81}% 36
+\BOOKMARK [2][-]{subsection.91}{Proof of Proposition 5.1}{section.80}% 37
+\BOOKMARK [1][-]{section.92}{Technical results}{}% 38
+\BOOKMARK [2][-]{subsection.93}{Main inequalities}{section.92}% 39
+\BOOKMARK [3][-]{subsubsection.94}{From moment to exponential inequalities}{subsection.93}% 40
+\BOOKMARK [3][-]{subsubsection.98}{Sub-Gaussian random variables}{subsection.93}% 41
+\BOOKMARK [3][-]{subsubsection.101}{The Efron-Stein inequality}{subsection.93}% 42
+\BOOKMARK [3][-]{subsubsection.103}{Generalized Efron-Stein's inequality}{subsection.93}% 43
+\BOOKMARK [3][-]{subsubsection.108}{McDiarmid's inequality}{subsection.93}% 44
+\BOOKMARK [3][-]{subsubsection.110}{Rosenthal's inequality}{subsection.93}% 45
+\BOOKMARK [2][-]{subsection.114}{Technical lemmas}{section.92}% 46
+\BOOKMARK [3][-]{subsubsection.115}{Basic computations for resampling applied to the kNN algorithm}{subsection.114}% 47
+\BOOKMARK [3][-]{subsubsection.120}{Stone's lemma}{subsection.114}% 48
+\BOOKMARK [3][-]{subsubsection.122}{Stability of the kNN classifier when removing p observations}{subsection.114}% 49
+\BOOKMARK [3][-]{subsubsection.124}{Exponential concentration inequality for the L1O estimator}{subsection.114}% 50
+\BOOKMARK [3][-]{subsubsection.126}{Moment upper bounds for the L1O estimator}{subsection.114}% 51
+\BOOKMARK [3][-]{subsubsection.129}{Upper bound on the optimal constant in the Rosenthal's inequality}{subsection.114}% 52

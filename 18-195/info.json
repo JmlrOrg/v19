@@ -1,0 +1,16 @@
+{
+    "abstract": "In learning theory, the VC dimension of a concept class $C$ is the most common way to measure its ``richness.'' A fundamental result says that the number of examples needed to learn an unknown target concept $c\\in C$ under an unknown distribution $D$, is tightly determined by the VC dimension $d$ of the concept class $C$. Specifically, in the PAC model $$ \\Theta\\Big(\\frac{d}{\\epsilon} + \\frac{\\log(1/\\delta)}{\\epsilon}\\Big) $$ examples are necessary and sufficient for a learner to output, with probability $1-\\delta$, a hypothesis $h$ that is $\\epsilon$-close to the target concept $c$ (measured under $D$). In the related agnostic model, where the samples need not come from a $c\\in C$, we know that $$ \\Theta\\Big(\\frac{d}{\\epsilon^2} + \\frac{\\log(1/\\delta)}{\\epsilon^2}\\Big) $$ examples are necessary and sufficient to output an hypothesis $h\\in C$ whose error is at most $\\epsilon$ worse than the error of the best concept in $C$. Here we analyze quantum sample complexity, where each example is a coherent quantum state. This model was introduced by  Bshouty and Jackson (1999), who showed that quantum examples are more powerful than classical examples in some fixed-distribution settings. However,  Atıcı and Servedio (2005), improved by  Zhang (2010), showed that in the PAC setting (where the learner has to succeed for every distribution), quantum examples cannot be much more powerful: the required number of quantum examples is $$ \\Omega\\Big(\\frac{d^{1-\\eta}}{\\epsilon} + d + \\frac{\\log(1/\\delta)}{\\epsilon}\\Big)\\mbox{ for arbitrarily small constant }\\eta>0. $$ Our main result is that quantum and classical sample complexity are in fact equal up to constant factors in both the PAC and agnostic models. We give two proof approaches. The first is a fairly simple information-theoretic argument that yields the above two classical bounds and yields the same bounds for quantum sample complexity up to a $\\log(d/\\epsilon)$ factor. We then give a second approach that avoids the log-factor loss, based on analyzing the behavior of the ``Pretty Good Measurement'' on the quantum state-identification problems that correspond to learning. This shows classical and quantum sample complexity are equal up to constant factors for every concept class $C$.",
+    "authors": [
+        "Srinivasan Arunachalam",
+        "Ronald de Wolf"
+    ],
+    "id": "18-195",
+    "issue": 71,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Optimal Quantum Sample Complexity of Learning Algorithms",
+    "volume": 19,
+    "year": 2018
+}

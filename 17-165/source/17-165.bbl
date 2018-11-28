@@ -1,0 +1,273 @@
+\begin{thebibliography}{39}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Acharya et~al.(2014)Acharya, Jafarpour, Orlitksy, and
+  Suresh]{AcharyaJOS14e}
+Jayadev Acharya, Ashkan Jafarpour, Alon Orlitksy, and Ananda~Theertha Suresh.
+\newblock Sorting with adversarial comparators and application to density
+  estimation.
+\newblock In \emph{Proceedings of the 2014 IEEE International Symposium on
+  Information Theory (ISIT)}, 2014.
+
+\bibitem[Adler et~al.(1994)Adler, Gemmell, Harchol-Balter, Karp, and
+  Kenyon]{AdlerGHKK94}
+Micah Adler, Peter Gemmell, Mor Harchol-Balter, Richard~M. Karp, and Claire
+  Kenyon.
+\newblock Selection in the presence of noise: The design of playoff systems.
+\newblock In \emph{Proceedings of the Fifth Annual {ACM-SIAM} Symposium on
+  Discrete Algorithms. 23-25 January 1994, Arlington, Virginia}, pages
+  564--572, 1994.
+
+\bibitem[Aggarwal et~al.(2009)Aggarwal, Muthukrishnan, P{\'a}l, and
+  P{\'a}l]{AMPP09}
+Gagan Aggarwal, S~Muthukrishnan, D{\'a}vid P{\'a}l, and Martin P{\'a}l.
+\newblock General auction mechanism for search advertising.
+\newblock In \emph{Proceedings of the 18th international conference on World
+  wide web}, pages 241--250. ACM, 2009.
+
+\bibitem[Ajtai et~al.(2015)Ajtai, Feldman, Hassidim, and Nelson]{AjtaiFHN15}
+Mikl\'{o}s Ajtai, Vitaly Feldman, Avinatan Hassidim, and Jelani Nelson.
+\newblock Sorting and selection with imprecise comparisons.
+\newblock \emph{ACM Trans. Algorithms}, 12\penalty0 (2):\penalty0 19:1--19:19,
+  November 2015.
+\newblock ISSN 1549-6325.
+
+\bibitem[Ben-Or and Hassidim(2008)]{ben08}
+Michael Ben-Or and Avinatan Hassidim.
+\newblock The bayesian learner is optimal for noisy binary search (and pretty
+  good for quantum as well).
+\newblock In \emph{Foundations of Computer Science, 2008. FOCS'08. IEEE 49th
+  Annual IEEE Symposium on}, pages 221--230. IEEE, 2008.
+
+\bibitem[Bradley and Terry(1952)]{BradleyT52}
+Ralph~Allan Bradley and Milton~E Terry.
+\newblock Rank analysis of incomplete block designs the method of paired
+  comparisons.
+\newblock \emph{Biometrika}, 39\penalty0 (3-4):\penalty0 324--345, 1952.
+
+\bibitem[Braverman and Mossel(2008)]{BravermanM08}
+Mark Braverman and Elchanan Mossel.
+\newblock Noisy sorting without resampling.
+\newblock In \emph{Proceedings of the Nineteenth Annual {ACM-SIAM} Symposium on
+  Discrete Algorithms. January 20-22, 2008, San Francisco, California, USA},
+  pages 268--276, 2008.
+
+\bibitem[Braverman et~al.(2016)Braverman, Mao, and Weinberg]{braverman16}
+Mark Braverman, Jieming Mao, and S~Matthew Weinberg.
+\newblock Parallel algorithms for select and partition with noisy comparisons.
+\newblock In \emph{Proceedings of the forty-eighth annual ACM symposium on
+  Theory of Computing}, pages 851--862. ACM, 2016.
+
+\bibitem[Busa-Fekete et~al.(2014)Busa-Fekete, H{\"u}llermeier, and
+  Sz{\"o}r{\'e}nyi]{busa14}
+R{\'o}bert Busa-Fekete, Eyke H{\"u}llermeier, and Bal{\'a}zs Sz{\"o}r{\'e}nyi.
+\newblock Preference-based rank elicitation using statistical models: The case
+  of mallows.
+\newblock In \emph{Proceedings of the 31st International Conference on Machine
+  Learning (ICML-14)}, pages 1071--1079, 2014.
+
+\bibitem[Chen et~al.(2017{\natexlab{a}})Chen, Gopi, Mao, and
+  Schneider]{chen17b}
+Xi~Chen, Sivakanth Gopi, Jieming Mao, and Jon Schneider.
+\newblock Competitive analysis of the top-k ranking problem.
+\newblock In \emph{Proceedings of the Twenty-Eighth Annual ACM-SIAM Symposium
+  on Discrete Algorithms}, pages 1245--1264. SIAM, 2017{\natexlab{a}}.
+
+\bibitem[Chen et~al.(2017{\natexlab{b}})Chen, Li, and Mao]{chen17a}
+Xi~Chen, Yuanzhi Li, and Jieming Mao.
+\newblock An instance optimal algorithm for top-k ranking under the multinomial
+  logit model.
+\newblock \emph{arXiv preprint arXiv:1707.08238}, 2017{\natexlab{b}}.
+
+\bibitem[Daskalakis and Kamath(2014)]{DaskalakisK13}
+Constantinos Daskalakis and Gautam Kamath.
+\newblock Faster and sample near-optimal algorithms for proper learning
+  mixtures of gaussians.
+\newblock In \emph{Proceedings of the 27th Annual Conference on Learning Theory
+  (COLT)}, 2014.
+
+\bibitem[Daskalakis et~al.(2012)Daskalakis, Diakonikolas, and
+  Servedio]{DaskalakisDS12}
+Constantinos Daskalakis, Ilias Diakonikolas, and Rocco~A Servedio.
+\newblock Learning poisson binomial distributions.
+\newblock In \emph{Proceedings of the 44th Symposium on Theory of Computing
+  Conference, {STOC} 2012, New York, NY, USA, May 19 - 22, 2012}, pages
+  709--728, 2012.
+
+\bibitem[David(1963)]{David63}
+Herbert~Aron David.
+\newblock \emph{The method of paired comparisons}, volume~12.
+\newblock Defence Technical Information Center Document, 1963.
+
+\bibitem[Devroye and Lugosi(2001)]{DevroyeL01}
+Luc Devroye and Gabor Lugosi.
+\newblock \emph{Combinatorial Methods in Density Estimation}.
+\newblock Springer - verlag, New York, 2001.
+
+\bibitem[Diakonikolas et~al.(2016)Diakonikolas, Kamath, Kane, Li, Moitra, and
+  Stewart]{diako16}
+Ilias Diakonikolas, Gautam Kamath, Daniel Kane, Jerry Li, Ankur Moitra, and
+  Alistair Stewart.
+\newblock Robust estimators in high dimensions without the computational
+  intractability.
+\newblock \emph{arXiv preprint arXiv:1604.06443}, 2016.
+
+\bibitem[Ekman(1959)]{Ekman59}
+G{\"O}Sta Ekman.
+\newblock Weber's law and related functions.
+\newblock \emph{The Journal of Psychology}, 47\penalty0 (2):\penalty0 343--352,
+  1959.
+
+\bibitem[Falahatgar et~al.(2017{\natexlab{a}})Falahatgar, Hao, Orlitsky,
+  Pichapati, and Ravindrakumar]{falahatgar17b}
+Moein Falahatgar, Yi~Hao, Alon Orlitsky, Venkatadheeraj Pichapati, and Vaishakh
+  Ravindrakumar.
+\newblock Maxing and ranking with few assumptions.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  7060--7070, 2017{\natexlab{a}}.
+
+\bibitem[Falahatgar et~al.(2017{\natexlab{b}})Falahatgar, Orlitsky, Pichapati,
+  and Suresh]{falahatgar17a}
+Moein Falahatgar, Alon Orlitsky, Venkatadheeraj Pichapati, and Ananda~Theertha
+  Suresh.
+\newblock Maximum selection and ranking under noisy comparisons.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  1088--1096, 2017{\natexlab{b}}.
+
+\bibitem[Falahatgar et~al.(2018)Falahatgar, Jain, Orlitsky, Pichapati, and
+  Ravindrakumar]{falahatgar18}
+Moein Falahatgar, Ayush Jain, Alon Orlitsky, Venkatadheeraj Pichapati, and
+  Vaishakh Ravindrakumar.
+\newblock The limits of maxing, ranking, and preference learning.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  1426--1435, 2018.
+
+\bibitem[Feige et~al.(1994)Feige, Raghavan, Peleg, and Upfal]{feige94}
+Uriel Feige, Prabhakar Raghavan, David Peleg, and Eli Upfal.
+\newblock Computing with noisy information.
+\newblock \emph{SIAM Journal on Computing}, 23\penalty0 (5):\penalty0
+  1001--1018, 1994.
+
+\bibitem[Hennequin(1989)]{Hennequin89}
+Pascal Hennequin.
+\newblock Combinatorial analysis of quicksort algorithm.
+\newblock \emph{Informatique th{\'e}orique et applications}, 23\penalty0
+  (3):\penalty0 317--333, 1989.
+
+\bibitem[Karp and Kleinberg(2007)]{KarpK07}
+Richard~M. Karp and Robert Kleinberg.
+\newblock Noisy binary search and its applications.
+\newblock In \emph{Proceedings of the Eighteenth Annual {ACM-SIAM} Symposium on
+  Discrete Algorithms, {SODA} 2007, New Orleans, Louisiana, USA, January 7-9,
+  2007}, pages 881--890, 2007.
+
+\bibitem[Kearns et~al.(1994)Kearns, Mansour, Ron, Rubinfeld, Schapire, and
+  Sellie]{KearnsMRRSS94}
+Michael Kearns, Yishay Mansour, Dana Ron, Ronitt Rubinfeld, Robert~E Schapire,
+  and Linda Sellie.
+\newblock On the learnability of discrete distributions.
+\newblock In \emph{Proceedings of the Twenty-Sixth Annual {ACM} Symposium on
+  Theory of Computing, 23-25 May 1994, Montr{\'{e}}al, Qu{\'{e}}bec, Canada},
+  pages 273--282, 1994.
+
+\bibitem[Knuth(1998)]{Donald99}
+Donald~Ervin Knuth.
+\newblock \emph{The art of computer programming: sorting and searching},
+  volume~3.
+\newblock Pearson Education, 1998.
+
+\bibitem[Luce(2005)]{luce05}
+R~Duncan Luce.
+\newblock \emph{Individual choice behavior: A theoretical analysis}.
+\newblock Courier Corporation, 2005.
+
+\bibitem[Mahalanabis and Stefankovic(2008)]{MahalanabisS08}
+Satyaki Mahalanabis and Daniel Stefankovic.
+\newblock Density estimation in linear time.
+\newblock In \emph{Proceedings of the 21st Annual Conference on Learning Theory
+  (COLT)}, pages 503--512, 2008.
+
+\bibitem[McDiarmid and Hayward(1992)]{McdiarmidH92}
+Colin McDiarmid and Ryan Hayward.
+\newblock Strong concentration for quicksort.
+\newblock In \emph{Proceedings of the Third Annual {ACM/SIGACT-SIAM} Symposium
+  on Discrete Algorithms, 27-29 January 1992, Orlando, Florida}, pages
+  414--421, 1992.
+
+\bibitem[McDiarmid and Hayward(1996)]{McdiarmidH96}
+Colin McDiarmid and Ryan~B Hayward.
+\newblock Large deviations for quicksort.
+\newblock \emph{journal of algorithms}, 21\penalty0 (3):\penalty0 476--507,
+  1996.
+
+\bibitem[Negahban et~al.(2012)Negahban, Oh, and Shah]{NegahbanOS12}
+Sahand Negahban, Sewoong Oh, and Devavrat Shah.
+\newblock Iterative ranking from pair-wise comparisons.
+\newblock In \emph{Advances in Neural Information Processing Systems 25: 26th
+  Annual Conference on Neural Information Processing Systems 2012. Proceedings
+  of a meeting held December 3-6, 2012, Lake Tahoe, Nevada, United States},
+  pages 2483--2491, 2012.
+
+\bibitem[Nelson(2015)]{JelaniNPC}
+Jelani Nelson.
+\newblock Personal communication.
+\newblock 2015.
+
+\bibitem[Plackett(1975)]{plackett75}
+Robin~L Plackett.
+\newblock The analysis of permutations.
+\newblock \emph{Applied Statistics}, pages 193--202, 1975.
+
+\bibitem[Scheffe(1947)]{Scheffe47}
+Henry Scheffe.
+\newblock A useful convergence theorem for probability distributions.
+\newblock In \emph{The Annals of Mathematical Statistics}, volume~18, pages
+  434--438, 1947.
+
+\bibitem[Shah et~al.(2016)Shah, Balakrishnan, Guntuboyina, and
+  Wainwright]{shah16}
+Nihar Shah, Sivaraman Balakrishnan, Aditya Guntuboyina, and Martin Wainwright.
+\newblock Stochastically transitive models for pairwise comparisons:
+  Statistical and computational issues.
+\newblock In \emph{International Conference on Machine Learning}, pages 11--20,
+  2016.
+
+\bibitem[Suresh et~al.(2014)Suresh, Orlitsky, Acharya, and
+  Jafarpour]{AcharyaJOS14}
+Ananda~Theertha Suresh, Alon Orlitsky, Jayadev Acharya, and Ashkan Jafarpour.
+\newblock Near-optimal-sample estimators for spherical gaussian mixtures.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  1395--1403, 2014.
+
+\bibitem[Sz{\"o}r{\'e}nyi et~al.(2015)Sz{\"o}r{\'e}nyi, Busa-Fekete, Paul, and
+  H{\"u}llermeier]{szorenyi15}
+Bal{\'a}zs Sz{\"o}r{\'e}nyi, R{\'o}bert Busa-Fekete, Adil Paul, and Eyke
+  H{\"u}llermeier.
+\newblock Online rank elicitation for plackett-luce: A dueling bandits
+  approach.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  604--612, 2015.
+
+\bibitem[Thurstone(1927)]{Thurstone27}
+Louis~L Thurstone.
+\newblock A law of comparative judgment.
+\newblock \emph{Psychological review}, 34\penalty0 (4):\penalty0 273, 1927.
+
+\bibitem[Valiant(1984)]{Valiant84}
+Leslie~G. Valiant.
+\newblock A theory of the learnable.
+\newblock In \emph{Proceedings of the 16th Annual {ACM} Symposium on Theory of
+  Computing, April 30 - May 2, 1984, Washington, DC, {USA}}, pages 436--445,
+  1984.
+
+\bibitem[Yue and Joachims(2011)]{yue11}
+Yisong Yue and Thorsten Joachims.
+\newblock Beat the mean bandit.
+\newblock In \emph{Proceedings of the 28th International Conference on Machine
+  Learning (ICML-11)}, pages 241--248, 2011.
+
+\end{thebibliography}
