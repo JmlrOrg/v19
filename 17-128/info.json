@@ -1,0 +1,18 @@
+{
+    "abstract": "Given matrices $X,Y \\in R^{n \\times K}$ and $S \\in R^{K \\times K}$ with positive elements, this paper proposes an algorithm fastRG to sample a sparse matrix $A$ with low rank expectation $E(A) = XSY^T$ and independent Poisson elements. This allows for quickly sampling from a broad class of stochastic blockmodel graphs (degree-corrected, mixed membership, overlapping) all of which are specific parameterizations of the generalized random product graph model defined in Section 2.2. The basic idea of fastRG is to first sample the number of edges $m$ and then sample each edge. The key insight is that because of the the low rank expectation, it is easy to sample individual edges. The naive ``element-wise'' algorithm requires $O(n^2)$ operations to generate the $n\\times n$ adjacency matrix $A$. In sparse graphs, where $m = O(n)$, ignoring log terms, fastRG runs in time $O(n)$. An implementation in R is available on github. A computational experiment in Section 2.4 simulates graphs up to $n=10,000,000$ nodes with $m = 100,000,000$ edges. For example, on a graph with $n=500,000$ and $m = 5,000,000$, fastRG runs in less than one second on a 3.5 GHz Intel i5.",
+    "authors": [
+        "Karl Rohe",
+        "Jun Tao",
+        "Xintian Han",
+        "Norbert Binkiewicz"
+    ],
+    "id": "17-128",
+    "issue": 77,
+    "pages": [
+        1,
+        13
+    ],
+    "title": "A Note on Quickly Sampling a Sparse Matrix with Low Rank Expectation",
+    "volume": 19,
+    "year": 2018
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "We consider a model selection problem in high-dimensional binary Markov random fields. The usefulness of the Ising model in studying systems of complex interactions has been confirmed in many papers. The main drawback of this model is the intractable norming constant that makes estimation of parameters very challenging. In the paper we propose a Lasso penalized version of the Monte Carlo maximum likelihood method. We prove that our algorithm, under mild regularity conditions, recognizes the true dependence structure of the graph with high probability. The efficiency of the proposed method is also investigated via numerical studies.",
+    "authors": [
+        "Blazej Miasojedow",
+        "Wojciech Rejchel"
+    ],
+    "id": "16-554",
+    "issue": 75,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Sparse Estimation in Ising Model via Penalized Monte Carlo Methods",
+    "volume": 19,
+    "year": 2018
+}

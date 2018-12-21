@@ -1,0 +1,17 @@
+{
+    "abstract": "Learning a low-rank matrix from missing and corrupted observations is a fundamental problem in many machine learning applications. However, the role of side information in low-rank matrix learning has received little attention, and most current approaches are either ad-hoc or only applicable in certain restrictive cases. In this paper, we propose a general model that exploits side information to better learn low-rank matrices from missing and corrupted observations, and show that the proposed model can be further applied to several popular scenarios such as matrix completion and robust PCA. Furthermore, we study the effect of side information on sample complexity and show that by using our model, the efficiency for learning can be improved given sufficiently informative side information. This result thus provides theoretical insight into the usefulness of side information in our model. Finally, we conduct comprehensive experiments in three real-world applications---relationship prediction, semi-supervised clustering and noisy image classification, showing that our proposed model is able to properly exploit side information for more effective learning both in theory and practice.",
+    "authors": [
+        "Kai-Yang Chiang",
+        "Inderjit S. Dhillon",
+        "Cho-Jui Hsieh"
+    ],
+    "id": "17-112",
+    "issue": 76,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Using Side Information to Reliably Learn Low-Rank Matrices from Missing and Corrupted Observations",
+    "volume": 19,
+    "year": 2018
+}

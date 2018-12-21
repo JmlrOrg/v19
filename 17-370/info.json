@@ -1,0 +1,17 @@
+{
+    "abstract": "In many applications involving large dataset or online learning, stochastic gradient descent (SGD) is a scalable algorithm to compute parameter estimates and has gained increasing popularity due to its numerical convenience and memory efficiency. While the asymptotic properties of SGD-based estimators have been well established, statistical inference such as interval estimation remains much unexplored. The classical bootstrap is not directly applicable if the data are not stored in memory. The plug-in method is not applicable when there is no explicit formula for the covariance matrix of the estimator. In this paper, we propose an online bootstrap procedure for the estimation of confidence intervals, which, upon the arrival of each observation, updates the SGD estimate as well as a number of randomly perturbed SGD estimates. The proposed method is easy to implement in practice. We establish its theoretical properties for a general class of models that includes linear regressions, generalized linear models, M-estimators and quantile regressions as special cases. The finite-sample performance and numerical utility is evaluated by simulation studies and real data applications.",
+    "authors": [
+        "Yixin Fang",
+        "Jinfeng Xu",
+        "Lei Yang"
+    ],
+    "id": "17-370",
+    "issue": 78,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "Online Bootstrap Confidence Intervals for the Stochastic Gradient Descent Estimator",
+    "volume": 19,
+    "year": 2018
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "seglearn is an open-source Python package for performing machine learning on time series or sequences. The implementation provides a flexible pipeline for tackling classification, regression, and forecasting problems with multivariate sequence and contextual data. Sequences and series may be learned directly with deep learning models or via feature representation with classical machine learning estimators. This package is compatible with scikit-learn and is listed under scikit-learn Related Projects. The package depends on numpy, scipy, and scikit-learn. seglearn is distributed under the BSD 3-Clause License. Documentation includes a detailed API description, user guide, and examples. Unit tests provide a high degree of code coverage. Source code and documentation can be downloaded from https://github.com/dmbee/seglearn.",
+    "authors": [
+        "David M. Burns",
+        "Cari M. Whyne"
+    ],
+    "id": "18-160",
+    "issue": 83,
+    "pages": [
+        1,
+        7
+    ],
+    "title": "Seglearn: A Python Package for Learning Sequences and Time Series",
+    "volume": 19,
+    "year": 2018
+}

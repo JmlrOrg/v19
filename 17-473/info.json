@@ -1,0 +1,16 @@
+{
+    "abstract": "Robust PCA is a widely used statistical procedure to recover an underlying low-rank matrix with grossly corrupted observations. This work considers the problem of robust PCA as a nonconvex optimization problem on the manifold of low-rank matrices and proposes two algorithms based on manifold optimization. It is shown that, with a properly designed initialization, the proposed algorithms are guaranteed to converge to the underlying low-rank matrix linearly. Compared with a previous work based on the factorization of low-rank matrices  Yi et al. (2016), the proposed algorithms reduce the dependence on the condition number of the underlying low-rank matrix theoretically. Simulations and real data examples confirm the competitive performance of our method.",
+    "authors": [
+        "Teng Zhang",
+        "Yi Yang"
+    ],
+    "id": "17-473",
+    "issue": 80,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Robust PCA by Manifold Optimization",
+    "volume": 19,
+    "year": 2018
+}

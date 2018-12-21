@@ -1,0 +1,17 @@
+{
+    "abstract": "In solving hard computational problems, semidefinite program (SDP) relaxations often play an important role because they come with a guarantee of optimality. Here, we focus on a popular semidefinite relaxation of K-means clustering which yields the same solution as the non-convex original formulation for well segregated datasets. We report an unexpected finding: when data contains (greater than zero-dimensional) manifolds, the SDP solution captures such geometrical structures. Unlike traditional manifold embedding techniques, our approach does not rely on manually defining a kernel but rather enforces locality via a nonnegativity constraint. We thus call our approach NOnnegative MAnifold Disentangling, or NOMAD. To build an intuitive understanding of its manifold learning capabilities, we develop a theoretical analysis of NOMAD on idealized datasets. While NOMAD is convex and the globally optimal solution can be found by generic SDP solvers with polynomial time complexity, they are too slow for modern datasets. To address this problem, we analyze a non-convex heuristic and present a new, convex and yet efficient, algorithm, based on the conditional gradient method. Our results render NOMAD a versatile, understandable, and powerful tool for manifold learning.",
+    "authors": [
+        "Mariano Tepper",
+        "Anirvan M. Sengupta",
+        "Dmitri Chklovskii"
+    ],
+    "id": "18-088",
+    "issue": 82,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Clustering is semidefinitely not that hard: Nonnegative SDP for manifold disentangling",
+    "volume": 19,
+    "year": 2018
+}
