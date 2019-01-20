@@ -1,0 +1,235 @@
+\begin{thebibliography}{40}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agarwal et~al.(2011)Agarwal, Chapelle, Dudik, and
+  Langford]{agarwal2011}
+A.~Agarwal, O.~Chapelle, M.~Dudik, and J.~Langford.
+\newblock A reliable effective terascale linear learning system.
+\newblock In \emph{arXiv:1140.4198}, 2011.
+
+\bibitem[Agarwal et~al.(2013)Agarwal, Chapelle, Dudik, and Langford]{alekh2013}
+A.~Agarwal, O~Chapelle, M.~Dudik, and J.~Langford.
+\newblock A reliable effective terascale linear system.
+\newblock \emph{arXiv:1110.4198}, 2013.
+
+\bibitem[Bertsekas and Tsitsiklis(1997)]{bertsekas1997}
+D.~P. Bertsekas and J.~N. Tsitsiklis.
+\newblock \emph{Parallel and distributed computation: Numerical methods}.
+\newblock Athena Scientific, Cambridge, MA, 1997.
+
+\bibitem[Bottou(2010)]{bottou2010}
+L.~Bottou.
+\newblock Large-scale machine learning with stochastic gradient descent.
+\newblock In \emph{COMPSTAT'2010}, pages 177--187, 2010.
+
+\bibitem[Boyd and Vandenberghe(2004)]{boyd2004}
+S.~Boyd and L.~Vandenberghe.
+\newblock \emph{Convex optimization}.
+\newblock Cambridge University Press, Cambridge, UK, 2004.
+
+\bibitem[Boyd et~al.(2011)Boyd, Parikh, Chu, Peleato, and Eckstein]{Boyd2011}
+S.~Boyd, N.~Parikh, E.~Chu, B.~Peleato, and J.~Eckstein.
+\newblock Distributed optimization and statistical learning via the alternating
+  direction method of multipliers.
+\newblock \emph{Foundations and Trends in Machine Learning}, pages 1--122,
+  2011.
+
+\bibitem[Byrd et~al.(2012)Byrd, Chin, Neveitt, and Nocedal]{byrd2012}
+R.~H. Byrd, G.~M. Chin, W.~Neveitt, and J.~Nocedal.
+\newblock On the use of stochastic {H}essian information in optimization
+  methods for machine learning.
+\newblock \emph{SIAM Journal of Optimization}, pages 977--995, 2012.
+
+\bibitem[Chang et~al.(2008)Chang, Hsieh, and Lin]{chang2008}
+K.W. Chang, C.J. Hsieh, and C.J. Lin.
+\newblock Coordinate descent method for large-scale l2-loss linear {SVM}.
+\newblock \emph{JMLR}, pages 1369--1398, 2008.
+
+\bibitem[Chu et~al.(2006)Chu, Kim, Lin, Yu, Bradski, Ng, and Olukotun]{chu2006}
+C.T. Chu, S.K. Kim, Y.A. Lin, Y.Y. Yu, G.~Bradski, A.Y. Ng, and K.~Olukotun.
+\newblock Map-reduce for machine learning on multicore.
+\newblock \emph{NIPS}, pages 281--288, 2006.
+
+\bibitem[Dean and Ghemawat(2008)]{Dean2008}
+J.~Dean and S.~Ghemawat.
+\newblock Mapreduce: Simplified data processing on large clusters.
+\newblock \emph{Commun. ACM}, pages 107--113, 2008.
+
+\bibitem[Deng and Yin(2012)]{deng2012}
+W.~Deng and W.~Yin.
+\newblock On the global linear convergence of the generalized alternating
+  direction method of multipliers.
+\newblock \emph{Rice University CAAM Technical Report}, TR12-14, 2012.
+
+\bibitem[Hall et~al.(2010)Hall, Gilpin, and Mann]{hall2010}
+K.B. Hall, S.~Gilpin, and G.~Mann.
+\newblock Mapreduce/bigtable for distributed optimization.
+\newblock In \emph{NIPS Workshop on Leaning on Cores, Clusters, and Clouds},
+  2010.
+
+\bibitem[Hsieh et~al.(2008)Hsieh, Chang, Lin, Keerthi, and
+  Sundararajan]{hsieh2008}
+C.J. Hsieh, K.W. Chang, C.J. Lin, S.S. Keerthi, and S.~Sundararajan.
+\newblock A dual coordinate descent method for large-scale linear {SVM}.
+\newblock In \emph{ICML}, pages 408--415, 2008.
+
+\bibitem[Hsieh et~al.(2014)Hsieh, Si, and Dhillon]{hsieh14}
+C.J. Hsieh, S.~Si, and I.S. Dhillon.
+\newblock A divide-and-conquer solver for kernel support vector machines.
+\newblock \emph{ICML}, 2014.
+
+\bibitem[Jaggi et~al.(2014)Jaggi, Smith, Tak{\'a}{\v c}, Terhorst, Krishnan,
+  Hofmann, and Jordan]{jaggi2014}
+M.~Jaggi, V.~Smith, M.~Tak{\'a}{\v c}, J.~Terhorst, S.~Krishnan, T.~Hofmann,
+  and M.I. Jordan.
+\newblock Communication-efficient distributed dual coordinate ascent.
+\newblock \emph{arXiv:1409.1458}, 2014.
+
+\bibitem[Johnson and Zhang(2013)]{johnson2013}
+R.~Johnson and T.~Zhang.
+\newblock Accelerating stochastic gradient descent using predictive variance
+  reduction.
+\newblock \emph{NIPS}, 2013.
+
+\bibitem[Lin et~al.(2008)Lin, Weng, and Keerthi]{lin2008}
+C.J. Lin, R.C. Weng, and S.S. Keerthi.
+\newblock Trust region newton method for large-scale logistic regression.
+\newblock \emph{JMLR}, pages 627--650, 2008.
+
+\bibitem[Mahajan et~al.(2013{\natexlab{a}})Mahajan, Keerthi, Sundararajan, and
+  Bottou]{dhruv2013}
+D.~Mahajan, S.~S. Keerthi, S.~Sundararajan, and L.~Bottou.
+\newblock A functional approximation based distributed learning algorithm.
+\newblock \emph{arXiv:1310.8418}, 2013{\natexlab{a}}.
+
+\bibitem[Mahajan et~al.(2013{\natexlab{b}})Mahajan, Keerthi, Sundararajan, and
+  Bottou]{mahajan2013}
+D.~Mahajan, S.~S. Keerthi, S.~Sundararajan, and L.~Bottou.
+\newblock A parallel {SGD} method with strong convergence.
+\newblock \emph{NIPS Workshop on Optimization in Machine Learning},
+  2013{\natexlab{b}}.
+
+\bibitem[Mairal(2013)]{mairal2013}
+J.~Mairal.
+\newblock Optimization with first order surrogate functions.
+\newblock \emph{ICML}, 2013.
+
+\bibitem[Mann et~al.(2009)Mann, McDonald, Mohri, Silberman, and
+  Walker]{mann2009}
+G.~Mann, R.T. McDonald, M.~Mohri, N.~Silberman, and D.~Walker.
+\newblock Efficient large-scale distributed training of conditional maximum
+  entropy models.
+\newblock In \emph{NIPS}, pages 1231--1239, 2009.
+
+\bibitem[McDonald et~al.(2010)McDonald, Hall, and Mann]{mcdonald2010}
+R.T. McDonald, K.~Hall, and G.~Mann.
+\newblock Distributed training strategies for the structured perceptron.
+\newblock In \emph{HLT-NAACL}, pages 456--464, 2010.
+
+\bibitem[Patriksson(1998{\natexlab{a}})]{patriksson1998ca}
+M.~Patriksson.
+\newblock Cost approximation: A unified framework of descent algorithms for
+  nonlinear programs.
+\newblock \emph{SIAM J. on Optimization}, 8:\penalty0 561--582,
+  1998{\natexlab{a}}.
+
+\bibitem[Patriksson(1998{\natexlab{b}})]{patriksson1998fp}
+M.~Patriksson.
+\newblock Decomposition methods for differentiable optimization problems over
+  cartesian product sets.
+\newblock \emph{Comput. Optim. Appl.}, 9:\penalty0 5--42, 1998{\natexlab{b}}.
+
+\bibitem[Pechyony et~al.(2011)Pechyony, Shen, and Jones]{pechyony2011}
+D.~Pechyony, L.~Shen, and R.~Jones.
+\newblock Solving large scale linear {SVM} with distributed block minimization.
+\newblock \emph{NIPS workshop on Big Learning}, 2011.
+
+\bibitem[Richt{\'a}rik and Tak{\'a}c(2012)]{richtarik2013}
+P.~Richt{\'a}rik and M.~Tak{\'a}c.
+\newblock Parallel coordinate descent methods for big data optimization.
+\newblock \emph{CoRR}, abs/1212.0873, 2012.
+
+\bibitem[Sharir et~al.(2014)Sharir, Srebro, and Zhang]{sharir2014}
+O.~Sharir, N.~Srebro, and T.~Zhang.
+\newblock Communication efficient distributed optimization using an approximate
+  newton-type method.
+\newblock \emph{arXiv:1312.7853v4}, 2014.
+
+\bibitem[Shewchuk(1994)]{Shewchuk94anintroduction}
+J.R. Shewchuk.
+\newblock An introduction to the conjugate gradient method without the
+  agonizing pain.
+\newblock Technical report, 1994.
+
+\bibitem[Smola and Vishwanathan(2008)]{smola2008}
+A.~Smola and S.V.N. Vishwanathan.
+\newblock \emph{Introduction to Machine Learning}.
+\newblock Cambridge University Press, Cambridge, UK, 2008.
+
+\bibitem[Sonnenburg and Franc(2010)]{sonnenburg2010}
+S.~T. Sonnenburg and V.~Franc.
+\newblock {COFFIN:} a computational framework for linear {SVM}s.
+\newblock \emph{ICML}, 2010.
+
+\bibitem[Wang and Lin(2013)]{wang2013}
+P.W. Wang and C.J. Lin.
+\newblock Iteration complexity of feasible descent methods for convex
+  optimization.
+\newblock \emph{Technical Report, National Taiwan University}, 2013.
+
+\bibitem[Weimer et~al.(2015)Weimer, Chen, Chun, Condie, Curino, Douglas, Lee,
+  Majestro, Malkhi, Matusevych, et~al.]{weimer2015}
+M.~Weimer, Y.~Chen, B.G. Chun, T.~Condie, C.~Curino, C.~Douglas, Y.~Lee,
+  T.~Majestro, D.~Malkhi, S.~Matusevych, et~al.
+\newblock Reef: Retainable evaluator execution framework.
+\newblock In \emph{ACM SIGMOD}, pages 1343--1355, 2015.
+
+\bibitem[Wolfe(1969)]{wolfe1969}
+P.~Wolfe.
+\newblock Convergence conditions for ascent methods.
+\newblock \emph{SIAM Review}, 11:\penalty0 226--235, 1969.
+
+\bibitem[Wolfe(1971)]{wolfe1971}
+P.~Wolfe.
+\newblock Convergence conditions for ascent methods: {II}: {S}ome corrections.
+\newblock \emph{SIAM Review}, 13:\penalty0 185--188, 1971.
+
+\bibitem[Yang(2013)]{yang2013a}
+T.~Yang.
+\newblock Trading computation for communication: distributed stochastic dual
+  coordinate ascent.
+\newblock \emph{NIPS}, 2013.
+
+\bibitem[Yang et~al.(2013)Yang, Zhu, Jin, and Lin]{yang2013b}
+T.~Yang, S.~Zhu, R.~Jin, and Y.~Lin.
+\newblock Analysis of distributed stochastic dual coordinate ascent.
+\newblock \emph{arXiv:1312.1031}, 2013.
+
+\bibitem[Zaharia et~al.(2010)Zaharia, Chowdhury, Franklin, Shenker, and
+  Stoica]{Zaharia2010}
+M.~Zaharia, M.~Chowdhury, M.J. Franklin, S.~Shenker, and I.~Stoica.
+\newblock Spark: Cluster computing with working sets.
+\newblock In \emph{USENIX Conference}, 2010.
+
+\bibitem[Zhang et~al.(2012)Zhang, Lee, and Shin]{zhang2012}
+C.~Zhang, H.~Lee, and K.G. Shin.
+\newblock Efficient distributed linear classification algorithms via the
+  alternating direction method of multipliers.
+\newblock \emph{CIKM}, 2012.
+
+\bibitem[Zhang and Xiao(2015)]{discoicml}
+Y.~Zhang and L.~Xiao.
+\newblock Di{SCO}: {C}ommunication-efficient distributed optimization of
+  self-concordant loss.
+\newblock \emph{ICML}, 2015.
+
+\bibitem[Zinkevich et~al.(2010)Zinkevich, Weimer, Smola, and Li]{zinkevich2010}
+M.~Zinkevich, M.~Weimer, A.~Smola, and L.~Li.
+\newblock Parallelized stochastic gradient descent.
+\newblock In \emph{NIPS}, pages 2595--2603, 2010.
+
+\end{thebibliography}

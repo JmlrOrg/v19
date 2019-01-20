@@ -1,0 +1,385 @@
+\begin{thebibliography}{44}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Absil and Oseledets(2015)]{Absil2015}
+P.-A. Absil and I~V Oseledets.
+\newblock {Low-rank retractions: a survey and new results}.
+\newblock \emph{Computational Optimization and Applications}, 62\penalty0
+  (1):\penalty0 5--29, 2015.
+\newblock ISSN 1573-2894.
+\newblock \doi{10.1007/s10589-014-9714-4}.
+\newblock URL \url{http://dx.doi.org/10.1007/s10589-014-9714-4}.
+
+\bibitem[Absil et~al.(2009)Absil, Mahony, and Sepulchre]{absil2009optimization}
+P.A. Absil, R.~Mahony, and R.~Sepulchre.
+\newblock \emph{Optimization Algorithms on Matrix Manifolds}.
+\newblock Princeton University Press, 2009.
+\newblock ISBN 9781400830244.
+\newblock URL \url{http://books.google.com/books?id=NSQGQeLN3NcC}.
+
+\bibitem[Bandeira et~al.(2016)Bandeira, Boumal, and
+  Voroninski]{pmlr-v49-bandeira16}
+Afonso~S. Bandeira, Nicolas Boumal, and Vladislav Voroninski.
+\newblock On the low-rank approach for semidefinite programs arising in
+  synchronization and community detection.
+\newblock In Vitaly Feldman, Alexander Rakhlin, and Ohad Shamir, editors,
+  \emph{29th Annual Conference on Learning Theory}, volume~49 of
+  \emph{Proceedings of Machine Learning Research}, pages 361--382, Columbia
+  University, New York, New York, USA, 23--26 Jun 2016. PMLR.
+\newblock URL \url{http://proceedings.mlr.press/v49/bandeira16.html}.
+
+\bibitem[Basri and Jacobs(2003)]{Basri03}
+R.~Basri and D.~Jacobs.
+\newblock Lambertian reflectance and linear subspaces.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 25\penalty0 (2):\penalty0 218--233, February 2003.
+
+\bibitem[Bhojanapalli et~al.(2015)Bhojanapalli, Jain, and
+  Sanghavi]{Bhojanapalli:2015:TLA:2722129.2722191}
+Srinadh Bhojanapalli, Prateek Jain, and Sujay Sanghavi.
+\newblock Tighter low-rank approximation via sampling the leveraged element.
+\newblock In \emph{Proceedings of the Twenty-sixth Annual ACM-SIAM Symposium on
+  Discrete Algorithms}, SODA '15, pages 902--920, Philadelphia, PA, USA, 2015.
+  Society for Industrial and Applied Mathematics.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=2722129.2722191}.
+
+\bibitem[Boumal(2016)]{doi:10.1137/16M105808X}
+Nicolas Boumal.
+\newblock Nonconvex phase synchronization.
+\newblock \emph{SIAM Journal on Optimization}, 26\penalty0 (4):\penalty0
+  2355--2377, 2016.
+\newblock \doi{10.1137/16M105808X}.
+\newblock URL \url{http://dx.doi.org/10.1137/16M105808X}.
+
+\bibitem[Burer and Monteiro(2003)]{Burer2003}
+Samuel Burer and Renato~D.C. Monteiro.
+\newblock A nonlinear programming algorithm for solving semidefinite programs
+  via low-rank factorization.
+\newblock \emph{Mathematical Programming}, 95\penalty0 (2):\penalty0 329--357,
+  2003.
+\newblock ISSN 1436-4646.
+\newblock \doi{10.1007/s10107-002-0352-8}.
+\newblock URL \url{http://dx.doi.org/10.1007/s10107-002-0352-8}.
+
+\bibitem[Burer and Monteiro(2005)]{Burer2005}
+Samuel Burer and Renato~D.C. Monteiro.
+\newblock Local minima and convergence in low-rank semidefinite programming.
+\newblock \emph{Mathematical Programming}, 103\penalty0 (3):\penalty0 427--444,
+  2005.
+\newblock ISSN 1436-4646.
+\newblock \doi{10.1007/s10107-004-0564-1}.
+\newblock URL \url{http://dx.doi.org/10.1007/s10107-004-0564-1}.
+
+\bibitem[Cambier and Absil(2016)]{doi:10.1137/15M1025153}
+Léopold Cambier and P.-A. Absil.
+\newblock Robust low-rank matrix completion by riemannian optimization.
+\newblock \emph{SIAM Journal on Scientific Computing}, 38\penalty0
+  (5):\penalty0 S440--S460, 2016.
+\newblock \doi{10.1137/15M1025153}.
+\newblock URL \url{https://doi.org/10.1137/15M1025153}.
+
+\bibitem[Cand\`{e}s et~al.(2011)Cand\`{e}s, Li, Ma, and Wright]{robust_pca09}
+Emmanuel~J. Cand\`{e}s, Xiaodong Li, Yi~Ma, and John Wright.
+\newblock Robust principal component analysis?
+\newblock \emph{J. ACM}, 58\penalty0 (3):\penalty0 11:1--11:37, June 2011.
+\newblock ISSN 0004-5411.
+\newblock \doi{10.1145/1970392.1970395}.
+\newblock URL \url{http://doi.acm.org/10.1145/1970392.1970395}.
+
+\bibitem[Chandrasekaran et~al.(2011)Chandrasekaran, Sanghavi, Parrilo, and
+  Willsky]{Chandrasekaran_Sanghavi_Parrilo_Willsky_2009}
+Venkat Chandrasekaran, Sujay Sanghavi, Pablo~A. Parrilo, and Alan~S. Willsky.
+\newblock Rank-sparsity incoherence for matrix decomposition.
+\newblock \emph{SIAM Journal on Optimization}, 21\penalty0 (2):\penalty0
+  572--596, 2011.
+\newblock \doi{10.1137/090761793}.
+\newblock URL \url{http://dx.doi.org/10.1137/090761793}.
+
+\bibitem[Chen and Wainwright(2015)]{ChenWainwright2015}
+Yudong Chen and Martin~J. Wainwright.
+\newblock Fast low-rank estimation by projected gradient descent: General
+  statistical and algorithmic guarantees.
+\newblock \emph{CoRR}, abs/1509.03025, 2015.
+
+\bibitem[Cherapanamjeri et~al.(2016)Cherapanamjeri, Gupta, and
+  Jain]{DBLP:journals/corr/CherapanamjeriG16}
+Yeshwanth Cherapanamjeri, Kartik Gupta, and Prateek Jain.
+\newblock Nearly-optimal robust matrix completion.
+\newblock \emph{CoRR}, abs/1606.07315, 2016.
+\newblock URL \url{http://arxiv.org/abs/1606.07315}.
+
+\bibitem[Clarkson and Woodruff(2013)]{Clarkson:2013:LRA:2488608.2488620}
+Kenneth~L. Clarkson and David~P. Woodruff.
+\newblock Low rank approximation and regression in input sparsity time.
+\newblock In \emph{Proceedings of the Forty-fifth Annual ACM Symposium on
+  Theory of Computing}, STOC '13, pages 81--90, New York, NY, USA, 2013. ACM.
+\newblock ISBN 978-1-4503-2029-0.
+\newblock \doi{10.1145/2488608.2488620}.
+\newblock URL \url{http://doi.acm.org/10.1145/2488608.2488620}.
+
+\bibitem[Davis and Kahan(1970)]{doi:10.1137/0707001}
+Chandler Davis and W.~M. Kahan.
+\newblock The rotation of eigenvectors by a perturbation. iii.
+\newblock \emph{SIAM Journal on Numerical Analysis}, 7\penalty0 (1):\penalty0
+  1--46, 1970.
+\newblock \doi{10.1137/0707001}.
+\newblock URL \url{http://dx.doi.org/10.1137/0707001}.
+
+\bibitem[De~Sa et~al.(2015)De~Sa, Olukotun, and
+  R{\'e}]{DeSa:2015:GCS:3045118.3045366}
+Christopher De~Sa, Kunle Olukotun, and Christopher R{\'e}.
+\newblock Global convergence of stochastic gradient descent for some non-convex
+  matrix problems.
+\newblock In \emph{Proceedings of the 32Nd International Conference on
+  International Conference on Machine Learning - Volume 37}, ICML'15, pages
+  2332--2341. JMLR.org, 2015.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=3045118.3045366}.
+
+\bibitem[Deerwester et~al.(1990)Deerwester, Dumais, Furnas, Landauer, and
+  Harshman]{ASI:ASI1}
+Scott Deerwester, Susan~T. Dumais, George~W. Furnas, Thomas~K. Landauer, and
+  Richard Harshman.
+\newblock Indexing by latent semantic analysis.
+\newblock \emph{Journal of the American Society for Information Science},
+  41\penalty0 (6):\penalty0 391--407, 1990.
+\newblock ISSN 1097-4571.
+\newblock \doi{10.1002/(SICI)1097-4571(199009)41:6<391::AID-ASI1>3.0.CO;2-9}.
+\newblock URL
+  \url{http://dx.doi.org/10.1002/(SICI)1097-4571(199009)41:6<391::AID-ASI1>3.0.CO;2-9}.
+
+\bibitem[Epstein et~al.(1995)Epstein, Hallinan, and Yuille]{Epstein95}
+R.~Epstein, P.~Hallinan, and A.~Yuille.
+\newblock $5\pm 2$ eigenimages suffice: {A}n empirical investigation of
+  low-dimensional lighting models.
+\newblock In \emph{IEEE Workshop on Physics-based Modeling in Computer Vision},
+  pages 108--116, June 1995.
+
+\bibitem[Frieze et~al.(2004)Frieze, Kannan, and
+  Vempala]{Frieze:2004:FMA:1039488.1039494}
+Alan Frieze, Ravi Kannan, and Santosh Vempala.
+\newblock Fast monte-carlo algorithms for finding low-rank approximations.
+\newblock \emph{J. ACM}, 51\penalty0 (6):\penalty0 1025--1041, November 2004.
+\newblock ISSN 0004-5411.
+\newblock \doi{10.1145/1039488.1039494}.
+\newblock URL \url{http://doi.acm.org/10.1145/1039488.1039494}.
+
+\bibitem[Gu et~al.(2016)Gu, Wang, and Liu]{conf/aistats/GuWL16}
+Quanquan Gu, Zhaoran Wang, and Han Liu.
+\newblock Low-rank and sparse structure pursuit via alternating minimization.
+\newblock In Arthur Gretton and Christian~C. Robert, editors, \emph{AISTATS},
+  volume~51 of \emph{JMLR Workshop and Conference Proceedings}, pages 600--609.
+  JMLR.org, 2016.
+\newblock URL
+  \url{http://dblp.uni-trier.de/db/conf/aistats/aistats2016.html#GuWL16}.
+
+\bibitem[Ho et~al.(2003)Ho, Yang, Lim, Lee, and Kriegman]{Ho03}
+J.~Ho, M.~Yang, J.~Lim, K.~Lee, and D.~Kriegman.
+\newblock Clustering appearances of objects under varying illumination
+  conditions.
+\newblock In \emph{Proceedings of International Conference on Computer Vision
+  and Pattern Recognition}, volume~1, pages 11--18, 2003.
+
+\bibitem[Hsu et~al.(2011)Hsu, Kakade, and Zhang]{5934412}
+D.~Hsu, S.~M. Kakade, and T.~Zhang.
+\newblock Robust matrix decomposition with sparse corruptions.
+\newblock \emph{IEEE Transactions on Information Theory}, 57\penalty0
+  (11):\penalty0 7221--7234, Nov 2011.
+\newblock ISSN 0018-9448.
+\newblock \doi{10.1109/TIT.2011.2158250}.
+
+\bibitem[Jain et~al.(2013)Jain, Netrapalli, and
+  Sanghavi]{Jain:2013:LMC:2488608.2488693}
+Prateek Jain, Praneeth Netrapalli, and Sujay Sanghavi.
+\newblock Low-rank matrix completion using alternating minimization.
+\newblock In \emph{Proceedings of the Forty-fifth Annual ACM Symposium on
+  Theory of Computing}, STOC '13, pages 665--674, New York, NY, USA, 2013. ACM.
+\newblock ISBN 978-1-4503-2029-0.
+\newblock \doi{10.1145/2488608.2488693}.
+\newblock URL \url{http://doi.acm.org/10.1145/2488608.2488693}.
+
+\bibitem[Keshavan et~al.(2010)Keshavan, Montanari, and Oh]{5466511}
+R.~H. Keshavan, A.~Montanari, and S.~Oh.
+\newblock Matrix completion from a few entries.
+\newblock \emph{IEEE Transactions on Information Theory}, 56\penalty0
+  (6):\penalty0 2980--2998, June 2010.
+\newblock ISSN 0018-9448.
+\newblock \doi{10.1109/TIT.2010.2046205}.
+
+\bibitem[Kyrillidis and Cevher(2012)]{6319655}
+A.~Kyrillidis and V.~Cevher.
+\newblock Matrix alps: Accelerated low rank and sparse matrix reconstruction.
+\newblock In \emph{2012 IEEE Statistical Signal Processing Workshop (SSP)},
+  pages 185--188, Aug 2012.
+\newblock \doi{10.1109/SSP.2012.6319655}.
+
+\bibitem[Ledoux and Talagrand(1991)]{ledoux1991probability}
+M.~Ledoux and M.~Talagrand.
+\newblock \emph{Probability in Banach Spaces: Isoperimetry and Processes}.
+\newblock A Series of Modern Surveys in Mathematics Series. Springer, 1991.
+\newblock ISBN 9783540520139.
+\newblock URL \url{https://books.google.com/books?id=cyKYDfvxRjsC}.
+
+\bibitem[Li et~al.(2004)Li, Huang, Gu, and Tian]{Li_backgroundsubtraction}
+L.~Li, W.~Huang, I.~Gu, and Q.~Tian.
+\newblock Statistical modeling of complex backgrounds for foreground object
+  detection.
+\newblock \emph{Image Processing, IEEE Transactions on}, 13\penalty0
+  (11):\penalty0 1459 --1472, nov. 2004.
+\newblock ISSN 1057-7149.
+\newblock \doi{10.1109/TIP.2004.836169}.
+
+\bibitem[Li and Haupt(2015)]{7035075}
+X.~Li and J.~Haupt.
+\newblock Identifying outliers in large matrices via randomized adaptive
+  compressive sampling.
+\newblock \emph{IEEE Transactions on Signal Processing}, 63\penalty0
+  (7):\penalty0 1792--1807, April 2015.
+\newblock ISSN 1053-587X.
+\newblock \doi{10.1109/TSP.2015.2401536}.
+
+\bibitem[Mackey et~al.(2011)Mackey, Jordan, and Talwalkar]{NIPS2011_4486}
+Lester~W. Mackey, Michael~I. Jordan, and Ameet Talwalkar.
+\newblock Divide-and-conquer matrix factorization.
+\newblock In J.~Shawe-Taylor, R.~S. Zemel, P.~L. Bartlett, F.~Pereira, and
+  K.~Q. Weinberger, editors, \emph{Advances in Neural Information Processing
+  Systems 24}, pages 1134--1142. Curran Associates, Inc., 2011.
+\newblock URL
+  \url{http://papers.nips.cc/paper/4486-divide-and-conquer-matrix-factorization.pdf}.
+
+\bibitem[Netrapalli et~al.(2014)Netrapalli, U~N, Sanghavi, Anandkumar, and
+  Jain]{NIPS2014_5430}
+Praneeth Netrapalli, Niranjan U~N, Sujay Sanghavi, Animashree Anandkumar, and
+  Prateek Jain.
+\newblock Non-convex robust pca.
+\newblock In Z.~Ghahramani, M.~Welling, C.~Cortes, N.~D. Lawrence, and K.~Q.
+  Weinberger, editors, \emph{Advances in Neural Information Processing Systems
+  27}, pages 1107--1115. Curran Associates, Inc., 2014.
+\newblock URL \url{http://papers.nips.cc/paper/5430-non-convex-robust-pca.pdf}.
+
+\bibitem[Park et~al.(2016)Park, Kyrillidis, Bhojanapalli, Caramanis, and
+  Sanghavi]{Park2016}
+Dohyung Park, Anastasios Kyrillidis, Srinadh Bhojanapalli, Constantine
+  Caramanis, and Sujay Sanghavi.
+\newblock Provable burer-monteiro factorization for a class of norm-constrained
+  matrix problems.
+\newblock \emph{arXiv preprint arXiv:1606.01316}, 2016.
+
+\bibitem[Park et~al.(2017)Park, Kyrillidis, Carmanis, and
+  Sanghavi]{pmlr-v54-park17a}
+Dohyung Park, Anastasios Kyrillidis, Constantine Carmanis, and Sujay Sanghavi.
+\newblock {Non-square matrix sensing without spurious local minima via the
+  Burer-Monteiro approach}.
+\newblock In Aarti Singh and Jerry Zhu, editors, \emph{Proceedings of the 20th
+  International Conference on Artificial Intelligence and Statistics},
+  volume~54 of \emph{Proceedings of Machine Learning Research}, pages 65--74,
+  Fort Lauderdale, FL, USA, 20--22 Apr 2017. PMLR.
+\newblock URL \url{http://proceedings.mlr.press/v54/park17a.html}.
+
+\bibitem[Price et~al.(2006)Price, Patterson, Plenge, Weinblatt, Shadick, and
+  Reich]{Price2006}
+Alkes~L Price, Nick~J Patterson, Robert~M Plenge, Michael~E Weinblatt, Nancy~A
+  Shadick, and David Reich.
+\newblock {Principal components analysis corrects for stratification in
+  genome-wide association studies.}
+\newblock \emph{Nature genetics}, 38\penalty0 (8):\penalty0 904--909, aug 2006.
+\newblock ISSN 1061-4036 (Print).
+\newblock \doi{10.1038/ng1847}.
+
+\bibitem[Rahmani and Atia(2017)]{7809181}
+M.~Rahmani and G.~K. Atia.
+\newblock High dimensional low rank plus sparse matrix decomposition.
+\newblock \emph{IEEE Transactions on Signal Processing}, 65\penalty0
+  (8):\penalty0 2004--2019, April 2017.
+\newblock ISSN 1053-587X.
+\newblock \doi{10.1109/TSP.2017.2649482}.
+
+\bibitem[Ruhe(1974)]{ruhe1974numerical}
+A.~Ruhe.
+\newblock \emph{Numerical Computation of Principal Components when Several
+  Observations are Missing}.
+\newblock Univ., 1974.
+\newblock URL \url{https://books.google.com/books?id=CgbyjgEACAAJ}.
+
+\bibitem[Shalit et~al.(2012)Shalit, Weinshall, and
+  Chechik]{Shalit:2012:OLE:2503308.2188399}
+Uri Shalit, Daphna Weinshall, and Gal Chechik.
+\newblock Online learning in the embedded manifold of low-rank matrices.
+\newblock \emph{J. Mach. Learn. Res.}, 13\penalty0 (1):\penalty0 429--458,
+  February 2012.
+\newblock ISSN 1532-4435.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=2503308.2188399}.
+
+\bibitem[Sun et~al.(2017)Sun, Qu, and Wright]{7755794}
+J.~Sun, Q.~Qu, and J.~Wright.
+\newblock Complete dictionary recovery over the sphere i: Overview and the
+  geometric picture.
+\newblock \emph{IEEE Transactions on Information Theory}, 63\penalty0
+  (2):\penalty0 853--884, Feb 2017.
+\newblock ISSN 0018-9448.
+\newblock \doi{10.1109/TIT.2016.2632162}.
+
+\bibitem[Toh and Yun(2010)]{Shen_anaccelerated}
+Kim-Chuan Toh and Sangwoon Yun.
+\newblock An accelerated proximal gradient algorithm for nuclear norm
+  regularized linear least squares problems.
+\newblock \emph{Pacific Journal of optimization}, 6\penalty0
+  (615-640):\penalty0 15, 2010.
+
+\bibitem[Tu et~al.(2016)Tu, Boczar, Simchowitz, Soltanolkotabi, and
+  Recht]{DBLP:conf/icml/TuBSSR16}
+Stephen Tu, Ross Boczar, Max Simchowitz, Mahdi Soltanolkotabi, and Ben Recht.
+\newblock Low-rank solutions of linear matrix equations via procrustes flow.
+\newblock In \emph{Proceedings of the 33nd International Conference on Machine
+  Learning, {ICML} 2016, New York City, NY, USA, June 19-24, 2016}, pages
+  964--973, 2016.
+\newblock URL \url{http://jmlr.org/proceedings/papers/v48/tu16.html}.
+
+\bibitem[Vandereycken(2013)]{Vandereycken2013}
+Bart Vandereycken.
+\newblock Low-rank matrix completion by riemannian optimization.
+\newblock \emph{SIAM Journal on Optimization}, 23\penalty0 (2):\penalty0
+  1214--1236, 2013.
+\newblock \doi{10.1137/110845768}.
+\newblock URL \url{http://dx.doi.org/10.1137/110845768}.
+
+\bibitem[Vershynin(2012)]{vershynin12}
+Roman Vershynin.
+\newblock Introduction to the non-asymptotic analysis of random matrices.
+\newblock In Yonina~C. Eldar and GittaEditors Kutyniok, editors,
+  \emph{Compressed Sensing: Theory and Practice}, pages 210--268. Cambridge
+  University Press, 2012.
+\newblock ISBN 9780511794308.
+\newblock \doi{10.1017/CBO9780511794308.006}.
+
+\bibitem[Wang et~al.(2017)Wang, Zhang, and Gu]{pmlr-v54-wang17b}
+Lingxiao Wang, Xiao Zhang, and Quanquan Gu.
+\newblock {A Unified Computational and Statistical Framework for Nonconvex
+  Low-rank Matrix Estimation}.
+\newblock In Aarti Singh and Jerry Zhu, editors, \emph{Proceedings of the 20th
+  International Conference on Artificial Intelligence and Statistics},
+  volume~54 of \emph{Proceedings of Machine Learning Research}, pages 981--990,
+  Fort Lauderdale, FL, USA, 20--22 Apr 2017. PMLR.
+\newblock URL \url{http://proceedings.mlr.press/v54/wang17b.html}.
+
+\bibitem[Wei et~al.(2016)Wei, Cai, Chan, and Leung]{doi:10.1137/15M1050525}
+Ke~Wei, Jian-Feng Cai, Tony~F. Chan, and Shingyu Leung.
+\newblock Guarantees of riemannian optimization for low rank matrix recovery.
+\newblock \emph{SIAM Journal on Matrix Analysis and Applications}, 37\penalty0
+  (3):\penalty0 1198--1222, 2016.
+\newblock \doi{10.1137/15M1050525}.
+\newblock URL \url{https://doi.org/10.1137/15M1050525}.
+
+\bibitem[Yi et~al.(2016)Yi, Park, Chen, and Caramanis]{DBLP:conf/nips/YiPCC16}
+Xinyang Yi, Dohyung Park, Yudong Chen, and Constantine Caramanis.
+\newblock Fast algorithms for robust {PCA} via gradient descent.
+\newblock In \emph{Advances in Neural Information Processing Systems 29: Annual
+  Conference on Neural Information Processing Systems 2016, December 5-10,
+  2016, Barcelona, Spain}, pages 4152--4160, 2016.
+\newblock URL
+  \url{http://papers.nips.cc/paper/6445-fast-algorithms-for-robust-pca-via-gradient-descent}.
+
+\end{thebibliography}

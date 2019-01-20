@@ -1,0 +1,248 @@
+\begin{thebibliography}{40}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Amini and Levina(2014)]{Amini2014}
+A.~Amini and E.~Levina.
+\newblock {On semidefinite relaxations for the block model}.
+\newblock Technical report, arXiv:1406.5647, 2014.
+
+\bibitem[Awasthi et~al.(2015)Awasthi, Bandeira, Charikar, Krishnaswamy, Villar,
+  and Ward]{Awasthi2015}
+P.~Awasthi, A.~Bandeira, M.~Charikar, R.~Krishnaswamy, S.~Villar, and R.~Ward.
+\newblock {Relax, no need to round: Integrality of clustering formulations}.
+\newblock In \emph{ITCS}, 2015.
+
+\bibitem[Bachoc et~al.(2012)Bachoc, Gijswijt, Schrijver, and
+  Vallentin]{Bachoc2012}
+C.~Bachoc, D.~C. Gijswijt, A.~Schrijver, and F.~Vallentin.
+\newblock {Invariant semidefinite programs}.
+\newblock In \emph{Handbook on semidefinite, conic and polynomial
+  optimization}, pages 219--269. Springer, 2012.
+
+\bibitem[Belkin and Niyogi(2003)]{Belkin2003}
+M.~Belkin and P.~Niyogi.
+\newblock {Laplacian eigenmaps for dimensionality reduction and data
+  representation}.
+\newblock \emph{Neural Computation}, 15\penalty0 (6):\penalty0 1373--1396,
+  2003.
+
+\bibitem[Boumal et~al.(2016)Boumal, Voroninski, and Bandeira]{boumal2016non}
+N.~Boumal, V.~Voroninski, and A.~Bandeira.
+\newblock {The non-convex Burer-Monteiro approach works on smooth semidefinite
+  programs}.
+\newblock In \emph{NIPS}, 2016.
+
+\bibitem[Byrd et~al.(1995)Byrd, Lu, Nocedal, and Zhu]{Byrd1995}
+R.~Byrd, P.~Lu, J.~Nocedal, and C.~Zhu.
+\newblock {A limited memory algorithm for bound constrained optimization}.
+\newblock \emph{SIAM Journal on Scientific Computing}, 16\penalty0
+  (5):\penalty0 1190--1208, 1995.
+
+\bibitem[Cho and Saul(2009)]{Cho2009}
+Y.~Cho and L.~Saul.
+\newblock {Kernel methods for deep learning}.
+\newblock \emph{NIPS}, pages 342--350, 2009.
+
+\bibitem[Clarkson(2010)]{Clarkson2010fw}
+K.~Clarkson.
+\newblock {Coresets, sparse greedy approximation, and the Frank-Wolfe
+  algorithm}.
+\newblock \emph{ACM Transactions on Algorithms}, 6\penalty0 (4):\penalty0
+  1--30, 2010.
+
+\bibitem[Cortes et~al.(2012)Cortes, Mohri, and
+  Rostamizadeh]{Cortes2012_centeredalignment}
+C.~Cortes, M.~Mohri, and A.~Rostamizadeh.
+\newblock {Algorithms for learning kernels based on centered alignment}.
+\newblock \emph{Journal of Machine Learning Research}, 13\penalty0
+  (Mar):\penalty0 795--828, 2012.
+
+\bibitem[Cristianini et~al.(2002)Cristianini, Kandola, Elisseeff, and
+  Shawe-Taylor]{Cristianini2002}
+N.~Cristianini, J.~Kandola, A.~Elisseeff, and J.~Shawe-Taylor.
+\newblock {On kernel-target alignment}.
+\newblock \emph{NIPS}, 2002.
+
+\bibitem[F{\'{e}}votte and Idier(2011)]{Fevotte2011}
+C.~F{\'{e}}votte and J.~Idier.
+\newblock {Algorithms for nonnegative matrix factorization with the
+  $\beta$-divergence}.
+\newblock \emph{Neural Computation}, 23\penalty0 (9):\penalty0 2421--2456,
+  2011.
+
+\bibitem[Frank and Wolfe(1956)]{FrankWolfe}
+M.~Frank and P.~Wolfe.
+\newblock {An algorithm for quadratic programming}.
+\newblock \emph{Naval Research Logistics Quarterly}, 3\penalty0 (1-2):\penalty0
+  95--110, 1956.
+
+\bibitem[Goldstein and Osher(2009)]{Goldstein2009}
+T.~Goldstein and S.~Osher.
+\newblock {The split Bregman method for L1-regularized problems}.
+\newblock \emph{SIAM Journal on Imaging Sciences}, 2\penalty0 (2):\penalty0
+  323--343, 2009.
+
+\bibitem[Hadsell et~al.(2006)Hadsell, Chopra, and LeCun]{Hadsell2006}
+R.~Hadsell, S.~Chopra, and Y.~LeCun.
+\newblock {Dimensionality reduction by learning an invariant mapping}.
+\newblock In \emph{CVPR}, 2006.
+
+\bibitem[Hazan(2008)]{Hazan2008sdp}
+E.~Hazan.
+\newblock {Sparse approximate solutions to semidefinite programs}.
+\newblock In \emph{LATIN}, 2008.
+
+\bibitem[Hou et~al.(2015)Hou, Whang, Gleich, and Dhillon]{Hou2015}
+Y.~Hou, J.~Whang, D.~Gleich, and I.~Dhillon.
+\newblock {Non-exhaustive, overlapping clustering via low-rank semidefinite
+  programming categories and subject descriptors}.
+\newblock In \emph{KDD}, 2015.
+
+\bibitem[Iguchi et~al.(2015)Iguchi, Mixon, Peterson, and Villar]{Iguchi2015}
+T.~Iguchi, D.~Mixon, J.~Peterson, and S.~Villar.
+\newblock {On the tightness of an SDP relaxation of k-means}.
+\newblock Technical report, arXiv:1505.04778, 2015.
+
+\bibitem[Jaggi(2013)]{Jaggi2013}
+M.~Jaggi.
+\newblock {Revisiting Frank-Wolfe: Projection-free sparse convex optimization}.
+\newblock \emph{ICML}, 2013.
+
+\bibitem[Javanmard et~al.(2015)Javanmard, Montanari, and
+  Ricci-Tersenghi]{Javanmard2016}
+A.~Javanmard, A.~Montanari, and F.~Ricci-Tersenghi.
+\newblock {Phase transitions in semidefinite relaxations}.
+\newblock Technical report, arXiv:1511.08769, 2015.
+
+\bibitem[Kaykobad(1987)]{Kaykobad1987}
+M.~Kaykobad.
+\newblock {On nonnegative factorization of matrices}.
+\newblock \emph{Linear Algebra and its Applications}, 96:\penalty0 27--33,
+  1987.
+
+\bibitem[Kulis et~al.(2007)Kulis, Surendran, and Platt]{Kulis2007}
+B.~Kulis, A.~Surendran, and J.~Platt.
+\newblock {Fast low-rank semidefinite programming for embedding and
+  clustering}.
+\newblock In \emph{AISTATS}, 2007.
+
+\bibitem[Lanckriet et~al.(2004)Lanckriet, Cristianini, Bartlett, Ghaoui, and
+  Jordan]{Lanckriet2004}
+G.~Lanckriet, N.~Cristianini, P.~Bartlett, L.~Ghaoui, and M.~Jordan.
+\newblock {Learning the kernel matrix with semidefinite programming}.
+\newblock \emph{Journal of Machine Learning Research}, 5\penalty0
+  (Jan):\penalty0 27--72, 2004.
+
+\bibitem[Lloyd(1982)]{Lloyd1982}
+S.~Lloyd.
+\newblock {Least squares quantization in PCM}.
+\newblock \emph{IEEE Transactions on Information Theory}, 28\penalty0
+  (2):\penalty0 129--137, 1982.
+
+\bibitem[Maxfield and Minc(1962)]{Maxfield1962}
+J.~Maxfield and H.~Minc.
+\newblock {On the matrix equation X' X= A}.
+\newblock \emph{Proceedings of the Edinburgh Mathematical Society (Series 2)},
+  13\penalty0 (02):\penalty0 125--129, 1962.
+
+\bibitem[Mixon et~al.(2016)Mixon, Villar, and Ward]{Mixon2016}
+D.~Mixon, S.~Villar, and R.~Ward.
+\newblock {Clustering subgaussian mixtures by semidefinite programming}.
+\newblock Technical report, arXiv:1602.06612, 2016.
+
+\bibitem[O'Donoghue et~al.(2016{\natexlab{a}})O'Donoghue, Chu, Parikh, and
+  Boyd]{ODonoghue2016}
+B.~O'Donoghue, E.~Chu, N.~Parikh, and S.~Boyd.
+\newblock {Conic optimization via operator splitting and homogeneous self-dual
+  embedding}.
+\newblock \emph{Journal of Optimization Theory and Applications}, 169\penalty0
+  (3):\penalty0 1042--1068, 2016{\natexlab{a}}.
+
+\bibitem[O'Donoghue et~al.(2016{\natexlab{b}})O'Donoghue, Chu, Parikh, and
+  Boyd]{SCSsolver}
+B.~O'Donoghue, E.~Chu, N.~Parikh, and S.~Boyd.
+\newblock {Conic optimization via operator splitting and homogeneous self-dual
+  embedding}.
+\newblock \emph{Journal of Optimization Theory and Applications}, 169\penalty0
+  (3):\penalty0 1042--1068, 2016{\natexlab{b}}.
+
+\bibitem[Pehlevan et~al.(2017)Pehlevan, Genkin, and
+  Chklovskii]{Pehlevan2017olfaction}
+C.~Pehlevan, A.~Genkin, and D.~Chklovskii.
+\newblock {A clustering neural network model of insect olfaction}.
+\newblock In \emph{Asilomar}, 2017.
+
+\bibitem[Peng and Wei(2007)]{Peng2007_sdk-kmeans}
+J.~Peng and Y.~Wei.
+\newblock {Approximating K-means-type clustering via semidefinite programming}.
+\newblock \emph{SIAM Journal on Optimization}, 18\penalty0 (1):\penalty0
+  186--205, jan 2007.
+
+\bibitem[Roweis and Saul(2000)]{Roweis2000}
+S.~Roweis and L.~Saul.
+\newblock {Nonlinear dimensionality reduction by locally linear embedding}.
+\newblock \emph{Science}, 290\penalty0 (5500), 2000.
+
+\bibitem[So and Xu(2013)]{So2013}
+W.~So and C.~Xu.
+\newblock {When does CP-rank equal rank?}
+\newblock Technical report, arXiv:1308.3193, 2013.
+
+\bibitem[Tenenbaum et~al.(2000)Tenenbaum, Silva, and Langford]{Tenenbaum2000}
+J.~Tenenbaum, V.~Silva, and J.~Langford.
+\newblock {A global geometric framework for nonlinear dimensionality
+  reduction}.
+\newblock \emph{Science}, 290\penalty0 (5500), 2000.
+
+\bibitem[Tepper and Sapiro(2014)]{Tepper2014consensus}
+M.~Tepper and G.~Sapiro.
+\newblock {A bi-clustering framework for consensus problems}.
+\newblock \emph{SIAM Journal on Imaging Sciences}, 7\penalty0 (4):\penalty0
+  2488--2525, 2014.
+
+\bibitem[Tepper and Sapiro(2016)]{tepper2016compressed}
+M.~Tepper and G.~Sapiro.
+\newblock {Compressed nonnegative matrix factorization is fast and accurate}.
+\newblock \emph{IEEE Transactions on Signal Processing}, 64\penalty0
+  (9):\penalty0 2269--2283, 2016.
+
+\bibitem[Weinberger and Saul(2006)]{Weinberger2006}
+K.~Weinberger and L.~Saul.
+\newblock {An introduction to nonlinear dimensionality reduction by maximum
+  variance unfolding}.
+\newblock \emph{AAAI}, 2006.
+
+\bibitem[Weiss et~al.(2008)Weiss, Torralba, and Fergus]{Weiss2008}
+Y.~Weiss, A.~Torralba, and R.~Fergus.
+\newblock {Spectral hashing}.
+\newblock \emph{NIPS}, 2008.
+
+\bibitem[Xu et~al.(2012)Xu, Yin, Wen, and Zhang]{xu2012nmf}
+Y.~Xu, W.~Yin, Z.~Wen, and Y.~Zhang.
+\newblock {An alternating direction algorithm for matrix completion with
+  nonnegative factors}.
+\newblock \emph{Front. Math. China}, 7\penalty0 (2):\penalty0 365--384, 2012.
+
+\bibitem[Yang et~al.(2015)Yang, Sun, and Toh]{sdpnalplus}
+L.~Yang, D.~Sun, and K.~C. Toh.
+\newblock {SDPNAL+: A majorized semismooth Newton-CG augmented Lagrangian
+  method for semidefinite programming with nonnegative constraints}.
+\newblock \emph{Mathematical Programming Computation}, 7\penalty0 (3):\penalty0
+  331--366, 2015.
+
+\bibitem[Yu et~al.(2012)Yu, Neufeld, Kiros, Zhang, and
+  Schuurmans]{Yu2012regularizers}
+Y.~Yu, J.~Neufeld, R.~Kiros, X.~Zhang, and D.~Schuurmans.
+\newblock {Regularizers versus losses for nonlinear dimensionality reduction}.
+\newblock In \emph{ICML}, 2012.
+
+\bibitem[Zhang et~al.(2012)Zhang, Ren, and Zhang]{Zhang2012}
+P.~Zhang, Y.~Ren, and B.~Zhang.
+\newblock {A new embedding quality assessment method for manifold learning}.
+\newblock \emph{Neurocomputing}, 97:\penalty0 251--266, 2012.
+
+\end{thebibliography}

@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.3}{Algorithm}{}% 2
+\BOOKMARK [1][-]{section.10}{Derivation of the Proposed Algorithms}{}% 3
+\BOOKMARK [2][-]{subsection.11}{Manifold optimization}{section.10}% 4
+\BOOKMARK [2][-]{subsection.14}{The geometry of the manifold of low-rank matrices}{section.10}% 5
+\BOOKMARK [2][-]{subsection.19}{Derivation of the proposed algorithms}{section.10}% 6
+\BOOKMARK [3][-]{subsubsection.20}{Derivation of Algorithm 1}{subsection.19}% 7
+\BOOKMARK [3][-]{subsubsection.25}{Derivation of Algorithm 2}{subsection.19}% 8
+\BOOKMARK [3][-]{subsubsection.26}{Basic convergence properties of Algorithms 1 and 2}{subsection.19}% 9
+\BOOKMARK [2][-]{subsection.27}{Prior works on manifold optimization}{section.10}% 10
+\BOOKMARK [1][-]{section.28}{Theoretical Analysis}{}% 11
+\BOOKMARK [2][-]{subsection.33}{Analysis of Algorithm 1}{section.28}% 12
+\BOOKMARK [2][-]{subsection.40}{Analysis of Algorithm 2}{section.28}% 13
+\BOOKMARK [2][-]{subsection.47}{Comparison with Alternating Gradient Descent}{section.28}% 14
+\BOOKMARK [2][-]{subsection.54}{Comparison with other robust PCA algorithms}{section.28}% 15
+\BOOKMARK [1][-]{section.56}{Simulations}{}% 16
+\BOOKMARK [2][-]{subsection.57}{Choice of parameters}{section.56}% 17
+\BOOKMARK [2][-]{subsection.60}{Performance of the proposed algorithm}{section.56}% 18
+\BOOKMARK [2][-]{subsection.62}{Comparison with other robust PCA algorithms}{section.56}% 19
+\BOOKMARK [1][-]{section.68}{Conclusion}{}% 20

@@ -1,0 +1,28 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.7}{Basic descent method}{}% 2
+\BOOKMARK [1][-]{section.15}{Distributed training}{}% 3
+\BOOKMARK [2][-]{subsection.17}{Our approach}{section.15}% 4
+\BOOKMARK [2][-]{subsection.19}{Choosing p}{section.15}% 5
+\BOOKMARK [2][-]{subsection.26}{Convergence theory}{section.15}% 6
+\BOOKMARK [2][-]{subsection.28}{Practical implementation.}{section.15}% 7
+\BOOKMARK [2][-]{subsection.32}{Connections with parallel SGD}{section.15}% 8
+\BOOKMARK [2][-]{subsection.37}{Computation-Communication tradeoff}{section.15}% 9
+\BOOKMARK [1][-]{section.39}{Experiments}{}% 10
+\BOOKMARK [2][-]{subsection.40}{Experimental Setup}{section.39}% 11
+\BOOKMARK [2][-]{subsection.46}{Methods for comparison}{section.39}% 12
+\BOOKMARK [2][-]{subsection.47}{Study of TERA}{section.39}% 13
+\BOOKMARK [2][-]{subsection.53}{Study of ADMM}{section.39}% 14
+\BOOKMARK [2][-]{subsection.58}{Study of CoCoA}{section.39}% 15
+\BOOKMARK [2][-]{subsection.65}{Study of DANE}{section.39}% 16
+\BOOKMARK [2][-]{subsection.66}{Study of FADL}{section.39}% 17
+\BOOKMARK [2][-]{subsection.71}{Comparison of FADL against DiSCO}{section.39}% 18
+\BOOKMARK [2][-]{subsection.72}{Comparison of FADL against TERA, ADMM, CoCoA and DANE}{section.39}% 19
+\BOOKMARK [3][-]{subsubsection.76}{Rate of Convergence}{subsection.72}% 20
+\BOOKMARK [3][-]{subsubsection.100}{Time Taken}{subsection.72}% 21
+\BOOKMARK [3][-]{subsubsection.115}{Relative performance of the methods}{subsection.72}% 22
+\BOOKMARK [3][-]{subsubsection.130}{Speed-up as a function of P}{subsection.72}% 23
+\BOOKMARK [3][-]{subsubsection.133}{Computation and Communication Costs}{subsection.72}% 24
+\BOOKMARK [2][-]{subsection.137}{Experiment on a much larger dataset}{section.39}% 25
+\BOOKMARK [2][-]{subsection.143}{Summary}{section.39}% 26
+\BOOKMARK [1][-]{section.144}{Discussion}{}% 27
+\BOOKMARK [1][-]{section.146}{Conclusion}{}% 28

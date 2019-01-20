@@ -1,0 +1,280 @@
+\begin{thebibliography}{46}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bartlett and Mendelson(2003)]{Bartlett02a}
+P.~L. Bartlett and S.~Mendelson.
+\newblock {R}ademacher and {G}aussian complexities: Risk bounds and structural
+  results.
+\newblock \emph{Journal of Machine Learning Research}, 3:\penalty0 463--482,
+  2003.
+
+\bibitem[Cai et~al.(2010)Cai, Cand\`{e}s, and Shen]{Cai10a}
+J.-F. Cai, E.~J. Cand\`{e}s, and Z.~Shen.
+\newblock A singular value thresholding algorithm for matrix completion.
+\newblock \emph{Society for Industrial and Applied Mathematics}, 20\penalty0
+  (4):\penalty0 1956--1982, 2010.
+
+\bibitem[Cand\`{e}s and Plan(2010)]{EC10b}
+E.~J. Cand\`{e}s and Y.~Plan.
+\newblock Matrix completion with noise.
+\newblock \emph{Proceedings of the IEEE}, 98\penalty0 (6):\penalty0 925--936,
+  2010.
+
+\bibitem[Cand\`{e}s and Recht(2012)]{Candes12a}
+E.~J. Cand\`{e}s and B.~Recht.
+\newblock Exact matrix completion via convex optimization.
+\newblock \emph{Communications of the ACM}, 55\penalty0 (6):\penalty0 111--119,
+  2012.
+
+\bibitem[Cand\`{e}s and Tao(2009)]{Candes09a}
+E.~J. Cand\`{e}s and T.~Tao.
+\newblock The power of convex relaxation: Near-optimal matrix completion.
+\newblock \emph{IEEE Transaction of Information Theory}, 56\penalty0
+  (5):\penalty0 2053--2080, 2009.
+
+\bibitem[Cand\`{e}s et~al.(2011)Cand\`{e}s, Li, Ma, and Wright]{Candes11a}
+E.~J. Cand\`{e}s, X.~Li, Y.~Ma, and J.~Wright.
+\newblock Robust principal component analysis?
+\newblock \emph{Journal of ACM}, 58\penalty0 (3):\penalty0 11:1--11:37, 2011.
+
+\bibitem[Chandrasekaran et~al.(2011)Chandrasekaran, Sanghavi, Parrilo, and
+  Willsky]{VC11a}
+V.~Chandrasekaran, S.~Sanghavi, P.~A. Parrilo, and A.~S. Willsky.
+\newblock Rank-sparsity incoherence for matrix decomposition.
+\newblock \emph{SIAM Journal on Optimization}, 21\penalty0 (2), 2011.
+
+\bibitem[Chen et~al.(2012)Chen, Zhang, Lu, Chen, Zheng, and Yu]{Chen12a}
+T.~Chen, W.~Zhang, Q.~Lu, K.~Chen, Z.~Zheng, and Y.~Yu.
+\newblock {SVDFeature}: A toolkit for feature-based collaborative filtering.
+\newblock \emph{Journal of Machine Learning Research}, 13:\penalty0 3619--3622,
+  2012.
+
+\bibitem[Chen et~al.(2013)Chen, Jalali, Sanghavi, and Caramanis]{Chen13a}
+Y.~Chen, A.~Jalali, S.~Sanghavi, and C.~Caramanis.
+\newblock Low-rank matrix recovery from errors and erasures.
+\newblock \emph{IEEE Transaction of Information Theory}, 59\penalty0
+  (7):\penalty0 4324--4337, 2013.
+
+\bibitem[Chen et~al.(2014)Chen, Jalali, Sanghavi, and Xu]{Chen14a}
+Y.~Chen, A.~Jalali, S.~Sanghavi, and H.~Xu.
+\newblock Clustering partially observed graphs via convex optimization.
+\newblock \emph{Journal of Machine Learning Research}, 15\penalty0
+  (1):\penalty0 2213--2238, 2014.
+
+\bibitem[Chiang et~al.(2014)Chiang, Hsieh, Natarajan, Dhillon, and
+  Tewari]{Chiang14a}
+K.-Y. Chiang, C.-J. Hsieh, N.~Natarajan, I.~S. Dhillon, and A.~Tewari.
+\newblock Prediction and clustering in signed networks: A local to global
+  perspective.
+\newblock \emph{Journal of Machine Learning Research}, 15:\penalty0 1177--1213,
+  2014.
+
+\bibitem[Chiang et~al.(2015)Chiang, Hsieh, and Dhillon]{Chiang15a}
+K.-Y. Chiang, C.-J. Hsieh, and I.~S. Dhillon.
+\newblock Matrix completion with noisy side information.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2015.
+
+\bibitem[Chiang et~al.(2016)Chiang, Hsieh, and Dhillon]{Chiang16a}
+K.-Y. Chiang, C.-J. Hsieh, and I.~S. Dhillon.
+\newblock Robust principal component analysis with side information.
+\newblock In \emph{International Conference on Machine Learning}, 2016.
+
+\bibitem[Davis et~al.(2007)Davis, Kulis, Jain, Sra, and Dhillon]{Davis07a}
+J.~V. Davis, B.~Kulis, P.~Jain, S.~Sra, and I.~S. Dhillon.
+\newblock Information-theoretic metric learning.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  209--216, 2007.
+
+\bibitem[Fazel et~al.(2001)Fazel, Hindi, and Boyd]{Fazel01a}
+M.~Fazel, H.~Hindi, and S.~P. Boyd.
+\newblock A rank minimization heuristic with application to minimum order
+  system approximation.
+\newblock In \emph{American Control Conference}, volume~6, pages 4734--4739,
+  2001.
+
+\bibitem[Ha and Barber(2015)]{Ha15a}
+W.~Ha and R.~F. Barber.
+\newblock Robust {P}{C}{A} with compressed data.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2015.
+
+\bibitem[Hotelling(1933)]{Harold33a}
+H.~Hotelling.
+\newblock Analysis of a complex of statistical variables into principal
+  components.
+\newblock \emph{Journal of Educational Psychology}, 24\penalty0 (6):\penalty0
+  417--441, 1933.
+
+\bibitem[Hsieh and Olsan(2014)]{Hsieh14a}
+C.-J. Hsieh and P.~A. Olsan.
+\newblock Nuclear norm minimization via active subspace selection.
+\newblock In \emph{International Conference on Machine Learning}, 2014.
+
+\bibitem[Hsieh et~al.(2012)Hsieh, Chiang, and Dhillon]{Hsieh12a}
+C.-J. Hsieh, K.-Y. Chiang, and I.~S. Dhillon.
+\newblock Low rank modeling of signed networks.
+\newblock In \emph{International Conference on Knowledge Discovery and Data
+  Mining}, pages 507--515, 2012.
+
+\bibitem[Hsieh et~al.(2015)Hsieh, Natarajan, and Dhillon]{Hsieh15a}
+C.-J. Hsieh, N.~Natarajan, and I.~S. Dhillon.
+\newblock {P}{U} learning for matrix completion.
+\newblock In \emph{International Conference on Machine Learning}, 2015.
+
+\bibitem[Jain and Dhillon(2013)]{Jain13b}
+P.~Jain and I.~S. Dhillon.
+\newblock Provable inductive matrix completion.
+\newblock \emph{CoRR}, abs/1306.0626, 2013.
+
+\bibitem[Jain et~al.(2013)Jain, Netrapalli, and Sanghavi]{Jain13a}
+P.~Jain, P.~Netrapalli, and S.~Sanghavi.
+\newblock Low-rank matrix completion using alternating minimization.
+\newblock In \emph{Symposium on Theory of Computing}, pages 665--674, 2013.
+
+\bibitem[Kakade et~al.(2008)Kakade, Sridharan, and Tewari]{SK08a}
+S.~M. Kakade, K.~Sridharan, and A.~Tewari.
+\newblock On the complexity of linear prediction: Risk bounds, margin bounds,
+  and regularization.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  793 -- 800, 2008.
+
+\bibitem[Keshavan et~al.(2010)Keshavan, Montanari, and Oh]{RK10a}
+R.~H. Keshavan, A.~Montanari, and S.~Oh.
+\newblock Matrix completion from noisy entries.
+\newblock \emph{Journal of Machine Learning Research}, 11:\penalty0 2057--2078,
+  2010.
+
+\bibitem[Koren et~al.(2009)Koren, Bell, and Volinsky]{Koren09a}
+Y.~Koren, R.~M. Bell, and C.~Volinsky.
+\newblock Matrix factorization techniques for recommender systems.
+\newblock \emph{IEEE Computer}, 42:\penalty0 30--37, 2009.
+
+\bibitem[Leskovec et~al.(2010)Leskovec, Huttenlocher, and
+  Kleinberg]{Leskovec10a}
+J.~Leskovec, D.~Huttenlocher, and J.~Kleinberg.
+\newblock Predicting positive and negative links in online social networks.
+\newblock In \emph{International Conference on World Wide Web}, pages 641--650,
+  2010.
+
+\bibitem[Li and Liu(2009)]{Li09a}
+Z.~Li and J.~Liu.
+\newblock Constrained clustering by spectral kernel learning.
+\newblock In \emph{International Conference on Computer Vision}, 2009.
+
+\bibitem[Liben-Nowell and Kleinberg(2007)]{Nowell07a}
+D.~Liben-Nowell and J.~Kleinberg.
+\newblock The link-prediction problem for social networks.
+\newblock \emph{J. Am. Soc. Inf. Sci. Technol.}, 58\penalty0 (7):\penalty0
+  1019--1031, 2007.
+
+\bibitem[Liu et~al.(2010)Liu, Lin, and Yu]{Liu10a}
+G.~Liu, Z.~Lin, and Y.~Yu.
+\newblock Robust subspace segmentation by low-rank representation.
+\newblock In \emph{International Conference on Machine Learning}, 2010.
+
+\bibitem[Liu et~al.(2013)Liu, Lin, Yan, Sun, Yu, and Ma]{Liu13a}
+G.~Liu, Z.~Lin, S.~Yan, J.~Sun, Y.~Yu, and Y.~Ma.
+\newblock Robust recovery of subspace structures by low-rank representation.
+\newblock \emph{IEEE Transactions on Pattern Aanalysis and Machine
+  Intelligence}, 35\penalty0 (1):\penalty0 171--184, 2013.
+
+\bibitem[Massa and Avesani(2006)]{Massa06a}
+P.~Massa and P.~Avesani.
+\newblock Trust-aware bootstrapping of recommender systems.
+\newblock In \emph{ECAI Workshop on Recommender Systems}, pages 29--33, 2006.
+
+\bibitem[Meir and Zhang(2003)]{RM03a}
+R.~Meir and T.~Zhang.
+\newblock Generalization error bounds for bayesian mixture algorithms.
+\newblock \emph{Journal of Machine Learning Research}, 4:\penalty0 839--860,
+  2003.
+
+\bibitem[Menon and Elkan(2011)]{Menon11a}
+A.~K. Menon and C.~Elkan.
+\newblock Link prediction via matrix factorization.
+\newblock \emph{European Conference on Machine Learning and Knowledge Discovery
+  in Databases}, pages 437--452, 2011.
+
+\bibitem[Natarajan and Dhillon(2014)]{Natarajan14a}
+N.~Natarajan and I.~S. Dhillon.
+\newblock Inductive matrix completion for predicting gene-disease associations.
+\newblock \emph{Bioinformatics}, 30\penalty0 (12):\penalty0 60--68, 2014.
+
+\bibitem[Negahban and Wainwright(2012)]{SN12a}
+S.~Negahban and M.~J. Wainwright.
+\newblock Restricted strong convexity and weighted matrix completion: Optimal
+  bounds with noise.
+\newblock \emph{Journal of Machine Learning Research}, 13\penalty0
+  (1):\penalty0 1665--1697, 2012.
+
+\bibitem[Recht(2011)]{Recht11a}
+B.~Recht.
+\newblock A simpler approach to matrix completion.
+\newblock \emph{Journal of Machine Learning Research}, 12:\penalty0 3413--3430,
+  2011.
+
+\bibitem[Shamir and Shalev-Shwartz(2014)]{Shamir14a}
+O.~Shamir and S.~Shalev-Shwartz.
+\newblock Matrix completion with the trace norm: Learning, bounding, and
+  transducing.
+\newblock \emph{Journal of Machine Learning Research}, 15\penalty0
+  (1):\penalty0 3401--3423, 2014.
+
+\bibitem[Shin et~al.(2015)Shin, Cetintas, Lee, and Dhillon]{Shin15a}
+D.~Shin, S.~Cetintas, K.-C. Lee, and I.~S. Dhillon.
+\newblock Tumblr blog recommendation with boosted inductive matrix completion.
+\newblock In \emph{International Conference on Information and Knowledge
+  Management}, pages 203--212, 2015.
+
+\bibitem[Srebro and Shraibman(2005)]{Srebro05a}
+N.~Srebro and A.~Shraibman.
+\newblock Rank, trace-norm and max-norm.
+\newblock In \emph{Annual Conference on Learning Theory}, pages 545--560, 2005.
+
+\bibitem[Tseng(2001)]{tseng2001convergence}
+Paul Tseng.
+\newblock Convergence of a block coordinate descent method for
+  nondifferentiable minimization.
+\newblock \emph{Journal of optimization theory and applications}, 109\penalty0
+  (3):\penalty0 475--494, 2001.
+
+\bibitem[Turk and Pentland(1991)]{MT91a}
+M.~Turk and A.~Pentland.
+\newblock Eigenfaces for recognition.
+\newblock \emph{Journal of Cognitive Neuroscience}, 3\penalty0 (1):\penalty0
+  71--86, 1991.
+
+\bibitem[Wright et~al.(2009)Wright, Ganesh, Rao, Peng, and Ma]{Wright09a}
+J.~Wright, A.~Ganesh, S.~Rao, Y.~Peng, and Y.~Ma.
+\newblock Robust principal component analysis: Exact recovery of corrupted
+  low-rank matrices via convex optimization.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2009.
+
+\bibitem[Xu et~al.(2010)Xu, Caramanis, and Sanghavi]{Xu10a}
+H.~Xu, C.~Caramanis, and S.~Sanghavi.
+\newblock Robust {P}{C}{A} via outlier pursuit.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  2496--2504, 2010.
+
+\bibitem[Xu et~al.(2013)Xu, Jin, and Zhou]{Xu13a}
+M.~Xu, R.~Jin, and Z.-H. Zhou.
+\newblock Speedup matrix completion with side information: Application to
+  multi-label learning.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2013.
+
+\bibitem[Yi et~al.(2013)Yi, Zhang, Jin, Qian, and Jain]{Yi13a}
+J.~Yi, L.~Zhang, R.~Jin, Q.~Qian, and A.~Jain.
+\newblock Semi-supervised clustering by input pattern assisted pairwise
+  similarity matrix completion.
+\newblock In \emph{International Conference on Machine Learning}, 2013.
+
+\bibitem[Zhong et~al.(2015)Zhong, Jain, and Dhillon]{Zhong15a}
+K.~Zhong, P.~Jain, and I.~S. Dhillon.
+\newblock Efficient matrix sensing using rank-1 {G}aussian measurements.
+\newblock In \emph{International Conference on Algorithmic Learning Theory},
+  2015.
+
+\end{thebibliography}

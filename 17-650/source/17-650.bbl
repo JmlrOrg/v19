@@ -1,0 +1,188 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bertsekas and Tsitsiklis(1989)]{bertsekasParalle1989}
+Dimitri~P. Bertsekas and John~N. Tsitsiklis.
+\newblock \emph{Parallel and Distributed Computation: Numerical Methods}.
+\newblock Prentice Hall, 1989.
+
+\bibitem[Collobert et~al.(2002)Collobert, Bengio, and Bengio]{Covtype}
+R.~Collobert, S.~Bengio, and Y.~Bengio.
+\newblock A parallel mixture of {SVM}s for very large scale problems.
+\newblock \emph{Neural Computation}, 2002.
+
+\bibitem[De~Sa et~al.(2015)De~Sa, Zhang, Olukotun, and Ré]{taming}
+Christopher De~Sa, Ce~Zhang, Kunle Olukotun, and Christopher Ré.
+\newblock Taming the wild: A unified analysis of {Hogwild}!-style algorithms.
+\newblock In \emph{Advances in Neural Information Processing Systems 28
+  (NIPS)}, 2015.
+
+\bibitem[Defazio et~al.(2014)Defazio, Bach, and Lacoste-Julien]{SAGA}
+Aaron Defazio, Francis Bach, and Simon Lacoste-Julien.
+\newblock {SAGA}: A fast incremental gradient method with support for
+  non-strongly convex composite objectives.
+\newblock In \emph{Advances in Neural Information Processing Systems 27
+  (NIPS)}, 2014.
+
+\bibitem[Duchi et~al.(2015)Duchi, Chaturapruek, and Ré]{duchi}
+John~C. Duchi, Sorathan Chaturapruek, and Christopher Ré.
+\newblock Asynchronous stochastic convex optimization.
+\newblock In \emph{Advances in Neural Information Processing Systems 28
+  (NIPS)}, 2015.
+
+\bibitem[Hofmann et~al.(2015)Hofmann, Lucchi, Lacoste-Julien, and
+  McWilliams]{qsaga}
+Thomas Hofmann, Aurelien Lucchi, Simon Lacoste-Julien, and Brian McWilliams.
+\newblock Variance reduced stochastic gradient descent with neighbors.
+\newblock In \emph{Advances in Neural Information Processing Systems 28
+  (NIPS)}, 2015.
+
+\bibitem[Hsieh et~al.(2015)Hsieh, Yu, and Dhillon]{asyncSDCA2015}
+Cho-Jui Hsieh, Hsiang-Fu Yu, and Inderjit Dhillon.
+\newblock {PASSCoDe}: Parallel asynchronous stochastic dual co-ordinate
+  descent.
+\newblock In \emph{Proceedings of the $32^{nd}$ International Conference on
+  Machine Learning (ICML)}, 2015.
+
+\bibitem[Johnson and Zhang(2013)]{svrg}
+Rie Johnson and Tong Zhang.
+\newblock Accelerating stochastic gradient descent using predictive variance
+  reduction.
+\newblock In \emph{Advances in Neural Information Processing Systems 26
+  (NIPS)}, 2013.
+
+\bibitem[Kone{\v{c}}n{\'y} and Richt{\'a}rik(2013)]{s2gd}
+Jakub Kone{\v{c}}n{\'y} and Peter Richt{\'a}rik.
+\newblock Semi-stochastic gradient descent methods.
+\newblock \emph{arXiv:1312.1666}, 2013.
+
+\bibitem[{Le Roux} et~al.(2012){Le Roux}, Schmidt, and Bach]{SAG}
+Nicolas {Le Roux}, Mark Schmidt, and Francis Bach.
+\newblock A stochastic gradient method with an exponential convergence rate for
+  finite training sets.
+\newblock In \emph{Advances in Neural Information Processing Systems 25
+  (NIPS)}, 2012.
+
+\bibitem[Leblond et~al.(2017)Leblond, Pedregosa, and
+  Lacoste-Julien]{leblond2016Asaga}
+R\'emi Leblond, Fabian Pedregosa, and Simon Lacoste-Julien.
+\newblock {ASAGA}: Asynchronous parallel {SAGA}.
+\newblock In \emph{Proceedings of the $20^{th}$ International Conference on
+  Artificial Intelligence and Statistics (AISTATS)}, 2017.
+
+\bibitem[Lewis et~al.(2004)Lewis, Yang, Rose, and Li]{RCV1}
+David~D Lewis, Yiming Yang, Tony~G Rose, and Fan Li.
+\newblock {RCV1}: A new benchmark collection for text categorization research.
+\newblock \emph{Journal of Machine Learning Research}, 2004.
+
+\bibitem[Lian et~al.(2015)Lian, Huang, Li, and Liu]{asyncSGDNonConvex2015}
+Xiangru Lian, Yijun Huang, Yuncheng Li, and Ji~Liu.
+\newblock Asynchronous parallel stochastic gradient for nonconvex optimization.
+\newblock In \emph{Advances in Neural Information Processing Systems 28
+  (NIPS)}, 2015.
+
+\bibitem[Liu et~al.(2015)Liu, Wright, R{{\'e}}, Bittorf, and
+  Sridhar]{asyncCD2015}
+Ji~Liu, Stephen~J. Wright, Christopher R{{\'e}}, Victor Bittorf, and Srikrishna
+  Sridhar.
+\newblock An asynchronous parallel stochastic coordinate descent algorithm.
+\newblock \emph{Journal of Machine Learning Research}, 2015.
+
+\bibitem[Ma et~al.(2015)Ma, Smith, Jaggi, Jordan, Richtarik, and Takac]{cocoa}
+Chenxin Ma, Virginia Smith, Martin Jaggi, Michael~I. Jordan, Peter Richtarik,
+  and Martin Takac.
+\newblock Adding vs. averaging in distributed primal-dual optimization.
+\newblock In \emph{Proceedings of the $32^{nd}$ International Conference on
+  Machine Learning (ICML)}, 2015.
+
+\bibitem[Ma et~al.(2009)Ma, Saul, Savage, and Voelker]{URL}
+Justin Ma, Lawrence~K. Saul, Stefan Savage, and Geoffrey~M. Voelker.
+\newblock Identifying suspicious {URLs}: an application of large-scale online
+  learning.
+\newblock In \emph{Proceedings of the $26^{th}$ International Conference on
+  Machine Learning (ICML)}, 2009.
+
+\bibitem[Mania et~al.(2017)Mania, Pan, Papailiopoulos, Recht, Ramchandran, and
+  Jordan]{mania}
+Horia Mania, Xinghao Pan, Dimitris Papailiopoulos, Benjamin Recht, Kannan
+  Ramchandran, and Michael~I. Jordan.
+\newblock Perturbed iterate analysis for asynchronous stochastic optimization.
+\newblock \emph{SIAM Journal on Optimization}, 2017.
+
+\bibitem[Moulines and Bach(2011)]{bachandm}
+Eric Moulines and Francis~R. Bach.
+\newblock Non-asymptotic analysis of stochastic approximation algorithms for
+  machine learning.
+\newblock In \emph{Advances in Neural Information Processing Systems 24
+  (NIPS)}, 2011.
+
+\bibitem[Needell et~al.(2014)Needell, Ward, and Srebro]{srebro}
+Deanna Needell, Rachel Ward, and Nati Srebro.
+\newblock Stochastic gradient descent, weighted sampling, and the randomized
+  {K}aczmarz algorithm.
+\newblock In \emph{Advances in Neural Information Processing Systems 27
+  (NIPS)}, 2014.
+
+\bibitem[Niu et~al.(2011)Niu, Recht, Re, and Wright]{hogwild}
+Feng Niu, Benjamin Recht, Christopher Re, and Stephen Wright.
+\newblock Hogwild: A lock-free approach to parallelizing stochastic gradient
+  descent.
+\newblock In \emph{Advances in Neural Information Processing Systems 24
+  (NIPS)}, 2011.
+
+\bibitem[Pan et~al.(2016)Pan, Lam, Tu, Papailiopoulos, Zhang, Jordan,
+  Ramchandran, Re, and Recht]{cyclades}
+Xinghao Pan, Maximilian Lam, Stephen Tu, Dimitris Papailiopoulos, Ce~Zhang,
+  Michael~I. Jordan, Kannan Ramchandran, Chris Re, and Benjamin Recht.
+\newblock Cyclades: Conflict-free asynchronous machine learning.
+\newblock In \emph{Advances in Neural Information Processing Systems 29
+  (NIPS)}, 2016.
+
+\bibitem[Pedregosa et~al.(2017)Pedregosa, Leblond, and
+  Lacoste-Julien]{pedregosa2017maga}
+Fabian Pedregosa, R\'emi Leblond, and Simon Lacoste-Julien.
+\newblock Breaking the nonsmooth barrier: A scalable parallel method for
+  composite optimization.
+\newblock In \emph{Advances in Neural Information Processing Systems 30
+  (NIPS)}, 2017.
+
+\bibitem[Reddi et~al.(2015)Reddi, Hefny, Sra, Póczos, and Smola]{smola}
+Sashank~J. Reddi, Ahmed Hefny, Suvrit Sra, Barnabás Póczos, and Alex Smola.
+\newblock On variance reduction in stochastic gradient descent and its
+  asynchronous variants.
+\newblock In \emph{Advances in Neural Information Processing Systems 28
+  (NIPS)}, 2015.
+
+\bibitem[Reddi et~al.(2016)Reddi, Hefny, Sra, P\'ocz\'os, and Smola]{nonconvex}
+Sashank~J. Reddi, Ahmed Hefny, Suvrit Sra, Barnab\'as P\'ocz\'os, and Alex
+  Smola.
+\newblock Stochastic variance reduction for nonconvex optimization.
+\newblock In \emph{Proceedings of the $33^{rd}$ International Conference on
+  Machine Learning (ICML)}, 2016.
+
+\bibitem[Schmidt et~al.(2016)Schmidt, Le~Roux, and Bach]{laggedsaga}
+M.~Schmidt, N.~Le~Roux, and F.~Bach.
+\newblock Minimizing finite sums with the stochastic average gradient.
+\newblock \emph{Mathematical Programming}, 2016.
+
+\bibitem[Schmidt(2014)]{schmidt2014sgd}
+Mark Schmidt.
+\newblock Convergence rate of stochastic gradient with constant step size.
+\newblock \emph{UBC Technical Report}, 2014.
+
+\bibitem[Shalev-Shwartz and Zhang(2013)]{SDCA}
+Shai Shalev-Shwartz and Tong Zhang.
+\newblock Stochastic dual coordinate ascent methods for regularized loss.
+\newblock \emph{Journal of Machine Learning Research}, 2013.
+
+\bibitem[Zhao and Li(2016)]{asySVRG}
+Shen-Yi Zhao and Wu-Jun Li.
+\newblock Fast asynchronous parallel stochastic gradient descent.
+\newblock In \emph{Proceedings of the $30^{th}$ AAAI Conference on Artificial
+  Intelligence}, 2016.
+
+\end{thebibliography}

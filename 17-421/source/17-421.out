@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Optimization Framework}{}% 2
+\BOOKMARK [1][-]{section.7}{Model and Theoretical Results}{}% 3
+\BOOKMARK [2][-]{subsection.8}{Model and Assumptions}{section.7}% 4
+\BOOKMARK [2][-]{subsection.17}{Main Theoretical Results}{section.7}% 5
+\BOOKMARK [1][-]{section.34}{Consequences}{}% 6
+\BOOKMARK [2][-]{subsection.35}{Semi-Supervised Learning beyond Two Classes}{section.34}% 7
+\BOOKMARK [2][-]{subsection.37}{Choice of f and Suboptimality of the Heat Kernel}{section.34}% 8
+\BOOKMARK [2][-]{subsection.41}{Impact of Class Sizes}{section.34}% 9
+\BOOKMARK [1][-]{section.44}{Parameter Optimization in Practice}{}% 10
+\BOOKMARK [2][-]{subsection.45}{Estimation of }{section.44}% 11
+\BOOKMARK [2][-]{subsection.47}{Optimization of }{section.44}% 12
+\BOOKMARK [1][-]{section.58}{Concluding Remarks}{}% 13
+\BOOKMARK [1][-]{section.59}{Preliminaries}{}% 14
+\BOOKMARK [1][-]{section.66}{Proof of Theorems 5}{}% 15
+\BOOKMARK [2][-]{subsection.67}{Step 1: Taylor expansion}{section.66}% 16
+\BOOKMARK [2][-]{subsection.71}{Step 2: Central limit theorem}{section.66}% 17

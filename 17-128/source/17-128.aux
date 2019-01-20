@@ -1,0 +1,82 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{plainnat}
+\citation{Holland1983Stochastic,Latouche2011Overlapping,Airoldi2008Mixed,PhysRevE.83.016107}
+\citation{Young2007}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\citation{lehoucqarpack}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Notation}{2}{subsection.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}\texttt  {fastRG}}{2}{section.3}}
+\newlabel{fastRG}{{2}{2}{}{section.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Restrictions on the matrix $X$ create different types of well known low rank models. There are further differences between these models that are not emphasized by this table.}}{2}{table.5}}
+\newlabel{tab:blockmodels}{{1}{2}{Restrictions on the matrix $X$ create different types of well known low rank models. There are further differences between these models that are not emphasized by this table}{table.5}{}}
+\citation{crane2016edge,cai2016edge,NIPS2016_6521,2016arXiv160202114T}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces \texttt  {fastRG}($X,S,Y$)}}{3}{algorithm.6}}
+\newlabel{theorem:xlr}{{1}{3}{}{theorem.7}{}}
+\citation{crane2016edge}
+\citation{crane2016edge}
+\citation{Young2007}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}\texttt  {fastRG} samples from xlr: a class of edge-exchangeable random graphs}{4}{subsection.8}}
+\newlabel{sec:xlr}{{2.1}{4}{}{subsection.8}{}}
+\newlabel{def:xlr}{{2}{4}{}{theorem.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}\texttt  {fastRG} samples from a generalization of the RDPG}{4}{subsection.13}}
+\newlabel{gRPG}{{2.2}{4}{}{subsection.13}{}}
+\newlabel{def:gRPG}{{3}{4}{}{theorem.14}{}}
+\newlabel{theoremRDPG}{{4}{5}{}{theorem.15}{}}
+\newlabel{remark:undirected}{{5}{5}{Simulating an undirected graph}{theorem.16}{}}
+\newlabel{remark:selfloops}{{6}{5}{Simulating a graph without self-loops}{theorem.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Approximate Bernoulli-edges}{5}{subsection.18}}
+\newlabel{approximate}{{2.3}{5}{}{subsection.18}{}}
+\newlabel{theoremThresh}{{7}{5}{}{theorem.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Implementation of \texttt  {fastRG}}{6}{subsection.23}}
+\newlabel{sec:implementation}{{2.4}{6}{}{subsection.23}{}}
+\citation{walker1977efficient}
+\citation{vose1991linear}
+\citation{hagberg2015fast}
+\citation{hagberg2015fast}
+\citation{hagberg2015fast}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Experiments}{7}{section.24}}
+\newlabel{simulation}{{3}{7}{}{section.24}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Running time of \texttt  {fastRG} on large and sparse graphs}{7}{subsection.25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Comparison to a previous technique}{7}{subsection.30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Both plots present the same experimental data. In the left plot, each line corresponds to a different value of $n$ and they are presented as a function of $E(m)$. In the right plot, each line corresponds to a different value of $E(m)$ and they are presented as a function of $n$. On the right side of both plots, the lines start to align with the solid black line, suggesting a linear dependence on $E(m)$ and $n$. }}{8}{figure.29}}
+\newlabel{fig1}{{1}{8}{Both plots present the same experimental data. In the left plot, each line corresponds to a different value of $n$ and they are presented as a function of $E(m)$. In the right plot, each line corresponds to a different value of $E(m)$ and they are presented as a function of $n$. On the right side of both plots, the lines start to align with the solid black line, suggesting a linear dependence on $E(m)$ and $n$}{figure.29}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Simulating small and dense graphs with \texttt  {fastRG}}{8}{subsection.33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces As the number of nodes increases (horizontal axis), all of the running times increase in parallel to the solid blue line which gives the rate $O(n \qopname  \relax o{log}n)$. The bottom three lines all correspond to \texttt  {fastRG}, outputting three different graph types (edge list, sparse adjacency matrix, and igraph). For example, in roughly 8 seconds, $fast$-$\kappa $ generates a graph with 20k nodes and \texttt  {fastRG} generates an igraph with 1M nodes. To generate the random edge list on 1M nodes with \texttt  {fastRG} takes less than 1 second}}{9}{figure.32}}
+\newlabel{fig:compare}{{2}{9}{As the number of nodes increases (horizontal axis), all of the running times increase in parallel to the solid blue line which gives the rate $O(n \log n)$. The bottom three lines all correspond to \texttt {fastRG}, outputting three different graph types (edge list, sparse adjacency matrix, and igraph). For example, in roughly 8 seconds, $fast$-$\kappa $ generates a graph with 20k nodes and \texttt {fastRG} generates an igraph with 1M nodes. To generate the random edge list on 1M nodes with \texttt {fastRG} takes less than 1 second}{figure.32}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Proofs}{9}{section.36}}
+\newlabel{lemma1}{{8}{9}{}{theorem.37}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces This figure compares the run time of \texttt  {fastRG} to the run time of simulating each $A_{ij}$ as a Bernoulli random variable (\texttt  {denseRG} in the legend). Note that the number of edges grows quadratically with the edge density. So, as the density of the graph increases (horizontal axis), the running time of \texttt  {fastRG} grows quadratically, whereas the running time of the naive algorithm does not depend on the density of the graph. In this simulation, the crossover is around $\rho = .25$ (black line). This figure shows that even for relatively small $n$ and in the dense regime, \texttt  {fastRG} has potential to be faster than the naive approach. }}{10}{figure.35}}
+\newlabel{fig:dense}{{3}{10}{This figure compares the run time of \texttt {fastRG} to the run time of simulating each $A_{ij}$ as a Bernoulli random variable (\texttt {denseRG} in the legend). Note that the number of edges grows quadratically with the edge density. So, as the density of the graph increases (horizontal axis), the running time of \texttt {fastRG} grows quadratically, whereas the running time of the naive algorithm does not depend on the density of the graph. In this simulation, the crossover is around $\rho = .25$ (black line). This figure shows that even for relatively small $n$ and in the dense regime, \texttt {fastRG} has potential to be faster than the naive approach}{figure.35}{}}
+\bibcite{Airoldi2008Mixed}{{1}{2008}{{Airoldi et~al.}}{{Airoldi, Blei, Fienberg, and Xing}}}
+\bibcite{cai2016edge}{{2}{2016}{{Cai et~al.}}{{Cai, Campbell, and Broderick}}}
+\bibcite{crane2016edge}{{3}{2016}{{Crane and Dempsey}}{{}}}
+\bibcite{hagberg2015fast}{{4}{2015}{{Hagberg and Lemons}}{{}}}
+\bibcite{NIPS2016_6521}{{5}{2016}{{Herlau et~al.}}{{Herlau, Schmidt, and M\o ~rup}}}
+\bibcite{Holland1983Stochastic}{{6}{1983}{{Holland et~al.}}{{Holland, Laskey, and Leinhardt}}}
+\bibcite{PhysRevE.83.016107}{{7}{2011}{{Karrer and Newman}}{{}}}
+\bibcite{Latouche2011Overlapping}{{8}{2011}{{Latouche and Ambroise}}{{}}}
+\bibcite{lehoucqarpack}{{9}{1995}{{Lehoucq et~al.}}{{Lehoucq, Sorensen, and Vu}}}
+\bibcite{2016arXiv160202114T}{{10}{2016}{{{Todeschini} and {Caron}}}{{}}}
+\bibcite{vose1991linear}{{11}{1991}{{Vose}}{{}}}
+\bibcite{walker1977efficient}{{12}{1977}{{Walker}}{{}}}
+\bibcite{Young2007}{{13}{2007}{{Young and Scheinerman}}{{}}}
+\newlabel{LastPage}{{}{13}{}{page.13}{}}
+\xdef\lastpage@lastpage{13}
+\xdef\lastpage@lastpageHy{13}

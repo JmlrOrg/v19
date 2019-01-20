@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.5}{Theoretical analysis of manifold learning capabilities of NOMAD}{}% 2
+\BOOKMARK [2][-]{subsection.12}{Analysis of NOMAD on a 2D ring dataset}{section.5}% 3
+\BOOKMARK [2][-]{subsection.15}{A linear program on the data manifold}{section.5}% 4
+\BOOKMARK [2][-]{subsection.21}{Lifting the ring to a high-dimensional cone}{section.5}% 5
+\BOOKMARK [1][-]{section.24}{Analyzing data manifolds with NOMAD: Experimental results}{}% 6
+\BOOKMARK [2][-]{subsection.30}{Manifold disentangling with multi-layer NOMAD}{section.24}% 7
+\BOOKMARK [2][-]{subsection.40}{Geodesic-distance preservation: NOMAD versus existing manifold learning techniques}{section.24}% 8
+\BOOKMARK [1][-]{section.41}{Heuristic non-convex solvers for large-scale NOMAD}{}% 9
+\BOOKMARK [1][-]{section.45}{A fast and convex algorithm for NOMAD}{}% 10
+\BOOKMARK [2][-]{subsection.46}{Augmented Lagrangian formulation}{section.45}% 11
+\BOOKMARK [2][-]{subsection.53}{A conditional gradient method for SDPs with an orthogonality constraint}{section.45}% 12
+\BOOKMARK [2][-]{subsection.72}{A conditional gradient algorithm for NOMAD}{section.45}% 13
+\BOOKMARK [2][-]{subsection.89}{Experimental analysis}{section.45}% 14
+\BOOKMARK [1][-]{section.94}{Conclusions}{}% 15
+\BOOKMARK [1][-]{section.97}{Relationship with K-means}{}% 16
+\BOOKMARK [1][-]{section.108}{On the complete positivity of NOMAD solutions on circulant matrices}{}% 17
+\BOOKMARK [1][-]{section.110}{Additional results}{}% 18
+\BOOKMARK [1][-]{section.114}{Symmetric NMF}{}% 19
+\BOOKMARK [1][-]{section.122}{Non-convex SDP solver}{}% 20
+\BOOKMARK [1][-]{section.128}{Proofs for the conditional gradient algorithm}{}% 21

@@ -1,0 +1,24 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.3}{Exploiting Side Information for Learning Low-Rank Matrices}{}% 2
+\BOOKMARK [2][-]{subsection.4}{Learning from Missing and Corrupted Observations}{section.3}% 3
+\BOOKMARK [2][-]{subsection.6}{Idealized Case: Perfect Side Information}{section.3}% 4
+\BOOKMARK [2][-]{subsection.10}{The Proposed Model: Exploiting Noisy Side Information}{section.3}% 5
+\BOOKMARK [3][-]{subsubsection.13}{Connections to models for matrix completion}{subsection.10}% 6
+\BOOKMARK [3][-]{subsubsection.15}{Connections to models for robust PCA}{subsection.10}% 7
+\BOOKMARK [2][-]{subsection.20}{Optimization}{section.3}% 8
+\BOOKMARK [1][-]{section.25}{Theoretical Analysis on the Effect of Side Information}{}% 9
+\BOOKMARK [2][-]{subsection.26}{Generalization Bound of the Proposed Model}{section.25}% 10
+\BOOKMARK [2][-]{subsection.34}{Sample Complexity for Matrix Completion}{section.25}% 11
+\BOOKMARK [2][-]{subsection.37}{Sample Complexity given Partial and Corrupted Observations}{section.25}% 12
+\BOOKMARK [1][-]{section.39}{Experimental Results}{}% 13
+\BOOKMARK [2][-]{subsection.47}{Synthetic Experiments}{section.39}% 14
+\BOOKMARK [3][-]{subsubsection.48}{Experiments on Matrix Completion Setting}{subsection.47}% 15
+\BOOKMARK [3][-]{subsubsection.50}{Experiments on Robust PCA Setting}{subsection.47}% 16
+\BOOKMARK [3][-]{subsubsection.55}{Experiments on Learning with Missing and Corrupted Observations}{subsection.47}% 17
+\BOOKMARK [2][-]{subsection.60}{Real-world Applications}{section.39}% 18
+\BOOKMARK [3][-]{subsubsection.61}{Relationship Prediction in Signed Networks}{subsection.60}% 19
+\BOOKMARK [3][-]{subsubsection.63}{Semi-supervised Clustering}{subsection.60}% 20
+\BOOKMARK [3][-]{subsubsection.67}{Noisy Image Classification}{subsection.60}% 21
+\BOOKMARK [1][-]{section.77}{Related Work}{}% 22
+\BOOKMARK [1][-]{section.78}{Conclusions}{}% 23
+\BOOKMARK [1][-]{section.79}{Proofs}{}% 24
