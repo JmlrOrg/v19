@@ -17,8 +17,8 @@
     "volume": 19,
     "year": 2018,
     "extra_links": [
-      ["readthedocs.io", "https://thundersvm.readthedocs.io/en/latest/"],
-      ["github.com", "https://github.com/Xtra-Computing/thundersvm"]
+      ["webpage", "https://thundersvm.readthedocs.io/en/latest/"],
+      ["code", "https://github.com/Xtra-Computing/thundersvm"]
     ],
     "special_issue": "MLOSS"
 }
