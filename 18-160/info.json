@@ -12,5 +12,10 @@
     ],
     "title": "Seglearn: A Python Package for Learning Sequences and Time Series",
     "volume": 19,
-    "year": 2018
+    "year": 2018,
+    "extra_links": [
+        ["code", "https://github.com/dmbee/seglearn"],
+        ["webpage", "https://dmbee.github.io/seglearn/"]
+      ],
+      "special_issue": "MLOSS"
 }
