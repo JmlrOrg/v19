@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.2}{Notation}{section.1}% 2
+\BOOKMARK [1][-]{section.3}{fastRG}{}% 3
+\BOOKMARK [2][-]{subsection.8}{fastRG samples from xlr: a class of edge-exchangeable random graphs}{section.3}% 4
+\BOOKMARK [2][-]{subsection.13}{fastRG samples from a generalization of the RDPG}{section.3}% 5
+\BOOKMARK [2][-]{subsection.18}{Approximate Bernoulli-edges}{section.3}% 6
+\BOOKMARK [2][-]{subsection.23}{Implementation of fastRG}{section.3}% 7
+\BOOKMARK [1][-]{section.24}{Experiments}{}% 8
+\BOOKMARK [2][-]{subsection.25}{Running time of fastRG on large and sparse graphs}{section.24}% 9
+\BOOKMARK [2][-]{subsection.30}{Comparison to a previous technique}{section.24}% 10
+\BOOKMARK [2][-]{subsection.33}{Simulating small and dense graphs with fastRG}{section.24}% 11
+\BOOKMARK [1][-]{section.36}{Proofs}{}% 12

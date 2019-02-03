@@ -1,0 +1,214 @@
+\documentclass[twoside,11pt]{article}
+
+% Any additional packages needed should be included after jmlr2e.
+% Note that jmlr2e.sty includes epsfig, amssymb, natbib and graphicx,
+% and defines many common macros, such as 'proof' and 'example'.
+%
+% It also sets the bibliographystyle to plainnat; for more information on
+% natbib citation styles, see the natbib documentation, a copy of which
+% is archived at http://www.jmlr.org/format/natbib.pdf
+
+\usepackage{jmlr2e}
+\usepackage[caption=false]{subfig}% Support for small, `sub' figures and tables
+\usepackage{upquote}
+\usepackage{bm}
+
+
+
+
+
+% Definitions of handy macros can go here
+
+\newcommand{\dataset}{{\cal D}}
+\newcommand{\fracpartial}[2]{\frac{\partial #1}{\partial  #2}}
+
+\usepackage{xcolor}
+\newcommand{\greencheck}{{\color{green}\checkmark}}
+\newcommand{\yellowcheck}{{\color{yellow}\checkmark}}
+
+\newcommand{\redx}{{\color{red}X}}
+
+\usepackage{booktabs}
+
+
+\usepackage{lastpage}
+
+% Heading arguments are {volume}{year}{pages}{date submitted}{date published}{paper id}{author-full-names}
+
+\jmlrheading{19}{2018}{1-\pageref{LastPage}}{3/18; Revised
+	11/18}{11/18}{18-160}{David M. Burns and Cari M. Whyne}
+\ShortHeadings{Seglearn: Learning Sequences and Time Series}{Burns and Whyne}
+
+% Short headings should be running head and authors last names
+
+\ShortHeadings{Seglearn: Learning Sequences and Time Series}{Burns and Whyne}
+\firstpageno{1}
+
+
+\begin{document}
+
+\title{Seglearn: A Python Package for Learning Sequences and Time Series}
+
+\author{\name David M. Burns \email d.burns@utoronto.ca \\       
+       \addr Sunnybrook Research Institute \\
+       \AND
+       \name Cari M. Whyne \email cari.whyne@sunnybrook.ca \\
+       \addr Sunnybrook Research Institute \\
+       2075 Bayview Ave. Room S620.\\
+       Toronto, ON, Canada. M4N 3M5. \\ 
+       }
+
+\editor{Alexandre Gramfort}
+
+\maketitle
+
+\begin{abstract}%   <- trailing '%' for backward compatibility of .sty file
+\texttt{seglearn} is an open-source Python package for performing machine learning on time series or sequences. The implementation provides a flexible pipeline for tackling classification, regression, and forecasting problems with multivariate sequence and contextual data. Sequences and series may be learned directly with deep learning models or via feature representation with classical machine learning estimators. This package is compatible with \texttt{scikit-learn} and is listed under \texttt{scikit-learn} "Related Projects". The package depends on \texttt{numpy}, \texttt{scipy}, and \texttt{scikit-learn}. \texttt{seglearn} is distributed under the BSD 3-Clause License. Documentation includes a detailed API description, user guide, and examples. Unit tests provide a high degree of code coverage. Source code and documentation can be downloaded from \texttt{https://github.com/dmbee/seglearn}. 
+\end{abstract}
+
+\begin{keywords}
+  Machine-Learning, Time-Series, Sequences, Python
+\end{keywords}
+
+\section{Introduction}
+
+Many real-world machine learning problems e.g. voice recognition, human activity recognition, power systems fault detection, stock price and temperature prediction, involve data that is captured as sequences over a period of time \citep{aha_uci_2018}. Sequential data sets do not fit the standard supervised learning framework, where each sample $(\mathbf{x},y)$ within the data set is assumed to be independently and identically distributed (iid) from a joint distribution $P(\mathbf{x},y)$ \citep{bishop_pattern_2011}. Instead, the data consist \textit{sequences} of $(\mathbf{x},y)$ pairs, and nearby values of $(\mathbf{x},y)$ within a \textit{sequence} are likely to be correlated to each other. Sequence learning exploits the sequential relationships in the data to improve algorithm performance.
+
+\section{Supported Problem Classes}
+
+Sequence data sets have a general formulation \citep{dietterich_machine_2002} as sequence pairs $\{(\mathbf{X}_i,\mathbf{y}_i)\}_{i=1}^{N}$, where each $\mathbf{X}_i$ is a multivariate sequence with $T_i$ samples $\langle \mathbf{x}_{i,1}, \mathbf{x}_{i,2},...,\mathbf{x}_{i,T_i} \rangle$ and each $\mathbf{y}_i$ target is a univariate sequence with $T_i$ samples $ \langle y_{i,1}, y_{i,2},..., y_{i,T_i} \rangle $. The targets $\mathbf{y}_i$ can either be sequences of categorical class labels (for classification problems), or sequences of continuous data (for regression problems). The number of samples $T_i$ varies between the sequence pairs in the data set. Time series with a regular sampling period may be treated equivalently to sequences. Irregularly sampled time series are formulated with an additional sequence variable $\mathbf{t}_i$ that increases monotonically and indicates the timing of samples in the data set $\{(\mathbf{t}_i, \mathbf{X}_i,\mathbf{y}_i)\}_{i=1}^{N}$.  
+
+\paragraph{}
+Important sub-classes of the general sequence learning problem are sequence classification and sequence prediction. In sequence classification problems (eg song genre classification), the target for each sequence is a fixed class label $y_i$ and the data takes the form $\{(\mathbf{X}_i, y_i)\}_{i=1}^{N}$. Sequence prediction involves predicting a future value of the target $(y_{i,t+f})$ or future values $ \langle y_{i,t+1}, y_{i,t+2},..., y_{i,t+f} \rangle $, given
+$\langle \mathbf{x}_{i,1}, \mathbf{x}_{i,2},...,\mathbf{x}_{i,t} \rangle$, $ \langle y_{i,1}, y_{i,2},..., y_{i,t} \rangle $, and sometimes also $\langle \mathbf{x}_{i,t+1}, \mathbf{x}_{i,t+2},...,\mathbf{x}_{i,t+f} \rangle$.
+
+\paragraph{}
+A final important generalization is the case where contextual data associated with each sequence, but not varying within the sequence, exists to support the machine learning algorithm performance. Perhaps the algorithm for reading electrocardiograms will be given access to laboratory data, the patient's age, or known medical diagnoses to assist with classifying the sequential data recovered from the leads. 
+
+\paragraph{}
+\texttt{seglearn} provides a flexible, user-friendly framework for learning time series and sequences in all of the above contexts. Transforms for sequence padding, truncation, and sliding window segmentation are implemented to fix sample number across all sequences in the data set. This permits utilization of many classical and modern machine learning algorithms that require fixed length inputs. Sliding window segmentation transforms the sequence data into a piecewise representation (segments), which is particularly effective for learning periodized sequences \citep{bulling_tutorial_2014}. An interpolation transform is implemented for resampling irregularly sampled time series. The sequence or time series data can be learned directly with various neural network architectures \citep{lipton_critical_2015}, or via a feature representation which greatly enhances performance of classical algorithms \citep{bulling_tutorial_2014}. 
+
+\section{Installation}
+
+The \texttt{seglearn} source code is available at: \texttt{https://github.com/dmbee/seglearn}. It is operating system agnostic, and implemented purely in Python. The dependencies are \texttt{numpy}, \texttt{scipy}, and \texttt{scikit-learn}. The package can be installed using pip:  \\
+\texttt{\$ pip install seglearn} 
+\paragraph{}
+Alternatively, seglearn can be installed from the sources: \\
+\texttt{\$ git clone https://github.com/dmbee/seglearn} \\
+\texttt{\$ cd seglearn} \\
+\texttt{\$ pip install .}
+\paragraph{}
+Unit tests can be run from the root directory using \texttt{pytest}. 
+
+
+\section{Implementation}
+
+\begin{figure}[!htb]
+  \begin{center}
+    \includegraphics[scale=0.5]{fig1_pipe.pdf}
+  \end{center}
+  \caption{Example \texttt{seglearn} pipelines for a) learning segment feature representations, b) learning segments directly. $\bm{X}_i$: time series, $\bm{y}_i$: time series target, $N$: number of time series in the data set, $\bm{W}_{i,j}$: segment (derived from $\bm{X}_i$), $\bm{f}_{i,j}$: feature vector (calculated from $\bm{W}_{i,j}$), $\bm{y}_{i,j}$: segment target, $M_i$: number of segments derived from time series $\bm{X}_i$, SVC: Support Vector Classifier, CNN: Convolution Neural Network, RNN: Recurrent Neural Network.}
+  \label{f:pipe}
+\end{figure}
+
+The \texttt{seglearn} API was implemented for compatibility with \texttt{scikit-learn} and its existing framework for model evaluation and selection. The \texttt{seglearn} package provides means for handling sequence data, segmenting it, computing feature representations, calculating train-test splits and cross-validation folds along the temporal axis.\footnote{Note splitting time series data along the temporal axis violates the assumption of independence between train and test samples. However, this is useful in some cases, such as the analysis of a single series.} An iterable, indexable data structure is implemented to represent sequence data with supporting contextual data. 
+
+\paragraph{}
+The \texttt{seglearn} functionality is provided within a \texttt{scikit-learn} pipeline allowing the user to leverage \texttt{scikit-learn} transformer and estimator classes, which are particularly helpful in the feature representation approach to segment learning. Direct segment learning with neural networks is implemented in pipeline using the \texttt{keras} package, and its \texttt{scikit-learn} API. Examples of both approaches are provided in the documentation and example gallery. The integrated learning pipeline, from raw data to final estimator, can be optimized within the \texttt{scikit-learn model{\_}selection} framework. This is important because segmentation parameters (eg window size, segment overlap) can have a significant impact on sequence learning performance \citep{burns_shoulder_2018, bulling_tutorial_2014}. 
+
+\paragraph{}
+Sliding window segmentation transforms sequence data into a piecewise representation (segments), such that predictions are made and scored for all segments in the data set. Sliding window segmentation can be performed for data sets with a single target value per sequence, in which case that target value is mapped to all segments generated from the parent sequence. If the target for each is sequence is also a sequence, the target is segmented as well and various methods may be used to select a single target value from the target segment (e.g. mean value, middle value, last value, etc.) or the target segment sequence can be predicted directly if an estimator implementing sequence to sequence prediction is utilized.
+
+\paragraph{}
+A human activity recognition data set \citep{burns_shoulder_2018} consisting of inertial sensor data recorded by a smartwatch worn during shoulder rehabilitation exercises is provided with the source code to demonstrate the features and usage of the \texttt{seglearn} package. 
+
+\section{Basic Example}
+
+This example demonstrates the use of \texttt{seglearn} for performing sequence classification with our smartwatch human activity recognition data set.
+\texttt{\\
+$>>>$ import seglearn as sgl \\
+$>>>$ from sklearn.model{\_}selection import train{\_}test{\_}split \\
+$>>>$ from sklearn.ensemble import RandomForestClassifier \\
+$>>>$ from sklearn.preprocessing import StandardScaler \\
+$>>>$ \\
+$>>>$ data = sgl.load{\_}watch() \\
+$>>>$ X{\_}train, X{\_}test, y{\_}train, y{\_}test = train{\_}test{\_}split(data["X"], data["y"]) \\
+$>>>$ \\
+$>>>$ clf = sgl.Pype([("seg", sgl.SegmentX(width=100, overlap=0.5)), \\
+...\hspace{106pt}("features", sgl.FeatureRep()), \\
+...\hspace{106pt}("scaler", StandardScaler()), \\
+...\hspace{106pt}("rf", RandomForestClassifier())]) \\
+$>>>$ \\
+$>>>$ clf.fit(X{\_}train, y{\_}train) \\
+$>>>$ score = clf.score(X{\_}test, y{\_}test) \\
+$>>>$ print("accuracy score:", score) \\\\
+accuracy score: 0.7805084745762711 \\}
+
+
+\section{Comparison to other Software}
+Three other Python packages for performing machine learning on time series and sequences were identified: \texttt{tslearn} \citep{tavenard_tslearn:_2017}, \texttt{cesium-ml} \citep{naul_cesium:_2016}, and \texttt{tsfresh} \citep{christ_time_2018}. These were compared to \texttt{seglearn} based on time series learning capabilities (Table \ref{t1:features}), and performance (Table \ref{t2:perf}). 
+
+\texttt{cesium-ml} (v0.9.6) and \texttt{tsfresh} (v0.11.1) support feature representation learning of multi-variate time series, and currently implement more features than does \texttt{seglearn}. However, the feature representation transformers are implemented as a pre-processing step, independent to the otherwise sklearn compatible pipeline. This design choice precludes end-to-end model selection. There are no examples or apparent support for problems where the target is a sequence/time series or integration with deep learning models. 
+
+\texttt{tslearn} (v0.1.18.4) implements time-series specific classical algorithms for clustering, classification, and barycenter computation for time series with varying lengths. There is no support for feature representation learning, learning context data, or deep learning. 
+
+The performance comparison was conducted using our human activity recognition data set with 140 multivariate time series with 6 channels sampled uniformly at 50 Hz and 7 activity classes. The series' were all truncated to 4 seconds (200 samples). Classification accuracy was measured on 35 series' held out for testing, and 105 used for training. \texttt{seglearn}, \texttt{cesium-ml}, and \texttt{tsfresh} were tested using the sklearn implementation of the SVM classifier with a radial basis function (RBF) kernel on 5 features (median, minimum, maximum, standard deviation, and skewness) calculated on each channel (total 30 features). \texttt{tslearn} was evaluated with its own SVM classifier implementing a global alignment kernel \citep{cuturi_kernel_2007}. The testing was performed using an Intel Core i7-4770 testbed with 16 GB of installed memory, on Linux Mint 18.3 with Python 2.7.12. 
+
+Classification accuracy was identical between \texttt{cesium-ml}, \texttt{tsfresh}, and \texttt{seglearn} (as they used the same features and classifier in the evaluation) though \texttt{seglearn} significantly outperformed the other packages in terms of computation time. Classification performance of the global alignment kernel SVM (GAK-SVM) implemented in \texttt{tslearn} was poor on our data set, even following hyper-parameter optimization of gamma by grid search over the log space $[10^{-4},10^4]$. GAK-SVM is not typically applied to raw inertial data for human activity recognition in the literature, and better performance has been achieved with this algorithm in other time series applications \citep{cuturi_autoregressive_2011, lorincz_emotional_2013}. 
+
+
+\begin{table}[]
+	\centering
+	\begin{tabular}{lcccc}
+		\toprule
+		& \textbf{tslearn} & \textbf{cesium-ml} & \textbf{ts-fresh} & \textbf{seglearn} \\ \midrule
+		Active development (2018)          & \greencheck              & \greencheck                & \greencheck               & \greencheck               \\
+		Documentation                      & \greencheck              & \greencheck                & \greencheck               & \greencheck               \\
+		Unit Tests                         & \greencheck              & \greencheck                & \greencheck               & \greencheck               \\
+		Multivariate time series           & \greencheck              & \greencheck                & \greencheck               & \greencheck               \\
+		Context data                       & \redx               & \greencheck                & \redx                & \greencheck               \\
+		Time series target                 & \redx               & \redx                 & \redx                & \greencheck               \\
+		Sliding window segmentation        & \redx               & \redx                 & \redx                & \greencheck               \\
+		Temporal folds                     & \redx               & \redx                 & \redx                & \greencheck               \\
+		sklearn compatible model selection & \redx               & \redx                 & \redx                & \greencheck               \\
+		Feature representation learning    & \redx               & \greencheck                & \greencheck               & \greencheck               \\
+		Number of implemented features     & N/A              & 58                 & 64                & 20                \\
+		Deep learning                      & \redx               & \redx                 & \redx                & \greencheck               \\
+		Classification                     & \greencheck              & \greencheck                & \greencheck               & \greencheck               \\
+		Clustering                         & \greencheck              & \greencheck                & \greencheck               & \greencheck               \\
+		Regression                         & \greencheck              & \greencheck                & \greencheck               & \greencheck               \\
+		Forecasting                        & \redx               & \greencheck                & \greencheck               & \greencheck              \\ \bottomrule
+	\end{tabular}
+	\caption{Comparison of time series learning package features for \texttt{tslearn} v0.1.18.4, \texttt{cesium-ml} v0.9.6, \texttt{tsfresh} v0.11.1 and \texttt{seglearn} v1.0.2.}
+	\label{t1:features}
+\end{table}
+
+\begin{table}[]
+	\centering
+	\begin{tabular}{@{}lcccc@{}}
+		\toprule
+		& \texttt{tslearn} & \texttt{cesium-ml} & \texttt{ts-fresh} & \texttt{seglearn}        \\ \midrule
+		Classification accuracy & 0.057 & \textbf{0.714} & \textbf{0.714}  & \textbf{0.714} \\
+		Computation time (seconds) & 0.79 & 62.9 & 0.40 & \textbf{0.088} \\ \bottomrule
+	\end{tabular}
+	\caption{Comparison of time series learning package performance on our human activity recognition dataset.}
+	\label{t2:perf}
+\end{table}
+
+
+
+
+
+
+
+
+
+\newpage
+
+
+
+\vskip 0.2in
+\bibliography{18-160}
+
+
+\end{document}

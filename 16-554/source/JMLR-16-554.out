@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Model description and related works}{}% 2
+\BOOKMARK [2][-]{subsection.3}{Ising Model and undirected graphs}{section.2}% 3
+\BOOKMARK [2][-]{subsection.12}{Related works}{section.2}% 4
+\BOOKMARK [2][-]{subsection.13}{Notation}{section.2}% 5
+\BOOKMARK [1][-]{section.16}{Main results}{}% 6
+\BOOKMARK [1][-]{section.30}{Details of implementation}{}% 7
+\BOOKMARK [1][-]{section.38}{Numerical experiments}{}% 8
+\BOOKMARK [2][-]{subsection.39}{Simulated data}{section.38}% 9
+\BOOKMARK [2][-]{subsection.44}{CAL500 dataset}{section.38}% 10
+\BOOKMARK [1][-]{section.47}{Conclusions}{}% 11
+\BOOKMARK [1][-]{section.48}{Auxiliary results}{}% 12
+\BOOKMARK [1][-]{section.71}{Proofs of main results}{}% 13

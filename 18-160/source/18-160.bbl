@@ -1,0 +1,100 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aha(2018)]{aha_uci_2018}
+David Aha.
+\newblock {UCI} {Machine} {Learning} {Repository}, March 2018.
+\newblock URL \url{https://archive.ics.uci.edu/ml/index.php}.
+
+\bibitem[Bishop(2011)]{bishop_pattern_2011}
+Christopher~M. Bishop.
+\newblock \emph{Pattern {Recognition} and {Machine} {Learning}}.
+\newblock Springer, New York, 2nd edition, April 2011.
+\newblock ISBN 978-0-387-31073-2.
+
+\bibitem[Bulling et~al.(2014)Bulling, Blanke, and
+  Schiele]{bulling_tutorial_2014}
+Andreas Bulling, Ulf Blanke, and Bernt Schiele.
+\newblock A tutorial on human activity recognition using body-worn inertial
+  sensors.
+\newblock \emph{ACM Computing Surveys}, 46\penalty0 (3):\penalty0 1--33,
+  January 2014.
+\newblock ISSN 03600300.
+\newblock \doi{10.1145/2499621}.
+
+\bibitem[Burns et~al.(2018)Burns, Leung, Hardisty, Whyne, Henry, and
+  McLachlin]{burns_shoulder_2018}
+David Burns, Nathan Leung, Michael Hardisty, Cari Whyne, Patrick Henry, and
+  Stewart McLachlin.
+\newblock Shoulder {Physiotherapy} {Exercise} {Recognition}: {Machine}
+  {Learning} the {Inertial} {Signals} from a {Smartwatch}.
+\newblock \emph{arXiv:1802.01489 [cs]}, February 2018.
+\newblock arXiv: 1802.01489.
+
+\bibitem[Christ et~al.(2018)Christ, Braun, Neuffer, and
+  Kempa-Liehr]{christ_time_2018}
+Maximilian Christ, Nils Braun, Julius Neuffer, and Andreas~W. Kempa-Liehr.
+\newblock Time {Series} {FeatuRe} {Extraction} on basis of {Scalable}
+  {Hypothesis} tests (tsfresh – {A} {Python} package).
+\newblock \emph{Neurocomputing}, 307:\penalty0 72--77, September 2018.
+\newblock ISSN 0925-2312.
+\newblock \doi{10.1016/j.neucom.2018.03.067}.
+
+\bibitem[Cuturi and Doucet(2011)]{cuturi_autoregressive_2011}
+Marco Cuturi and Arnaud Doucet.
+\newblock Autoregressive {Kernels} {For} {Time} {Series}.
+\newblock \emph{arXiv:1101.0673 [stat]}, January 2011.
+\newblock arXiv: 1101.0673.
+
+\bibitem[Cuturi et~al.(2007)Cuturi, Vert, Birkenes, and
+  Matsui]{cuturi_kernel_2007}
+Marco Cuturi, Jean-Philippe Vert, Oystein Birkenes, and Tomoko Matsui.
+\newblock A {Kernel} for {Time} {Series} {Based} on {Global} {Alignments}.
+\newblock In \emph{2007 {IEEE} {International} {Conference} on {Acoustics},
+  {Speech} and {Signal} {Processing} - {ICASSP} '07}, pages II--413--II--416,
+  Honolulu, HI, April 2007. IEEE.
+\newblock ISBN 978-1-4244-0727-9.
+\newblock \doi{10.1109/ICASSP.2007.366260}.
+
+\bibitem[Dietterich(2002)]{dietterich_machine_2002}
+Thomas~G. Dietterich.
+\newblock Machine {Learning} for {Sequential} {Data}: {A} {Review}.
+\newblock In \emph{Structural, {Syntactic}, and {Statistical} {Pattern}
+  {Recognition}}. Springer, Berlin, Heidelberg, 2002.
+\newblock ISBN 978-3-540-44011-6 978-3-540-70659-5.
+\newblock \doi{10.1007/3-540-70659-3_2}.
+
+\bibitem[Lipton et~al.(2015)Lipton, Berkowitz, and Elkan]{lipton_critical_2015}
+Zachary~C. Lipton, John Berkowitz, and Charles Elkan.
+\newblock A critical review of recurrent neural networks for sequence learning.
+\newblock \emph{arXiv preprint arXiv:1506.00019}, 2015.
+
+\bibitem[Lorincz et~al.(2013)Lorincz, Jeni, Szabo, Cohn, and
+  Kanade]{lorincz_emotional_2013}
+Andras Lorincz, Laszlo Jeni, Zoltan Szabo, Jeffrey Cohn, and Takeo Kanade.
+\newblock Emotional {Expression} {Classification} using {Time}-{Series}
+  {Kernels}.
+\newblock \emph{2013 IEEE Conference on Computer Vision and Pattern Recognition
+  Workshops}, pages 889--895, June 2013.
+\newblock \doi{10.1109/CVPRW.2013.131}.
+\newblock arXiv: 1306.1913.
+
+\bibitem[Naul et~al.(2016)Naul, van~der Walt, Crellin-Quick, Bloom, and
+  Pérez]{naul_cesium:_2016}
+Brett Naul, Stéfan van~der Walt, Arien Crellin-Quick, Joshua~S. Bloom, and
+  Fernando Pérez.
+\newblock cesium: {Open}-{Source} {Platform} for {Time}-{Series} {Inference}.
+\newblock \emph{arXiv:1609.04504 [cs]}, September 2016.
+\newblock arXiv: 1609.04504.
+
+\bibitem[Tavenard(2017)]{tavenard_tslearn:_2017}
+Romain Tavenard.
+\newblock tslearn: {A} machine learning toolkit dedicated to time-series data,
+  2017.
+\newblock URL \url{https://github.com/rtavenar/tslearn}.
+
+\end{thebibliography}

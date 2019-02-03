@@ -1,0 +1,358 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{plainnat}
+\citation{Pehlevan2017olfaction}
+\citation{Kulis2007,Peng2007_sdk-kmeans,Awasthi2015}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\citation{Awasthi2015}
+\citation{Lloyd1982}
+\citation{Iguchi2015,Mixon2016}
+\citation{Amini2014,Javanmard2016,Yu2012regularizers}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:trefoil}{{1(a)}{2}{\relax }{figure.caption.4}{}}
+\newlabel{fig:trefoil@cref}{{[subfigure][1][1]1(a)}{2}}
+\newlabel{sub@fig:trefoil}{{(a)}{2}{\relax }{figure.caption.4}{}}
+\newlabel{sub@fig:trefoil@cref}{{[subfigure][1][1]1(a)}{2}}
+\newlabel{fig:double_swiss_roll}{{1(b)}{2}{\relax }{figure.caption.4}{}}
+\newlabel{fig:double_swiss_roll@cref}{{[subfigure][2][1]1(b)}{2}}
+\newlabel{sub@fig:double_swiss_roll}{{(b)}{2}{\relax }{figure.caption.4}{}}
+\newlabel{sub@fig:double_swiss_roll@cref}{{[subfigure][2][1]1(b)}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces NOMAD, originally introduced as a convex relaxation of $K$-means clustering, surprisingly learns manifold structures in the data. \subref {fig:trefoil} Learning the manifold of a trefoil knot, which cannot be ``untied'' in 3D without cutting it. NOMAD understands that this is a closed manifold, yielding a circulant matrix ${\mathbf  {Q}}$, which can be ``unfolded'' in 2D. \subref {fig:double_swiss_roll} Learning multiple manifolds with NOMAD. Although they are linearly non-separable, NOMAD correctly finds two submatrices, one for each manifold (for visual clarity, we enhance the contrast of ${\mathbf  {Q}}$). \relax }}{2}{figure.caption.4}}
+\newlabel{fig:opening}{{1}{2}{NOMAD, originally introduced as a convex relaxation of $K$-means clustering, surprisingly learns manifold structures in the data. \protect \subref {fig:trefoil} Learning the manifold of a trefoil knot, which cannot be ``untied'' in 3D without cutting it. NOMAD understands that this is a closed manifold, yielding a circulant matrix $\mat {Q}$, which can be ``unfolded'' in 2D. \protect \subref {fig:double_swiss_roll} Learning multiple manifolds with NOMAD. Although they are linearly non-separable, NOMAD correctly finds two submatrices, one for each manifold (for visual clarity, we enhance the contrast of $\mat {Q}$). \relax }{figure.caption.4}{}}
+\newlabel{fig:opening@cref}{{[figure][1][]1}{2}}
+\newlabel{eq:sdp_kmeans}{{{NOMAD}}{2}{}{equation.2}{}}
+\newlabel{eq:sdp_kmeans@cref}{{[problem][2147483647][]NOMAD}{2}}
+\citation{Kulis2007}
+\citation{Tenenbaum2000}
+\citation{Roweis2000}
+\citation{Belkin2003,Hadsell2006,Weinberger2006,Weiss2008}
+\citation{Tenenbaum2000}
+\citation{Belkin2003}
+\citation{Hadsell2006}
+\citation{Roweis2000}
+\@writefile{toc}{\contentsline {paragraph}{Organization.}{3}{figure.caption.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Theoretical analysis of manifold learning capabilities of NOMAD}{3}{section.5}}
+\newlabel{sec:theory}{{2}{3}{}{section.5}{}}
+\newlabel{sec:theory@cref}{{[section][2][]2}{3}}
+\citation{Cho2009}
+\citation{Peng2007_sdk-kmeans}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Correspondence between using a kernel/threshold in distance-space and nonnegativity of Gramian-based representations. In this toy example, the constraint ${\mathbf  {Q}} \geq 0$ in NOMAD is equivalent to setting to zero distances that are greater than $\smash {\sqrt  {2}}$ (squared distances greater than 2). We use ${\mathbf  {x}}_0$ as a reference but rotational symmetry makes this argument valid for all points in the dataset.\relax }}{4}{figure.caption.11}}
+\newlabel{fig:distances2gramian}{{2}{4}{Correspondence between using a kernel/threshold in distance-space and nonnegativity of Gramian-based representations. In this toy example, the constraint $\mat {Q} \geq 0$ in NOMAD is equivalent to setting to zero distances that are greater than $\smash {\sqrt {2}}$ (squared distances greater than 2). We use $\vect {x}_0$ as a reference but rotational symmetry makes this argument valid for all points in the dataset.\relax }{figure.caption.11}{}}
+\newlabel{fig:distances2gramian@cref}{{[figure][2][]2}{4}}
+\citation{Bachoc2012}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Analysis of NOMAD on a 2D ring dataset}{5}{subsection.12}}
+\newlabel{eq:fourier_expansion}{{3}{5}{}{equation.13}{}}
+\newlabel{eq:fourier_expansion@cref}{{[equation][3][]3}{5}}
+\newlabel{eq:fourier_matrix}{{4}{5}{}{equation.14}{}}
+\newlabel{eq:fourier_matrix@cref}{{[equation][4][]4}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}A linear program on the data manifold}{5}{subsection.15}}
+\newlabel{eq:lp_nneg}{{7}{5}{}{equation.18}{}}
+\newlabel{eq:lp_nneg@cref}{{[equation][7][]7}{5}}
+\newlabel{eq:lp_kmeans}{{8}{5}{}{equation.19}{}}
+\newlabel{eq:lp_kmeans@cref}{{[problem][8][]8}{5}}
+\newlabel{fig:ring_k-evolution_solutions}{{3(a)}{6}{\relax }{figure.caption.20}{}}
+\newlabel{fig:ring_k-evolution_solutions@cref}{{[subfigure][1][3]3(a)}{6}}
+\newlabel{sub@fig:ring_k-evolution_solutions}{{(a)}{6}{\relax }{figure.caption.20}{}}
+\newlabel{sub@fig:ring_k-evolution_solutions@cref}{{[subfigure][1][3]3(a)}{6}}
+\newlabel{fig:ring_k-evolution_eigs}{{3(b)}{6}{\relax }{figure.caption.20}{}}
+\newlabel{fig:ring_k-evolution_eigs@cref}{{[subfigure][2][3]3(b)}{6}}
+\newlabel{sub@fig:ring_k-evolution_eigs}{{(b)}{6}{\relax }{figure.caption.20}{}}
+\newlabel{sub@fig:ring_k-evolution_eigs@cref}{{[subfigure][2][3]3(b)}{6}}
+\newlabel{fig:ring_k-evolution_diags}{{3(c)}{6}{\relax }{figure.caption.20}{}}
+\newlabel{fig:ring_k-evolution_diags@cref}{{[subfigure][3][3]3(c)}{6}}
+\newlabel{sub@fig:ring_k-evolution_diags}{{(c)}{6}{\relax }{figure.caption.20}{}}
+\newlabel{sub@fig:ring_k-evolution_diags@cref}{{[subfigure][3][3]3(c)}{6}}
+\newlabel{fig:cone_structure}{{3(d)}{6}{\relax }{figure.caption.20}{}}
+\newlabel{fig:cone_structure@cref}{{[subfigure][4][3]3(d)}{6}}
+\newlabel{sub@fig:cone_structure}{{(d)}{6}{\relax }{figure.caption.20}{}}
+\newlabel{sub@fig:cone_structure@cref}{{[subfigure][4][3]3(d)}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Evolution of the NOMAD solution for the 2D ring dataset (with 100 points, see \cref  {fig:distances2gramian}) with increasing parameter $K$. \subref {fig:ring_k-evolution_solutions} As $K$ increases, the solution, ${\mathbf  {Q}}_*$, concentrates more and more towards the diagonal. \subref {fig:ring_k-evolution_eigs} As $K$ increases, the number of active eigenvalues in the solution, ${\mathbf  {Q}}_*$, grows resulting in the more uniform distribution of eigenvalues and greater mean/median (notice that the mean being linear comes from the trace constraint). \subref {fig:ring_k-evolution_diags} We define the $h$-diagonal of ${\mathbf  {Q}}_*$ as the entries $(i, j)$ for which $i - j = h$. As ${\mathbf  {Q}}_*$ is a circulant matrix, each $h$-diagonal contains a single repeated value. We plot these values, assigning a different color to each $h$. The effect of the scaling constraint $\operatorname  {Tr}\left ({\mathbf  {Q}}\right ) = K$ becomes evident: when one $h$-diagonal becomes inactive, all remaining $h'$-diagonals need to be upscaled. \subref {fig:cone_structure} The eigenvectors of ${\mathbf  {Q}}_*$ form a high-dimensional cone (cartoon representation, cone axis in red and eigenvectors in green). \relax }}{6}{figure.caption.20}}
+\newlabel{fig:ring_k-evolution}{{3}{6}{Evolution of the NOMAD solution for the 2D ring dataset (with 100 points, see \cref {fig:distances2gramian}) with increasing parameter $K$. \protect \subref {fig:ring_k-evolution_solutions} As $K$ increases, the solution, $\mat {Q}_*$, concentrates more and more towards the diagonal. \protect \subref {fig:ring_k-evolution_eigs} As $K$ increases, the number of active eigenvalues in the solution, $\mat {Q}_*$, grows resulting in the more uniform distribution of eigenvalues and greater mean/median (notice that the mean being linear comes from the trace constraint). \protect \subref {fig:ring_k-evolution_diags} We define the $h$-diagonal of $\mat {Q}_*$ as the entries $(i, j)$ for which $i - j = h$. As $\mat {Q}_*$ is a circulant matrix, each $h$-diagonal contains a single repeated value. We plot these values, assigning a different color to each $h$. The effect of the scaling constraint $\traceone {\mat {Q}} = K$ becomes evident: when one $h$-diagonal becomes inactive, all remaining $h'$-diagonals need to be upscaled. \protect \subref {fig:cone_structure} The eigenvectors of $\mat {Q}_*$ form a high-dimensional cone (cartoon representation, cone axis in red and eigenvectors in green). \relax }{figure.caption.20}{}}
+\newlabel{fig:ring_k-evolution@cref}{{[figure][3][]3}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Lifting the ring to a high-dimensional cone}{6}{subsection.21}}
+\newlabel{eq:fourier_expansion_real}{{9}{6}{}{equation.22}{}}
+\newlabel{eq:fourier_expansion_real@cref}{{[equation][9][]9}{6}}
+\newlabel{eq:fourier_matrix_real}{{10}{6}{}{equation.23}{}}
+\newlabel{eq:fourier_matrix_real@cref}{{[equation][10][]10}{6}}
+\citation{Javanmard2016}
+\citation{Kulis2007,Peng2007_sdk-kmeans,Awasthi2015}
+\citation{Lloyd1982}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Analyzing data manifolds with NOMAD: Experimental results}{7}{section.24}}
+\newlabel{sec:manifold}{{3}{7}{}{section.24}{}}
+\newlabel{sec:manifold@cref}{{[section][3][]3}{7}}
+\newlabel{fig:2circles}{{4(a)}{8}{\relax }{figure.caption.25}{}}
+\newlabel{fig:2circles@cref}{{[subfigure][1][4]4(a)}{8}}
+\newlabel{sub@fig:2circles}{{(a)}{8}{\relax }{figure.caption.25}{}}
+\newlabel{sub@fig:2circles@cref}{{[subfigure][1][4]4(a)}{8}}
+\newlabel{fig:2circlesGramian}{{4(b)}{8}{\relax }{figure.caption.25}{}}
+\newlabel{fig:2circlesGramian@cref}{{[subfigure][2][4]4(b)}{8}}
+\newlabel{sub@fig:2circlesGramian}{{(b)}{8}{\relax }{figure.caption.25}{}}
+\newlabel{sub@fig:2circlesGramian@cref}{{[subfigure][2][4]4(b)}{8}}
+\newlabel{fig:circles_eigendecomposition3}{{4(c)}{8}{\relax }{figure.caption.25}{}}
+\newlabel{fig:circles_eigendecomposition3@cref}{{[subfigure][3][4]4(c)}{8}}
+\newlabel{sub@fig:circles_eigendecomposition3}{{(c)}{8}{\relax }{figure.caption.25}{}}
+\newlabel{sub@fig:circles_eigendecomposition3@cref}{{[subfigure][3][4]4(c)}{8}}
+\newlabel{fig:two_cones_structure}{{4(d)}{8}{\relax }{figure.caption.25}{}}
+\newlabel{fig:two_cones_structure@cref}{{[subfigure][4][4]4(d)}{8}}
+\newlabel{sub@fig:two_cones_structure}{{(d)}{8}{\relax }{figure.caption.25}{}}
+\newlabel{sub@fig:two_cones_structure@cref}{{[subfigure][4][4]4(d)}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Solution of NOMAD on the dataset consisting of two 2D rings. \subref {fig:2circles} Two-ring dataset. \subref {fig:2circlesGramian} Input Gramian, ${\mathbf  {D}}$, and its two eigenvectors (${\mathbf  {D}}$ has rank 2). Note that the eigenvectors of ${\mathbf  {D}}$ do not segregate the rings. \subref {fig:circles_eigendecomposition3} The solution, ${\mathbf  {Q}}$, of NOMAD contains two sets of eigenvectors with disjoint support: one set describing the points in each ring (we show all eigenvectors and a detail on the first 3 within each set). \subref {fig:two_cones_structure} The eigenvectors of ${\mathbf  {Q}}$ form two orthogonal high-dimensional cones: one cone for each ring (cartoon representation, cone axis in red and eigenvectors in green). Notice how these cones become linearly-separable.\relax }}{8}{figure.caption.25}}
+\newlabel{fig:circles_eigendecomposition}{{4}{8}{Solution of NOMAD on the dataset consisting of two 2D rings. \protect \subref {fig:2circles} Two-ring dataset. \protect \subref {fig:2circlesGramian} Input Gramian, $\mat {D}$, and its two eigenvectors ($\mat {D}$ has rank 2). Note that the eigenvectors of $\mat {D}$ do not segregate the rings. \protect \subref {fig:circles_eigendecomposition3} The solution, $\mat {Q}$, of NOMAD contains two sets of eigenvectors with disjoint support: one set describing the points in each ring (we show all eigenvectors and a detail on the first 3 within each set). \protect \subref {fig:two_cones_structure} The eigenvectors of $\mat {Q}$ form two orthogonal high-dimensional cones: one cone for each ring (cartoon representation, cone axis in red and eigenvectors in green). Notice how these cones become linearly-separable.\relax }{figure.caption.25}{}}
+\newlabel{fig:circles_eigendecomposition@cref}{{[figure][4][]4}{8}}
+\@writefile{toc}{\contentsline {paragraph}{Discussion of the experimental results.}{8}{figure.caption.29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Learning multiple manifolds with NOMAD. The points are arranged in two semicircular manifolds and contaminated with Gaussian noise. Although the manifolds are linearly non-separable, NOMAD correctly finds two submatrices, one for each manifold (for visual clarity, we enhance the contrast of ${\mathbf  {Q}}$).\relax }}{9}{figure.caption.26}}
+\newlabel{fig:moons}{{5}{9}{Learning multiple manifolds with NOMAD. The points are arranged in two semicircular manifolds and contaminated with Gaussian noise. Although the manifolds are linearly non-separable, NOMAD correctly finds two submatrices, one for each manifold (for visual clarity, we enhance the contrast of $\mat {Q}$).\relax }{figure.caption.26}{}}
+\newlabel{fig:moons@cref}{{[figure][5][]5}{9}}
+\newlabel{fig:embedding_real_teapot}{{6(a)}{9}{Teapots ($K = 20$)\relax }{figure.caption.27}{}}
+\newlabel{fig:embedding_real_teapot@cref}{{[subfigure][1][6]6(a)}{9}}
+\newlabel{sub@fig:embedding_real_teapot}{{(a)}{9}{Teapots ($K = 20$)\relax }{figure.caption.27}{}}
+\newlabel{sub@fig:embedding_real_teapot@cref}{{[subfigure][1][6]6(a)}{9}}
+\newlabel{fig:embedding_real_faces}{{6(b)}{9}{Yale Faces ($K = 16$)\relax }{figure.caption.27}{}}
+\newlabel{fig:embedding_real_faces@cref}{{[subfigure][2][6]6(b)}{9}}
+\newlabel{sub@fig:embedding_real_faces}{{(b)}{9}{Yale Faces ($K = 16$)\relax }{figure.caption.27}{}}
+\newlabel{sub@fig:embedding_real_faces@cref}{{[subfigure][2][6]6(b)}{9}}
+\newlabel{fig:embedding_real_mnist}{{6(c)}{9}{MNIST digits ($K = 16$)\relax }{figure.caption.27}{}}
+\newlabel{fig:embedding_real_mnist@cref}{{[subfigure][3][6]6(c)}{9}}
+\newlabel{sub@fig:embedding_real_mnist}{{(c)}{9}{MNIST digits ($K = 16$)\relax }{figure.caption.27}{}}
+\newlabel{sub@fig:embedding_real_mnist@cref}{{[subfigure][3][6]6(c)}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Finding two-dimensional embeddings with NOMAD. \subref {fig:embedding_real_teapot} 100 images obtained by viewing a teapot from different angles in a plane. The input vectors size is 23028 ($76 \times 101$ pixels, 3 color channels). The manifold uncovers the change in orientation. \subref {fig:embedding_real_faces} 256 images from 4 different subjects (each subject is marked with a different color in the figure), obtained by changing the position of the illumination source. The input vectors size is 32256 ($192 \times 168$ pixels). The manifold uncovers the change in illumination (from frontal, to half-illuminated, to dark faces, and back). \subref {fig:embedding_real_mnist} 500 images handwritten instances of the same digit. The input vectors size is 784 ($28 \times 28$ pixels). On the left and on the right, images of the digits 1 and 2, respectively. The manifold of 1s uncovers their orientation, while the manifold of 2s parameterizes features like size, slant, and line thickness. Details are better perceived by zooming on the plots. \relax }}{9}{figure.caption.27}}
+\newlabel{fig:embedding_real}{{6}{9}{Finding two-dimensional embeddings with NOMAD. \protect \subref {fig:embedding_real_teapot} 100 images obtained by viewing a teapot from different angles in a plane. The input vectors size is 23028 ($76 \times 101$ pixels, 3 color channels). The manifold uncovers the change in orientation. \protect \subref {fig:embedding_real_faces} 256 images from 4 different subjects (each subject is marked with a different color in the figure), obtained by changing the position of the illumination source. The input vectors size is 32256 ($192 \times 168$ pixels). The manifold uncovers the change in illumination (from frontal, to half-illuminated, to dark faces, and back). \protect \subref {fig:embedding_real_mnist} 500 images handwritten instances of the same digit. The input vectors size is 784 ($28 \times 28$ pixels). On the left and on the right, images of the digits 1 and 2, respectively. The manifold of 1s uncovers their orientation, while the manifold of 2s parameterizes features like size, slant, and line thickness. Details are better perceived by zooming on the plots. \relax }{figure.caption.27}{}}
+\newlabel{fig:embedding_real@cref}{{[figure][6][]6}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 144 images obtained by viewing a lamp and a horse figurine from different angles in a plane. The input vectors size is 589824 ($384 \times 512$ pixels, 3 color channels). We plot the input data using a 2D spectral embedding (the points corresponding to each object are colored differently). NOMAD correctly finds two submatrices, one for each manifold (for visual clarity, we enhance the contrast of ${\mathbf  {Q}}$); furthermore, NOMAD recovers closed manifolds. \relax }}{9}{figure.caption.28}}
+\newlabel{fig:joint}{{7}{9}{144 images obtained by viewing a lamp and a horse figurine from different angles in a plane. The input vectors size is 589824 ($384 \times 512$ pixels, 3 color channels). We plot the input data using a 2D spectral embedding (the points corresponding to each object are colored differently). NOMAD correctly finds two submatrices, one for each manifold (for visual clarity, we enhance the contrast of $\mat {Q}$); furthermore, NOMAD recovers closed manifolds. \relax }{figure.caption.28}{}}
+\newlabel{fig:joint@cref}{{[figure][7][]7}{9}}
+\newlabel{fig:square_embedding}{{8(a)}{10}{\relax }{figure.caption.29}{}}
+\newlabel{fig:square_embedding@cref}{{[subfigure][1][8]8(a)}{10}}
+\newlabel{sub@fig:square_embedding}{{(a)}{10}{\relax }{figure.caption.29}{}}
+\newlabel{sub@fig:square_embedding@cref}{{[subfigure][1][8]8(a)}{10}}
+\newlabel{fig:square_Q_on_data}{{8(b)}{10}{\relax }{figure.caption.29}{}}
+\newlabel{fig:square_Q_on_data@cref}{{[subfigure][2][8]8(b)}{10}}
+\newlabel{sub@fig:square_Q_on_data}{{(b)}{10}{\relax }{figure.caption.29}{}}
+\newlabel{sub@fig:square_Q_on_data@cref}{{[subfigure][2][8]8(b)}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Learning a 2D manifold embedded in a 10-dimensional ambient space; the first two dimensions are regular samples on a 2D grid (shown on the left) and the remaining ones are Gaussian noise. \subref {fig:square_embedding} NOMAD recovers the right 2D structure (of course, some distortion is expected along the edges). \subref {fig:square_Q_on_data} We show a few columns of ${\mathbf  {Q}}$ on top of the data itself: the red level indicates the value of the corresponding entry in ${\mathbf  {Q}}$ (red maps to high values, white maps to a zero). NOMAD effectively tiles the dataset with a collections of overlapping local neighborhoods centered at each data point. These patches contain all the information necessary to reconstruct the intrinsic manifold geometry. \relax }}{10}{figure.caption.29}}
+\newlabel{fig:square}{{8}{10}{Learning a 2D manifold embedded in a 10-dimensional ambient space; the first two dimensions are regular samples on a 2D grid (shown on the left) and the remaining ones are Gaussian noise. \protect \subref {fig:square_embedding} NOMAD recovers the right 2D structure (of course, some distortion is expected along the edges). \protect \subref {fig:square_Q_on_data} We show a few columns of $\mat {Q}$ on top of the data itself: the red level indicates the value of the corresponding entry in $\mat {Q}$ (red maps to high values, white maps to a zero). NOMAD effectively tiles the dataset with a collections of overlapping local neighborhoods centered at each data point. These patches contain all the information necessary to reconstruct the intrinsic manifold geometry. \relax }{figure.caption.29}{}}
+\newlabel{fig:square@cref}{{[figure][8][]8}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Manifold disentangling with multi-layer NOMAD}{10}{subsection.30}}
+\citation{Zhang2012}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Results of recursive NOMAD application (multi-layer NOMAD). For each example, we show matrices ${\mathbf  {Q}}_*$ computed by the successive application of the algorithm. Multi-layer NOMAD untangles these linearly non-separable manifolds and, in the final layer, assigns each manifold to one cluster.\relax }}{11}{figure.caption.38}}
+\newlabel{fig:multilayer}{{9}{11}{Results of recursive NOMAD application (multi-layer NOMAD). For each example, we show matrices $\mat {Q}_*$ computed by the successive application of the algorithm. Multi-layer NOMAD untangles these linearly non-separable manifolds and, in the final layer, assigns each manifold to one cluster.\relax }{figure.caption.38}{}}
+\newlabel{fig:multilayer@cref}{{[figure][9][]9}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Geodesic-distance preservation: NOMAD versus existing manifold learning techniques}{11}{subsection.40}}
+\newlabel{sec:geodesics}{{3.2}{11}{}{subsection.40}{}}
+\newlabel{sec:geodesics@cref}{{[subsection][2][3]3.2}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Comparison of the robustness of geodesic distances to the addition of noise for different manifold learning methods. The description of the experimental protocol is in \cref  {sec:geodesics}. The method termed NO-EMB directly computes distances on the noisy data.\relax }}{12}{figure.caption.39}}
+\newlabel{fig:distance_preservation}{{10}{12}{Comparison of the robustness of geodesic distances to the addition of noise for different manifold learning methods. The description of the experimental protocol is in \cref {sec:geodesics}. The method termed NO-EMB directly computes distances on the noisy data.\relax }{figure.caption.39}{}}
+\newlabel{fig:distance_preservation@cref}{{[figure][10][]10}{12}}
+\citation{ODonoghue2016}
+\citation{Kulis2007}
+\citation{Kulis2007}
+\citation{Maxfield1962}
+\citation{Awasthi2015}
+\citation{Bachoc2012}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Heuristic non-convex solvers for large-scale NOMAD}{13}{section.41}}
+\newlabel{sec:BM}{{4}{13}{}{section.41}{}}
+\newlabel{sec:BM@cref}{{[section][4][]4}{13}}
+\newlabel{eq:sdp_kmeans_lowrank_fast}{{11}{13}{}{equation.42}{}}
+\newlabel{eq:sdp_kmeans_lowrank_fast@cref}{{[problem][11][]11}{13}}
+\citation{Kulis2007}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces We empirically study the cp-rank of ${\mathbf  {Q}}_*$. As a proxy of the exact nonnegative decomposition, we compute the rank-$r$ symmetric NMF ${\mathbf  {Q}}_* \approx {{\mathbf  {Y}}_+}^\top  {\mathbf  {Y}}_+$ for different values of $r$. We show the mean plus/minus two standard deviations of the relative error $\left \delimiter "026B30D  {\mathbf  {Q}}_* - {{\mathbf  {Y}}_+}^\top  {\mathbf  {Y}}_+ \right \delimiter "026B30D _{F} / \left \delimiter "026B30D  {\mathbf  {Q}}_* \right \delimiter "026B30D _{F}$ computed from 50 different SNMFs for each $r$ (their differences stem from the random initialization). Both datasets have 200 points. Clearly, setting $r=K$ is not enough to properly reconstruct ${\mathbf  {Q}}_*$. \relax }}{14}{figure.caption.43}}
+\newlabel{fig:completely_positive_snmf}{{11}{14}{We empirically study the cp-rank of $\mat {Q}_*$. As a proxy of the exact nonnegative decomposition, we compute the rank-$r$ symmetric NMF $\mat {Q}_* \approx \transpose {\mat {Y}_+} \mat {Y}_+$ for different values of $r$. We show the mean plus/minus two standard deviations of the relative error $\norm {\mat {Q}_* - \transpose {\mat {Y}_+} \mat {Y}_+}{F} / \norm {\mat {Q}_*}{F}$ computed from 50 different SNMFs for each $r$ (their differences stem from the random initialization). Both datasets have 200 points. Clearly, setting $r=K$ is not enough to properly reconstruct $\mat {Q}_*$. \relax }{figure.caption.43}{}}
+\newlabel{fig:completely_positive_snmf@cref}{{[figure][11][]11}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}A fast and convex algorithm for NOMAD}{14}{section.45}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Augmented Lagrangian formulation}{14}{subsection.46}}
+\newlabel{eq:sdp_kmeans_minus_constant}{{12}{14}{}{equation.47}{}}
+\newlabel{eq:sdp_kmeans_minus_constant@cref}{{[problem][12][]12}{14}}
+\newlabel{eq:sdp_kmeans_minus_constant_lagrangian}{{13}{14}{}{equation.48}{}}
+\newlabel{eq:sdp_kmeans_minus_constant_lagrangian@cref}{{[equation][13][]13}{14}}
+\citation{Hazan2008sdp}
+\citation{FrankWolfe}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Comparison of the results obtained with a standard SDP solver (first column) and with a low-rank non-convex approach (remaining columns, $r$ denotes the rank of the obtained solution). \textbf  {(Top)} Dataset in \cref  {fig:circles_eigendecomposition}; we set $K=8$ in all cases. \textbf  {(Bottom)} Dataset in \cref  {fig:embedding_real_teapot}; we set $K=20$ in all cases. In each case, we also display the relative error between the matrix ${{\mathbf  {Y}}}^\top  {\mathbf  {Y}}$ and ${\mathbf  {Q}}_*$. Interestingly, setting $r=K$ produces hard clustering solutions (see the block diagonal structure of the matrices on the second column), while increasing $r$ produces ``softer'' solutions. This suggests that the cp-rank of ${\mathbf  {Q}}_*$ is (much) greater than $K$.\relax }}{15}{figure.caption.44}}
+\newlabel{fig:completely_positive_burer-monteiro}{{12}{15}{Comparison of the results obtained with a standard SDP solver (first column) and with a low-rank non-convex approach (remaining columns, $r$ denotes the rank of the obtained solution). \textbf {(Top)} Dataset in \cref {fig:circles_eigendecomposition}; we set $K=8$ in all cases. \textbf {(Bottom)} Dataset in \cref {fig:embedding_real_teapot}; we set $K=20$ in all cases. In each case, we also display the relative error between the matrix $\transpose {\mat {Y}} \mat {Y}$ and $\mat {Q}_*$. Interestingly, setting $r=K$ produces hard clustering solutions (see the block diagonal structure of the matrices on the second column), while increasing $r$ produces ``softer'' solutions. This suggests that the cp-rank of $\mat {Q}_*$ is (much) greater than $K$.\relax }{figure.caption.44}{}}
+\newlabel{fig:completely_positive_burer-monteiro@cref}{{[figure][12][]12}{15}}
+\newlabel{eq:maxmin_sdp-km}{{14}{15}{}{equation.49}{}}
+\newlabel{eq:maxmin_sdp-km@cref}{{[equation][14][]14}{15}}
+\newlabel{eq:cgm_sdp-kmeans_inner}{{15a}{15}{}{equation.51}{}}
+\newlabel{eq:cgm_sdp-kmeans_inner@cref}{{[problem][1][15]15a}{15}}
+\newlabel{eq:cgm_sdp-kmeans_outer}{{15b}{15}{}{equation.52}{}}
+\newlabel{eq:cgm_sdp-kmeans_outer@cref}{{[problem][2][15]15b}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}A conditional gradient method for SDPs with an orthogonality constraint}{15}{subsection.53}}
+\newlabel{eq:generic_sdp_ortho_intro}{{16}{15}{}{equation.54}{}}
+\newlabel{eq:generic_sdp_ortho_intro@cref}{{[problem][16][]16}{15}}
+\newlabel{eq:generic_sdp}{{17}{15}{}{equation.55}{}}
+\newlabel{eq:generic_sdp@cref}{{[problem][17][]17}{15}}
+\citation{Hazan2008sdp}
+\citation{Hazan2008sdp}
+\citation{Goldstein2009}
+\citation{Hazan2008sdp}
+\citation{Jaggi2013}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces Conditional gradient algorithm for SDPs with an orthogonality constraint\relax }}{16}{algocf.71}}
+\newlabel{algo:cgm_generic_sdp_ortho}{{1}{16}{}{algocf.71}{}}
+\newlabel{algo:cgm_generic_sdp_ortho@cref}{{[algorithm][1][]1}{16}}
+\newlabel{eq:Ps_set}{{18}{16}{}{equation.58}{}}
+\newlabel{eq:Ps_set@cref}{{[equation][18][]18}{16}}
+\newlabel{eq:generic_sdp_ortho}{{19}{16}{}{equation.59}{}}
+\newlabel{eq:generic_sdp_ortho@cref}{{[problem][19][]19}{16}}
+\newlabel{eq:curvature_constant}{{20}{16}{}{equation.61}{}}
+\newlabel{eq:curvature_constant@cref}{{[equation][20][]20}{16}}
+\newlabel{theo:accuracy}{{1}{16}{}{equation.62}{}}
+\newlabel{theo:accuracy@cref}{{[theorem][1][]1}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}A conditional gradient algorithm for NOMAD}{16}{subsection.72}}
+\citation{Hazan2008sdp}
+\citation{Hazan2008sdp}
+\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces Conditional gradient algorithm for NOMAD\relax }}{17}{algocf.87}}
+\newlabel{algo:cgm_sdp-km}{{2}{17}{}{algocf.87}{}}
+\newlabel{algo:cgm_sdp-km@cref}{{[algorithm][2][]2}{17}}
+\@writefile{toc}{\contentsline {paragraph}{Complexity.}{17}{algocf.87}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Experimental analysis}{17}{subsection.89}}
+\citation{SCSsolver}
+\citation{sdpnalplus}
+\citation{SCSsolver}
+\citation{sdpnalplus}
+\citation{SCSsolver}
+\citation{sdpnalplus}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Prototypical examples of the behavior of the proposed conditional gradient NOMAD solver as its iterations progress. On the left plots, we show the RMSE of $[{\mathbf  {Q}}]_{-} = [{\mathbf  {P}} + {\mathbf  {E}}_n]_{-}$, with the average computed over its non-zero entries. After about 10 iterations, the RMSE drops linearly, as usual for the method of multipliers. On the right plots, we display the objective value $\operatorname  {Tr}\left ({\mathbf  {D}} {\mathbf  {P}}\right )$, which usually converges in a few hundred iterations. In each case, as a reference, we show in orange the values returned by the standard SDP solver. The proposed algorithm enforces the nonnegativity constraint in NOMAD less accurately (although accurate enough for practical purposes), while exactly enforcing all the other constraints.\relax }}{18}{figure.caption.90}}
+\newlabel{fig:cvx_vs_cgm_convergence}{{13}{18}{Prototypical examples of the behavior of the proposed conditional gradient NOMAD solver as its iterations progress. On the left plots, we show the RMSE of $[\mat {Q}]_{-} = [\mat {P} + \mat {E}_n]_{-}$, with the average computed over its non-zero entries. After about 10 iterations, the RMSE drops linearly, as usual for the method of multipliers. On the right plots, we display the objective value $\traceone {\mat {D} \mat {P}}$, which usually converges in a few hundred iterations. In each case, as a reference, we show in orange the values returned by the standard SDP solver. The proposed algorithm enforces the nonnegativity constraint in NOMAD less accurately (although accurate enough for practical purposes), while exactly enforcing all the other constraints.\relax }{figure.caption.90}{}}
+\newlabel{fig:cvx_vs_cgm_convergence@cref}{{[figure][13][]13}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Comparison of the standard SDP solver with the proposed conditional gradient solver (CGM) for NOMAD on different datasets. In most cases, the results are practically indistinguishable while being delivered much faster.\relax }}{19}{figure.caption.91}}
+\newlabel{fig:cvx_vs_cgm}{{14}{19}{Comparison of the standard SDP solver with the proposed conditional gradient solver (CGM) for NOMAD on different datasets. In most cases, the results are practically indistinguishable while being delivered much faster.\relax }{figure.caption.91}{}}
+\newlabel{fig:cvx_vs_cgm@cref}{{[figure][14][]14}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Running time comparison (smaller is better) of different NOMAD solvers for $K=16$ (SCS\nobreakspace  {}\citep  {SCSsolver} and SDPNAL+\nobreakspace  {}\citep  {sdpnalplus} are written in a highly optimized C/C++ code, while we use our non-optimized Python code for the others). The non-convex solver is much faster than the convex ones. Unfortunately, it may yield different results, see \cref  {fig:completely_positive_burer-monteiro}, and may not converge to the global maximum. The conditional gradient algorithm proposed in this paper is much faster than SCS and SDPNAL+ (about three times faster for $n=10^3$) but guarantees converging to the global optimum. Additionally, the proposed algorithm handles large problems seamlessly: in our desktop with 128GB of RAM, SCS (running under CVXPY) runs out of memory with instances larger than $n=1200$) while SDPNAL+ times out before converging for instances larger than $n=4000$. \relax }}{19}{figure.caption.92}}
+\newlabel{fig:mnist_timing}{{15}{19}{Running time comparison (smaller is better) of different NOMAD solvers for $K=16$ (SCS~\citep {SCSsolver} and SDPNAL+~\citep {sdpnalplus} are written in a highly optimized C/C++ code, while we use our non-optimized Python code for the others). The non-convex solver is much faster than the convex ones. Unfortunately, it may yield different results, see \cref {fig:completely_positive_burer-monteiro}, and may not converge to the global maximum. The conditional gradient algorithm proposed in this paper is much faster than SCS and SDPNAL+ (about three times faster for $n=10^3$) but guarantees converging to the global optimum. Additionally, the proposed algorithm handles large problems seamlessly: in our desktop with 128GB of RAM, SCS (running under CVXPY) runs out of memory with instances larger than $n=1200$) while SDPNAL+ times out before converging for instances larger than $n=4000$. \relax }{figure.caption.92}{}}
+\newlabel{fig:mnist_timing@cref}{{[figure][15][]15}{19}}
+\citation{Cristianini2002}
+\citation{Lanckriet2004,Cortes2012_centeredalignment}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces We show the 2D embedding of the digit 0 in MNIST, computed in the same fashion as in \cref  {fig:embedding_real}. In this case, we use all 9603 images of the digit and obtain a $9603 \times 9603$ matrix. We compute the solution of NOMAD with $K=128$ using the proposed conditional gradient method (\cref  {algo:cgm_sdp-km}). In contrast, traditional SDP-solvers can only handle dense matrices approximately 100 times smaller. As in \cref  {fig:embedding_real}, the data gets organized according to different visual characteristics of the hand-written digit (e.g., orientation and elongation). \relax }}{20}{figure.caption.93}}
+\newlabel{fig:mnist_n9603_k128_embedding}{{16}{20}{We show the 2D embedding of the digit 0 in MNIST, computed in the same fashion as in \cref {fig:embedding_real}. In this case, we use all 9603 images of the digit and obtain a $9603 \times 9603$ matrix. We compute the solution of NOMAD with $K=128$ using the proposed conditional gradient method (\cref {algo:cgm_sdp-km}). In contrast, traditional SDP-solvers can only handle dense matrices approximately 100 times smaller. As in \cref {fig:embedding_real}, the data gets organized according to different visual characteristics of the hand-written digit (e.g., orientation and elongation). \relax }{figure.caption.93}{}}
+\newlabel{fig:mnist_n9603_k128_embedding@cref}{{[figure][16][]16}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions}{20}{section.94}}
+\newlabel{sec:conclusions}{{6}{20}{}{section.94}{}}
+\newlabel{sec:conclusions@cref}{{[section][6][]6}{20}}
+\@writefile{toc}{\contentsline {paragraph}{Related and future work.}{20}{section.94}}
+\bibdata{sdpkm,cgm}
+\bibcite{Amini2014}{{1}{2014}{{Amini and Levina}}{{}}}
+\bibcite{Awasthi2015}{{2}{2015}{{Awasthi et~al.}}{{Awasthi, Bandeira, Charikar, Krishnaswamy, Villar, and Ward}}}
+\bibcite{Bachoc2012}{{3}{2012}{{Bachoc et~al.}}{{Bachoc, Gijswijt, Schrijver, and Vallentin}}}
+\bibcite{Belkin2003}{{4}{2003}{{Belkin and Niyogi}}{{}}}
+\bibcite{boumal2016non}{{5}{2016}{{Boumal et~al.}}{{Boumal, Voroninski, and Bandeira}}}
+\bibcite{Byrd1995}{{6}{1995}{{Byrd et~al.}}{{Byrd, Lu, Nocedal, and Zhu}}}
+\bibcite{Cho2009}{{7}{2009}{{Cho and Saul}}{{}}}
+\bibcite{Clarkson2010fw}{{8}{2010}{{Clarkson}}{{}}}
+\bibcite{Cortes2012_centeredalignment}{{9}{2012}{{Cortes et~al.}}{{Cortes, Mohri, and Rostamizadeh}}}
+\bibcite{Cristianini2002}{{10}{2002}{{Cristianini et~al.}}{{Cristianini, Kandola, Elisseeff, and Shawe-Taylor}}}
+\bibcite{Fevotte2011}{{11}{2011}{{F{\'{e}}votte and Idier}}{{}}}
+\bibcite{FrankWolfe}{{12}{1956}{{Frank and Wolfe}}{{}}}
+\bibcite{Goldstein2009}{{13}{2009}{{Goldstein and Osher}}{{}}}
+\bibcite{Hadsell2006}{{14}{2006}{{Hadsell et~al.}}{{Hadsell, Chopra, and LeCun}}}
+\bibcite{Hazan2008sdp}{{15}{2008}{{Hazan}}{{}}}
+\bibcite{Hou2015}{{16}{2015}{{Hou et~al.}}{{Hou, Whang, Gleich, and Dhillon}}}
+\bibcite{Iguchi2015}{{17}{2015}{{Iguchi et~al.}}{{Iguchi, Mixon, Peterson, and Villar}}}
+\bibcite{Jaggi2013}{{18}{2013}{{Jaggi}}{{}}}
+\bibcite{Javanmard2016}{{19}{2015}{{Javanmard et~al.}}{{Javanmard, Montanari, and Ricci-Tersenghi}}}
+\bibcite{Kaykobad1987}{{20}{1987}{{Kaykobad}}{{}}}
+\bibcite{Kulis2007}{{21}{2007}{{Kulis et~al.}}{{Kulis, Surendran, and Platt}}}
+\bibcite{Lanckriet2004}{{22}{2004}{{Lanckriet et~al.}}{{Lanckriet, Cristianini, Bartlett, Ghaoui, and Jordan}}}
+\bibcite{Lloyd1982}{{23}{1982}{{Lloyd}}{{}}}
+\bibcite{Maxfield1962}{{24}{1962}{{Maxfield and Minc}}{{}}}
+\bibcite{Mixon2016}{{25}{2016}{{Mixon et~al.}}{{Mixon, Villar, and Ward}}}
+\bibcite{ODonoghue2016}{{26}{2016{a}}{{O'Donoghue et~al.}}{{O'Donoghue, Chu, Parikh, and Boyd}}}
+\bibcite{SCSsolver}{{27}{2016{b}}{{O'Donoghue et~al.}}{{O'Donoghue, Chu, Parikh, and Boyd}}}
+\bibcite{Pehlevan2017olfaction}{{28}{2017}{{Pehlevan et~al.}}{{Pehlevan, Genkin, and Chklovskii}}}
+\bibcite{Peng2007_sdk-kmeans}{{29}{2007}{{Peng and Wei}}{{}}}
+\bibcite{Roweis2000}{{30}{2000}{{Roweis and Saul}}{{}}}
+\bibcite{So2013}{{31}{2013}{{So and Xu}}{{}}}
+\bibcite{Tenenbaum2000}{{32}{2000}{{Tenenbaum et~al.}}{{Tenenbaum, Silva, and Langford}}}
+\bibcite{Tepper2014consensus}{{33}{2014}{{Tepper and Sapiro}}{{}}}
+\bibcite{tepper2016compressed}{{34}{2016}{{Tepper and Sapiro}}{{}}}
+\bibcite{Weinberger2006}{{35}{2006}{{Weinberger and Saul}}{{}}}
+\bibcite{Weiss2008}{{36}{2008}{{Weiss et~al.}}{{Weiss, Torralba, and Fergus}}}
+\bibcite{xu2012nmf}{{37}{2012}{{Xu et~al.}}{{Xu, Yin, Wen, and Zhang}}}
+\bibcite{sdpnalplus}{{38}{2015}{{Yang et~al.}}{{Yang, Sun, and Toh}}}
+\bibcite{Yu2012regularizers}{{39}{2012}{{Yu et~al.}}{{Yu, Neufeld, Kiros, Zhang, and Schuurmans}}}
+\bibcite{Zhang2012}{{40}{2012}{{Zhang et~al.}}{{Zhang, Ren, and Zhang}}}
+\citation{Lloyd1982}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Relationship with $K$-means}{23}{section.97}}
+\newlabel{sec:kmeans}{{A}{23}{Acknowledgments}{section.97}{}}
+\newlabel{sec:kmeans@cref}{{[appendix][1][2147483647]A}{23}}
+\newlabel{eq:kmeans}{{{$K$-means}}{23}{Acknowledgments}{equation.98}{}}
+\newlabel{eq:kmeans@cref}{{[problem][2147483647][]$K$-means}{23}}
+\newlabel{eq:trace_xtxyty}{{24c}{23}{Acknowledgments}{equation.103}{}}
+\newlabel{eq:trace_xtxyty@cref}{{[subequation][3][2147483647,24]24c}{23}}
+\citation{Kulis2007,Peng2007_sdk-kmeans}
+\citation{So2013}
+\citation{Kaykobad1987}
+\citation{Fevotte2011,xu2012nmf,Tepper2014consensus,tepper2016compressed}
+\newlabel{eq:kmeans_qyyt}{{27}{24}{Acknowledgments}{equation.106}{}}
+\newlabel{eq:kmeans_qyyt@cref}{{[problem][27][2147483647]27}{24}}
+\newlabel{eq:sdp_kmeans_lowrank}{{28}{24}{Acknowledgments}{equation.107}{}}
+\newlabel{eq:sdp_kmeans_lowrank@cref}{{[problem][28][2147483647]28}{24}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}On the complete positivity of \ref  {eq:sdp_kmeans} solutions on circulant matrices}{24}{section.108}}
+\newlabel{sec:proofs}{{B}{24}{Acknowledgments}{section.108}{}}
+\newlabel{sec:proofs@cref}{{[appendix][2][2147483647]B}{24}}
+\newlabel{prop:circulantCP}{{2}{24}{Acknowledgments}{theorem.109}{}}
+\newlabel{prop:circulantCP@cref}{{[theorem][2][2147483647]2}{24}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}Additional results}{24}{section.110}}
+\newlabel{sec:additional_multilayer_results}{{C}{24}{Acknowledgments}{section.110}{}}
+\newlabel{sec:additional_multilayer_results@cref}{{[appendix][3][2147483647]C}{24}}
+\@writefile{toc}{\contentsline {section}{\numberline {D}Symmetric NMF}{24}{section.114}}
+\newlabel{sec:snmf}{{D}{24}{Acknowledgments}{section.114}{}}
+\newlabel{sec:snmf@cref}{{[appendix][4][2147483647]D}{24}}
+\newlabel{eq:snmf}{{{SNMF}}{24}{Acknowledgments}{equation.115}{}}
+\newlabel{eq:snmf@cref}{{[problem][2147483647][]SNMF}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Additional results of multi-layer NOMAD.\relax }}{25}{figure.caption.111}}
+\newlabel{fig:additional_multilayer_rings}{{17}{25}{Additional results of multi-layer NOMAD.\relax }{figure.caption.111}{}}
+\newlabel{fig:additional_multilayer_rings@cref}{{[figure][17][2147483647]17}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Additional results of multi-layer NOMAD.\relax }}{26}{figure.caption.112}}
+\newlabel{fig:additional_multilayer_moons}{{18}{26}{Additional results of multi-layer NOMAD.\relax }{figure.caption.112}{}}
+\newlabel{fig:additional_multilayer_moons@cref}{{[figure][18][2147483647]18}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Additional results of multi-layer NOMAD.\relax }}{27}{figure.caption.113}}
+\newlabel{fig:additional_multilayer_double_swiss_roll}{{19}{27}{Additional results of multi-layer NOMAD.\relax }{figure.caption.113}{}}
+\newlabel{fig:additional_multilayer_double_swiss_roll@cref}{{[figure][19][2147483647]19}{27}}
+\citation{Kulis2007,Hou2015}
+\citation{Hou2015}
+\citation{boumal2016non}
+\citation{Byrd1995}
+\citation{Hazan2008sdp}
+\citation{Clarkson2010fw}
+\@writefile{toc}{\contentsline {section}{\numberline {E}Non-convex SDP solver}{28}{section.122}}
+\newlabel{sec:burer-monteiro}{{E}{28}{Acknowledgments}{section.122}{}}
+\newlabel{sec:burer-monteiro@cref}{{[appendix][5][2147483647]E}{28}}
+\@writefile{toc}{\contentsline {section}{\numberline {F}Proofs for the conditional gradient algorithm}{29}{section.128}}
+\newlabel{sec:cgm_proofs}{{F}{29}{Acknowledgments}{section.128}{}}
+\newlabel{sec:cgm_proofs@cref}{{[appendix][6][2147483647]F}{29}}
+\newlabel{eq:generic_sdp_ortho_dual_w}{{36}{29}{Acknowledgments}{equation.132}{}}
+\newlabel{eq:generic_sdp_ortho_dual_w@cref}{{[equation][36][2147483647]36}{29}}
+\newlabel{eq:generic_sdp_ortho_dual_phi}{{37}{29}{Acknowledgments}{equation.133}{}}
+\newlabel{eq:generic_sdp_ortho_dual_phi@cref}{{[equation][37][2147483647]37}{29}}
+\newlabel{thm:generic_sdp_ortho_dual}{{3}{29}{Acknowledgments}{equation.133}{}}
+\newlabel{thm:generic_sdp_ortho_dual@cref}{{[lemma][3][2147483647]3}{29}}
+\newlabel{eq:generic_sdp_ortho_lagrangian}{{38}{29}{Acknowledgments}{equation.134}{}}
+\newlabel{eq:generic_sdp_ortho_lagrangian@cref}{{[equation][38][2147483647]38}{29}}
+\newlabel{eq:generic_sdp_ortho_U}{{39}{29}{Acknowledgments}{equation.135}{}}
+\newlabel{eq:generic_sdp_ortho_U@cref}{{[equation][39][2147483647]39}{29}}
+\newlabel{eq:weak_duality}{{48}{30}{Acknowledgments}{equation.148}{}}
+\newlabel{eq:weak_duality@cref}{{[equation][48][2147483647]48}{30}}
+\newlabel{eq:w_minus_f}{{51}{30}{Acknowledgments}{equation.151}{}}
+\newlabel{eq:w_minus_f@cref}{{[equation][51][2147483647]51}{30}}
+\newlabel{eq:f_inequality1}{{52b}{30}{Acknowledgments}{equation.154}{}}
+\newlabel{eq:f_inequality1@cref}{{[subequation][2][2147483647,52]52b}{30}}
+\newlabel{eq:f_inequality}{{53c}{30}{Acknowledgments}{equation.158}{}}
+\newlabel{eq:f_inequality@cref}{{[subequation][3][2147483647,53]53c}{30}}
+\newlabel{LastPage}{{}{30}{}{page.30}{}}
+\xdef\lastpage@lastpage{30}
+\xdef\lastpage@lastpageHy{30}

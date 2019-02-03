@@ -1,0 +1,121 @@
+\begin{thebibliography}{17}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Apley(2017)]{ALEPlot}
+Dan Apley.
+\newblock \emph{{ALEPlot: Accumulated Local Effects (ALE) Plots and Partial
+  Dependence (PD) Plots}}, 2017.
+\newblock R package version 1.0.
+
+\bibitem[Biecek and Kosinski(2017)]{archivist}
+Przemyslaw Biecek and Marcin Kosinski.
+\newblock {archivist: An R Package for Managing, Recording and Restoring Data
+  Analysis Results}.
+\newblock \emph{Journal of Statistical Software}, 82\penalty0 (11):\penalty0
+  1--28, 2017.
+\newblock \doi{10.18637/jss.v082.i11}.
+
+\bibitem[Bischl et~al.(2016)Bischl, Lang, Kotthoff, Schiffner, Richter,
+  Studerus, Casalicchio, and Jones]{mlr}
+Bernd Bischl, Michel Lang, Lars Kotthoff, Julia Schiffner, Jakob Richter, Erich
+  Studerus, Giuseppe Casalicchio, and Zachary~M. Jones.
+\newblock {{mlr}: Machine Learning in R}.
+\newblock \emph{Journal of Machine Learning Research}, 17\penalty0
+  (170):\penalty0 1--5, 2016.
+
+\bibitem[Breiman(2001)]{Breiman2001}
+Leo Breiman.
+\newblock Random forests.
+\newblock \emph{Machine Learning}, 45\penalty0 (1):\penalty0 5--32, 2001.
+
+\bibitem[Fisher et~al.(2018)Fisher, Rudin, and Dominici]{Fisher2018}
+Aaron Fisher, Cynthia Rudin, and Francesca Dominici.
+\newblock \emph{{Model Class Reliance: Variable Importance Measures for any
+  Machine Learning Model Class, from the "Rashomon" Perspective}}, 2018.
+\newblock URL \url{http://arxiv.org/abs/1801.01489}.
+
+\bibitem[Gosiewska and Biecek(2018)]{auditor}
+Alicja Gosiewska and Przemyslaw Biecek.
+\newblock \emph{{auditor}: an {R} Package for Model-Agnostic Visual Validation
+  and Diagnostic}, 2018.
+\newblock URL \url{https://arxiv.org/abs/1809.07763}.
+
+\bibitem[Greenwell(2017)]{pdp}
+Brandon Greenwell.
+\newblock pdp: {A}n {R} package for {C}onstructing {P}artial {D}ependence
+  {P}lots.
+\newblock \emph{The R Journal}, 9\penalty0 (1):\penalty0 421--436, 2017.
+
+\bibitem[Hernández-Orallo(2013)]{RROC}
+José Hernández-Orallo.
+\newblock {ROC curves for regression}.
+\newblock \emph{Pattern Recognition}, 46\penalty0 (12):\penalty0 3395–3411,
+  2013.
+\newblock \doi{10.1016/j.patcog.2013.06.014}.
+
+\bibitem[Johansson et~al.(2011)Johansson, Sönströd, Norinder, and
+  Boström]{tradeoff_interpretability_accuracy}
+Ulf Johansson, Cecilia Sönströd, Ulf Norinder, and Henrik Boström.
+\newblock Trade-off between accuracy and interpretability for predictive in
+  silico modeling.
+\newblock \emph{Future Medicinal Chemistry}, 3\penalty0 (6):\penalty0 647--663,
+  2011.
+\newblock \doi{10.4155/fmc.11.23}.
+
+\bibitem[Kuhn(2008)]{caret}
+Max Kuhn.
+\newblock Building {Predictive} {Models} in {{R}} {Using} the {caret}
+  {Package}.
+\newblock \emph{Journal of Statistical Software}, 28\penalty0 (5), 2008.
+\newblock \doi{10.18637/jss.v028.i05}.
+
+\bibitem[Lundberg and Lee(2017)]{shapley}
+Scott Lundberg and Su-In Lee.
+\newblock A unified approach to interpreting model predictions.
+\newblock \emph{Advances in Neural Information Processing Systems 30}, pages
+  4765--4774, 2017.
+
+\bibitem[O'Neil(2016)]{ONeil}
+Cathy O'Neil.
+\newblock \emph{Weapons of Math Destruction: How Big Data Increases Inequality
+  and Threatens Democracy}.
+\newblock Crown Publishing Group, New York, NY, USA, 2016.
+
+\bibitem[{R Core Team}(2017)]{Rcran}
+{R Core Team}.
+\newblock \emph{R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria, 2017.
+
+\bibitem[Ribeiro et~al.(2016)Ribeiro, Singh, and Guestrin]{lime}
+Marco~Tulio Ribeiro, Sameer Singh, and Carlos Guestrin.
+\newblock \emph{"{Why} {Should} {I} {Trust} {You}?"}.
+\newblock ACM Press, 2016.
+\newblock \doi{10.1145/2939672.2939778}.
+\newblock URL \url{https://arxiv.org/abs/1602.04938}.
+
+\bibitem[Sculley et~al.(2015)Sculley, Holt, Golovin, Davydov, Phillips, Ebner,
+  Chaudhary, Young, Crespo, and Dennison]{Dennison_2015}
+David Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips,
+  Dietmar Ebner, Vinay Chaudhary, Michael Young, Jean-Francois Crespo, and Dan
+  Dennison.
+\newblock Hidden technical debt in machine learning systems.
+\newblock In \emph{Proceedings of the 28th International Conference on Neural
+  Information Processing Systems}. MIT Press, 2015.
+
+\bibitem[Sitko and Biecek(2017)]{factorMerger}
+Agnieszka Sitko and Przemyslaw Biecek.
+\newblock \emph{{The Merging Path Plot}: adaptive fusing of k-groups with
+  likelihood-based model selection}, 2017.
+\newblock URL \url{https://arxiv.org/abs/1709.04412}.
+
+\bibitem[Staniak and Biecek(2018)]{breakDownlive}
+Mateusz Staniak and Przemyslaw Biecek.
+\newblock \emph{Explanations of Model Predictions with {live} and {breakDown}
+  Packages}, 2018.
+\newblock URL \url{https://arxiv.org/abs/1804.01955}.
+
+\end{thebibliography}

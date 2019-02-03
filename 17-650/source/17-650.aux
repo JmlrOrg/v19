@@ -1,0 +1,536 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\zref@newlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{plainnat}
+\citation{SAG}
+\citation{SDCA}
+\citation{svrg}
+\citation{SAGA}
+\citation{hogwild}
+\citation{asyncSDCA2015}
+\citation{smola,mania,asySVRG}
+\citation{laggedsaga,SAGA}
+\citation{qsaga}
+\citation{leblond2016Asaga}
+\citation{leblond2016Asaga}
+\citation{mania}
+\citation{mania}
+\citation{mania}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}}
+\newlabel{eq:finiteSum}{{1}{2}{}{equation.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Contributions.}}{2}{equation.2}}
+\citation{mania}
+\citation{mania}
+\citation{hogwild}
+\citation{bertsekasParalle1989}
+\citation{hogwild}
+\citation{asyncCD2015}
+\citation{asyncSDCA2015}
+\citation{taming,asyncSGDNonConvex2015}
+\citation{duchi}
+\citation{smola,asySVRG}
+\citation{duchi}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Related Work.}}{3}{equation.2}}
+\citation{mania}
+\citation{mania}
+\citation{smola}
+\citation{cyclades}
+\citation{laggedsaga}
+\citation{pedregosa2017maga}
+\citation{hogwild}
+\citation{hogwild}
+\citation{mania}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Notation.}}{4}{equation.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Revisiting the Perturbed Iterate Framework for Asynchronous Analysis}{4}{section.9}}
+\newlabel{pif}{{2}{4}{}{section.9}{}}
+\citation{mania}
+\citation{SAG}
+\citation{SAGA}
+\citation{mania}
+\citation{mania}
+\citation{mania}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Perturbed Iterate Framework}{5}{subsection.10}}
+\newlabel{eq:sgdupdate}{{3}{5}{}{equation.12}{}}
+\newlabel{eq:unbiasedness}{{4}{5}{}{equation.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}On the Difficulty of Labeling the Iterates}{5}{subsection.16}}
+\newlabel{ssec:labelingIssue}{{2.2}{5}{}{subsection.16}{}}
+\citation{hogwild}
+\citation{mania}
+\citation{duchi}
+\citation{bertsekasParalle1989}
+\citation{mania}
+\citation{mania}
+\newlabel{eq:updates}{{5}{6}{}{Item.22}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {The ``After Write'' Approach.}}{6}{Item.22}}
+\newlabel{footnote:ordering}{{9}{6}{}{Hfootnote.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Suppose that we have two cores and that $f$ has two factors: $f_1$ which has support on only one variable, and $f_2$ which has support on $10^6$ variables and thus yields a gradient step that is significantly more expensive to compute. $x_0$ is the initial content of the memory, and we do not know yet whether $\mathaccentV {hat}05E{x}_0$ is the local copy read by the first core or the second core, but we are sure that $\mathaccentV {hat}05E{x}_0 = x_0$ as no update can occur in shared memory without incrementing the counter. There are four possibilities for the next step defining $x_1$ depending on which index $i$ was sampled on each core. If any core samples $i=1$, we know that $x_1 = x_0 - \gamma f'_1(x_0)$ as it will be the first (much faster update) to complete. This happens in 3 out of 4 possibilities; we thus have that $\mathbb  {E}x_1 = x_0 - \gamma (\frac  {3}{4} f'_1(x_0) + \frac  {1}{4} f '_2(x_0))$. We see that this analysis scheme \emph  {does not} satisfy the crucial unbiasedness condition\nobreakspace  {}\textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:unbiasedness}\unskip \@@italiccorr )}}. To understand this subtle point better, note that in this very simple example, $i_0$ and $i_1$ are not independent. We can show that $P(i_1=2 \mid i_0=2) =1$. They share dependency \emph  {through the labeling assignment}. \relax }}{7}{figure.caption.23}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:afterwritebias}{{1}{7}{\footnotesize Suppose that we have two cores and that $f$ has two factors: $f_1$ which has support on only one variable, and $f_2$ which has support on $10^6$ variables and thus yields a gradient step that is significantly more expensive to compute. $x_0$ is the initial content of the memory, and we do not know yet whether $\hat {x}_0$ is the local copy read by the first core or the second core, but we are sure that $\hat {x}_0 = x_0$ as no update can occur in shared memory without incrementing the counter. There are four possibilities for the next step defining $x_1$ depending on which index $i$ was sampled on each core. If any core samples $i=1$, we know that $x_1 = x_0 - \stepsize f'_1(x_0)$ as it will be the first (much faster update) to complete. This happens in 3 out of 4 possibilities; we thus have that $\E x_1 = x_0 - \stepsize (\frac {3}{4} f'_1(x_0) + \frac {1}{4} f '_2(x_0))$. We see that this analysis scheme \emph {does not} satisfy the crucial unbiasedness condition~\eqref {eq:unbiasedness}. To understand this subtle point better, note that in this very simple example, $i_0$ and $i_1$ are not independent. We can show that $P(i_1=2 \mid i_0=2) =1$. They share dependency \emph {through the labeling assignment}. \relax }{figure.caption.23}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {The ``Before Read'' Approach.}}{7}{figure.caption.23}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {A New Global Ordering: the ``After Read'' Approach.}}{7}{figure.caption.23}}
+\citation{mania}
+\citation{mania}
+\citation{mania}
+\citation{qsaga}
+\citation{SAGA}
+\citation{qsaga}
+\citation{SAGA}
+\newlabel{eq:xhatUpdates}{{6}{8}{}{equation.25}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Asynchronous Parallel Sparse \textsc  {Saga}}{8}{section.27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Sparse \textsc  {Saga}}{8}{subsection.28}}
+\newlabel{scs:sparse_saga}{{3.1}{8}{}{subsection.28}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Original \textsc  {Saga}\ Algorithm.}}{8}{subsection.28}}
+\citation{SAGA}
+\citation{laggedsaga}
+\citation{mania}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\newlabel{eq:SAGAupdate}{{7}{9}{}{equation.30}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Motivation for a Variant.}}{9}{equation.30}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Sparse \textsc  {Saga}\ Algorithm.}}{9}{equation.30}}
+\newlabel{eq:SparseSAGA}{{8}{9}{}{equation.31}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Convergence Result for (Serial) Sparse \textsc  {Saga}.}}{9}{equation.31}}
+\newlabel{th1}{{2}{9}{}{theorem.32}{}}
+\citation{qsaga}
+\citation{laggedsaga}
+\citation{laggedsaga}
+\citation{mania}
+\newlabel{sparseoutline}{{3.1}{10}{}{theorem.32}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Proof outline.}}{10}{theorem.32}}
+\newlabel{eq:sparse}{{9}{10}{}{equation.33}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Comparison with Lagged Updates.}}{10}{equation.33}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Asynchronous Parallel Sparse \textsc  {Saga}}{10}{subsection.34}}
+\newlabel{sec:ASAGA}{{3.2}{10}{}{subsection.34}{}}
+\newlabel{ssec:convergence}{{3.2}{10}{}{subsection.34}{}}
+\newlabel{eq:PIupdate}{{10}{10}{}{equation.66}{}}
+\citation{bertsekasParalle1989}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces \textsc  {Asaga}\ (analyzed algorithm)\relax }}{11}{figure.caption.35}}
+\newlabel{alg:theoretical}{{1}{11}{\ASAGA \ (analyzed algorithm)\relax }{figure.caption.35}{}}
+\newlabel{theoreticalgo}{{1}{11}{\ASAGA \ (analyzed algorithm)\relax }{figure.caption.35}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces \textsc  {Asaga}\ (implementation)\relax }}{11}{figure.caption.35}}
+\newlabel{alg:sagasync}{{2}{11}{\ASAGA \ (implementation)\relax }{figure.caption.35}{}}
+\@writefile{loe}{\contentsline {prop}{\numberline {3}Property\thmtformatoptarg {independence}}{11}{prop.68}}
+\newlabel{independence}{{3}{11}{independence}{prop.68}{}}
+\@writefile{loe}{\contentsline {prop}{\numberline {4}Property\thmtformatoptarg {unbiased estimator}}{11}{prop.70}}
+\newlabel{prop:unbiased}{{4}{11}{unbiased estimator}{prop.70}{}}
+\@writefile{loe}{\contentsline {prop}{\numberline {5}Property\thmtformatoptarg {atomicity}}{11}{prop.72}}
+\newlabel{eventconst}{{5}{11}{atomicity}{prop.72}{}}
+\citation{hogwild}
+\@writefile{loe}{\contentsline {asm}{\numberline {6}Assumption\thmtformatoptarg {bounded overlaps}}{12}{asm.74}}
+\newlabel{boundedoverlap}{{6}{12}{bounded overlaps}{asm.74}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Explicit effect of asynchrony.}}{12}{asm.74}}
+\newlabel{eq:async}{{11}{12}{}{equation.75}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Convergence and Speedup Results}{12}{subsection.76}}
+\citation{qsaga}
+\citation{hogwild,mania}
+\citation{smola}
+\citation{qsaga}
+\citation{smola}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Convergence and Speedup Statements}{13}{subsubsection.78}}
+\newlabel{thm:convergence}{{8}{13}{Convergence guarantee and rate of \ASAGA }{theorem.79}{}}
+\newlabel{eq:condition}{{12}{13}{Convergence guarantee and rate of \ASAGA }{equation.81}{}}
+\newlabel{thm:bigdata}{{9}{13}{Speedup condition}{theorem.82}{}}
+\newlabel{thm:illcondition}{{9}{13}{Speedup condition}{theorem.82}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Comparison to related work.}}{13}{theorem.82}}
+\citation{mania}
+\citation{mania}
+\citation{qsaga}
+\citation{mania}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Proof Outline of Theorem\nobreakspace  {}\ref  {thm:convergence}}{14}{subsubsection.83}}
+\newlabel{proofoutline}{{3.3.2}{14}{}{subsubsection.83}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Initial recursive inequality.}}{14}{subsubsection.83}}
+\newlabel{eq:initrec}{{13}{14}{}{equation.84}{}}
+\newlabel{eq:strongconvexity}{{14}{14}{}{equation.86}{}}
+\newlabel{eq:RecursiveIneq1}{{15}{14}{}{equation.87}{}}
+\citation{smola}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Details}{15}{subsubsection.93}}
+\newlabel{sec:keylemmas}{{3.3.3}{15}{}{subsubsection.93}{}}
+\newlabel{lma:1}{{10}{15}{Inequality in terms of $g_t := g(\hat x_{t}, \hat \alpha ^t, i_{t})$}{theorem.94}{}}
+\newlabel{eq:recursivegt}{{16}{15}{Inequality in terms of $g_t := g(\hat x_{t}, \hat \alpha ^t, i_{t})$}{equation.95}{}}
+\newlabel{eq:C12defs}{{17}{15}{Inequality in terms of $g_t := g(\hat x_{t}, \hat \alpha ^t, i_{t})$}{equation.96}{}}
+\newlabel{prop:1}{{11}{15}{}{theorem.98}{}}
+\newlabel{sparseproduct}{{18}{15}{}{equation.99}{}}
+\newlabel{rmk:1}{{12}{16}{}{theorem.100}{}}
+\newlabel{sparsitycondition}{{19}{16}{}{equation.101}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Proof of Proposition\nobreakspace  {}\ref  {prop:1}}}{16}{equation.105}}
+\citation{qsaga}
+\citation{SAGA,qsaga}
+\newlabel{lma:suboptgt}{{13}{17}{Suboptimality bound on $\E \|g_t\|^2$}{theorem.108}{}}
+\newlabel{gtbound}{{25}{17}{Suboptimality bound on $\E \|g_t\|^2$}{equation.109}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Master inequality.}}{17}{equation.111}}
+\newlabel{master}{{27}{17}{}{equation.113}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Lyapunov function and associated recursive inequality.}}{17}{equation.113}}
+\newlabel{eq:LyapunovDefinition}{{28}{17}{}{equation.114}{}}
+\newlabel{Lyapunov}{{29}{18}{}{equation.115}{}}
+\newlabel{lma:3}{{14}{18}{Sufficient condition for convergence}{theorem.116}{}}
+\newlabel{eq:lmacondition}{{30}{18}{Sufficient condition for convergence}{equation.117}{}}
+\citation{svrg}
+\citation{qsaga}
+\citation{svrg}
+\citation{nonconvex}
+\citation{mania}
+\citation{mania}
+\citation{qsaga}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Asynchronous Parallel \textsc  {Svrg}\ with the ``After Read'' Labeling}{19}{section.123}}
+\newlabel{svrg}{{4}{19}{}{section.123}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {\textsc  {Asaga}\ vs. asynchronous \textsc  {Svrg}.}}{19}{section.123}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Motivation for analyzing asynchronous \textsc  {Svrg}.}}{19}{section.123}}
+\citation{qsaga}
+\citation{svrg}
+\citation{svrg}
+\citation{qsaga}
+\citation{mania}
+\citation{mania}
+\citation{mania}
+\citation{qsaga}
+\citation{qsaga}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}\textsc  {Svrg}\ Algorithms}{20}{subsection.126}}
+\newlabel{ssec:svrgalgos}{{4.1}{20}{}{subsection.126}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Original \textsc  {Svrg}\ algorithm.}}{20}{subsection.126}}
+\newlabel{eq:SVRGAupdate}{{35}{20}{}{equation.127}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Hofmann's \textsc  {Svrg}\ variant.}}{20}{equation.127}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {\textsc  {Kromagnon}.}}{20}{equation.127}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Extension to the \textsc  {Svrg}\ Variant from\nobreakspace  {}\citet  {qsaga}}{20}{subsection.163}}
+\newlabel{apx:SVRGext}{{4.2}{20}{}{subsection.163}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces \textsc  {Kromagnon}\nobreakspace  {}\citep  {mania}\relax }}{21}{figure.caption.128}}
+\newlabel{alg:kromagnon}{{3}{21}{\KROMAGNON ~\citep {mania}\relax }{figure.caption.128}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces \textsc  {Ahsvrg}\relax }}{21}{figure.caption.128}}
+\newlabel{alg:ahsvrg}{{4}{21}{\AHSVRG \relax }{figure.caption.128}{}}
+\citation{svrg}
+\citation{smola}
+\citation{smola}
+\citation{smola}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Fast Convergence and Speedup Rates for \textsc  {Kromagnon}}{22}{subsection.164}}
+\newlabel{thm:SVRG}{{15}{22}{Convergence guarantee and rate of \KROMAGNON }{theorem.165}{}}
+\citation{svrg}
+\citation{s2gd}
+\citation{smola}
+\newlabel{thm:SVRGconvergence}{{16}{23}{Convergence guarantee and rate for serial \SVRG }{theorem.168}{}}
+\newlabel{eq:svrgcontraction}{{38}{23}{Convergence guarantee and rate for serial \SVRG }{equation.169}{}}
+\newlabel{thm:kromagnon}{{17}{23}{Simplified convergence guarantee and rate for \KROMAGNON }{theorem.170}{}}
+\newlabel{eq:conditionSVRG}{{39}{23}{Simplified convergence guarantee and rate for \KROMAGNON }{equation.171}{}}
+\newlabel{thm:bigdataSVRG}{{18}{23}{Speedup condition}{theorem.173}{}}
+\citation{mania}
+\citation{svrg}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Comparison to related work.}}{24}{theorem.173}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Proof of Theorem\nobreakspace  {}\ref  {thm:SVRG}}{24}{subsection.174}}
+\newlabel{sec:proofSVRG}{{4.4}{24}{}{subsection.174}{}}
+\newlabel{lma:suboptgtSVRG}{{19}{24}{Suboptimality bound on $\E \|g_t\|^2$}{theorem.176}{}}
+\newlabel{gtboundsvrg}{{41}{24}{Suboptimality bound on $\E \|g_t\|^2$}{equation.177}{}}
+\citation{svrg}
+\citation{svrg}
+\citation{hogwild}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Master inequality.}}{25}{Item.181}}
+\newlabel{eq:masterSVRG}{{42}{25}{}{equation.182}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Contraction inequality.}}{25}{equation.182}}
+\newlabel{eq:svrgsum}{{43}{25}{}{equation.183}{}}
+\newlabel{eq:randomtrick}{{44}{25}{}{equation.184}{}}
+\newlabel{eq:svrgdetailedcontraction}{{45}{25}{}{equation.185}{}}
+\citation{hogwild,taming,mania}
+\citation{schmidt2014sgd}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {5}{\ignorespaces \textsc  {Hogwild}\relax }}{26}{figure.caption.187}}
+\newlabel{alg:hogwild}{{5}{26}{\Hogwild \relax }{figure.caption.187}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}\textsc  {Hogwild}\ Analysis}{26}{section.186}}
+\newlabel{sec:SGD}{{5}{26}{}{section.186}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Theoretical Results}{26}{subsection.198}}
+\newlabel{thm:convergenceSGDserial}{{21}{26}{Convergence guarantee and rate of \SGD }{theorem.200}{}}
+\newlabel{thm:convergenceSGD}{{22}{26}{Convergence guarantee and rate of \Hogwild }{theorem.201}{}}
+\citation{bachandm}
+\newlabel{eq:conditionSGD}{{46}{27}{Convergence guarantee and rate of \Hogwild }{equation.202}{}}
+\newlabel{thm:bigdataSGD}{{23}{27}{Speedup condition}{theorem.203}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Function values results.}}{27}{theorem.203}}
+\citation{mania}
+\citation{mania}
+\citation{srebro}
+\citation{hogwild,taming}
+\citation{hogwild}
+\citation{mania}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Convergence to $\epsilon $-accuracy.}}{28}{theorem.203}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Comparison to related work.}}{28}{theorem.203}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Proof of Theorem\nobreakspace  {}\ref  {thm:convergenceSGD} and Corollary\nobreakspace  {}\ref  {thm:bigdataSGD}}{28}{subsection.205}}
+\newlabel{sec:proofSGD}{{5.2}{28}{}{subsection.205}{}}
+\newlabel{lma:suboptgtSGD}{{24}{28}{Suboptimality bound on $\E \|g_t\|^2$}{theorem.207}{}}
+\citation{mania}
+\newlabel{gtboundsgd}{{47}{29}{Suboptimality bound on $\E \|g_t\|^2$}{equation.208}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Master inequality.}}{29}{Item.212}}
+\newlabel{eq:masterSGD}{{48}{29}{}{equation.213}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Contraction inequality on $x_t$.}}{29}{equation.213}}
+\newlabel{eq:sgdunroll}{{49}{29}{}{equation.214}{}}
+\citation{RCV1}
+\citation{URL}
+\citation{Covtype}
+\citation{SAG}
+\citation{laggedsaga}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Contraction inequality on $\mathaccentV {hat}05Ex_t$.}}{30}{equation.214}}
+\newlabel{eq:sgdxhat}{{50}{30}{}{equation.215}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Convergence rate and ball-size comparison.}}{30}{equation.215}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Empirical Results}{30}{section.216}}
+\newlabel{results}{{6}{30}{}{section.216}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Experimental Setup}{30}{subsection.217}}
+\newlabel{ImplDetails}{{6.1}{30}{}{subsection.217}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Models.}}{30}{subsection.217}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Data sets.}}{30}{equation.218}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Hardware and software.}}{30}{table.caption.219}}
+\citation{SAGA}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Basic data set statistics.\relax }}{31}{table.caption.219}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Implementation Details}{31}{subsection.220}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Step sizes.}}{31}{equation.221}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Comparison of Sequential Algorithms: Sparse \textsc  {Saga}\ vs Lagged updates}{31}{subsection.222}}
+\newlabel{sec:ssagacomp}{{6.3}{31}{}{subsection.222}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces {\bf  Lagged vs Sparse \textsc  {Saga}\ updates}. Suboptimality with respect to time for different \textsc  {Saga}\ update schemes on various data sets. First row: suboptimality as a function of time. Second row: suboptimality as a the number of passes over the data set. For sparse data sets (RCV1 and Real-sim), lagged and sparse updates have a lower cost per iteration which result in faster convergence.\relax }}{32}{figure.caption.223}}
+\newlabel{fig:fig_1}{{2}{32}{{\bf Lagged vs Sparse \SAGA \ updates}. Suboptimality with respect to time for different \SAGA \ update schemes on various data sets. First row: suboptimality as a function of time. Second row: suboptimality as a the number of passes over the data set. For sparse data sets (RCV1 and Real-sim), lagged and sparse updates have a lower cost per iteration which result in faster convergence.\relax }{figure.caption.223}{}}
+\citation{mania}
+\citation{hogwild}
+\citation{duchi}
+\newlabel{fig:fig_2}{{3a}{33}{Suboptimality as a function of time.\relax }{figure.caption.225}{}}
+\newlabel{sub@fig:fig_2}{{a}{33}{Suboptimality as a function of time.\relax }{figure.caption.225}{}}
+\newlabel{fig:fig_3}{{3b}{33}{Speedup as a function of the number of cores\relax }{figure.caption.225}{}}
+\newlabel{sub@fig:fig_3}{{b}{33}{Speedup as a function of the number of cores\relax }{figure.caption.225}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  {\bf  Convergence and speedup for asynchronous stochastic gradient descent methods}. We display results for RCV1 and URL. Results for Covtype can be found in Section\nobreakspace  {}\ref  {apx:speedup}. \relax }}{33}{figure.caption.225}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}\textsc  {Asaga}\ vs. \textsc  {Kromagnon}\ vs. \textsc  {Hogwild}}{33}{subsection.224}}
+\newlabel{sec:asynccomp}{{6.4}{33}{}{subsection.224}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Comparison on the Covtype data set. Left: suboptimality. Right: speedup. The number of cores in the legend only refers to the left plot. \relax }}{34}{figure.caption.228}}
+\newlabel{fig:covtype}{{4}{34}{Comparison on the Covtype data set. Left: suboptimality. Right: speedup. The number of cores in the legend only refers to the left plot. \relax }{figure.caption.228}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Effect of Sparsity}{34}{subsection.227}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.6}Theoretical Speedups}{34}{subsection.229}}
+\newlabel{apx:speedup}{{6.6}{34}{}{subsection.229}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces {\bf  Theoretical speedups}. Suboptimality with respect to number of iterations for \textsc  {Asaga}, \textsc  {Kromagnon}\ and \textsc  {Hogwild}\ with 1 and 10 cores. Curves almost coincide, which means the theoretical speedup is almost the number of cores $p$, hence linear.\relax }}{35}{figure.caption.231}}
+\newlabel{fig:theoretical_speedups}{{5}{35}{{\bf Theoretical speedups}. Suboptimality with respect to number of iterations for \ASAGA , \KROMAGNON \ and \Hogwild \ with 1 and 10 cores. Curves almost coincide, which means the theoretical speedup is almost the number of cores $p$, hence linear.\relax }{figure.caption.231}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.7}A Closer Look at the $\tau $ Constant}{35}{subsection.232}}
+\newlabel{apxD}{{6.7}{35}{}{subsection.232}{}}
+\newlabel{sec:overlap}{{6.7}{35}{}{subsection.232}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.7.1}Theory}{35}{subsubsection.233}}
+\newlabel{sssec:overlaptheory}{{6.7.1}{35}{}{subsubsection.233}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Number of cores.}}{35}{subsubsection.233}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Length of an iteration.}}{35}{subsubsection.233}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.7.2}Experimental Results}{36}{subsubsection.234}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Density measures including minimum, average and maximum support size $\delta _l^i$ of the factors.\relax }}{36}{table.caption.235}}
+\newlabel{dataset-table2}{{2}{36}{Density measures including minimum, average and maximum support size $\delta _l^i$ of the factors.\relax }{table.caption.235}{}}
+\newlabel{table:1}{{2}{36}{Density measures including minimum, average and maximum support size $\delta _l^i$ of the factors.\relax }{table.caption.235}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces {\bf  Overlap}. Overlap as a function of the number of cores for both \textsc  {Asaga}\ and \textsc  {Hogwild}\ on all three data sets.\relax }}{37}{figure.caption.236}}
+\newlabel{fig:overlap}{{6}{37}{{\bf Overlap}. Overlap as a function of the number of cores for both \ASAGA \ and \Hogwild \ on all three data sets.\relax }{figure.caption.236}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusions and Future Work}{37}{section.237}}
+\citation{laggedsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Appendix Outline:}}{39}{section.237}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Sparse \textsc  {Saga}\ -- Proof of Theorem\nobreakspace  {}\ref  {th1}}{39}{section.238}}
+\newlabel{apxA}{{A}{39}{}{section.238}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Proof sketch for\nobreakspace  {}\citet  {qsaga}.}}{39}{section.238}}
+\newlabel{eq:sparseappendix}{{53}{39}{}{equation.239}{}}
+\newlabel{sparseoutlineappendix}{{A}{39}{}{equation.239}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Proof outline.}}{39}{equation.239}}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\citation{qsaga}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Unbiased gradient estimator.}}{40}{equation.239}}
+\newlabel{eq:apxBias}{{54}{40}{}{equation.240}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Deriving\nobreakspace  {}\citet  [Equation 6]{qsaga}.}}{40}{equation.240}}
+\newlabel{eq:apxhof6}{{55}{40}{}{equation.241}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Deriving\nobreakspace  {}\citet  [Equation 9]{qsaga}.}}{40}{equation.241}}
+\newlabel{eq:alphaiBarVariance}{{57}{40}{}{equation.243}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}\textsc  {Asaga}\ -- Proof of Theorem\nobreakspace  {}\ref  {thm:convergence} and Corollary\nobreakspace  {}\ref  {thm:bigdata}}{41}{section.247}}
+\newlabel{apxB}{{B}{41}{}{section.247}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1}Initial Recursive Inequality Derivation}{41}{subsection.248}}
+\newlabel{app:RecurDerivation}{{B.1}{41}{}{subsection.248}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.2}Proof of Lemma\nobreakspace  {}\ref  {lma:1} (inequality in terms of $g_t := g(\mathaccentV {hat}05Ex_{t}, \mathaccentV {hat}05E\alpha ^t, i_{t})$)}{41}{subsection.251}}
+\newlabel{apxB:lma1}{{B.2}{41}{}{subsection.251}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Bounding $\mathbb  {E}\delimiter "426830A \mathaccentV {hat}05Ex_t -x_t, g_t\delimiter "526930B $ in terms of $g_u$.}}{42}{subsection.251}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Bounding $\mathbb  {E}\delimiter "026B30D \mathaccentV {hat}05Ex_t - x_t\delimiter "026B30D ^2$ with respect to $g_u$}}{42}{equation.252}}
+\newlabel{supersparse}{{64}{42}{}{equation.253}{}}
+\newlabel{eq:hatxtbound}{{65}{42}{}{equation.254}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.3}Proof of Lemma\nobreakspace  {}\ref  {lma:suboptgt} (suboptimality bound on $\mathbb  {E}\delimiter "026B30D g_t\delimiter "026B30D ^2$)}{43}{subsection.256}}
+\newlabel{apxB:lma2}{{B.3}{43}{}{subsection.256}{}}
+\newlabel{eq:classicsaga}{{67}{43}{}{equation.257}{}}
+\newlabel{eq:classicsaga2}{{68}{43}{}{equation.258}{}}
+\newlabel{eq:IndicatorsAppearance}{{69}{43}{}{equation.260}{}}
+\newlabel{eq:indicatrices}{{70}{44}{}{equation.263}{}}
+\newlabel{eq:51}{{73}{44}{}{equation.266}{}}
+\newlabel{eq:52}{{74}{45}{}{equation.267}{}}
+\newlabel{eq:53}{{75}{45}{}{equation.268}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.4}Lemma\nobreakspace  {}\ref  {lma:suboptgt} for \textsc  {Ahsvrg}}{45}{subsection.269}}
+\newlabel{apxB:ahsvrg}{{B.4}{45}{}{subsection.269}{}}
+\newlabel{eq:IndicatorsAppearanceSVRG}{{76}{45}{}{equation.270}{}}
+\newlabel{lmaAHSVRG}{{77}{46}{}{equation.273}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.5}Master Inequality Derivation}{46}{subsection.274}}
+\newlabel{apxB:master}{{B.5}{46}{}{subsection.274}{}}
+\newlabel{eq:master}{{79}{46}{}{equation.276}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.6}Lyapunov Function and Associated Recursive Inequality}{47}{subsection.277}}
+\newlabel{apxB:lyapunov}{{B.6}{47}{}{subsection.277}{}}
+\newlabel{eq:rutMaster}{{81}{47}{}{equation.279}{}}
+\newlabel{apx:Lyapunov}{{82}{47}{}{equation.280}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.7}Proof of Lemma\nobreakspace  {}\ref  {lma:3} (sufficient condition for convergence for \textsc  {Asaga})}{47}{subsection.281}}
+\newlabel{apxB:lma3}{{B.7}{47}{}{subsection.281}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Computation of $r_u^t$.}}{47}{subsection.281}}
+\newlabel{eq:r1}{{83}{48}{}{equation.282}{}}
+\newlabel{eq:r2}{{84}{48}{}{equation.283}{}}
+\newlabel{eq:qDefinition}{{86}{48}{}{equation.285}{}}
+\newlabel{eq:r3}{{87}{48}{}{equation.286}{}}
+\newlabel{eq:r4}{{89}{49}{}{equation.288}{}}
+\newlabel{eq:r5}{{92}{49}{}{equation.291}{}}
+\newlabel{eq:rut}{{93}{49}{}{equation.292}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Computation of $r_0^t$.}}{49}{equation.292}}
+\newlabel{r0t}{{98}{51}{}{equation.298}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Sufficient condition for convergence.}}{51}{equation.298}}
+\newlabel{eq:ConvergenceCondition}{{99}{51}{}{equation.299}{}}
+\newlabel{eq:Bernouilli}{{100}{51}{}{equation.301}{}}
+\newlabel{eq:assumptionContraction}{{101}{52}{}{equation.304}{}}
+\newlabel{eq:assumptionOverlap}{{102}{52}{}{equation.305}{}}
+\newlabel{eq:Simp1}{{107}{52}{}{equation.310}{}}
+\newlabel{eq:Simp2}{{109}{52}{}{equation.312}{}}
+\newlabel{eq:phi}{{111}{52}{}{equation.314}{}}
+\newlabel{eq:concavesqrt}{{112}{52}{}{equation.316}{}}
+\newlabel{eq:lya2}{{115}{53}{}{equation.319}{}}
+\newlabel{eq:newlyapunov}{{116}{53}{}{equation.321}{}}
+\newlabel{eq:lyapu3}{{119}{53}{}{equation.324}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.8}Proof of Theorem\nobreakspace  {}\ref  {thm:convergence} (convergence guarantee and rate of \textsc  {Asaga})}{54}{subsection.325}}
+\newlabel{apxB:th2}{{B.8}{54}{}{subsection.325}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {End of Lyapunov convergence.}}{54}{subsection.325}}
+\citation{qsaga}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.9}Proof of Corollary\nobreakspace  {}\ref  {thm:bigdata} (speedup regimes for \textsc  {Asaga})}{55}{subsection.333}}
+\newlabel{apx:proofASAGAspeedup}{{B.9}{55}{}{subsection.333}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Well-conditioned regime.}}{55}{subsection.333}}
+\newlabel{eq:SufficientCondition}{{125}{55}{}{equation.335}{}}
+\newlabel{eq:sufcondcor3}{{127}{55}{}{equation.337}{}}
+\citation{mania}
+\citation{qsaga}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Ill-conditioned regime.}}{56}{equation.338}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Universal step size.}}{56}{equation.340}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}\textsc  {Kromagnon}\ -- Proof of Theorem\nobreakspace  {}\ref  {thm:SVRG} and Corollary\nobreakspace  {}\ref  {thm:bigdataSVRG}}{56}{section.341}}
+\newlabel{apx:SVRG}{{C}{56}{}{section.341}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.1}Proof of Lemma\nobreakspace  {}\ref  {lma:suboptgtSVRG} (suboptimality bound on $\mathbb  {E}\delimiter "026B30D g_t\delimiter "026B30D ^2$)}{56}{subsection.342}}
+\newlabel{apx:SVRGlemma}{{C.1}{56}{}{subsection.342}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.2}Proof of Theorem\nobreakspace  {}\ref  {thm:SVRG} (convergence guarantee and rate of \textsc  {Kromagnon})}{56}{subsection.345}}
+\newlabel{apx:SVRGmaster}{{C.2}{56}{}{subsection.345}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Master inequality derivation.}}{56}{subsection.345}}
+\citation{svrg}
+\newlabel{apx:SVRGContraction}{{C.2}{57}{}{equation.346}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Contraction inequality derivation.}}{57}{equation.346}}
+\newlabel{eq:randomtrickapx}{{134}{57}{}{equation.347}{}}
+\newlabel{eq:SVRGwhatever}{{135}{57}{}{equation.348}{}}
+\newlabel{eq:SVRGrand}{{138}{57}{}{equation.351}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.3}Proof of Corollary\nobreakspace  {}\ref  {thm:SVRGconvergence}, Corollary\nobreakspace  {}\ref  {thm:kromagnon} and Corollary\nobreakspace  {}\ref  {thm:bigdataSVRG} (speedup regimes)}{58}{subsection.352}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {A simpler result for \textsc  {Svrg}.}}{58}{subsection.352}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {A simpler result for \textsc  {Kromagnon}.}}{58}{equation.356}}
+\citation{qsaga}
+\citation{qsaga}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Speedup conditions.}}{59}{equation.358}}
+\newlabel{eq:svrgspeedupcond}{{145}{59}{}{equation.359}{}}
+\newlabel{eq:svrgspeedupcondIC}{{148}{59}{}{equation.362}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {D}\textsc  {Hogwild}\ -- Proof of Theorem\nobreakspace  {}\ref  {thm:convergenceSGD} and Corollary\nobreakspace  {}\ref  {thm:bigdataSGD}}{59}{section.364}}
+\newlabel{apx:SGD}{{D}{59}{}{section.364}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.1}Proof of Lemma\nobreakspace  {}\ref  {lma:suboptgtSGD} (suboptimality bound on $\mathbb  {E}\delimiter "026B30D g_t\delimiter "026B30D ^2$)}{59}{subsection.365}}
+\newlabel{apx:SGDlemma}{{D.1}{59}{}{subsection.365}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.2}Proof of Theorem\nobreakspace  {}\ref  {thm:convergenceSGD} (convergence guarantee and rate of \textsc  {Hogwild})}{60}{subsection.366}}
+\newlabel{apx:SGDtheorem}{{D.2}{60}{}{subsection.366}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Master inequality derivation.}}{60}{subsection.366}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Contraction inequality derivation ($x_t$).}}{60}{equation.367}}
+\newlabel{eq:sgdcontr}{{151}{60}{}{equation.368}{}}
+\newlabel{eq:sgdsimp1}{{152}{60}{}{equation.369}{}}
+\newlabel{eq:sgdsimp2}{{153}{60}{}{equation.371}{}}
+\newlabel{eq:sgdsimp3}{{154}{61}{}{equation.372}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Contraction inequality derivation ($\mathaccentV {hat}05Ex_t$).}}{61}{equation.372}}
+\newlabel{eq:thing}{{156}{61}{}{equation.374}{}}
+\newlabel{eq:xhatxt}{{157}{61}{}{equation.375}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Maximum step size condition on $\gamma $.}}{61}{equation.375}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.3}Proof of Theorem\nobreakspace  {}\ref  {thm:convergenceSGDserial} (convergence result for serial \textsc  {Sgd}) }{62}{subsection.381}}
+\newlabel{apx:sgdsgd}{{D.3}{62}{}{subsection.381}{}}
+\newlabel{eq:recursiveserialsgd}{{163}{62}{}{equation.382}{}}
+\newlabel{eq:recsersgd}{{164}{62}{}{equation.383}{}}
+\citation{laggedsaga}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.4}Proof of Corollary\nobreakspace  {}\ref  {thm:bigdataSGD} (speedup regimes for \textsc  {Hogwild})}{63}{subsection.385}}
+\newlabel{apx:SGDcorollary}{{D.4}{63}{}{subsection.385}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {E}On the Difficulty of Parallel Lagged Updates}{63}{section.387}}
+\newlabel{apxC}{{E}{63}{}{section.387}{}}
+\newlabel{apx:DifficultyLagged}{{E}{63}{}{section.387}{}}
+\citation{smola}
+\citation{cyclades}
+\citation{RCV1}
+\citation{URL}
+\citation{Covtype}
+\@writefile{toc}{\contentsline {section}{\numberline {F}Additional Empirical Details}{64}{section.388}}
+\newlabel{apxE}{{F}{64}{}{section.388}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F.1}Detailed Description of Data Sets}{64}{subsection.389}}
+\newlabel{apx:datasets}{{F.1}{64}{}{subsection.389}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {RCV1 ($n=697,641$, $d=47,236$).}}{64}{subsection.389}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {URL ($n=2,396,130$, $d=3,231,961$).}}{64}{subsection.389}}
+\citation{s2gd}
+\citation{mania}
+\citation{cocoa}
+\citation{mania,hogwild,smola}
+\citation{laggedsaga}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Covertype ($n=581,012$, $d=54$).}}{65}{subsection.389}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Realsim ($n=73,218$, $d=20,958$).}}{65}{subsection.389}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F.2}Implementation Details}{65}{subsection.391}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Hardware.}}{65}{subsection.391}}
+\newlabel{scalavsc}{{F.2}{65}{}{subsection.391}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Software.}}{65}{subsection.391}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Necessity of compare-and-swap operations.}}{65}{subsection.391}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {Efficient storage of the $\alpha _i$.}}{65}{figure.caption.392}}
+\bibdata{17-650}
+\bibcite{bertsekasParalle1989}{{1}{1989}{{Bertsekas and Tsitsiklis}}{{}}}
+\bibcite{Covtype}{{2}{2002}{{Collobert et~al.}}{{Collobert, Bengio, and Bengio}}}
+\bibcite{taming}{{3}{2015}{{De~Sa et~al.}}{{De~Sa, Zhang, Olukotun, and R\IeC {\'e}}}}
+\bibcite{SAGA}{{4}{2014}{{Defazio et~al.}}{{Defazio, Bach, and Lacoste-Julien}}}
+\bibcite{duchi}{{5}{2015}{{Duchi et~al.}}{{Duchi, Chaturapruek, and R\IeC {\'e}}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces {\bf  Compare and swap in the implementation of \textsc  {Asaga}}. Suboptimality as a function of time for \textsc  {Asaga}, both using compare-and-swap (CAS) operations and using standard operations. The graph reveals that CAS is indeed needed in a practical implementation to ensure convergence to a high precision.\relax }}{66}{figure.caption.392}}
+\newlabel{fig:cas_comparison}{{7}{66}{{\bf Compare and swap in the implementation of \ASAGA }. Suboptimality as a function of time for \ASAGA , both using compare-and-swap (CAS) operations and using standard operations. The graph reveals that CAS is indeed needed in a practical implementation to ensure convergence to a high precision.\relax }{figure.caption.392}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F.3}Biased Update in the Implementation}{66}{subsection.393}}
+\newlabel{apx:Bias}{{F.3}{66}{}{subsection.393}{}}
+\bibcite{qsaga}{{6}{2015}{{Hofmann et~al.}}{{Hofmann, Lucchi, Lacoste-Julien, and McWilliams}}}
+\bibcite{asyncSDCA2015}{{7}{2015}{{Hsieh et~al.}}{{Hsieh, Yu, and Dhillon}}}
+\bibcite{svrg}{{8}{2013}{{Johnson and Zhang}}{{}}}
+\bibcite{s2gd}{{9}{2013}{{Kone{\v {c}}n{\'y} and Richt{\'a}rik}}{{}}}
+\bibcite{SAG}{{10}{2012}{{{Le Roux} et~al.}}{{{Le Roux}, Schmidt, and Bach}}}
+\bibcite{leblond2016Asaga}{{11}{2017}{{Leblond et~al.}}{{Leblond, Pedregosa, and Lacoste-Julien}}}
+\bibcite{RCV1}{{12}{2004}{{Lewis et~al.}}{{Lewis, Yang, Rose, and Li}}}
+\bibcite{asyncSGDNonConvex2015}{{13}{2015}{{Lian et~al.}}{{Lian, Huang, Li, and Liu}}}
+\bibcite{asyncCD2015}{{14}{2015}{{Liu et~al.}}{{Liu, Wright, R{{\'e}}, Bittorf, and Sridhar}}}
+\bibcite{cocoa}{{15}{2015}{{Ma et~al.}}{{Ma, Smith, Jaggi, Jordan, Richtarik, and Takac}}}
+\bibcite{URL}{{16}{2009}{{Ma et~al.}}{{Ma, Saul, Savage, and Voelker}}}
+\bibcite{mania}{{17}{2017}{{Mania et~al.}}{{Mania, Pan, Papailiopoulos, Recht, Ramchandran, and Jordan}}}
+\bibcite{bachandm}{{18}{2011}{{Moulines and Bach}}{{}}}
+\bibcite{srebro}{{19}{2014}{{Needell et~al.}}{{Needell, Ward, and Srebro}}}
+\bibcite{hogwild}{{20}{2011}{{Niu et~al.}}{{Niu, Recht, Re, and Wright}}}
+\bibcite{cyclades}{{21}{2016}{{Pan et~al.}}{{Pan, Lam, Tu, Papailiopoulos, Zhang, Jordan, Ramchandran, Re, and Recht}}}
+\bibcite{pedregosa2017maga}{{22}{2017}{{Pedregosa et~al.}}{{Pedregosa, Leblond, and Lacoste-Julien}}}
+\bibcite{smola}{{23}{2015}{{Reddi et~al.}}{{Reddi, Hefny, Sra, P\IeC {\'o}czos, and Smola}}}
+\bibcite{nonconvex}{{24}{2016}{{Reddi et~al.}}{{Reddi, Hefny, Sra, P\'ocz\'os, and Smola}}}
+\bibcite{laggedsaga}{{25}{2016}{{Schmidt et~al.}}{{Schmidt, Le~Roux, and Bach}}}
+\bibcite{schmidt2014sgd}{{26}{2014}{{Schmidt}}{{}}}
+\bibcite{SDCA}{{27}{2013}{{Shalev-Shwartz and Zhang}}{{}}}
+\bibcite{asySVRG}{{28}{2016}{{Zhao and Li}}{{}}}
+\newlabel{LastPage}{{}{68}{}{page.68}{}}
+\xdef\lastpage@lastpage{68}
+\xdef\lastpage@lastpageHy{68}

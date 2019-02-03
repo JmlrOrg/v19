@@ -1,0 +1,166 @@
+\begin{thebibliography}{25}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anis et~al.(2015)Anis, El~Gamal, Avestimehr, and
+  Ortega]{anis2015asymptotic}
+Aamir Anis, Aly El~Gamal, Salman Avestimehr, and Antonio Ortega.
+\newblock Asymptotic justification of bandlimited interpolation of graph
+  signals for semi-supervised learning.
+\newblock In \emph{IEEE International Conference on Acoustics, Speech and
+  Signal Processing}, pages 5461--5465. IEEE, 2015.
+
+\bibitem[Avrachenkov et~al.(2011)Avrachenkov, Gon{\c{c}}alves, Mishenin, and
+  Sokol]{avrachenkov2011generalized}
+Konstantin Avrachenkov, Paulo Gon{\c{c}}alves, Alexey Mishenin, and Marina
+  Sokol.
+\newblock Generalized optimization framework for graph-based semi-supervised
+  learning.
+\newblock \emph{arXiv preprint arXiv:1110.4278}, 2011.
+
+\bibitem[Belkin and Niyogi(2004)]{belkin2004semi}
+Mikhail Belkin and Partha Niyogi.
+\newblock Semi-supervised learning on riemannian manifolds.
+\newblock \emph{Machine learning}, 56\penalty0 (1-3):\penalty0 209--239, 2004.
+
+\bibitem[Belkin et~al.(2004)Belkin, Matveeva, and
+  Niyogi]{belkin2004regularization}
+Mikhail Belkin, Irina Matveeva, and Partha Niyogi.
+\newblock Regularization and semi-supervised learning on large graphs.
+\newblock In \emph{International Conference on Computational Learning Theory
+  (COLT)}, pages 624--638. Springer, 2004.
+
+\bibitem[Bickel et~al.(2007)Bickel, Li, et~al.]{bickel2007local}
+Peter~J Bickel, Bo~Li, et~al.
+\newblock Local polynomial regression on unknown manifolds.
+\newblock In \emph{Complex Datasets and Inverse Problems}, pages 177--186.
+  Institute of Mathematical Statistics, 2007.
+
+\bibitem[Billingsley(1995)]{billingsley2008probability}
+P.~Billingsley.
+\newblock \emph{{Probability and Measure}}.
+\newblock John Wiley and Sons, Inc., Hoboken, NJ, third edition, 1995.
+
+\bibitem[Chapelle et~al.(2006)Chapelle, Sch{\"o}lkopf, and
+  Zien]{chapelle2006ssl}
+Olivier Chapelle, Bernhard Sch{\"o}lkopf, and Alexander Zien.
+\newblock \emph{Semi-Supervised Learning}.
+\newblock MIT press, 2006.
+
+\bibitem[Couillet and Benaych-Georges(2015)]{couillet2015kernel}
+Romain Couillet and Florent Benaych-Georges.
+\newblock Kernel spectral clustering of large dimensional data.
+\newblock \emph{arXiv preprint arXiv:1510.03547}, 2015.
+
+\bibitem[Couillet and Kammoun(2016)]{couillet2016random}
+Romain Couillet and Abla Kammoun.
+\newblock Random matrix improved subspace clustering.
+\newblock In \emph{Asilomar Conference on Signals, Systems and Computers},
+  pages 90--94. IEEE, 2016.
+
+\bibitem[Gadde et~al.(2014)Gadde, Anis, and Ortega]{gadde2014active}
+Akshay Gadde, Aamir Anis, and Antonio Ortega.
+\newblock Active semi-supervised learning using sampling theory for graph
+  signals.
+\newblock In \emph{International Conference on Knowledge Discovery and Data
+  Mining}, pages 492--501. ACM, 2014.
+
+\bibitem[Globerson et~al.(2017)Globerson, Livni, and
+  Shalev-Shwartz]{globerson2017effective}
+Amir Globerson, Roi Livni, and Shai Shalev-Shwartz.
+\newblock Effective semi-supervised learning on manifolds.
+\newblock In \emph{International Conference on Learning Theory (COLT)}, pages
+  978--1003, 2017.
+
+\bibitem[Goldberg et~al.(2009)Goldberg, Zhu, Singh, Xu, and
+  Nowak]{goldberg2009multi}
+Andrew~B Goldberg, Xiaojin Zhu, Aarti Singh, Zhiting Xu, and Robert Nowak.
+\newblock Multi-manifold semi-supervised learning.
+\newblock 2009.
+
+\bibitem[Jaakkola and Szummer(2002)]{jaakkola2002partially}
+Martin Szummer~Tommi Jaakkola and Martin Szummer.
+\newblock Partially labeled classification with markov random walks.
+\newblock \emph{International Conference in Neural Information Processing
+  Systems}, 14:\penalty0 945--952, 2002.
+
+\bibitem[Joachims et~al.(2003)]{joachims2003transductive}
+Thorsten Joachims et~al.
+\newblock Transductive learning via spectral graph partitioning.
+\newblock In \emph{International Conference on Machine Learning}, volume~3,
+  pages 290--297, 2003.
+
+\bibitem[LeCun et~al.(1998)LeCun, Cortes, and Burges]{lecun1998mnist}
+Yann LeCun, Corinna Cortes, and Christopher~JC Burges.
+\newblock The mnist database of handwritten digits, 1998.
+
+\bibitem[Liao and Couillet(2017)]{liao2017large}
+Zhenyu Liao and Romain Couillet.
+\newblock A large dimensional analysis of least squares support vector
+  machines.
+\newblock \emph{arXiv preprint arXiv:1701.02967}, 2017.
+
+\bibitem[Moscovich et~al.(2016)Moscovich, Jaffe, and
+  Nadler]{moscovich2016minimax}
+Amit Moscovich, Ariel Jaffe, and Boaz Nadler.
+\newblock Minimax-optimal semi-supervised regression on unknown manifolds.
+\newblock \emph{arXiv preprint arXiv:1611.02221}, 2016.
+
+\bibitem[Nadler et~al.(2009)Nadler, Srebro, and Zhou]{nadler2009semi}
+Boaz Nadler, Nathan Srebro, and Xueyuan Zhou.
+\newblock Semi-supervised learning with the graph laplacian: the limit of
+  infinite unlabelled data.
+\newblock In \emph{International Conference on Neural Information Processing
+  Systems}, pages 1330--1338, 2009.
+
+\bibitem[Narang et~al.(2013{\natexlab{a}})Narang, Gadde, and
+  Ortega]{narang2013signal}
+Sunil~K Narang, Akshay Gadde, and Antonio Ortega.
+\newblock Signal processing techniques for interpolation in graph structured
+  data.
+\newblock In \emph{IEEE International Conference Acoustics, Speech and Signal
+  Processing}, pages 5445--5449. IEEE, 2013{\natexlab{a}}.
+
+\bibitem[Narang et~al.(2013{\natexlab{b}})Narang, Gadde, Sanou, and
+  Ortega]{narang2013localized}
+Sunil~K Narang, Akshay Gadde, Eduard Sanou, and Antonio Ortega.
+\newblock Localized iterative methods for interpolation in graph structured
+  data.
+\newblock In \emph{Global Conference on Signal and Information Processing},
+  pages 491--494. IEEE, 2013{\natexlab{b}}.
+
+\bibitem[Sch{\"o}lkopf and Smola(2002)]{scholkopf2002learning}
+Bernhard Sch{\"o}lkopf and Alexander~J Smola.
+\newblock \emph{Learning with Kernels: Support Vector Machines, Regularization,
+  Optimization, and Beyond}.
+\newblock MIT press, 2002.
+
+\bibitem[Wasserman and Lafferty(2008)]{wasserman2008statistical}
+Larry Wasserman and John~D Lafferty.
+\newblock Statistical analysis of semi-supervised regression.
+\newblock In \emph{International Conference on Neural Information Processing
+  Systems}, pages 801--808, 2008.
+
+\bibitem[Zhou et~al.(2004)Zhou, Bousquet, Lal, Weston, and
+  Sch{\"o}lkopf]{zhou2004learning}
+Dengyong Zhou, Olivier Bousquet, Thomas~Navin Lal, Jason Weston, and Bernhard
+  Sch{\"o}lkopf.
+\newblock Learning with local and global consistency.
+\newblock volume~16, pages 321--328, 2004.
+
+\bibitem[Zhu and Ghahramani(2002)]{zhu2002learning}
+Xiaojin Zhu and Zoubin Ghahramani.
+\newblock Learning from labeled and unlabeled data with label propagation.
+\newblock Technical report, Citeseer, 2002.
+
+\bibitem[Zhu et~al.(2003)Zhu, Ghahramani, Lafferty, et~al.]{zhu2003semi}
+Xiaojin Zhu, Zoubin Ghahramani, John Lafferty, et~al.
+\newblock Semi-supervised learning using gaussian fields and harmonic
+  functions.
+\newblock In \emph{International Conference on Machine Learning}, volume~3,
+  pages 912--919, 2003.
+
+\end{thebibliography}

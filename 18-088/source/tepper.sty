@@ -1,0 +1,66 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{tepper}
+
+
+% Packages hyperref and algorithmic misbehave sometimes.  We can fix
+% this with the following command.
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+
+\RequirePackage{amsmath,amssymb,mathrsfs}
+\RequirePackage{mathtools}
+\RequirePackage{bm}
+
+% \usepackage{thmtools,thm-restate}
+% \declaretheorem{theorem}
+% \declaretheorem{proposition}
+%\newtheorem{definition}{Definition}
+%\newtheorem{proposition}{Proposition}
+%\newtheorem{lemma}{Lemma}
+
+\newcommand*{\defeq}{\vcentcolon=}
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+\newcommand{\vect}[1]{{\mathbf{#1}}}
+\newcommand{\mat}[1]{{\mathbf{#1}}}
+\newcommand{\set}[1]{{\mathcal{#1}}}
+\newcommand{\norm}[2]{\left\| #1 \right\|_{#2}}
+\newcommand{\transpose}[1]{{#1}^\top}
+\newcommand{\conjugatetranspose}[1]{{#1}^\mathrm{H}}
+\newcommand{\diag}[1]{\operatorname{diag}(#1)}
+\newcommand{\traceone}[1]{\operatorname{Tr}\left(#1\right)}
+\newcommand{\tracetwo}[2]{#1 \bullet #2}
+\newcommand{\rank}[1]{\operatorname{rank}\left(#1\right)}
+\newcommand{\Real}{{\mathbb R}}
+\newcommand{\Nat}{{\mathbb N}}
+\newcommand{\Complex}{{\mathbb C}}
+
+\usepackage[algo2e,ruled,vlined,linesnumbered]{algorithm2e}
+\SetInd{0.25em}{1em}
+\SetKwComment{Comment}{//\ }{}
+\makeatletter
+\newcommand{\nosemic}{\renewcommand{\@endalgocfline}{\relax}}% Drop semi-colon ;
+\newcommand{\dosemic}{\renewcommand{\@endalgocfline}{\algocf@endline}}% Reinstate semi-colon ;
+\makeatother
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{tabu}
+\usepackage{rotating}
+\usepackage{siunitx}
+\sisetup{detect-weight=true,detect-inline-weight=math}
+\usepackage{threeparttable}
+%\usepackage[table]{xcolor}
+\newcommand{\firstcolor}{\cellcolor{black!15}}
+
+
+\usepackage[capitalise,compress]{cleveref}
+\crefname{section}{Sec.}{secs.}
+\crefname{figure}{Fig.}{figs.}
+\crefname{table}{Tab.}{tabs.}
+\crefname{equation}{Eq.}{eqs.}
+\crefrangelabelformat{equation}{(#3#1#4--#5#2#6)}
+\crefname{problem}{Problem}{problems}
+\creflabelformat{problem}{(#2#1#3)}
+\crefname{algorithm}{Alg.}{algs.}
+\creflabelformat{algorithm}{#2#1#3}
+\crefname{theorem}{Proposition}{propositions}

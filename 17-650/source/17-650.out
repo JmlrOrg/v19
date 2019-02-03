@@ -1,0 +1,55 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.9}{Revisiting the Perturbed Iterate Framework for Asynchronous Analysis}{}% 2
+\BOOKMARK [2][-]{subsection.10}{Perturbed Iterate Framework}{section.9}% 3
+\BOOKMARK [2][-]{subsection.16}{On the Difficulty of Labeling the Iterates}{section.9}% 4
+\BOOKMARK [1][-]{section.27}{Asynchronous Parallel Sparse Saga}{}% 5
+\BOOKMARK [2][-]{subsection.28}{Sparse Saga}{section.27}% 6
+\BOOKMARK [2][-]{subsection.34}{Asynchronous Parallel Sparse Saga}{section.27}% 7
+\BOOKMARK [2][-]{subsection.76}{Convergence and Speedup Results}{section.27}% 8
+\BOOKMARK [3][-]{subsubsection.78}{Convergence and Speedup Statements}{subsection.76}% 9
+\BOOKMARK [3][-]{subsubsection.83}{Proof Outline of Theorem 8}{subsection.76}% 10
+\BOOKMARK [3][-]{subsubsection.93}{Details}{subsection.76}% 11
+\BOOKMARK [1][-]{section.123}{Asynchronous Parallel Svrg with the ``After Read'' Labeling}{}% 12
+\BOOKMARK [2][-]{subsection.126}{Svrg Algorithms}{section.123}% 13
+\BOOKMARK [2][-]{subsection.163}{Extension to the Svrg Variant from qsaga}{section.123}% 14
+\BOOKMARK [2][-]{subsection.164}{Fast Convergence and Speedup Rates for Kromagnon}{section.123}% 15
+\BOOKMARK [2][-]{subsection.174}{Proof of Theorem 15}{section.123}% 16
+\BOOKMARK [1][-]{section.186}{Hogwild Analysis}{}% 17
+\BOOKMARK [2][-]{subsection.198}{Theoretical Results}{section.186}% 18
+\BOOKMARK [2][-]{subsection.205}{Proof of Theorem 22 and Corollary 23}{section.186}% 19
+\BOOKMARK [1][-]{section.216}{Empirical Results}{}% 20
+\BOOKMARK [2][-]{subsection.217}{Experimental Setup}{section.216}% 21
+\BOOKMARK [2][-]{subsection.220}{Implementation Details}{section.216}% 22
+\BOOKMARK [2][-]{subsection.222}{Comparison of Sequential Algorithms: Sparse Saga vs Lagged updates}{section.216}% 23
+\BOOKMARK [2][-]{subsection.224}{Asaga vs. Kromagnon vs. Hogwild}{section.216}% 24
+\BOOKMARK [2][-]{subsection.227}{Effect of Sparsity}{section.216}% 25
+\BOOKMARK [2][-]{subsection.229}{Theoretical Speedups}{section.216}% 26
+\BOOKMARK [2][-]{subsection.232}{A Closer Look at the \040Constant}{section.216}% 27
+\BOOKMARK [3][-]{subsubsection.233}{Theory}{subsection.232}% 28
+\BOOKMARK [3][-]{subsubsection.234}{Experimental Results}{subsection.232}% 29
+\BOOKMARK [1][-]{section.237}{Conclusions and Future Work}{}% 30
+\BOOKMARK [1][-]{section.238}{Sparse Saga \205 Proof of Theorem 2}{}% 31
+\BOOKMARK [1][-]{section.247}{Asaga \205 Proof of Theorem 8 and Corollary 9}{}% 32
+\BOOKMARK [2][-]{subsection.248}{Initial Recursive Inequality Derivation}{section.247}% 33
+\BOOKMARK [2][-]{subsection.251}{Proof of Lemma 10 \(inequality in terms of gt := g\(t, t, it\)\)}{section.247}% 34
+\BOOKMARK [2][-]{subsection.256}{Proof of Lemma 13 \(suboptimality bound on E"026B30D gt"026B30D 2\)}{section.247}% 35
+\BOOKMARK [2][-]{subsection.269}{Lemma 13 for Ahsvrg}{section.247}% 36
+\BOOKMARK [2][-]{subsection.274}{Master Inequality Derivation}{section.247}% 37
+\BOOKMARK [2][-]{subsection.277}{Lyapunov Function and Associated Recursive Inequality}{section.247}% 38
+\BOOKMARK [2][-]{subsection.281}{Proof of Lemma 14 \(sufficient condition for convergence for Asaga\)}{section.247}% 39
+\BOOKMARK [2][-]{subsection.325}{Proof of Theorem 8 \(convergence guarantee and rate of Asaga\)}{section.247}% 40
+\BOOKMARK [2][-]{subsection.333}{Proof of Corollary 9 \(speedup regimes for Asaga\)}{section.247}% 41
+\BOOKMARK [1][-]{section.341}{Kromagnon \205 Proof of Theorem 15 and Corollary 18}{}% 42
+\BOOKMARK [2][-]{subsection.342}{Proof of Lemma 19 \(suboptimality bound on E"026B30D gt"026B30D 2\)}{section.341}% 43
+\BOOKMARK [2][-]{subsection.345}{Proof of Theorem 15 \(convergence guarantee and rate of Kromagnon\)}{section.341}% 44
+\BOOKMARK [2][-]{subsection.352}{Proof of Corollary 16, Corollary 17 and Corollary 18 \(speedup regimes\)}{section.341}% 45
+\BOOKMARK [1][-]{section.364}{Hogwild \205 Proof of Theorem 22 and Corollary 23}{}% 46
+\BOOKMARK [2][-]{subsection.365}{Proof of Lemma 24 \(suboptimality bound on E"026B30D gt"026B30D 2\)}{section.364}% 47
+\BOOKMARK [2][-]{subsection.366}{Proof of Theorem 22 \(convergence guarantee and rate of Hogwild\)}{section.364}% 48
+\BOOKMARK [2][-]{subsection.381}{Proof of Theorem 21 \(convergence result for serial Sgd\) }{section.364}% 49
+\BOOKMARK [2][-]{subsection.385}{Proof of Corollary 23 \(speedup regimes for Hogwild\)}{section.364}% 50
+\BOOKMARK [1][-]{section.387}{On the Difficulty of Parallel Lagged Updates}{}% 51
+\BOOKMARK [1][-]{section.388}{Additional Empirical Details}{}% 52
+\BOOKMARK [2][-]{subsection.389}{Detailed Description of Data Sets}{section.388}% 53
+\BOOKMARK [2][-]{subsection.391}{Implementation Details}{section.388}% 54
+\BOOKMARK [2][-]{subsection.393}{Biased Update in the Implementation}{section.388}% 55
