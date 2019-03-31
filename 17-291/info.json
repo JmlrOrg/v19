@@ -1,7 +1,7 @@
 {
     "abstract": "In this article, we study the question of the statistical convergence of the 1-dimensional Mapper to its continuous analogue, the Reeb graph. We show that the Mapper is an optimal estimator of the Reeb graph, which gives, as a byproduct, a method to automatically tune its parameters and compute confidence regions on its topological features, such as its loops and flares. This allows to circumvent the issue of testing a large grid of parameters and keeping the most stable ones in the brute-force setting, which is widely used in visualization, clustering and feature selection with the Mapper.",
     "authors": [
-        "Mathieu Carri{\\`e}re",
+        "Mathieu Carri{{\\`e}}re",
         "Bertrand Michel",
         "Steve Oudot"
     ],

@@ -1,7 +1,7 @@
 {
     "abstract": "We propose a new iteratively reweighted least squares (IRLS) algorithm for the recovery of a matrix $X \\in \\mathbb{C}^{d_1\\times d_2}$ of rank $r \\ll\\min(d_1,d_2)$ from incomplete linear observations, solving a sequence of low complexity linear problems. The easily implementable algorithm, which we call harmonic mean iteratively reweighted least squares (<code>HM-IRLS</code>), optimizes a non-convex Schatten-$p$ quasi-norm penalization to promote low-rankness and carries three major strengths, in particular for the matrix completion setting. First, we observe a remarkable {global convergence behavior} of the algorithm's iterates to the low-rank matrix for relevant, interesting cases, for which any other state-of-the-art optimization approach fails the recovery. Secondly, <code>HM-IRLS</code> exhibits an empirical recovery probability close to $1$ even for a number of measurements very close to the theoretical lower bound $r (d_1 +d_2 -r)$, i.e., already for significantly fewer linear observations than any other tractable approach in the literature. Thirdly, <code>HM-IRLS</code> exhibits a locally superlinear rate of convergence (of order $2-p$) if the linear observations fulfill a suitable null space property. While for the first two properties we have so far only strong empirical evidence, we prove the third property as our main theoretical result.",
     "authors": [
-        "Christian K{\\\"u}mmerle",
+        "Christian K{{\\\"u}}mmerle",
         "Juliane Sigl"
     ],
     "id": "17-244",
