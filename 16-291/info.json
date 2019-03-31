@@ -2,7 +2,7 @@
     "abstract": "Kernel mean embeddings have become a popular tool in machine learning. They map probability measures to functions in a reproducing kernel Hilbert space. The distance between two mapped measures defines a semi-distance over the probability measures known as the maximum mean discrepancy (MMD). Its properties depend on the underlying kernel and have been linked to three fundamental concepts of the kernel literature: universal, characteristic and strictly positive definite kernels. The contributions of this paper are three-fold. First, by slightly extending the usual definitions of universal, characteristic and strictly positive definite kernels, we show that these three concepts are essentially equivalent. Second, we give the first complete characterization of those kernels whose associated MMD-distance metrizes the weak convergence of probability measures. Third, we show that kernel mean embeddings can be extended from probability measures to generalized measures called Schwartz-distributions and analyze a few properties of these distribution embeddings.",
     "authors": [
         "Carl-Johann Simon-Gabriel",
-        "Bernhard Sch{\\\"o}lkopf"
+        "Bernhard Sch{{\\\"o}}lkopf"
     ],
     "id": "16-291",
     "issue": 44,
