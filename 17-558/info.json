@@ -14,5 +14,8 @@
     ],
     "title": "Short-term Sparse Portfolio Optimization Based on Alternating Direction Method of Multipliers",
     "volume": 19,
-    "year": 2018
+    "year": 2018,
+    "extra_links": [
+      ["code", "https://github.com/laizhr/SSPO"]
+    ],
 }
