@@ -1,7 +1,7 @@
 {
     "abstract": "We consider a distributed learning approach in supervised learning for a large class of spectral regularization methods in an reproducing kernel Hilbert space (RKHS) framework. The data set of size $n$ is partitioned into $m=O(n^\\alpha)$, $\\alpha < \\frac{1}{2}$, disjoint subsamples. On each subsample, some spectral regularization method (belonging to a large class, including in particular Kernel Ridge Regression, $L^2$-boosting and spectral cut-off) is applied. The regression function $f$ is then estimated via simple averaging, leading to a substantial reduction in computation time. We show that minimax optimal rates of convergence are preserved if $m$ grows sufficiently slowly (corresponding to an upper bound for $\\alpha$) as $n \\to \\infty$, depending on the smoothness assumptions on $f$ and the intrinsic dimensionality. In spirit, the analysis relies on a classical bias/stochastic error analysis.",
     "authors": [
-        "Nicole M\\\"{u}cke",
+        "Nicole M{{\\\"u}}cke",
         "Gilles Blanchard"
     ],
     "id": "16-569",
